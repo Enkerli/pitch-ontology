@@ -1,0 +1,14 @@
+id: qenet-closed-system-is-historical
+subject: amharic_four_qenet_model
+relation: CONTRASTS_WITH
+object: qenet
+aspect: The familiar four-mode presentation should itself be historicized; corpus
+  evidence and performer knowledge do not support projecting it unchanged into an
+  indefinite past.
+limit: The critique does not make the four named qəñət unreal in contemporary urban
+  or pedagogical practice.
+evidence:
+- source: weisser-falceto-2013
+  type: historical_acoustic_ethnomusicology
+claim_status: supported
+confidence: high

@@ -1,0 +1,27 @@
+id: amharic_four_qenet_model
+labels:
+- text: four-qəñət model
+  language: en
+senses:
+- id: amharic_four_qenet_model.seed
+  orientation: A modern scholarly/pedagogical model presenting təzəta, bati, ambasäl,
+    and anči hoye as a closed set of four Amhara pentatonic modes.
+  domains:
+  - modal_organization
+  - institutions_history
+  - knowledge_provenance
+  roles:
+  - institutionalized_model
+  review_status: seed
+  relations:
+  - relation: STANDARDIZES
+    target: qenet
+  cautions:
+  - Its history and distribution in performer knowledge must be modeled rather than
+    projected backward.
+  epistemic_status:
+  - analyst_derived
+  - historically_documented
+  - contested
+  sources:
+  - weisser-falceto-2013

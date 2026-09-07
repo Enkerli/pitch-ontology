@@ -1,0 +1,26 @@
+id: shofar_pitch_resource
+labels:
+- text: shofar pitch resource
+  language: en
+senses:
+- id: shofar_pitch_resource.seed
+  orientation: The small set of lip-excited resonances afforded by an unkeyed animal-horn
+    shofar; ritual signal patterns need not presuppose a scalar melodic instrument.
+  domains:
+  - material_practice
+  - acoustics
+  - pitch_resources
+  roles:
+  - instrument_affordance
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: scale
+  cautions:
+  - Available pitches vary with horn geometry and player technique; ritual meaning
+    cannot be inferred from acoustics alone.
+  epistemic_status:
+  - museum_documented
+  - analyst_derived
+  sources:
+  - met-shofar

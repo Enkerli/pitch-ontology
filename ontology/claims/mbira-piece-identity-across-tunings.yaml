@@ -1,0 +1,12 @@
+id: mbira-piece-identity-across-tunings
+subject: fingering_pattern_identity
+relation: ILLUMINATES_ASPECT_OF
+object: mbira_tuning
+aspect: The same sequence of key strokes can be recognized as the same mbira piece
+  even when instruments have substantially different interval structures.
+limit: Scoped to documented mbira dzavadzimu practice, not all lamellaphones.
+evidence:
+- source: mbira-org-tuning
+  type: community_documentation
+claim_status: supported
+confidence: moderate

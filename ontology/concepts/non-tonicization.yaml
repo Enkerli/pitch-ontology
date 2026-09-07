@@ -1,0 +1,22 @@
+id: non_tonicization
+labels:
+- text: non-tonicization
+  language: en
+senses:
+- id: non_tonicization.seed
+  orientation: The sung mode appears not to orient to the berimbau pitches as tonal
+    reference.
+  domains:
+  - relationship
+  - knowledge_provenance
+  roles:
+  - etic_corpus_category
+  review_status: seed
+  relations:
+  - relation: IS_A
+    target: berimbau_tonicization
+  epistemic_status:
+  - corpus_inferred
+  - analyst_derived
+  sources:
+  - diaz-rossi-2024

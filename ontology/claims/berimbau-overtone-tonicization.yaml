@@ -1,0 +1,12 @@
+id: berimbau-overtone-tonicization
+subject: overtone_tonicization
+relation: ILLUMINATES_ASPECT_OF
+object: pitch_centre
+aspect: A sung tonal centre can orient to a salient overtone of an accompanying instrument
+  rather than to one of its principal nominal pitches.
+limit: One corpus-derived relationship, not a universal capoeira rule.
+evidence:
+- source: diaz-rossi-2024
+  type: corpus_ethnomusicology
+claim_status: supported
+confidence: high

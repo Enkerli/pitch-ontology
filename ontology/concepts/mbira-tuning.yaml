@@ -1,0 +1,26 @@
+id: mbira_tuning
+labels:
+- text: mbira tuning
+  language: en
+senses:
+- id: mbira_tuning.seed
+  orientation: A tuning practice for mbira dzavadzimu in which interval patterns and
+    absolute register vary regionally and personally while layouts and octave relationships
+    can support repertorial continuity.
+  domains:
+  - tuning_practice
+  - material_practice
+  - pitch_resources
+  roles:
+  - instrument_tuning_practice
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: fixed_pitch_mapping
+  cautions:
+  - Some internationally used tuning names are newer than the practices they label.
+  epistemic_status:
+  - community_documented
+  - demonstrated_in_practice
+  sources:
+  - mbira-org-tuning

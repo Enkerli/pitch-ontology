@@ -1,0 +1,13 @@
+id: tashlhiyt-contrast-maqam
+subject: tashlhiyt_song
+relation: CONTRASTS_WITH
+object: maqam
+aspect: 'Southern Moroccan Amazigh song provides a North African contrast to making
+  Persian–Arabic–Turkish modal taxonomies the default frame: pentatonic resources
+  interact with text-setting, repetition, improvisation, and percussion.'
+limit: Contrast does not imply isolation, purity, or absence of Arabic/Islamic influence.
+evidence:
+- source: dell-elmedlaoui-2008
+  type: music_linguistic_analysis
+claim_status: working
+confidence: moderate

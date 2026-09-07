@@ -1,0 +1,23 @@
+id: museum_collection_record
+labels:
+- text: museum collection record
+  language: en
+senses:
+- id: museum_collection_record.seed
+  orientation: A provenance-bearing record about a particular collected object; useful
+    as organological evidence but not automatically evidence for community concepts
+    or normative performance.
+  domains:
+  - knowledge_provenance
+  roles:
+  - evidence_type
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: organological_catalogue
+  cautions:
+  - Separate object description from claims about musical meaning.
+  epistemic_status:
+  - museum_documented
+  sources:
+  - horniman-collections

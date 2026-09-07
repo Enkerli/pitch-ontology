@@ -1,0 +1,26 @@
+id: imzad
+labels:
+- text: imẓad
+  language: tmh
+senses:
+- id: imzad.seed
+  orientation: A Tuareg/Amazigh bowed monochord tradition and associated repertories/terminology,
+    useful for keeping organology, voice, local terminology, and social practice inside
+    pitch analysis.
+  domains:
+  - material_practice
+  - knowledge_provenance
+  - trajectory
+  roles:
+  - instrument_practice
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: scale_catalogue
+  cautions:
+  - Do not infer a pan-Amazigh tuning system from the instrument name.
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  sources:
+  - merakeb-2025

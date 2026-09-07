@@ -1,0 +1,32 @@
+id: qenet
+labels:
+- text: qəñət
+  language: am
+- text: ቅኝት
+  language: am
+  script: Ethiopic
+senses:
+- id: qenet.seed
+  orientation: An Amharic term with historically layered senses around tuning/attunement
+    and modern discourse about named pentatonic modal types.
+  domains:
+  - tuning_practice
+  - modal_organization
+  - institutions_history
+  roles:
+  - historically_layered_term
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: amharic_four_qenet_model
+  - relation: ILLUMINATES_ASPECT_OF
+    target: tuning
+  cautions:
+  - Do not assume the familiar four-qəñət model is timeless, closed, or uniformly
+    known among performers.
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - contested
+  sources:
+  - weisser-falceto-2013

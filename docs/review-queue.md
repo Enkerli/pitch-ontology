@@ -42,3 +42,15 @@ and, where appropriate, locally authored / community-controlled sources:
 - Should `ILLUMINATES_ASPECT_OF` carry an explicit `aspect` plus a `limit`?
 - How should historical cognates be separated from structural analogies?
 - When should unresolved relation targets be concepts versus typed literals?
+
+## Contrastive organology pass
+
+- Locate the early-1990s **bala/balafon** study remembered as approximately equipentatonic /
+  near 5-EDO; do not identify it with exact 5-EDO before finding the primary source.
+- **Nyckelharpa**: historical tangent/key systems, sympathetic-string tuning, temperament, and modernization.
+- **Shofar**: individual horn acoustics, resonance sets, and ritual signal categories.
+- **Mbira**: compare historical measurements with community documentation of multiple tunings.
+- **Amazigh**: split Tashlhiyt aḥwash/rways, Tuareg imẓad, Rif, Atlas, and diaspora cases.
+- **Horn of Africa**: separate local terms, etic modal models, urban pedagogy, acoustic corpora, and instruments.
+- **Xylophone/marimba family**: equipentatonic/equiheptatonic/isotonic are etic descriptors
+  carrying empirical dispersion and tuning procedure, not aliases for EDO.

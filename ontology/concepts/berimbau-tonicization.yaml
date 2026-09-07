@@ -1,0 +1,25 @@
+id: berimbau_tonicization
+labels:
+- text: berimbau–song tonicization relationship
+  language: en
+senses:
+- id: berimbau_tonicization.seed
+  orientation: An etic corpus-derived taxonomy for ways sung mode can orient—or fail
+    to orient—to berimbau pitches and overtones in capoeira.
+  domains:
+  - relationship
+  - tuning_practice
+  - knowledge_provenance
+  roles:
+  - etic_corpus_model
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  cautions:
+  - The taxonomy is analytically inferred, not necessarily performer-verbalized.
+  epistemic_status:
+  - corpus_inferred
+  - analyst_derived
+  sources:
+  - diaz-rossi-2024

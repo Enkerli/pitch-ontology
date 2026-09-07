@@ -99,3 +99,61 @@ works:
   title: Singing Country in the Land Now Known as Australia
   venue: The Cambridge Companion to Music in Australia
   publisher: Cambridge University Press
+- id: weisser-falceto-2013
+  authors:
+  - Stéphanie Weisser
+  - Francis Falceto
+  year: 2013
+  title: 'Investigating qəñət in Amhara secular music: an acoustic and historical
+    study'
+  venue: Annales d’Éthiopie
+  volume: '28'
+  pages: 299–322
+  doi: 10.3406/ethio.2013.1539
+- id: diaz-rossi-2024
+  authors:
+  - Juan Diego Díaz
+  - Alex Rossi
+  year: 2024
+  title: 'Singing in Tune: Berimbau Tuning and Song Mode in Capoeira (1937–1978)'
+  venue: Analytical Approaches to World Music
+  volume: '12'
+  issue: '1'
+  pages: 1–117
+- id: mbira-org-tuning
+  corporate_author: MBIRA
+  title: The Mbira Instrument / Tune Your Mbira
+  note: Community-facing documentation of regional/personal tuning diversity and piece
+    identity across tunings.
+- id: useche-hurtado-demmer-2018
+  authors:
+  - Jorge Useche
+  - Rafael Hurtado
+  - Federico Demmer
+  year: 2018
+  title: Interplay between musical practices and tuning in the marimba de chonta music
+- id: dell-elmedlaoui-2008
+  authors:
+  - François Dell
+  - Mohamed Elmedlaoui
+  year: 2008
+  title: Poetic Meter and Musical Form in Tashlhiyt Berber Songs
+  publisher: Rüdiger Köppe Verlag
+- id: merakeb-2025
+  authors:
+  - Dihia Merakeb
+  year: 2025
+  title: A propos de la terminologie de la musique d’imẓad
+  venue: ALTRALANG Journal
+  volume: '6'
+  issue: '2'
+  pages: 241–256
+- id: met-shofar
+  corporate_author: The Metropolitan Museum of Art
+  title: Shofar collection records
+- id: mimo
+  corporate_author: Musical Instrument Museums Online / Europeana
+  title: MIMO musical instrument collections aggregator
+- id: horniman-collections
+  corporate_author: Horniman Museum and Gardens
+  title: Musical Instruments collection database

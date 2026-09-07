@@ -1,0 +1,30 @@
+id: ahwash
+labels:
+- text: aḥwash
+  language: zgh
+senses:
+- id: ahwash.seed
+  orientation: A collective southern Moroccan Amazigh performance complex integrating
+    sung poetry, repeated or improvised melody, dance, and percussion; Tashlhiyt scholarship
+    documents pentatonic pitch resources.
+  domains:
+  - language_music
+  - trajectory
+  - material_practice
+  roles:
+  - performance_complex
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: tashlhiyt_song
+  - relation: CONTRASTS_WITH
+    target: maqam
+  cautions:
+  - Do not reduce aḥwash to pitch inventory or imply isolation from wider North African
+    histories.
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - dell-elmedlaoui-2008

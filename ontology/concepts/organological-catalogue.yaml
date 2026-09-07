@@ -1,0 +1,29 @@
+id: organological_catalogue
+labels:
+- text: organological catalogue
+  language: en
+senses:
+- id: organological_catalogue.seed
+  orientation: A museum or collection-based descriptive system for instruments, makers,
+    materials, provenance, classification, and sometimes sound/tuning information.
+  domains:
+  - knowledge_provenance
+  - material_practice
+  roles:
+  - source_type
+  - discovery_infrastructure
+  review_status: seed
+  relations:
+  - relation: REPRESENTS
+    target: instrument_object
+  - relation: CONTRASTS_WITH
+    target: musical_practice
+  cautions:
+  - Collection metadata can preserve material evidence while carrying historical naming,
+    uncertain attribution, collection bias, and incomplete musical context.
+  epistemic_status:
+  - analyst_derived
+  - museum_documented
+  sources:
+  - mimo
+  - horniman-collections

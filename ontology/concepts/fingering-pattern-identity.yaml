@@ -1,0 +1,26 @@
+id: fingering_pattern_identity
+labels:
+- text: fingering-pattern identity
+  language: en
+senses:
+- id: fingering_pattern_identity.seed
+  orientation: An etic concept for repertorial identity preserved through physical
+    action/key-location patterns even when realized interval structures differ.
+  domains:
+  - material_practice
+  - trajectory
+  - knowledge_provenance
+  roles:
+  - etic_performance_model
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: mbira_tuning
+  - relation: CONTRASTS_WITH
+    target: pitch_class_set
+  cautions:
+  - This identifies one invariant; it does not make pitch relations irrelevant.
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - mbira-org-tuning

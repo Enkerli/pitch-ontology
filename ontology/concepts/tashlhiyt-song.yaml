@@ -1,0 +1,26 @@
+id: tashlhiyt_song
+labels:
+- text: Tashlhiyt song
+  language: en
+senses:
+- id: tashlhiyt_song.seed
+  orientation: A situated analytical node for southern Moroccan Amazigh song where
+    linguistic meter, musical form, repeated melody, improvisation, and pentatonic
+    resources interact.
+  domains:
+  - language_music
+  - modal_organization
+  - trajectory
+  roles:
+  - situated_practice
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: maqam
+  cautions:
+  - Not a claim that all Amazigh musics share one pitch system.
+  epistemic_status:
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - dell-elmedlaoui-2008

@@ -1,0 +1,30 @@
+id: marimba_de_chonta_tuning
+labels:
+- text: marimba de chonta tuning
+  language: en
+senses:
+- id: marimba_de_chonta_tuning.seed
+  orientation: Colombian Pacific-coast tuning practice in which maker/performer work
+    relates to singers, relative transposition, timbre, and approximately isotonic
+    pitch organization.
+  domains:
+  - tuning_practice
+  - material_practice
+  - relationship
+  roles:
+  - instrument_tuning_practice
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: isotonic_scale
+  - relation: SHAPED_BY
+    target: voice
+  cautions:
+  - Measured isotonicity is an analysis of a broader performance ecology, not its
+    complete identity.
+  epistemic_status:
+  - acoustically_measured
+  - demonstrated_in_practice
+  - analyst_derived
+  sources:
+  - useche-hurtado-demmer-2018

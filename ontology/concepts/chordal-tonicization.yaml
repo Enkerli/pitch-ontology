@@ -1,0 +1,21 @@
+id: chordal_tonicization
+labels:
+- text: chordal tonicization
+  language: en
+senses:
+- id: chordal_tonicization.seed
+  orientation: Berimbau pitches jointly establish a dyadic or triadic sung-mode reference.
+  domains:
+  - relationship
+  - knowledge_provenance
+  roles:
+  - etic_corpus_category
+  review_status: seed
+  relations:
+  - relation: IS_A
+    target: berimbau_tonicization
+  epistemic_status:
+  - corpus_inferred
+  - analyst_derived
+  sources:
+  - diaz-rossi-2024

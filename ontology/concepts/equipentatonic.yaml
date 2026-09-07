@@ -1,0 +1,25 @@
+id: equipentatonic
+labels:
+- text: equipentatonic
+  language: en
+- text: equidistant pentatonic
+  language: en
+senses:
+- id: equipentatonic.seed
+  orientation: An etic description for five-step octave-periodic organizations whose
+    adjacent steps are approximately equal; mathematical 5-EDO is only one limiting
+    model.
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - knowledge_provenance
+  roles:
+  - etic_tuning_model
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: edo
+  cautions:
+  - Do not silently replace an empirical equal-step tendency with exact 5-EDO.
+  epistemic_status:
+  - analyst_derived

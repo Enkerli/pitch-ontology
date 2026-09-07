@@ -1,0 +1,16 @@
+id: museum-record-is-not-practice
+subject: museum_collection_record
+relation: CONTRASTS_WITH
+object: musical_practice
+aspect: Object morphology, provenance, classification, and dimensions are material
+  evidence but do not by themselves establish normative performance or emic pitch
+  categories.
+limit: Rich records may include maker interviews, recordings, and community knowledge
+  that do support performance claims.
+evidence:
+- source: horniman-collections
+  type: collection_methodology
+- source: mimo
+  type: collection_aggregator
+claim_status: supported
+confidence: high

@@ -1,0 +1,25 @@
+id: isotonic_scale
+labels:
+- text: isotonic scale
+  language: en
+senses:
+- id: isotonic_scale.seed
+  orientation: An etic model in which successive steps are treated as approximately
+    equal, useful for some xylophone/marimba traditions without requiring exact equal
+    temperament.
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - knowledge_provenance
+  roles:
+  - etic_tuning_model
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: equipentatonic
+  cautions:
+  - Specify step count, empirical dispersion, and tuning procedure.
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - useche-hurtado-demmer-2018

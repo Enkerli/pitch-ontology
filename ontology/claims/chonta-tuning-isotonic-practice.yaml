@@ -1,0 +1,13 @@
+id: chonta-tuning-isotonic-practice
+subject: marimba_de_chonta_tuning
+relation: ILLUMINATES_ASPECT_OF
+object: isotonic_scale
+aspect: Approximate equal-step organization can emerge with singer-based tuning, relative
+  transposition, timbral acoustics, and maker variability rather than as an abstract
+  EDO prescription.
+limit: Do not generalize the finding to all marimbas or xylophones.
+evidence:
+- source: useche-hurtado-demmer-2018
+  type: acoustic_ethnomusicology
+claim_status: supported
+confidence: high
