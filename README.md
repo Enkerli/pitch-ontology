@@ -1,6 +1,6 @@
 # Pitch Ontology
 
-**v0.2 scaffold**
+**v0.2 scaffold** · [Browse the ontology →](https://enkerli.github.io/pitch-ontology/)
 
 A situated, relational ontology and glossary for pitch: how humans and technologies
 perceive, categorize, organize, tune, perform, represent, and theorize pitch.
@@ -38,8 +38,37 @@ must be described rather than normalized away.
 - `docs/principles.md` — methodological commitments
 - `docs/concept-journeys/` — questions that traverse the graph
 - `sources/works.yaml` — seed bibliography
-- `glossary/` — generated/browsable human-facing material
+- `glossary/index.md` — generated alphabetical view (do not edit by hand)
+- `web/` — static frontend (hand-written HTML/CSS/JS, no build step)
 - `tools/validate.py` — lightweight validator
+- `tools/build_site.py` — generates `site/` and `glossary/index.md` from the YAML
+
+## Browsing and building
+
+The YAML records are canonical; every human-facing view is derived from them.
+
+```sh
+pip install -r requirements-dev.txt
+python tools/validate.py        # schema, controlled vocabularies, source ids
+python tools/build_site.py      # writes site/ and refreshes glossary/index.md
+python -m http.server --directory site   # then open http://localhost:8000
+```
+
+The site is a single static page over one generated `data.json`. It offers:
+
+- **Concepts** — filter by domain, epistemic status and review state; each record shows
+  its labels in their own scripts, orientation, roles, cautions, relations grouped by
+  kind, backlinks, sources and a diagram of its immediate neighbourhood.
+- **Claims** — comparative relations with their aspect, limit, scope, evidence and
+  confidence, rather than bare edges.
+- **Journeys** — the questions that traverse the graph.
+- **Sources** and **About** — bibliography and methodological documents.
+
+Unresolved relation targets are shown as *queued* rather than hidden, so the graph can
+point toward concepts that have not been written yet.
+
+`.github/workflows/pages.yml` validates, builds and publishes the site to GitHub Pages
+on every push to `main`. Enable it once under *Settings → Pages → Source: GitHub Actions*.
 
 ## v0.2 goals
 
@@ -58,9 +87,9 @@ stress-test its assumptions.
 
 ## v0.2 population status
 
-Current scaffold contains **124 canonical concept records**. Most newly populated
-records are marked `review_status: seed`: structurally useful, but not a claim of
-final specialist verification. See `docs/review-queue.md`.
+Current scaffold contains **143 canonical concept records** and **21 claim records**.
+Most newly populated records are marked `review_status: seed`: structurally useful,
+but not a claim of final specialist verification. See `docs/review-queue.md`.
 
 Validation checks schema conformance plus controlled domains, epistemic statuses,
 relations, and source IDs. Unresolved relation targets are reported as warnings so

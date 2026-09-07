@@ -10,3 +10,9 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - run: python tools/validate.py
+      # The site build is also a smoke test of every derived view.
+      - run: python tools/build_site.py
+      - name: glossary/index.md is up to date
+        run: |
+          git diff --exit-code -- glossary/index.md \
+            || { echo "::error::glossary/index.md is stale; run tools/build_site.py and commit."; exit 1; }

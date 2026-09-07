@@ -1,7 +1,11 @@
 # Glossary
 
-This directory is intended as the human-facing view of the ontology.
+The human-facing view of the ontology. Concept YAML under `ontology/` stays canonical;
+everything here is generated.
 
-For v0.2, concept YAML is canonical. A later build step can generate alphabetical,
-domain-based, historical, and cross-explanatory glossary views without duplicating
-definitions manually.
+`index.md` is written by `tools/build_site.py` — run it after editing concept records
+rather than editing the table by hand. CI fails if the committed index has drifted from
+the YAML.
+
+Domain-based, historical, and cross-explanatory views can be added as further outputs of
+the same build step, without duplicating definitions.
