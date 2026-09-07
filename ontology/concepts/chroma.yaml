@@ -20,3 +20,5 @@ senses:
     target: octave_equivalence
   epistemic_status:
   - analyst_derived
+  sources:
+  - jacoby-2019-pitch-perception-singing

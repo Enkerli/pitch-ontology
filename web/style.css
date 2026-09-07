@@ -308,3 +308,56 @@ ul.plain li { padding: .15rem 0; font-size: .93rem; color: var(--ink-soft); }
 }
 
 .loading, .empty { color: var(--ink-faint); font-style: italic; }
+
+/* ---------- bibliography ---------- */
+
+.source-link { text-decoration: none; }
+.source-link:hover { text-decoration: underline; }
+
+.entry .sid { color: var(--ink-faint); font-size: .75rem; margin: .15rem 0 .35rem;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+
+.tag.access { border-style: solid; }
+.tag.access.open, .tag.access.green_oa { color: #2f6b46; border-color: #b7d8c4; }
+.tag.access.registration_required { color: var(--ink-soft); }
+.tag.access.closed { color: var(--caution); border-color: var(--caution-soft); }
+.tag.access.unknown { color: var(--ink-faint); border-style: dashed; }
+.tag.gap { color: var(--seed); border-style: dashed; }
+
+@media (prefers-color-scheme: dark) {
+  .tag.access.open, .tag.access.green_oa { color: #7fc3a0; border-color: #2f5142; }
+}
+
+.source-meta {
+  display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: baseline;
+  margin-top: .45rem; font-size: .85rem;
+}
+.link-row { display: inline-flex; flex-wrap: wrap; gap: .7rem; }
+.cited { color: var(--ink-faint); }
+.cited.queue { font-style: italic; }
+.unretrievable { color: var(--ink-faint); font-style: italic; }
+
+.bridges { margin-bottom: 1.6rem; }
+.bridges h2 { font-size: .78rem; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 0 0 .8rem; font-weight: 600; }
+.bridge { border-top: 1px solid var(--rule); padding: .7rem 0; }
+.bridge:first-child { border-top: none; }
+.bridge p { margin: .3rem 0 .4rem; color: var(--ink-soft); font-size: .92rem;
+  max-width: 78ch; }
+
+ul.rels .basis { margin: .2rem 0 .4rem; color: var(--ink-soft); font-size: .9rem;
+  max-width: 78ch; }
+ul.rels li { padding: .35rem 0; }
+
+.detail h2.concept-name em { font-style: italic; }
+
+.prose pre {
+  background: var(--panel-2);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: .8rem 1rem;
+  overflow-x: auto;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+.prose pre code { background: none; padding: 0; }

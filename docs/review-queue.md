@@ -54,3 +54,20 @@ and, where appropriate, locally authored / community-controlled sources:
 - **Horn of Africa**: separate local terms, etic modal models, urban pedagogy, acoustic corpora, and instruments.
 - **Xylophone/marimba family**: equipentatonic/equiheptatonic/isotonic are etic descriptors
   carrying empirical dispersion and tuning procedure, not aliases for EDO.
+
+## Bibliographic pass
+
+- Resolve every DOI added in the bibliographic pass against Crossref or OpenAlex, then
+  raise `verified.method` from `web_search_index` and clear the filled `metadata_gaps`.
+  Authorship is the most common gap: it was recorded only where a search result named it.
+- The French-language entries mostly lack author names and years. They were located
+  through OpenEdition, HAL and Persée, where full metadata is available directly.
+- 19 works carry no DOI, URL, arXiv id or handle. Someone read them; a reader of this
+  repository cannot reach them.
+- Works in the reading queue (cited by no concept or claim) are either waiting to be
+  attached or should be dropped. Attach only where the document is *about* the concept.
+- Test the `curatorial` edges in `sources/network.yaml` against real reference lists, and
+  promote or delete them. `BRIDGES_FIELD_TO` edges are the most speculative by design.
+- Look for francophone work on museum organology and on Maghrebi and Horn of Africa
+  repertoires; the current bibliography leans anglophone outside the Central African and
+  Amazigh material.

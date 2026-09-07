@@ -23,3 +23,5 @@ senses:
   epistemic_status:
   - institutionally_standardized
   - computational_abstraction
+  sources:
+  - midi-mpe-spec

@@ -15,3 +15,4 @@ senses:
       - {relation: PARTIALLY_OVERLAPS, target: mode}
       - {relation: POORLY_TRANSLATED_AS, target: scale}
     epistemic_status: [locally_named, historically_documented, demonstrated_in_practice]
+    sources: [bozkurt-2025-ord-cc32, qdl-cairo-congress-microtones]

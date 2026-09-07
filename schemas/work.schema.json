@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pitch Ontology Work",
+  "description": "One bibliographic record in sources/works.yaml. Fields beyond id and title are optional: a sparse but true record is preferred to a complete but guessed one. Declare what is missing in metadata_gaps.",
+  "type": "object",
+  "required": ["id", "title"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_\\-\\.]+$" },
+    "title": { "type": "string" },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "corporate_author": { "type": "string" },
+    "year": { "type": ["integer", "string"] },
+    "venue": { "type": "string" },
+    "collection": { "type": "string" },
+    "publisher": { "type": "string" },
+    "volume": { "type": ["string", "integer"] },
+    "issue": { "type": ["string", "integer"] },
+    "pages": { "type": "string" },
+    "doi": { "type": "string" },
+    "arxiv": { "type": "string" },
+    "handle": {
+      "type": "string",
+      "description": "Repository identifier that is not a DOI: HAL id, Zenodo record, Internet Archive item."
+    },
+    "issn": { "type": "string" },
+    "url": { "type": "string", "format": "uri" },
+    "mirror_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "A second freely readable copy: author PDF, repository deposit, archived copy."
+    },
+    "kind": { "type": "string" },
+    "provider": { "type": "string" },
+    "access": { "type": "string" },
+    "licence": { "type": "string" },
+    "language": { "type": "string" },
+    "domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Analytical domains from ontology/domains.yaml, so the bibliography filters on the same categories as the graph."
+    },
+    "metadata_gaps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Fields known to be missing or unconfirmed. Preferred over guessing."
+    },
+    "verified": {
+      "type": "object",
+      "description": "How this record's metadata was checked, and against what.",
+      "required": ["method", "date"],
+      "properties": {
+        "method": { "type": "string" },
+        "date": { "type": "string" },
+        "evidence": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "note": { "type": "string" }
+  },
+  "additionalProperties": true
+}

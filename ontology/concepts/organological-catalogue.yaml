@@ -27,3 +27,6 @@ senses:
   sources:
   - mimo
   - horniman-collections
+  - mimo-hornbostel-sachs-2011
+  - knight-hornbostel-sachs-2015
+  - cimcim-resources

@@ -19,3 +19,5 @@ senses:
     target: practice
   epistemic_status:
   - analyst_derived
+  sources:
+  - jacoby-2019-pitch-perception-singing

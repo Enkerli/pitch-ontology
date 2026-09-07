@@ -103,6 +103,21 @@ def render_markdown(text: str) -> str:
             i += 1
             continue
 
+        # Fenced code block: content is escaped and passed through verbatim.
+        if stripped.startswith("```"):
+            close_lists()
+            language = stripped[3:].strip()
+            i += 1
+            block = []
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                block.append(lines[i])
+                i += 1
+            i += 1  # closing fence
+            attr = f' class="language-{html.escape(language)}"' if language else ""
+            body = html.escape("\n".join(block))
+            out.append(f"<pre><code{attr}>{body}</code></pre>")
+            continue
+
         # Table: a header row followed by a separator row of dashes.
         if (
             stripped.startswith("|")
@@ -239,7 +254,66 @@ def format_work(work: dict) -> str:
     if work.get("doi"):
         doi = work["doi"]
         bits.append(f'<a href="https://doi.org/{doi}" rel="noopener">doi:{doi}</a>')
+    elif work.get("arxiv"):
+        arxiv = work["arxiv"]
+        bits.append(
+            f'<a href="https://arxiv.org/abs/{arxiv}" rel="noopener">arXiv:{arxiv}</a>'
+        )
     return " ".join(bits)
+
+
+def build_bibliography(concepts: list[dict], claims: list[dict]) -> tuple[dict, list[dict], dict]:
+    """Works, the network drawn over them, and the vocabularies both use.
+
+    Each work carries back-references to the concepts and claims that cite it,
+    so the bibliography can be read from the literature's side as well as the
+    graph's.
+    """
+    works = load_yaml("sources/works.yaml")["works"]
+    vocab = load_yaml("sources/source-types.yaml")
+    network = load_yaml("sources/network.yaml").get("edges", [])
+    edge_kind = {e["id"]: e["kind"] for e in vocab["edge_types"]}
+
+    out = {
+        w["id"]: {
+            **w,
+            "citation": format_work(w),
+            "cited_by_concepts": [],
+            "cited_by_claims": [],
+            "edges": [],
+        }
+        for w in works
+    }
+
+    for concept in concepts:
+        for sense in concept["senses"]:
+            for sid in sense.get("sources", []):
+                if sid in out and concept["id"] not in out[sid]["cited_by_concepts"]:
+                    out[sid]["cited_by_concepts"].append(concept["id"])
+    for claim in claims:
+        for ev in claim.get("evidence", []):
+            sid = ev.get("source")
+            if sid in out and claim["id"] not in out[sid]["cited_by_claims"]:
+                out[sid]["cited_by_claims"].append(claim["id"])
+
+    edges = []
+    for edge in network:
+        resolved = {
+            **edge,
+            "kind": edge_kind.get(edge["type"], "other"),
+            "from_title": out[edge["from"]]["title"] if edge["from"] in out else edge["from"],
+            "to_title": out[edge["to"]]["title"] if edge["to"] in out else edge["to"],
+        }
+        edges.append(resolved)
+        # Each endpoint sees the edge from its own side.
+        if edge["from"] in out:
+            out[edge["from"]]["edges"].append({**resolved, "direction": "out",
+                                               "other": edge["to"]})
+        if edge["to"] in out:
+            out[edge["to"]]["edges"].append({**resolved, "direction": "in",
+                                             "other": edge["from"]})
+
+    return out, edges, vocab
 
 
 # --------------------------------------------------------------------------
@@ -252,7 +326,7 @@ def build_payload() -> dict:
     relations = load_yaml("ontology/relations.yaml")["relations"]
     domains = load_yaml("ontology/domains.yaml")["domains"]
     statuses = load_yaml("ontology/epistemic-status.yaml")["statuses"]
-    works = load_yaml("sources/works.yaml")["works"]
+    works, network, source_vocab = build_bibliography(concepts, claims)
 
     by_id = {c["id"]: c for c in concepts}
     relation_kind = {r["id"]: r["kind"] for r in relations}
@@ -360,14 +434,23 @@ def build_payload() -> dict:
         "relations": relations,
         "concepts": out_concepts,
         "claims": out_claims,
-        "works": {
-            w["id"]: {**w, "citation": format_work(w)} for w in works
+        "works": works,
+        "network": network,
+        "source_vocab": {
+            "kinds": source_vocab["kinds"],
+            "provider_types": source_vocab["provider_types"],
+            "access_levels": source_vocab["access_levels"],
+            "languages": source_vocab["languages"],
+            "edge_types": source_vocab["edge_types"],
         },
         "journeys": load_markdown_dir("docs/concept-journeys"),
         "docs": [
             d
             for d in load_markdown_dir("docs")
-            if d["slug"] in {"principles", "claim-rigor", "source-hubs", "review-queue"}
+            if d["slug"] in {
+                "principles", "claim-rigor", "source-hubs", "review-queue",
+                "references", "scope-and-focus",
+            }
         ],
     }
 

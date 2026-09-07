@@ -37,7 +37,11 @@ must be described rather than normalized away.
 - `schemas/concept.schema.json` — validation schema
 - `docs/principles.md` — methodological commitments
 - `docs/concept-journeys/` — questions that traverse the graph
-- `sources/works.yaml` — seed bibliography
+- `sources/works.yaml` — bibliography, one record per document
+- `sources/network.yaml` — typed edges between documents
+- `sources/source-types.yaml` — controlled vocabularies for the bibliography
+- `docs/references.md` — what belongs in the bibliography, and how it was verified
+- `docs/scope-and-focus.md` — why pitch is not equally central everywhere
 - `glossary/index.md` — generated alphabetical view (do not edit by hand)
 - `web/` — static frontend (hand-written HTML/CSS/JS, no build step)
 - `tools/validate.py` — lightweight validator
@@ -62,7 +66,11 @@ The site is a single static page over one generated `data.json`. It offers:
 - **Claims** — comparative relations with their aspect, limit, scope, evidence and
   confidence, rather than bare edges.
 - **Journeys** — the questions that traverse the graph.
-- **Sources** and **About** — bibliography and methodological documents.
+- **Sources** — the bibliography, filtered by access level, provider type, kind and
+  language, with a *Where fields meet* panel for the edges that connect literatures
+  which rarely cite each other. Each work shows how retrievable it is, what is missing
+  from its record, which concepts and claims lean on it, and its place in the network.
+- **About** — methodological documents.
 
 Unresolved relation targets are shown as *queued* rather than hidden, so the graph can
 point toward concepts that have not been written yet.
@@ -87,7 +95,8 @@ stress-test its assumptions.
 
 ## v0.2 population status
 
-Current scaffold contains **143 canonical concept records** and **21 claim records**.
+Current scaffold contains **144 canonical concept records**, **22 claim records** and
+**56 bibliographic records** joined by **33 typed edges**.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
 
@@ -98,3 +107,24 @@ the graph can point toward concepts queued for later creation.
 ## Claim-level rigor
 
 Cross-cultural and comparative relations are now first-class claim records with `aspect`, `limit`, `scope`, `evidence`, `claim_status`, and `confidence`. See `docs/claim-rigor.md`.
+
+## References
+
+The bibliography covers academic literature in French and English, museum and library
+documentation, intergovernmental and non-governmental records, and the technical
+specifications that define several of these concepts outright. Open access is recorded
+rather than assumed, and gaps are declared rather than guessed: a record states what is
+missing from it in `metadata_gaps`.
+
+`sources/network.yaml` draws typed edges between documents — historical precursors,
+methodological extensions, shared corpora, institutional frameworks, and the
+`BRIDGES_FIELD_TO` edges that connect ethnomusicology to work on music technology.
+**These are not citation edges.** Almost all are curatorial readings; the `CITES` type is
+reserved for edges checked against an actual reference list, and the validator refuses it
+otherwise. Metadata for the records added so far was verified against search-result URLs
+rather than Crossref or OpenAlex, which were unreachable from the build environment —
+resolve a DOI before citing any of it in published writing. `docs/references.md` explains
+the method, its limits, and the upgrade path.
+
+Validation reports two queues as warnings rather than errors: works with no retrievable
+identifier, and works no concept or claim leans on yet — the reading list.

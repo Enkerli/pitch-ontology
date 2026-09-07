@@ -12,3 +12,4 @@ senses:
       - {relation: REPRESENTS, target: note}
       - {relation: OFTEN_CONFUSED_WITH, target: pitch}
     epistemic_status: [computational_abstraction, institutionally_standardized]
+    sources: [midi-tuning-standard]

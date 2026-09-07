@@ -1,0 +1,92 @@
+# Controlled vocabularies for the bibliographic layer.
+#
+# Kept separate from ontology/domains.yaml and ontology/epistemic-status.yaml:
+# those describe *concepts*, these describe the *documents* concepts lean on.
+# Works additionally carry `domains` drawn from ontology/domains.yaml, which is
+# what lets the bibliography be filtered by the same analytical categories as
+# the graph itself.
+
+version: "0.2"
+
+# What kind of document this is.
+kinds:
+  - journal_article
+  - conference_paper
+  - preprint
+  - book
+  - book_chapter
+  - reference_entry        # encyclopaedia or dictionary article
+  - thesis
+  - dataset
+  - technical_specification
+  - report
+  - classification         # a published classification or thesaurus
+  - catalogue_record       # a single museum/library record
+  - aggregator             # a discovery layer over many collections
+  - journal                # a venue-level entry, for a whole open-access journal
+  - project                # a research project's own documentation
+  - liner_notes
+  - web_documentation
+
+# Who stands behind it. Not a quality ranking: a provenance type, in the same
+# spirit as docs/source-hubs.md.
+provider_types:
+  - academic
+  - museum
+  - library
+  - archive
+  - igo                    # intergovernmental (UNESCO, EU bodies)
+  - ngo                    # non-governmental (ICOM/CIMCIM, foundations, societies)
+  - industry_body          # trade associations issuing technical standards
+  - community              # practitioner or community-run documentation
+  - project
+  - independent
+
+# How retrievable the document is, as observed — not as promised by a publisher.
+access_levels:
+  - open                   # freely readable at the publisher, usually licensed
+  - green_oa               # author copy or repository deposit is freely readable
+  - registration_required  # free but behind an account (e.g. standards bodies)
+  - closed                 # paywalled with no free copy located
+  - unknown
+
+# Languages the ontology currently commits to reading (see docs/references.md).
+languages:
+  - en
+  - fr
+
+# Which metadata fields are known to be missing or unconfirmed for a work.
+# Declaring the gap is preferred over guessing the value.
+metadata_gaps:
+  - authors
+  - year
+  - venue
+  - volume
+  - issue
+  - pages
+  - doi
+  - publisher
+  - title_completion
+
+# How a bibliographic edge in sources/network.yaml was established.
+edge_bases:
+  - verified_reference_list  # B appears in A's reference list, checked directly
+  - stated_in_source         # one document states the relationship
+  - curatorial               # this repository's reading; a hypothesis, not a citation
+
+# Typed edges between works. Grouped by kind, like ontology/relations.yaml.
+edge_types:
+  - {id: CITES, kind: citation}
+  - {id: HISTORICAL_PRECURSOR_OF, kind: historical}
+  - {id: EXTENDS_METHOD_OF, kind: methodological}
+  - {id: SAME_RESEARCH_PROGRAMME_AS, kind: methodological}
+  - {id: PROVIDES_DATA_FOR, kind: methodological}
+  - {id: REASSESSES, kind: critical}
+  - {id: CHALLENGES_ASSUMPTION_OF, kind: critical}
+  - {id: CONTRASTS_WITH, kind: critical}
+  - {id: DOCUMENTS_SAME_EVENT, kind: corpus}
+  - {id: PROVIDES_FRAMEWORK_FOR, kind: institutional}
+  - {id: HOSTS_OR_PUBLISHES, kind: institutional}
+  - {id: PUBLISHED_IN, kind: institutional}
+  - {id: SAME_TECHNICAL_LINEAGE_AS, kind: technical}
+  - {id: BRIDGES_FIELD_TO, kind: comparative}

@@ -25,3 +25,6 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - bozkurt-2014-makam-review
+  - bozkurt-2009-weighing-models

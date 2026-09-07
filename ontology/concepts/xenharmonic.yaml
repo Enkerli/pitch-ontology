@@ -19,3 +19,5 @@ senses:
   epistemic_status:
   - historically_documented
   - computational_abstraction
+  sources:
+  - milne-2008-tuning-continua

@@ -17,3 +17,5 @@ senses:
     target: tuning_procedure
   epistemic_status:
   - analyst_derived
+  sources:
+  - kubik-african-tone-systems

@@ -19,3 +19,5 @@ senses:
     target: scale
   epistemic_status:
   - computational_abstraction
+  sources:
+  - milne-2008-tuning-continua

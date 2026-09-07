@@ -4,28 +4,54 @@ works:
   - Simha Arom
   - Susanne Fürniss
   year: 1993
-  title: 'An interactive experimental method for the determination of musical scales
-    in oral cultures: Application to the vocal music of the Aka Pygmies of Central
-    Africa'
+  title: 'An interactive experimental method for the determination of musical scales in oral cultures:
+    Application to the vocal music of the Aka Pygmies of Central Africa'
   venue: Contemporary Music Review
   doi: 10.1080/07494469300640301
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - pitch_resources
+  - knowledge_provenance
 - id: kubik-african-tone-systems
   authors:
   - Gerhard Kubik
   title: African Tone-Systems—A Reassessment
   venue: Yearbook for Traditional Music
-  note: Important for tuning process, intracultural evidence, and critique of reified
-    scale descriptions.
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - tuning_practice
+  - knowledge_provenance
+  metadata_gaps:
+  - year
+  - volume
+  - pages
+  note: Important for tuning process, intracultural evidence, and critique of reified scale descriptions.
 - id: wright-1978
   authors:
   - Owen Wright
   year: 1978
   title: The Modal System of Arab and Persian Music A.D. 1250–1300
   publisher: Oxford University Press
+  kind: book
+  provider: academic
+  language: en
+  domains:
+  - modal_organization
+  - institutions_history
 - id: loc-coptic-hazzat
   corporate_author: Library of Congress
   title: 'Notating Coptic Music: A Brief Historical Survey'
   collection: Coptic Orthodox Liturgical Chant and Hymnody
+  kind: web_documentation
+  provider: library
+  language: en
+  domains:
+  - representation
+  - institutions_history
 - id: ellis-1885
   authors:
   - Alexander J. Ellis
@@ -33,6 +59,12 @@ works:
   title: On the Musical Scales of Various Nations
   venue: Journal of the Society of Arts / contemporary report in Nature 31
   doi: 10.1038/031488a0
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - tuning_practice
+  - knowledge_provenance
 - id: sethares-1994
   authors:
   - William A. Sethares
@@ -41,12 +73,24 @@ works:
   venue: Journal of the Acoustical Society of America
   volume: 96(1)
   pages: 10–19
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - tuning_practice
+  - computation
+  - acoustics
 - id: during-dastgah
   authors:
   - Jean During
   year: 1994
   title: Dastgāh
   venue: Encyclopaedia Iranica
+  kind: reference_entry
+  provider: academic
+  language: en
+  domains:
+  - modal_organization
   note: Updated 2016; modal organization of gūšas around māya and return via forūd.
 - id: during-forud
   authors:
@@ -54,6 +98,12 @@ works:
   year: 1999
   title: Forūd (1)
   venue: Encyclopaedia Iranica
+  kind: reference_entry
+  provider: academic
+  language: en
+  domains:
+  - modal_organization
+  - trajectory
   note: Concluding/return motif and historical sense of descending melodic direction.
 - id: hagel-2009
   authors:
@@ -62,34 +112,76 @@ works:
   title: 'Ancient Greek Music: A New Technical History'
   publisher: Cambridge University Press
   doi: 10.1017/CBO9780511691591
+  kind: book
+  provider: academic
+  language: en
+  domains:
+  - institutions_history
+  - tuning_practice
 - id: jts-nusach-cantillation
   corporate_author: Jewish Theological Seminary
   title: Nusah and Cantillation
+  kind: web_documentation
+  provider: academic
+  language: en
+  domains:
+  - language_music
+  - modal_organization
   note: Describes nusaḥ as prayer-chant mode/motif tradition and teʿamim as accent/syntax/cantillation
     system.
 - id: milken-shtayger
   corporate_author: Milken Archive of Jewish Music
   title: The First S'liḥot
-  note: Discusses Ashkenazi prayer modes, nusaḥ hat’filla, motivic formulae, tone
-    functions, and shtayger.
+  kind: web_documentation
+  provider: archive
+  language: en
+  domains:
+  - modal_organization
+  - institutions_history
+  note: Discusses Ashkenazi prayer modes, nusaḥ hat’filla, motivic formulae, tone functions, and
+    shtayger.
 - id: unesco-shashmaqom
   corporate_author: UNESCO
   year: 2008
   title: Shashmaqom music
-  note: Representative List of the Intangible Cultural Heritage of Humanity; oral
-    transmission and six-maqom repertorial system.
+  kind: catalogue_record
+  provider: igo
+  language: en
+  domains:
+  - institutions_history
+  - modal_organization
+  note: Representative List of the Intangible Cultural Heritage of Humanity; oral transmission
+    and six-maqom repertorial system.
 - id: unesco-tiren-joik
   corporate_author: UNESCO
   year: 2025
   title: Karl Tirén collection of Sámi joik recordings
+  kind: catalogue_record
+  provider: igo
+  language: en
+  domains:
+  - institutions_history
+  - knowledge_provenance
   note: Memory of the World register documentation.
 - id: smithsonian-panpipes
   corporate_author: Smithsonian Folkways
   title: 'UNESCO Collection Week 46: Music and Community Lifeways'
+  kind: liner_notes
+  provider: museum
+  language: en
+  domains:
+  - pitch_resources
+  - material_practice
   note: Discusses siku/antara as complementary panpipe pairs and hocketing performance.
 - id: smithsonian-conima
   corporate_author: Smithsonian Folkways
   title: 'Traditional Music of Peru: Conima liner notes'
+  kind: liner_notes
+  provider: museum
+  language: en
+  domains:
+  - pitch_resources
+  - material_practice
   note: Describes ira/arca rows distributed between players who interlock pitches.
 - id: cambridge-singing-country
   authors:
@@ -99,17 +191,29 @@ works:
   title: Singing Country in the Land Now Known as Australia
   venue: The Cambridge Companion to Music in Australia
   publisher: Cambridge University Press
+  kind: book_chapter
+  provider: academic
+  language: en
+  domains:
+  - knowledge_provenance
+  - institutions_history
 - id: weisser-falceto-2013
   authors:
   - Stéphanie Weisser
   - Francis Falceto
   year: 2013
-  title: 'Investigating qəñət in Amhara secular music: an acoustic and historical
-    study'
+  title: 'Investigating qəñət in Amhara secular music: an acoustic and historical study'
   venue: Annales d’Éthiopie
   volume: '28'
   pages: 299–322
   doi: 10.3406/ethio.2013.1539
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - tuning_practice
+  - modal_organization
+  - institutions_history
 - id: diaz-rossi-2024
   authors:
   - Juan Diego Díaz
@@ -120,11 +224,25 @@ works:
   volume: '12'
   issue: '1'
   pages: 1–117
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - tuning_practice
+  - material_practice
 - id: mbira-org-tuning
   corporate_author: MBIRA
   title: The Mbira Instrument / Tune Your Mbira
-  note: Community-facing documentation of regional/personal tuning diversity and piece
-    identity across tunings.
+  kind: web_documentation
+  provider: community
+  language: en
+  domains:
+  - tuning_practice
+  - material_practice
+  metadata_gaps:
+  - year
+  note: Community-facing documentation of regional/personal tuning diversity and piece identity
+    across tunings.
 - id: useche-hurtado-demmer-2018
   authors:
   - Jorge Useche
@@ -132,6 +250,24 @@ works:
   - Federico Demmer
   year: 2018
   title: Interplay between musical practices and tuning in the marimba de chonta music
+  arxiv: '1802.10162'
+  url: https://arxiv.org/pdf/1802.10162
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - tuning_practice
+  - material_practice
+  - acoustics
+  metadata_gaps:
+  - venue
+  - doi
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://arxiv.org/pdf/1802.10162
+    note: arXiv copy located; journal of record not confirmed here.
 - id: dell-elmedlaoui-2008
   authors:
   - François Dell
@@ -139,6 +275,12 @@ works:
   year: 2008
   title: Poetic Meter and Musical Form in Tashlhiyt Berber Songs
   publisher: Rüdiger Köppe Verlag
+  kind: book
+  provider: academic
+  language: en
+  domains:
+  - language_music
+  - pitch_resources
 - id: merakeb-2025
   authors:
   - Dihia Merakeb
@@ -148,12 +290,745 @@ works:
   volume: '6'
   issue: '2'
   pages: 241–256
+  kind: journal_article
+  provider: academic
+  language: fr
+  domains:
+  - material_practice
+  - language_music
 - id: met-shofar
   corporate_author: The Metropolitan Museum of Art
   title: Shofar collection records
+  kind: catalogue_record
+  provider: museum
+  language: en
+  domains:
+  - material_practice
+  - knowledge_provenance
+  metadata_gaps:
+  - year
 - id: mimo
   corporate_author: Musical Instrument Museums Online / Europeana
   title: MIMO musical instrument collections aggregator
+  url: http://www.mimo-international.com/
+  kind: aggregator
+  provider: museum
+  language: en
+  domains:
+  - material_practice
+  - knowledge_provenance
+  metadata_gaps:
+  - year
 - id: horniman-collections
   corporate_author: Horniman Museum and Gardens
   title: Musical Instruments collection database
+  kind: aggregator
+  provider: museum
+  language: en
+  domains:
+  - material_practice
+  - knowledge_provenance
+  metadata_gaps:
+  - year
+- id: tzanetakis-2007-computational-ethnomusicology
+  authors:
+  - George Tzanetakis
+  - Ajay Kapur
+  - W. Andrew Schloss
+  - Matthew Wright
+  year: 2007
+  title: Computational Ethnomusicology
+  venue: Journal of Interdisciplinary Music Studies
+  volume: '1'
+  issue: '2'
+  pages: 1–24
+  url: https://webhome.csc.uvic.ca/~gtzan/output/comp_ethno_jims2007.pdf
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - computation
+  - knowledge_provenance
+  metadata_gaps:
+  - doi
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://webhome.csc.uvic.ca/~gtzan/output/comp_ethno_jims2007.pdf
+  note: Defines computational ethnomusicology as tools built to assist ethnomusicological research;
+    the reference point for the field's naming.
+- id: jnmr-2013-computational-ethnomusicology
+  title: 'Computational Ethnomusicology: perspectives and challenges'
+  venue: Journal of New Music Research
+  doi: 10.1080/09298215.2013.818038
+  url: https://www.tandfonline.com/doi/full/10.1080/09298215.2013.818038
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - computation
+  - knowledge_provenance
+  metadata_gaps:
+  - authors
+  - year
+  - volume
+  - issue
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.tandfonline.com/doi/full/10.1080/09298215.2013.818038
+    note: DOI and title read from the publisher URL; authorship not confirmed.
+  note: Introduces the JNMR special issue on computational ethnomusicology.
+- id: panteli-2018-world-music-corpora
+  authors:
+  - Maria Panteli
+  - Emmanouil Benetos
+  - Simon Dixon
+  year: 2018
+  title: A review of manual and computational approaches for the study of world music corpora
+  venue: Journal of New Music Research
+  volume: '47'
+  issue: '2'
+  pages: 176–189
+  doi: 10.1080/09298215.2017.1418896
+  url: https://www.tandfonline.com/doi/abs/10.1080/09298215.2017.1418896
+  mirror_url: https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/31440/Benetos%20A%20review%20of%20manual%202018%20Accepted.pdf
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - computation
+  - knowledge_provenance
+  - categorization
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.tandfonline.com/doi/abs/10.1080/09298215.2017.1418896
+  note: Compares corpus-based and manual comparative approaches; useful for seeing which analytical
+    categories survive computation and which do not.
+- id: plos-2017-outliers-world-music
+  title: A computational study on outliers in world music
+  venue: PLOS ONE
+  doi: 10.1371/journal.pone.0189399
+  url: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0189399
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - computation
+  - categorization
+  - knowledge_provenance
+  metadata_gaps:
+  - authors
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0189399
+    note: DOI read from the publisher URL; authorship not confirmed here.
+  note: 'An outlier is a corpus-relative artefact: what counts as unusual depends on what the
+    corpus contains and on which features are measured.'
+- id: bozkurt-2014-makam-review
+  title: 'Computational Analysis of Turkish Makam Music: Review of State-of-the-Art and Challenges'
+  venue: Journal of New Music Research
+  volume: '43'
+  issue: '1'
+  doi: 10.1080/09298215.2013.865760
+  url: https://www.tandfonline.com/doi/abs/10.1080/09298215.2013.865760
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - computation
+  - modal_organization
+  - tuning_practice
+  metadata_gaps:
+  - authors
+  - year
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.tandfonline.com/doi/abs/10.1080/09298215.2013.865760
+    note: Volume and issue from the publisher listing; year not confirmed.
+- id: bozkurt-2009-weighing-models
+  title: 'Weighing Diverse Theoretical Models on Turkish Maqam Music Against Pitch Measurements:
+    A Comparison of Peaks Automatically Derived from Frequency Histograms with Proposed Scale
+    Tones'
+  venue: Journal of New Music Research
+  volume: '38'
+  issue: '1'
+  doi: 10.1080/09298210903147673
+  url: https://www.tandfonline.com/doi/abs/10.1080/09298210903147673
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - computation
+  - tuning_practice
+  - modal_organization
+  metadata_gaps:
+  - authors
+  - year
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.tandfonline.com/doi/abs/10.1080/09298210903147673
+  note: Measured pitch distributions are compared against competing theoretical scale models rather
+    than against one authorised scale.
+- id: gedik-bozkurt-2010-pitch-histograms
+  title: Pitch-frequency histogram-based music information retrieval for Turkish music
+  venue: Signal Processing
+  doi: 10.1016/j.sigpro.2009.06.017
+  url: https://dl.acm.org/doi/10.1016/j.sigpro.2009.06.017
+  kind: journal_article
+  provider: academic
+  language: en
+  domains:
+  - computation
+  - tuning_practice
+  metadata_gaps:
+  - authors
+  - year
+  - volume
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://dl.acm.org/doi/10.1016/j.sigpro.2009.06.017
+  note: Pitch histograms used without assuming a theoretical scale in advance.
+- id: bozkurt-2025-ord-cc32
+  authors:
+  - Barış Bozkurt
+  year: 2025
+  title: An Open Research Dataset of the 1932 Cairo Congress of Arab Music
+  venue: arXiv
+  arxiv: '2506.14503'
+  url: https://arxiv.org/abs/2506.14503
+  mirror_url: https://zenodo.org/records/15682346
+  kind: dataset
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - computation
+  - tuning_practice
+  - institutions_history
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.arxiv.org/abs/2506.14503
+  note: 'ORD-CC32: maqam and iqa'' tags, tonic annotations and pitch histograms over recordings
+    from the congress that helped institutionalise Arab modal theory.'
+- id: arxiv-2025-iranian-pitch-histograms
+  year: 2025
+  title: 'Optimization-Based Analysis of Music Intervals and Tuning Systems in Oral Traditions
+    Using Pitch Histograms: A Case Study of Iranian Vocal Music'
+  venue: arXiv
+  arxiv: '2503.11956'
+  url: https://arxiv.org/abs/2503.11956
+  kind: preprint
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - computation
+  - tuning_practice
+  - modal_organization
+  metadata_gaps:
+  - authors
+  - doi
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://arxiv.org/html/2503.11956v1
+- id: tismir-2023-carnatic-vocal-pitch
+  title: Repertoire-Specific Vocal Pitch Data Generation for Improved Melodic Analysis of Carnatic
+    Music
+  venue: Transactions of the International Society for Music Information Retrieval
+  doi: 10.5334/tismir.137
+  url: https://transactions.ismir.net/articles/10.5334/tismir.137
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - computation
+  - trajectory
+  - modal_organization
+  metadata_gaps:
+  - authors
+  - year
+  - volume
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://transactions.ismir.net/articles/10.5334/tismir.137
+  note: 'Repertoire-specific pitch data: the melodic object being extracted is defined by the
+    tradition, not by a generic note model.'
+- id: saraga-datasets
+  title: 'Saraga: Open Datasets for Research on Indian Art Music'
+  url: https://repositori.upf.edu/items/d4721c01-e38d-490b-b2d1-889f6dcd211d
+  mirror_url: https://mtg.github.io/saraga/access.html
+  kind: dataset
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - computation
+  - modal_organization
+  - trajectory
+  metadata_gaps:
+  - authors
+  - year
+  - venue
+  - doi
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://repositori.upf.edu/items/d4721c01-e38d-490b-b2d1-889f6dcd211d
+  note: Time-aligned melodic, rhythmic and structural annotations for Carnatic and Hindustani
+    concert recordings, under Creative Commons licences.
+- id: compmusic-project
+  corporate_author: Music Technology Group, Universitat Pompeu Fabra
+  title: 'CompMusic: Computational Models for the Discovery of the World''s Music'
+  url: https://compmusic.upf.edu/
+  kind: project
+  provider: project
+  access: open
+  language: en
+  domains:
+  - computation
+  - modal_organization
+  - knowledge_provenance
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://compmusic.upf.edu/
+  note: Culture-specific music information research across Hindustani, Carnatic, Turkish-makam,
+    Arab-Andalusian and Beijing opera repertoires; publications, code and corpora released openly.
+- id: milne-2008-tuning-continua
+  authors:
+  - Andrew Milne
+  - William Sethares
+  - James Plamondon
+  year: 2008
+  title: Tuning continua and keyboard layouts
+  venue: Journal of Mathematics and Music
+  volume: '2'
+  issue: '1'
+  pages: 1–19
+  doi: 10.1080/17459730701828677
+  url: https://www.tandfonline.com/doi/full/10.1080/17459730701828677
+  mirror_url: https://oro.open.ac.uk/21504
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - tuning_practice
+  - computation
+  - material_practice
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://oro.open.ac.uk/21504
+  note: 'Interfaces that stay invariant under transposition and retuning: the instrument becomes
+    a continuum rather than a fixed lattice.'
+- id: jacoby-2019-pitch-perception-singing
+  authors:
+  - Nori Jacoby
+  - Eduardo A. Undurraga
+  - Malinda J. McPherson
+  - Joaquín Valdés
+  - Tomás Ossandón
+  - Josh H. McDermott
+  year: 2019
+  title: Universal and Non-universal Features of Musical Pitch Perception Revealed by Singing
+  venue: Current Biology
+  doi: 10.1016/j.cub.2019.08.020
+  url: https://www.cell.com/current-biology/fulltext/S0960-9822(19)31036-X
+  mirror_url: https://www.norijacoby.com/Jacoby%20et%20al.%202019,%20Current%20Biology,%20Universal%20and%20non-universal%20features%20of%20musical%20pitch%20perception%20revealed%20by%20singing.pdf
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - auditory_perception
+  - categorization
+  - knowledge_provenance
+  metadata_gaps:
+  - volume
+  - issue
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.cell.com/current-biology/fulltext/S0960-9822(19)31036-X
+  note: Tsimane' and US listeners share an upper frequency limit for accurate pitch reproduction,
+    but octave equivalence appears culturally contingent.
+- id: midi-tuning-standard
+  corporate_author: MIDI Association
+  title: MIDI Tuning (Updated Specification)
+  url: https://www.midi.org/specifications/midi1-specifications/midi-1-addenda/midi-tuning-updated
+  kind: technical_specification
+  provider: industry_body
+  access: registration_required
+  language: en
+  domains:
+  - computation
+  - representation
+  - tuning_practice
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.midi.org/specifications/midi1-specifications/midi-1-addenda/midi-tuning-updated
+  note: Lets microtunings be shared between instruments and switched during performance, on top
+    of a note-number model that presumes twelve per octave.
+- id: midi-mpe-spec
+  corporate_author: MIDI Association
+  year: 2018
+  title: MIDI Polyphonic Expression (MPE) Specification, Version 1.0
+  url: https://midi.org/mpe-midi-polyphonic-expression
+  mirror_url: https://d30pueezughrda.cloudfront.net/campaigns/mpe/mpespec.pdf
+  kind: technical_specification
+  provider: industry_body
+  access: registration_required
+  language: en
+  domains:
+  - computation
+  - representation
+  - trajectory
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://d30pueezughrda.cloudfront.net/campaigns/mpe/mpespec.pdf
+  note: Per-note continuous control; a protocol-level answer to the question of what counts as
+    one note.
+- id: scala-scl-format
+  authors:
+  - Manuel Op de Coul
+  corporate_author: Stichting Huygens-Fokker
+  title: Scala scale file (.scl) format
+  url: https://www.huygens-fokker.org/scala/scl_format.html
+  kind: technical_specification
+  provider: ngo
+  access: open
+  language: en
+  domains:
+  - representation
+  - computation
+  - tuning_practice
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.huygens-fokker.org/scala/scl_format.html
+  note: 'A de facto interchange format: a scale is a description line, a count, and a list of
+    degrees — a specific and consequential idea of what a scale is.'
+- id: mimo-hornbostel-sachs-2011
+  corporate_author: MIMO Consortium
+  year: 2011
+  title: Revision of the Hornbostel-Sachs Classification of Musical Instruments by the MIMO Consortium
+  url: http://www.mimo-international.com/documents/hornbostel%20sachs.pdf
+  mirror_url: https://archive.org/details/revisionofthehornbostelsachsclassificationofmusicalinstrumentsbythemimoconsortium
+  kind: classification
+  provider: museum
+  access: open
+  language: en
+  domains:
+  - material_practice
+  - categorization
+  - institutions_history
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: http://www.mimo-international.com/documents/hornbostel%20sachs.pdf
+  note: Published among CIMCIM's resources; the working version of Hornbostel-Sachs for museum
+    cataloguing, and therefore for how instruments become findable.
+- id: knight-hornbostel-sachs-2015
+  authors:
+  - Roderic Knight
+  year: 2015
+  title: 'The Knight Revision of Hornbostel-Sachs: a new look at musical instrument classification'
+  url: https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf
+  kind: classification
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - material_practice
+  - categorization
+  metadata_gaps:
+  - title_completion
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf
+  note: An independent revision of the same 1914 scheme; the divergence between revisions is itself
+    evidence about classification, not a defect.
+- id: cimcim-resources
+  corporate_author: ICOM CIMCIM (International Committee of Museums and Collections of Instruments
+    and Music)
+  title: 'CIMCIM Resources: classification, sigla, directories and digital catalogues'
+  url: https://icom-music.mini.icom.museum/resources/
+  kind: web_documentation
+  provider: ngo
+  access: open
+  language: en
+  domains:
+  - material_practice
+  - knowledge_provenance
+  - institutions_history
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://icom-music.mini.icom.museum/resources/
+  note: Directory of instrument collections, collection sigla, technical drawings register and
+    the published classification — the infrastructure layer beneath individual museum records.
+- id: unesco-ich-convention-2003
+  corporate_author: UNESCO
+  year: 2003
+  title: Convention for the Safeguarding of the Intangible Cultural Heritage
+  url: https://ich.unesco.org/en/convention
+  mirror_url: https://ich.unesco.org/doc/src/2003_Convention_Basic_Texts-_2022_version-EN_.pdf
+  kind: report
+  provider: igo
+  access: open
+  language: en
+  domains:
+  - institutions_history
+  - knowledge_provenance
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://ich.unesco.org/en/convention
+  note: The instrument under which inscriptions such as Shashmaqom are made; explains why some
+    pitch practices acquire international documentation and others do not.
+- id: qdl-cairo-congress-microtones
+  corporate_author: Qatar Digital Library
+  title: 'Microtones: The Piano and Muhammad Al-Qubanshi — The First Congress of Arabic Music
+    and Early Recordings from Iraq'
+  url: https://www.qdl.qa/en/microtones-piano-and-muhammad-al-qubanshi-%E2%80%93-first-congress-arabic-music-and-early-recordings-iraq
+  kind: web_documentation
+  provider: library
+  access: open
+  language: en
+  domains:
+  - institutions_history
+  - tuning_practice
+  metadata_gaps:
+  - authors
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.qdl.qa/en/microtones-piano-and-muhammad-al-qubanshi-%E2%80%93-first-congress-arabic-music-and-early-recordings-iraq
+  note: Library-held recordings and commentary on the 1932 congress debates about tempering Arab
+    music to keyboard instruments.
+- id: beyond-1932-project
+  corporate_author: King's College London
+  title: 'Beyond 1932: the Cairo Congress of Arab Music'
+  url: https://1932muscon.kcl.ac.uk/
+  kind: project
+  provider: project
+  access: open
+  language: en
+  domains:
+  - institutions_history
+  - modal_organization
+  metadata_gaps:
+  - year
+  - title_completion
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://1932muscon.kcl.ac.uk/
+- id: furniss-2006-aka-polyphony
+  authors:
+  - Susanne Fürniss
+  year: 2006
+  title: 'Aka Polyphony: Music, Theory, Back and Forth'
+  venue: Analytical Studies in World Music
+  publisher: Oxford University Press
+  pages: 163–204
+  handle: halshs-00453689
+  url: https://shs.hal.science/halshs-00453689
+  kind: book_chapter
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - pitch_resources
+  - knowledge_provenance
+  - categorization
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://shs.hal.science/halshs-00453689
+  note: Deposited on HAL-SHS. Moves between Aka practice and analytical theory in both directions
+    rather than applying one to the other.
+- id: furniss-1993-systeme-pentatonique
+  authors:
+  - Susanne Fürniss
+  year: 1993
+  title: Le système pentatonique de la musique des Pygmées Aka (Centrafrique)
+  venue: Journal des africanistes
+  volume: '63'
+  issue: '2'
+  pages: 133–137
+  url: https://www.persee.fr/doc/jafr_0399-0346_1993_num_63_2_2389_t1_0133_0000_1
+  kind: thesis
+  provider: academic
+  access: open
+  language: fr
+  domains:
+  - pitch_resources
+  - knowledge_provenance
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.persee.fr/doc/jafr_0399-0346_1993_num_63_2_2389_t1_0133_0000_1
+  note: Persée record for the 1992 doctoral thesis (Université Sorbonne Nouvelle, under Simha
+    Arom) behind the experimental scale work.
+- id: lhomme-2006-experimenter-ethnomusicologie
+  year: 2006
+  title: Expérimenter en ethnomusicologie
+  venue: L'Homme
+  url: https://journals.openedition.org/lhomme/24920
+  kind: journal_article
+  provider: academic
+  access: open
+  language: fr
+  domains:
+  - knowledge_provenance
+  - pitch_resources
+  metadata_gaps:
+  - authors
+  - volume
+  - pages
+  - doi
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://journals.openedition.org/lhomme/24920
+  note: On modelling Central African scales and the methodological problems of in situ experimentation
+    with participants.
+- id: cahiers-accordeon-diatonique
+  title: Quand l'accordéon diatonique nous invite à interroger les méthodes et les objets de l'ethnomusicologie
+  venue: Cahiers d'ethnomusicologie
+  url: https://journals.openedition.org/ethnomusicologie/2686
+  kind: journal_article
+  provider: academic
+  access: open
+  language: fr
+  domains:
+  - material_practice
+  - tuning_practice
+  - knowledge_provenance
+  metadata_gaps:
+  - authors
+  - year
+  - volume
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://journals.openedition.org/ethnomusicologie/2686
+  note: Personalised modifications made to escape the fixed tuning and chromatic constraints of
+    a mass-produced instrument.
+- id: contrechamps-afrique-centrale
+  title: 'Les musiques traditionnelles d''Afrique Centrale : conception/perception'
+  publisher: Éditions Contrechamps
+  url: https://books.openedition.org/contrechamps/1956
+  kind: book_chapter
+  provider: academic
+  access: open
+  language: fr
+  domains:
+  - auditory_perception
+  - pitch_resources
+  - material_practice
+  metadata_gaps:
+  - authors
+  - year
+  - pages
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://books.openedition.org/contrechamps/1956
+  note: On fixed-pitch instruments where timbre and pitch interact so that interval size is heard
+    as adjustable toward the expected scale.
+- id: cahiers-ethnomusicologie
+  corporate_author: Société française d'ethnomusicologie
+  title: Cahiers d'ethnomusicologie (formerly Cahiers de musiques traditionnelles)
+  url: https://journals.openedition.org/ethnomusicologie/
+  mirror_url: https://ethnomusicologie.fr/cahiers-dethnomusicologie/
+  kind: journal
+  provider: academic
+  access: open
+  language: fr
+  domains:
+  - knowledge_provenance
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://www.openedition.org/3683
+  note: 'Venue-level entry: a francophone discovery layer whose back issues are on OpenEdition.'
+- id: transposition-journal
+  corporate_author: EHESS / Cité de la musique-Philharmonie de Paris
+  title: Transposition. Musique et sciences sociales
+  issn: 2110-6134
+  url: https://journals.openedition.org/transposition/
+  kind: journal
+  provider: academic
+  access: open
+  licence: CC BY-SA 4.0
+  language: fr
+  domains:
+  - institutions_history
+  - knowledge_provenance
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://journals.openedition.org/transposition/1020?lang=en
+  note: Open-access venue at the intersection of music research and the social sciences; indexed
+    in DOAJ and RILM.
+- id: empirical-musicology-review
+  corporate_author: The Ohio State University Libraries
+  title: Empirical Musicology Review
+  issn: 1559-5749
+  url: https://emusicology.org/index.php/EMR/
+  kind: journal
+  provider: library
+  access: open
+  licence: CC BY-NC
+  language: en
+  domains:
+  - knowledge_provenance
+  - auditory_perception
+  metadata_gaps:
+  - year
+  verified:
+    method: web_search_index
+    date: '2026-09-07'
+    evidence: https://doaj.org/toc/1559-5749
+  note: 'Venue-level entry: open-access, observation-based musicology, including a special issue
+    on open science in musicology.'

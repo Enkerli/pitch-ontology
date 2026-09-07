@@ -1,0 +1,295 @@
+# Bibliographic network.
+#
+# These are NOT citation edges. No reference list was machine-read to produce
+# this file: OpenAlex, Crossref and publisher pages were unreachable from the
+# environment where it was assembled, so every edge below is either stated in
+# one of the documents themselves (`stated_in_source`) or a reading proposed by
+# this repository (`curatorial`). The CITES type is reserved for edges checked
+# against an actual reference list; none are asserted yet.
+#
+# The point of typing edges this way is that a curatorial edge is a hypothesis
+# a specialist can reject without touching anything else. See docs/references.md
+# for how to promote an edge to `verified_reference_list`.
+
+version: "0.2"
+
+edges:
+
+  # ---- the historical spine: measuring other people's scales ----
+  - from: arom-furniss-1993
+    to: ellis-1885
+    type: HISTORICAL_PRECURSOR_OF
+    basis: >-
+      Both take the measurement of non-European scales as their object; Ellis
+      establishes the comparative-measurement move that later experimental work
+      reworks with participants rather than on instruments alone.
+    established_by: curatorial
+    confidence: high
+
+  - from: kubik-african-tone-systems
+    to: ellis-1885
+    type: REASSESSES
+    basis: >-
+      Kubik's reassessment targets the reified scale descriptions that the
+      measurement tradition produced for African tone systems.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: furniss-1993-systeme-pentatonique
+    to: arom-furniss-1993
+    type: HISTORICAL_PRECURSOR_OF
+    basis: The 1992 thesis on the Aka pentatonic system underlies the joint 1993 article.
+    established_by: curatorial
+    confidence: high
+
+  - from: furniss-2006-aka-polyphony
+    to: arom-furniss-1993
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: Same author, same repertoire, continued movement between practice and analysis.
+    established_by: curatorial
+    confidence: high
+
+  - from: lhomme-2006-experimenter-ethnomusicologie
+    to: arom-furniss-1993
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Reviews advances in modelling Central African scales and the methodological
+      problems of in situ experimentation — the method the 1993 article introduced.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: contrechamps-afrique-centrale
+    to: arom-furniss-1993
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Central African traditional musics approached through conception and
+      perception, including pitch/timbre ambiguity on fixed-pitch instruments.
+    established_by: curatorial
+    confidence: moderate
+
+  # ---- ethnomusicology and music technology, in both directions ----
+  - from: tzanetakis-2007-computational-ethnomusicology
+    to: arom-furniss-1993
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      The programme of building tools "to assist ethnomusicological research"
+      presupposes exactly the experimental and analytical work this literature
+      had already been doing without computers.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: panteli-2018-world-music-corpora
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Reviews manual and computational approaches to world-music corpora a decade
+      after the field was named.
+    established_by: curatorial
+    confidence: high
+
+  - from: plos-2017-outliers-world-music
+    to: panteli-2018-world-music-corpora
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: Corpus-scale comparison of recordings from the same research group's programme.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: jnmr-2013-computational-ethnomusicology
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: EXTENDS_METHOD_OF
+    basis: A journal special issue taking up the perspectives and challenges of the field.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: jacoby-2019-pitch-perception-singing
+    to: arom-furniss-1993
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Psychophysics with participants outside the researchers' own tradition meets
+      experimental ethnomusicology with participants inside theirs; both infer
+      pitch organization from elicited responses rather than from notation.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: jacoby-2019-pitch-perception-singing
+    to: midi-tuning-standard
+    type: CHALLENGES_ASSUMPTION_OF
+    basis: >-
+      MIDI note numbering builds octave equivalence into the address space that
+      tuning messages then adjust; the finding that octave equivalence is
+      culturally contingent bears directly on that assumption.
+    established_by: curatorial
+    confidence: moderate
+
+  # ---- makam, maqam and the pitch-histogram method ----
+  - from: gedik-bozkurt-2010-pitch-histograms
+    to: bozkurt-2009-weighing-models
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: Pitch-frequency histograms as the shared representation for Turkish repertoires.
+    established_by: curatorial
+    confidence: high
+
+  - from: bozkurt-2014-makam-review
+    to: bozkurt-2009-weighing-models
+    type: EXTENDS_METHOD_OF
+    basis: Review of the state of the art the histogram measurements helped establish.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: bozkurt-2025-ord-cc32
+    to: bozkurt-2009-weighing-models
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      The dataset ships tonic-aligned and octave-warped pitch histograms, applying
+      the same analytical apparatus to a historical corpus.
+    established_by: curatorial
+    confidence: high
+
+  - from: arxiv-2025-iranian-pitch-histograms
+    to: bozkurt-2009-weighing-models
+    type: EXTENDS_METHOD_OF
+    basis: Pitch histograms used to compare interval and tuning models in another oral tradition.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: bozkurt-2014-makam-review
+    to: compmusic-project
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: Turkish makam is one of the repertoires CompMusic took as a research corpus.
+    established_by: curatorial
+    confidence: moderate
+
+  # ---- the 1932 Cairo Congress, documented three ways ----
+  - from: bozkurt-2025-ord-cc32
+    to: qdl-cairo-congress-microtones
+    type: DOCUMENTS_SAME_EVENT
+    basis: >-
+      A computational dataset and a library's holdings and commentary address the
+      same congress recordings from different institutional positions.
+    established_by: curatorial
+    confidence: high
+
+  - from: beyond-1932-project
+    to: bozkurt-2025-ord-cc32
+    type: DOCUMENTS_SAME_EVENT
+    basis: A research project and an open dataset on the same 1932 congress.
+    established_by: curatorial
+    confidence: high
+
+  - from: bozkurt-2025-ord-cc32
+    to: wright-1978
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Historical modal theory and computational measurement meet on Arab-Persian
+      modal systems, at a distance of centuries and of method.
+    established_by: curatorial
+    confidence: low
+
+  # ---- corpora feeding methods ----
+  - from: saraga-datasets
+    to: compmusic-project
+    type: PROVIDES_DATA_FOR
+    basis: Saraga is released as an output of the CompMusic project.
+    established_by: stated_in_source
+    confidence: high
+
+  - from: tismir-2023-carnatic-vocal-pitch
+    to: saraga-datasets
+    type: PROVIDES_DATA_FOR
+    basis: Repertoire-specific Carnatic vocal pitch data in the same research ecosystem.
+    established_by: curatorial
+    confidence: moderate
+
+  # ---- instruments, interfaces and tuning technology ----
+  - from: milne-2008-tuning-continua
+    to: sethares-1994
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Shared author and shared premise: tuning as a continuum to be navigated
+      rather than a fixed set of pitches to be selected.
+    established_by: curatorial
+    confidence: high
+
+  - from: midi-mpe-spec
+    to: midi-tuning-standard
+    type: SAME_TECHNICAL_LINEAGE_AS
+    basis: >-
+      Two addenda to the same protocol, addressing per-note expression and
+      microtuning respectively.
+    established_by: curatorial
+    confidence: high
+
+  - from: scala-scl-format
+    to: midi-tuning-standard
+    type: SAME_TECHNICAL_LINEAGE_AS
+    basis: >-
+      Interchange formats for scales that instruments and hosts read alongside
+      MIDI tuning messages.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: cahiers-accordeon-diatonique
+    to: milne-2008-tuning-continua
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Players modifying a diatonic accordion to escape its fixed tuning, and
+      engineers designing layouts invariant under retuning, are addressing the
+      same constraint from opposite ends.
+    established_by: curatorial
+    confidence: low
+
+  # ---- classification, collections and the institutions behind them ----
+  - from: mimo-hornbostel-sachs-2011
+    to: cimcim-resources
+    type: HOSTS_OR_PUBLISHES
+    basis: The MIMO revision is published among CIMCIM's resources.
+    established_by: stated_in_source
+    confidence: high
+
+  - from: mimo-hornbostel-sachs-2011
+    to: mimo
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: The classification revision and the aggregator are outputs of the same consortium.
+    established_by: stated_in_source
+    confidence: high
+
+  - from: knight-hornbostel-sachs-2015
+    to: mimo-hornbostel-sachs-2011
+    type: CONTRASTS_WITH
+    basis: >-
+      Two independent revisions of the 1914 Hornbostel-Sachs scheme; where they
+      diverge is evidence about classification rather than error in either.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: unesco-shashmaqom
+    to: unesco-ich-convention-2003
+    type: PROVIDES_FRAMEWORK_FOR
+    basis: The inscription is made under the 2003 Convention's Representative List.
+    established_by: stated_in_source
+    confidence: high
+
+  - from: unesco-tiren-joik
+    to: unesco-ich-convention-2003
+    type: PROVIDES_FRAMEWORK_FOR
+    basis: >-
+      UNESCO heritage instruments frame both inscriptions, though the Tirén
+      collection is registered under Memory of the World rather than the 2003
+      Convention.
+    established_by: curatorial
+    confidence: low
+
+  - from: met-shofar
+    to: cimcim-resources
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: A single museum's instrument records and the committee that standardises them.
+    established_by: curatorial
+    confidence: moderate
+
+  # ---- venue-level entries ----
+  - from: cahiers-accordeon-diatonique
+    to: cahiers-ethnomusicologie
+    type: PUBLISHED_IN
+    basis: Article hosted in the journal's OpenEdition run.
+    established_by: stated_in_source
+    confidence: high

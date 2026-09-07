@@ -36,6 +36,12 @@ const humanize = (s) => String(s).replace(/_/g, " ");
 const conceptLink = (id, label, cls) =>
   el("a", { href: `#/concept/${id}`, class: cls || null }, label || id);
 
+/* A work rendered as its formatted citation, linking into the bibliography. */
+const sourceLink = (id) => {
+  const w = DATA.works[id];
+  return el("a", { href: `#/source/${id}`, class: "source-link", html: w ? w.citation : id });
+};
+
 /* --------------------------------------------------------------- concepts */
 
 function matchesFilters(c) {
@@ -287,10 +293,7 @@ function renderConcept(id) {
             el(
               "ul",
               { class: "plain" },
-              sense.sources.map((sid) => {
-                const w = DATA.works[sid];
-                return el("li", { html: w ? w.citation : sid });
-              })
+              sense.sources.map((sid) => el("li", {}, sourceLink(sid)))
             )
           )
         : null
@@ -371,12 +374,16 @@ function neighbourhood(c) {
   const outgoing = c.senses
     .flatMap((s) => s.relations || [])
     .filter((r) => r.resolved)
-    .map((r) => ({ id: r.target, label: r.target_label, relation: r.relation, dir: "out" }));
+    .map((r) => ({
+      id: r.target, label: r.target_label, relation: r.relation, dir: "out",
+      href: `#/concept/${r.target}`,
+    }));
   const incoming = c.backlinks.map((b) => ({
     id: b.from,
     label: INDEX.concepts.get(b.from).label,
     relation: b.relation,
     dir: "in",
+    href: `#/concept/${b.from}`,
   }));
 
   const seen = new Set();
@@ -385,10 +392,18 @@ function neighbourhood(c) {
     seen.add(n.id + n.relation);
     return true;
   });
+  return radialDiagram(c.label, nodes, `Concepts linked to ${c.label}`);
+}
+
+/* Radial layout: no physics, just an even spread around the centre. Two rings
+ * keep dense neighbourhoods from colliding. Nodes are {label, relation, dir,
+ * href}; dashed edges point inward. Used for concepts and for works. */
+function radialDiagram(centreLabel, nodes, ariaLabel) {
   if (!nodes.length) return null;
 
-  // Radial layout: no physics, just an even spread around the centre. Two
-  // rings keep dense neighbourhoods from colliding.
+  // Work titles run long; SVG text does not wrap, so trim for the diagram only.
+  const short = (s, n = 52) => (s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s);
+
   const W = 860;
   const H = nodes.length <= 4 ? 230 : Math.max(300, 240 + Math.floor(nodes.length / 6) * 60);
   const cx = W / 2;
@@ -397,7 +412,7 @@ function neighbourhood(c) {
   const svg = document.createElementNS(svgNS, "svg");
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
   svg.setAttribute("role", "img");
-  svg.setAttribute("aria-label", `Concepts linked to ${c.label}`);
+  svg.setAttribute("aria-label", ariaLabel);
 
   const make = (tag, attrs, text) => {
     const n = document.createElementNS(svgNS, tag);
@@ -431,21 +446,22 @@ function neighbourhood(c) {
       }, n.relation)
     );
 
-    const link = make("a", { href: `#/concept/${n.id}` });
+    const link = make("a", { href: n.href });
     link.append(make("circle", { cx: x, cy: y, r: 4, class: "dot" }));
     link.append(
       make("text", {
         x, y: y + (Math.sin(angle) >= 0 ? 17 : -10),
         class: "node-label",
         "text-anchor": x < cx - 20 ? "end" : x > cx + 20 ? "start" : "middle",
-      }, n.label)
+      }, short(n.label))
     );
     svg.append(link);
   });
 
   svg.append(make("circle", { cx, cy, r: 6, class: "dot centre" }));
   svg.append(
-    make("text", { x: cx, y: cy - 14, class: "node-label centre", "text-anchor": "middle" }, c.label)
+    make("text", { x: cx, y: cy - 14, class: "node-label centre", "text-anchor": "middle" },
+      short(centreLabel, 64))
   );
 
   return el("div", { class: "neighbourhood" }, svg);
@@ -488,13 +504,15 @@ function renderClaim(claim) {
               el(
                 "ul",
                 { class: "plain" },
-                claim.evidence.map((ev) => {
-                  const w = DATA.works[ev.source];
-                  return el(
+                claim.evidence.map((ev) =>
+                  el(
                     "li",
-                    { html: (w ? w.citation : ev.source) + (ev.type ? ` <span class="tag">${humanize(ev.type)}</span>` : "") }
-                  );
-                })
+                    {},
+                    sourceLink(ev.source),
+                    ev.type ? el("span", { class: "tag" }, humanize(ev.type)) : null,
+                    ev.note ? el("div", { class: "note" }, ev.note) : null
+                  )
+                )
               )
             ),
           ]
@@ -581,8 +599,154 @@ function renderProse(record, backHref, backLabel) {
   );
 }
 
+/* ----------------------------------------------------------- bibliography */
+
+const sourceFilters = {
+  text: "",
+  kinds: new Set(),
+  providers: new Set(),
+  access: new Set(),
+  languages: new Set(),
+  uncited: false,
+};
+
+function matchesSourceFilters(w) {
+  if (sourceFilters.kinds.size && !sourceFilters.kinds.has(w.kind)) return false;
+  if (sourceFilters.providers.size && !sourceFilters.providers.has(w.provider)) return false;
+  if (sourceFilters.access.size && !sourceFilters.access.has(w.access || "unknown")) return false;
+  if (sourceFilters.languages.size && !sourceFilters.languages.has(w.language)) return false;
+  if (sourceFilters.uncited && (w.cited_by_concepts.length || w.cited_by_claims.length)) {
+    return false;
+  }
+  if (!sourceFilters.text) return true;
+  const q = sourceFilters.text.toLowerCase();
+  return [
+    w.id, w.title, w.venue, w.publisher, w.note,
+    ...(w.authors || []), w.corporate_author || "",
+    ...(w.domains || []),
+  ].join(" ").toLowerCase().includes(q);
+}
+
+/* Tags that say where a document comes from and how far you can get to it. */
+function sourceTags(w) {
+  return el(
+    "div",
+    { class: "tag-row" },
+    w.kind ? el("span", { class: "tag" }, humanize(w.kind)) : null,
+    w.provider ? el("span", { class: "tag" }, humanize(w.provider)) : null,
+    w.language ? el("span", { class: "tag" }, w.language) : null,
+    w.access
+      ? el("span", { class: "tag access " + w.access }, humanize(w.access))
+      : el("span", { class: "tag access unknown" }, "access unknown"),
+    (w.domains || []).map((d) => el("span", { class: "tag domain" }, humanize(d))),
+    (w.metadata_gaps || []).length
+      ? el("span", { class: "tag gap" }, `gaps: ${w.metadata_gaps.join(", ")}`)
+      : null
+  );
+}
+
+function sourceLinks(w) {
+  const links = [];
+  if (w.doi) links.push(["doi.org", `https://doi.org/${w.doi}`]);
+  if (w.arxiv) links.push(["arXiv", `https://arxiv.org/abs/${w.arxiv}`]);
+  if (w.url) links.push([w.doi || w.arxiv ? "publisher" : "link", w.url]);
+  if (w.mirror_url) links.push(["free copy", w.mirror_url]);
+  if (!links.length) return el("span", { class: "unretrievable" }, "no link recorded");
+  return el(
+    "span",
+    { class: "link-row" },
+    links.map(([label, href]) => el("a", { href, rel: "noopener" }, label))
+  );
+}
+
 function renderSources() {
-  const works = Object.entries(DATA.works);
+  const rerender = () => renderSources();
+  const works = Object.values(DATA.works);
+  const matched = works.filter(matchesSourceFilters);
+  const v = DATA.source_vocab;
+
+  const pillSection = (title, values, set, labelFor) =>
+    el(
+      "section",
+      {},
+      el("h2", {}, title),
+      el(
+        "div",
+        { class: "pills" },
+        values.map((value) =>
+          el(
+            "button",
+            {
+              class: "pill" + (set.has(value) ? " on" : ""),
+              onclick: togglePill(set, value, rerender),
+            },
+            labelFor ? labelFor(value) : humanize(value)
+          )
+        )
+      )
+    );
+
+  const sidebar = el(
+    "aside",
+    { class: "panel filters" },
+    el(
+      "section",
+      {},
+      el("h2", {}, "Search"),
+      el("input", {
+        type: "search",
+        placeholder: "Title, author, venue, note…",
+        value: sourceFilters.text,
+        oninput: (ev) => {
+          sourceFilters.text = ev.target.value;
+          const panel = document.getElementById("source-results");
+          if (panel) panel.replaceWith(sourceResults(works.filter(matchesSourceFilters), works));
+        },
+      })
+    ),
+    pillSection("Access", v.access_levels, sourceFilters.access),
+    pillSection("Provider", v.provider_types, sourceFilters.providers),
+    pillSection("Kind", v.kinds, sourceFilters.kinds),
+    pillSection("Language", v.languages, sourceFilters.languages),
+    el(
+      "section",
+      {},
+      el("h2", {}, "Reading queue"),
+      el(
+        "div",
+        { class: "pills" },
+        el(
+          "button",
+          {
+            class: "pill" + (sourceFilters.uncited ? " on" : ""),
+            onclick: (ev) => {
+              ev.preventDefault();
+              sourceFilters.uncited = !sourceFilters.uncited;
+              rerender();
+            },
+          },
+          "not yet cited"
+        )
+      )
+    ),
+    el(
+      "button",
+      {
+        class: "reset",
+        onclick: () => {
+          sourceFilters.text = "";
+          sourceFilters.kinds.clear();
+          sourceFilters.providers.clear();
+          sourceFilters.access.clear();
+          sourceFilters.languages.clear();
+          sourceFilters.uncited = false;
+          rerender();
+        },
+      },
+      "Clear all filters"
+    )
+  );
+
   main.replaceChildren(
     el(
       "section",
@@ -591,24 +755,199 @@ function renderSources() {
       el(
         "p",
         {},
-        "Seed bibliography. Every substantial historical or ethnographic claim should " +
-          "be traceable to one of these; museum and community records are provenance " +
-          "types, not truth statuses."
-      ),
-      el("p", { class: "count" }, `${works.length} works`)
+        "Academic work in French and English, museum and library documentation, " +
+          "intergovernmental and non-governmental records, and the technical " +
+          "specifications that define some of these concepts outright. Open access is " +
+          "recorded rather than assumed, and what is missing from a record is named in " +
+          "it. See ",
+        el("a", { href: "#/doc/references" }, "References and the bibliographic network"),
+        " for how these were verified and how far that goes."
+      )
     ),
+    bridgesPanel(),
+    el("div", { class: "split" }, sidebar, sourceResults(matched, works))
+  );
+}
+
+function sourceResults(matched, works) {
+  return el(
+    "section",
+    { class: "panel", id: "source-results" },
+    el("p", { class: "count" }, `${matched.length} of ${works.length} works`),
+    matched.length
+      ? el(
+          "ul",
+          { class: "entry-list" },
+          matched.map((w) =>
+            el(
+              "li",
+              { class: "entry" },
+              el("div", {}, el("a", {
+                href: `#/source/${w.id}`, class: "entry-title", html: w.citation,
+              })),
+              el("div", { class: "sid mono" }, w.id),
+              w.note ? el("p", {}, w.note) : null,
+              sourceTags(w),
+              el(
+                "div",
+                { class: "source-meta" },
+                sourceLinks(w),
+                w.cited_by_concepts.length || w.cited_by_claims.length
+                  ? el(
+                      "span",
+                      { class: "cited" },
+                      `cited by ${w.cited_by_concepts.length} concept` +
+                        (w.cited_by_concepts.length === 1 ? "" : "s") +
+                        (w.cited_by_claims.length
+                          ? ` and ${w.cited_by_claims.length} claim` +
+                            (w.cited_by_claims.length === 1 ? "" : "s")
+                          : "")
+                    )
+                  : el("span", { class: "cited queue" }, "reading queue")
+              )
+            )
+          )
+        )
+      : el("p", { class: "empty" }, "No work matches these filters.")
+  );
+}
+
+/* Where literatures that rarely cite each other meet. These are the most
+ * speculative edges in the network, and the ones worth arguing with. */
+function bridgesPanel() {
+  const bridges = DATA.network.filter(
+    (e) => e.type === "BRIDGES_FIELD_TO" || e.type === "CHALLENGES_ASSUMPTION_OF"
+  );
+  if (!bridges.length) return null;
+  return el(
+    "section",
+    { class: "panel bridges" },
+    el("h2", {}, "Where fields meet"),
     el(
-      "section",
-      { class: "panel" },
-      works.map(([id, w]) =>
+      "ul",
+      { class: "plain" },
+      bridges.map((e) =>
         el(
-          "div",
-          { class: "source" },
-          el("div", { html: w.citation }),
-          el("div", { class: "sid" }, id),
-          w.note ? el("div", { class: "note" }, w.note) : null
+          "li",
+          { class: "bridge" },
+          el(
+            "div",
+            {},
+            el("a", { href: `#/source/${e.from}` }, e.from_title),
+            el("span", { class: "rel-name", style: "margin:0 .4rem" }, e.type),
+            el("a", { href: `#/source/${e.to}` }, e.to_title)
+          ),
+          el("p", {}, e.basis),
+          el(
+            "div",
+            { class: "tag-row" },
+            el("span", { class: "tag" }, humanize(e.established_by)),
+            el("span", { class: "tag" }, `confidence: ${e.confidence}`)
+          )
         )
       )
+    )
+  );
+}
+
+function renderSource(id) {
+  const w = DATA.works[id];
+  if (!w) return renderMissing(`No source with id “${id}”.`);
+
+  const nodes = w.edges.map((e) => ({
+    label: DATA.works[e.other] ? DATA.works[e.other].title : e.other,
+    relation: e.type,
+    dir: e.direction === "in" ? "in" : "out",
+    href: `#/source/${e.other}`,
+  }));
+
+  const edgeList = w.edges.length
+    ? field(
+        "Bibliographic network",
+        el(
+          "ul",
+          { class: "rels" },
+          w.edges.map((e) =>
+            el(
+              "li",
+              {},
+              el("span", { class: "rel-name" },
+                (e.direction === "in" ? "← " : "→ ") + e.type),
+              el("a", { href: `#/source/${e.other}` },
+                DATA.works[e.other] ? DATA.works[e.other].title : e.other),
+              el("p", { class: "basis" }, e.basis),
+              el(
+                "div",
+                { class: "tag-row" },
+                el("span", { class: "tag" }, humanize(e.established_by)),
+                el("span", { class: "tag" }, `confidence: ${e.confidence}`)
+              )
+            )
+          )
+        )
+      )
+    : null;
+
+  const citedBy =
+    w.cited_by_concepts.length || w.cited_by_claims.length
+      ? field(
+          "Leaned on by",
+          el(
+            "div",
+            {},
+            w.cited_by_concepts.length
+              ? el(
+                  "div",
+                  { class: "tag-row" },
+                  w.cited_by_concepts.map((cid) =>
+                    conceptLink(cid, INDEX.concepts.get(cid).label)
+                  )
+                )
+              : null,
+            w.cited_by_claims.length
+              ? el("div", {}, w.cited_by_claims.map((cid) =>
+                  renderClaim(INDEX.claims.get(cid))))
+              : null
+          )
+        )
+      : el(
+          "div",
+          { class: "field" },
+          el("h3", {}, "Leaned on by"),
+          el("p", { class: "empty" },
+            "Nothing yet — this work is in the reading queue.")
+        );
+
+  main.replaceChildren(
+    el("a", { class: "back", href: "#/sources" }, "← All sources"),
+    el(
+      "article",
+      { class: "panel detail" },
+      el("h2", { class: "concept-name", html: w.citation }),
+      el("div", { class: "id mono" }, w.id),
+      w.note ? el("p", { class: "orientation" }, w.note) : null,
+      sourceTags(w),
+      el("div", { class: "field" }, el("h3", {}, "Retrieve"), sourceLinks(w)),
+      w.licence ? field("Licence", el("p", {}, w.licence)) : null,
+      radialDiagram(w.title, nodes, `Works linked to ${w.title}`),
+      edgeList,
+      citedBy,
+      w.verified
+        ? field(
+            "Metadata checked",
+            el(
+              "div",
+              {},
+              el("p", {}, `${humanize(w.verified.method)}, ${w.verified.date}`),
+              w.verified.note ? el("p", {}, w.verified.note) : null,
+              w.verified.evidence
+                ? el("p", {},
+                    el("a", { href: w.verified.evidence, rel: "noopener" },
+                      w.verified.evidence))
+                : null
+            )
+          )
+        : null
     )
   );
 }
@@ -674,6 +1013,7 @@ const ROUTES = [
   [/^#\/journeys$/, () => renderJourneys()],
   [/^#\/journey\/(.+)$/, (m) => renderProse(INDEX.journeys.get(m[1]), "#/journeys", "All journeys")],
   [/^#\/sources$/, () => renderSources()],
+  [/^#\/source\/(.+)$/, (m) => renderSource(m[1])],
   [/^#\/about$/, () => renderAbout()],
   [/^#\/doc\/(.+)$/, (m) => renderProse(INDEX.docs.get(m[1]), "#/about", "About")],
 ];

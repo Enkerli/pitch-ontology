@@ -1,0 +1,42 @@
+id: pitch_centrality
+labels:
+- text: pitch centrality
+  language: en
+senses:
+- id: pitch_centrality.seed
+  orientation: The degree to which a practice, repertoire, or body of discourse organizes
+    itself around pitch relations rather than around timbre, rhythm, text, gesture,
+    or social arrangement; a property of focus, not a measure of musical complexity.
+  domains:
+  - categorization
+  - knowledge_provenance
+  - pitch_resources
+  roles:
+  - analytic_scoping_concept
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: pitch_salience
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch
+  - relation: SHAPED_BY
+    target: spectrum
+  - relation: SHAPED_BY
+    target: gesture
+  cautions:
+  - Low pitch centrality is not low musical sophistication, and is not evidence that
+    participants discriminate pitch less finely.
+  - Elaborate pitch theory can coexist with performance in which players attend mainly
+    to other dimensions; discourse and practice may differ in what they foreground.
+  - The property is scoped to a described practice, repertoire, or discourse, never
+    to a tradition or a culture as a whole.
+  - 'Analytical instruments raise apparent pitch centrality: extracting fundamental
+    frequency is cheap, so pitch-organized descriptions are over-produced relative
+    to timbral, gestural, or textual ones.'
+  epistemic_status:
+  - analyst_derived
+  - contested
+  sources:
+  - jacoby-2019-pitch-perception-singing
+  - panteli-2018-world-music-corpora
+  - tzanetakis-2007-computational-ethnomusicology

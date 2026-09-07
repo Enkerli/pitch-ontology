@@ -1,0 +1,24 @@
+id: description-tooling-raises-pitch-centrality
+subject: experimentally_inferred_pitch_organization
+relation: SHAPED_BY
+object: pitch_centrality
+aspect: >-
+  Corpus methods and signal-processing tooling make fundamental-frequency description
+  cheap and timbral, gestural, or textual description expensive, so pitch-organized
+  accounts accumulate faster than the practices they describe would warrant.
+limit: >-
+  A claim about the production of descriptions, not about what practitioners hear or
+  value. It does not imply that any particular pitch analysis is mistaken, nor that
+  computational work is less situated than other analysis.
+evidence:
+- source: panteli-2018-world-music-corpora
+  type: methodological_review
+  note: Compares what manual and computational corpus approaches actually measure.
+- source: tzanetakis-2007-computational-ethnomusicology
+  type: programmatic_statement
+  note: States the tool-building programme whose affordances shape later description.
+claim_status: working
+confidence: moderate
+notes: >-
+  Recorded so that the ontology's own bias is visible inside the graph rather than
+  only in prose: this repository is itself a pitch-centred description apparatus.
