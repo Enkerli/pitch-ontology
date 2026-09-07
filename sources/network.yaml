@@ -1,15 +1,15 @@
 # Bibliographic network.
 #
-# These are NOT citation edges. No reference list was machine-read to produce
-# this file: OpenAlex, Crossref and publisher pages were unreachable from the
-# environment where it was assembled, so every edge below is either stated in
-# one of the documents themselves (`stated_in_source`) or a reading proposed by
-# this repository (`curatorial`). The CITES type is reserved for edges checked
-# against an actual reference list; none are asserted yet.
+# Most of this file is NOT a citation graph. An edge is either stated in one of
+# the documents themselves (`stated_in_source`) or a reading proposed by this
+# repository (`curatorial`) — a hypothesis a specialist can reject without
+# touching anything else.
 #
-# The point of typing edges this way is that a curatorial edge is a hypothesis
-# a specialist can reject without touching anything else. See docs/references.md
-# for how to promote an edge to `verified_reference_list`.
+# The exception is the block of `CITES` edges at the end. Those were checked on
+# 2026-09-07 against reference lists retrieved from Crossref, corroborated by
+# OpenAlex `referenced_works`, and each names the entry it was read from. The
+# validator refuses `CITES` on any other basis. See docs/references.md for the
+# method and its limits.
 
 version: "0.2"
 
@@ -49,7 +49,7 @@ edges:
     established_by: curatorial
     confidence: high
 
-  - from: lhomme-2006-experimenter-ethnomusicologie
+  - from: lhomme-2004-experimenter-ethnomusicologie
     to: arom-furniss-1993
     type: EXTENDS_METHOD_OF
     basis: >-
@@ -292,4 +292,144 @@ edges:
     type: PUBLISHED_IN
     basis: Article hosted in the journal's OpenEdition run.
     established_by: stated_in_source
+    confidence: high
+
+  - from: saraga-datasets
+    to: empirical-musicology-review
+    type: PUBLISHED_IN
+    basis: >-
+      The data paper releasing the Saraga corpora appeared in Empirical Musicology
+      Review 16(1): 85–98 (DOI 10.18061/emr.v16i1.7641).
+    established_by: stated_in_source
+    confidence: high
+
+  # ---- verified citation edges ----
+  #
+  # Everything above is curatorial or stated in a source. The edges below are the
+  # only ones in this file that assert an actual citation, and each was checked
+  # against a reference list retrieved on 2026-09-07 from Crossref
+  # (api.crossref.org/works/<doi>, the publisher's deposited reference list) and,
+  # where the entry carried no DOI, corroborated against the OpenAlex
+  # `referenced_works` array for the same document. `reference_key` names the entry
+  # in the citing work's deposited list, so a reader can find it again.
+  #
+  # These sit alongside the curatorial edges rather than replacing them: three of
+  # the pairs below already carry a curatorial edge saying what the relationship
+  # *is*, which is a different question from who acknowledged whom.
+  #
+  # The network is thin because the bibliography is. Only 24 of 56 works resolve to
+  # a DOI, most of the rest are museum records, specifications and web
+  # documentation that no reference list indexes, and an edge is kept only when
+  # both endpoints are already in works.yaml.
+
+  - from: arom-furniss-1993
+    to: kubik-african-tone-systems
+    type: CITES
+    basis: >-
+      Kubik's reassessment is entry CIT0011 in the article's deposited reference
+      list, asserted by the publisher as DOI 10.2307/768436.
+    reference_key: 'CIT0011 (DOI 10.2307/768436)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jacoby-2019-pitch-perception-singing
+    to: furniss-2006-aka-polyphony
+    type: CITES
+    basis: >-
+      Reference bib34 reads "Furniss, 2006, Aka polyphony: Music, theory, back and
+      forth, Analytical Studies in World Music, 163" — the chapter held here.
+      OpenAlex lists the same work in `referenced_works`.
+    reference_key: '10.1016/j.cub.2019.08.020_bib34'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: bozkurt-2014-makam-review
+    to: bozkurt-2009-weighing-models
+    type: CITES
+    basis: >-
+      Entry CIT0024, DOI 10.1080/09298210903147673. The curatorial
+      EXTENDS_METHOD_OF edge between these two is now also an acknowledged citation.
+    reference_key: 'CIT0024 (DOI 10.1080/09298210903147673)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: bozkurt-2014-makam-review
+    to: gedik-bozkurt-2010-pitch-histograms
+    type: CITES
+    basis: Entry CIT0054, DOI 10.1016/j.sigpro.2009.06.017.
+    reference_key: 'CIT0054 (DOI 10.1016/j.sigpro.2009.06.017)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: bozkurt-2014-makam-review
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: CITES
+    basis: >-
+      Entry CIT0118: Tzanetakis G., 2007, Journal of Interdisciplinary Music Studies
+      1, first page 1 — matching the record held here (JIMS 1(2): 1–24). The work has
+      no DOI, so the match is on author, year, venue, volume and first page.
+    reference_key: 'CIT0118'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: gedik-bozkurt-2010-pitch-histograms
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: CITES
+    basis: >-
+      Entry bib3, titled "Computational ethnomusicology", Journal of Interdisciplinary
+      Music Studies 1(2), first page 1.
+    reference_key: '10.1016/j.sigpro.2009.06.017_bib3'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jnmr-2013-computational-ethnomusicology
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: CITES
+    basis: >-
+      The 2013 editorial's reference list holds exactly one entry, CIT0002:
+      Tzanetakis G., 2007, JIMS 1(2), first page 1. The naming paper is the only
+      thing it cites, which is itself the point of the curatorial EXTENDS_METHOD_OF
+      edge above.
+    reference_key: 'CIT0002'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: panteli-2018-world-music-corpora
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: CITES
+    basis: 'Entry CIT0102: Tzanetakis G., 2007, JIMS 1(2), first page 1.'
+    reference_key: 'CIT0102'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: plos-2017-outliers-world-music
+    to: tzanetakis-2007-computational-ethnomusicology
+    type: CITES
+    basis: >-
+      Entry ref6, "Computational Ethnomusicology", G Tzanetakis, 2007, JIMS 1(2),
+      first page 1.
+    reference_key: 'ref6'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: plos-2017-outliers-world-music
+    to: jnmr-2013-computational-ethnomusicology
+    type: CITES
+    basis: >-
+      Entry ref7, DOI 10.1080/09298215.2013.818038, asserted by Crossref. The outlier
+      study cites both the 2007 naming paper and the 2013 editorial that reopened the
+      question.
+    reference_key: 'ref7 (DOI 10.1080/09298215.2013.818038)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: tismir-2023-carnatic-vocal-pitch
+    to: saraga-datasets
+    type: CITES
+    basis: >-
+      Entry B47, "Saraga: Open datasets for research on Indian Art Music", Empirical
+      Musicology Review. OpenAlex lists the same work in `referenced_works`. The
+      curatorial PROVIDES_DATA_FOR edge above is now also an acknowledged citation.
+    reference_key: 'key20230626102645_B47'
+    established_by: verified_reference_list
     confidence: high

@@ -76,7 +76,9 @@ Unresolved relation targets are shown as *queued* rather than hidden, so the gra
 point toward concepts that have not been written yet.
 
 `.github/workflows/pages.yml` validates, builds and publishes the site to GitHub Pages
-on every push to `main`. Enable it once under *Settings → Pages → Source: GitHub Actions*.
+on every push to `main`. The repository's Pages source must be set to *GitHub Actions*
+(*Settings → Pages → Source*); left on *Deploy from a branch*, GitHub serves Jekyll's
+render of this README instead and the site never appears.
 
 ## v0.2 goals
 
@@ -96,7 +98,8 @@ stress-test its assumptions.
 ## v0.2 population status
 
 Current scaffold contains **144 canonical concept records**, **22 claim records** and
-**56 bibliographic records** joined by **33 typed edges**.
+**56 bibliographic records** joined by **45 typed edges**, eleven of which are citations
+checked against the citing work's own reference list.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
 
@@ -119,12 +122,17 @@ missing from it in `metadata_gaps`.
 `sources/network.yaml` draws typed edges between documents — historical precursors,
 methodological extensions, shared corpora, institutional frameworks, and the
 `BRIDGES_FIELD_TO` edges that connect ethnomusicology to work on music technology.
-**These are not citation edges.** Almost all are curatorial readings; the `CITES` type is
-reserved for edges checked against an actual reference list, and the validator refuses it
-otherwise. Metadata for the records added so far was verified against search-result URLs
-rather than Crossref or OpenAlex, which were unreachable from the build environment —
-resolve a DOI before citing any of it in published writing. `docs/references.md` explains
-the method, its limits, and the upgrade path.
+**Most of these are not citation edges.** They are curatorial readings, and they say what
+this repository takes to be connected rather than who acknowledged whom. The `CITES` type
+is reserved for edges read out of the citing work's deposited reference list, and the
+validator refuses it on any other basis: there are eleven, each naming the reference entry
+it came from.
+
+Every record that resolves to a DOI has been checked against Crossref, which filled the
+author, year and pagination gaps the first pass had to leave open and corrected three
+dates.
+What remains uncertain is still declared in `metadata_gaps` rather than guessed.
+`docs/references.md` explains the method and what it does not establish.
 
 Validation reports two queues as warnings rather than errors: works with no retrievable
 identifier, and works no concept or claim leans on yet — the reading list.
