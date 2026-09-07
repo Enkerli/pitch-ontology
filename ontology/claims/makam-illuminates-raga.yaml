@@ -1,0 +1,10 @@
+id: makam-illuminates-raga
+subject: makam
+relation: ILLUMINATES_ASPECT_OF
+object: raga
+aspect: Both can help demonstrate that melodic identity depends on directed behavior
+  through pitch space, not merely on pitch inventory.
+limit: Makam and rāga have distinct theoretical vocabularies, histories, repertoires,
+  tuning practices, and performance grammars.
+claim_status: working
+confidence: moderate

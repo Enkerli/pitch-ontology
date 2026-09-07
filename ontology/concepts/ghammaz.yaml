@@ -1,0 +1,24 @@
+id: ghammaz
+labels:
+- text: ghammāz
+  language: ar
+- text: غمّاز
+  language: ar
+  script: Arabic
+senses:
+- id: ghammaz.seed
+  orientation: A structurally important pitch/function in Arabic maqām theory, often
+    associated with melodic articulation or modulation; usage varies by theoretical
+    source.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - privileged_pitch_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: maqam
+  epistemic_status:
+  - locally_named
+  - historically_documented

@@ -1,0 +1,19 @@
+id: collective_pitch_resource
+labels:
+- text: collective pitch resource
+  language: en
+senses:
+- id: collective_pitch_resource.seed
+  orientation: An analytic bridge for situations where the usable melodic pitch set
+    is materially distributed across multiple performers or instruments.
+  domains:
+  - pitch_resources
+  - material_practice
+  roles:
+  - analytic_bridge
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: ira_arka
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,130 @@
+# Glossary index
+
+Generated from the canonical YAML concept records. **Seed** entries are provisional and should be refined against specialist sources.
+
+| Term | ID | Domains | Orientation |
+|---|---|---|---|
+| **adaptive tuning** | `adaptive_tuning` | tuning_practice, computation | Algorithmic tuning that updates realized pitches in response to musical or acoustical context according to explicit optimization rules. |
+| **amadinda tuning** | `amadinda_tuning` | tuning_practice, material_practice, knowledge_provenance | A canonical ethnomusicological case in which live observation of Ugandan xylophone tuning corrections foregrounds tuning process over a uniquely specifiable physical scale. |
+| **antara** | `antara` | material_practice, pitch_resources | A Quechua-associated name for Andean panpipes; terminology and construction vary regionally. |
+| **avaroha** | `avaroha` | trajectory, modal_organization | Descending organization or characteristic descent described for a rāga in several South Asian pedagogical/theoretical contexts. |
+| **cantillation** | `cantillation` | language_music, trajectory, institutions_history | Rule-governed melodic recitation of sacred text in which pitch organization interacts with syntax, accentuation, ritual function, and oral tradition. |
+| **categorical perception** | `categorical_perception` | auditory_perception, categorization | Perceptual organization in which continuous stimulus variation is partly structured by learned or task-relevant categories. |
+| **cent** | `cent` | representation, relationship | A logarithmic interval unit in which an octave spans 1200 equal cents; powerful for comparison but not a neutral description of musical meaning. |
+| **chironomy** | `chironomy` | representation, material_practice | Use of hand gestures to cue or teach aspects of melodic or liturgical performance; historically attested in several traditions but specific systems should not be genealogically conflated without evidence. |
+| **chroma** | `chroma` | auditory_perception, categorization | A theoretical/perceptual description of cyclic pitch similarity under octave displacement, especially common in Euro-American pitch psychology. |
+| **collective pitch resource** | `collective_pitch_resource` | pitch_resources, material_practice | An analytic bridge for situations where the usable melodic pitch set is materially distributed across multiple performers or instruments. |
+| **contour** | `contour` | trajectory, language_music | Relational shape of pitch movement without requiring exact interval sizes; potentially meaningful across speech, chant, melody, and mnemonic notation. |
+| **dastgāh** | `dastgah` | modal_organization, trajectory | A Persian modal-repertorial organization involving melodic types and movement among modal regions rather than merely an octave pitch collection. |
+| **degree** | `degree` | categorization, relationship | A position within an ordered pitch collection or tonal/modal system; the term bundles several historically specific theoretical practices. |
+| **drone** | `drone` | relationship, material_practice | A sustained or recurrent reference sonority/pitch that can organize interval perception and melodic behavior without functioning as a harmonic root. |
+| **dynamic just intonation** | `dynamic_ji` | tuning_practice, computation | Context-sensitive just intonation in which a nominal pitch identity may be realized differently as harmonic or contrapuntal relations change. |
+| **dynamic tuning** | `dynamic_tuning` | tuning_practice, computation | A tuning process in which realized pitch may change as musical context changes. |
+| **EDO** | `edo` | computation, tuning_practice | A computational/theoretical family dividing the octave into N equal logarithmic steps. |
+| **embat** | `embat` | tuning_practice, material_practice | A Sundanese/Javanese-associated concept used in discussing the characteristic intervallic character or tuning nuance of a particular gamelan/ensemble. |
+| **equal temperament** | `equal_temperament` | tuning_practice, computation | A temperament dividing a chosen period into equal logarithmic steps; different equal divisions are possible. |
+| **experimentally inferred pitch organization** | `experimentally_inferred_pitch_organization` | knowledge_provenance, pitch_resources | A pitch model reconstructed through controlled experiments and participant responses where an abstract scale may not be verbally objectified. |
+| **final** | `final` | relationship, trajectory | A pitch or pitch-function associated with melodic completion in several historical modal theories; not necessarily equivalent to tonic. |
+| **fixed pitch mapping** | `fixed_pitch_mapping` | computation, representation | A computational or instrumental mapping in which symbolic pitch addresses are assigned stable target frequencies independently of immediate musical context. |
+| **forūd** | `forud` | trajectory, modal_organization | Characteristic return/concluding behavior in Persian modal practice, bringing performance back toward an initial or governing modal region. |
+| **frequency** | `frequency` | acoustics | A physical rate of recurrence, conventionally expressed in hertz; an acoustic descriptor rather than a musical pitch category. |
+| **frequency ratio** | `frequency_ratio` | acoustics, relationship, computation | A multiplicative relation between frequencies, especially important in acoustics and just-intonation theories. |
+| **fundamental** | `fundamental` | acoustics, auditory_perception | Lowest frequency of a harmonic series when physically present; perceived pitch can nevertheless correspond to a missing fundamental. |
+| **gamaka** | `gamaka` | trajectory, material_practice | A family of pitch ornaments/gestural treatments in South Asian musics whose identity can involve characteristic trajectories rather than detachable decorative notes. |
+| **gamut** | `gamut` | pitch_resources, institutions_history | The available or recognized range/set of pitches in a practice or theoretical system; historically the term has specific European meanings as well as broader modern use. |
+| **genos** | `genos` | pitch_resources, institutions_history | In ancient Greek music theory, genus: a principle governing the disposition and behavior of internal tones of tetrachords, classically including diatonic, chromatic, and enharmonic genera. |
+| **gesture** | `gesture` | trajectory, material_practice | A temporally extended movement pattern whose identity may integrate pitch, timbre, articulation, dynamics, and bodily action. |
+| **ghammāz** | `ghammaz` | relationship, modal_organization | A structurally important pitch/function in Arabic maqām theory, often associated with melodic articulation or modulation; usage varies by theoretical source. |
+| **güçlü** | `guclu` | relationship, modal_organization | A structurally emphasized pitch/function in Turkish makam theory, often important in melodic articulation and modal organization. |
+| **gōng** | `gong` | categorization, modal_organization | A Chinese scale-degree/modal-function name whose historical and theoretical senses vary; one of the five conventional degree names gōng, shāng, jué, zhǐ, yǔ. |
+| **gūše** | `gushe` | modal_organization, trajectory | A melodic type/piece or repertorial unit within Persian radif/dastgāh organization. |
+| **harmonicity** | `harmonicity` | acoustics, auditory_perception | Degree to which spectral components approximate integer-multiple relations; relevant to pitch strength, fusion, and timbral organization. |
+| **hazzāt** | `hazzat` | representation, trajectory, knowledge_provenance | A Coptic mnemonic notation using marks to cue melodic motion, melismatic extent, transitions, and embellishment without specifying exact pitch, interval, meter, or rhythm. |
+| **Huángzhōng** | `huangzhong` | tuning_practice, institutions_history, material_practice | The 'Yellow Bell/Pipe', a foundational named pitch standard in historical Chinese lǜ theory from which other pitch relations could be generated. |
+| **inharmonicity** | `inharmonicity` | acoustics | Departure of spectral components from an ideal harmonic series; common in bells and many struck or stiff-string sounds. |
+| **interlocking** | `interlocking` | trajectory, material_practice | Distribution of complementary musical events among performers or parts such that the composite pattern is not contained in any one stream. |
+| **interval** | `interval` | relationship | A relation between pitches that may be represented acoustically, logarithmically, categorically, melodically, or functionally. |
+| **intonation** | `intonation` | tuning_practice, trajectory | Realized pitch positioning and trajectory relative to locally meaningful expectations in performance. |
+| **ira/arka** | `ira_arka` | material_practice, pitch_resources, trajectory | Complementary siku rows/performer roles in Andean panpipe practice, distributing pitch material between players who interlock to realize a composite melody. |
+| **jins** | `jins` | pitch_resources, modal_organization | A locally theorized component or pitch region in Arabic maqām practice, often associated with characteristic intervallic and melodic behavior. |
+| **joik** | `joik` | trajectory, language_music, knowledge_provenance | A Sámi vocal practice/form with regionally and personally situated traditions; included here to keep pitch ontology connected to vocal identity, contour, memory, and representation rather than scale alone. |
+| **just intonation** | `just_intonation` | tuning_practice, computation | A family of tuning practices or theories privileging frequency ratios of integers; implementations differ in selected ratios and contextual rules. |
+| **karar** | `karar` | relationship, trajectory | A settling/final function in Turkish makam discourse. |
+| **kharāyet** | `kharayet` | representation, trajectory | A Coptic-associated Arabic term meaning 'maps', used for hazzāt as mnemonic maps of how to move through a chant melody. |
+| **laras** | `laras` | tuning_practice, pitch_resources | A Javanese/Sundanese term with senses including tuning/pitch system and related aesthetic organization; meanings depend on regional theoretical practice. |
+| **lexical tone** | `lexical_tone` | language_music | Linguistic use of pitch distinctions to differentiate lexical or grammatical meaning. |
+| **lichanós** | `lichanos` | categorization, tuning_practice, institutions_history | A movable internal degree of an ancient Greek tetrachord whose placement varies with genus and tuning. |
+| **lǜ** | `lu` | tuning_practice, institutions_history, material_practice | A historically layered Chinese pitch-standard concept associated with calibrated pitch pipes, generated pitch relations, regulation, and broader cosmological/state metrological orders. |
+| **makam** | `makam` | modal_organization, trajectory | A historically situated modal organization in Ottoman/Turkish music involving pitch positions, intervallic resources, hierarchy, and melodic course. |
+| **maqom** | `maqom` | modal_organization, institutions_history | A Central Asian cognate/modal-repertorial concept with historically connected but locally specific meanings, including traditions of Uzbekistan and Tajikistan. |
+| **maqām** | `maqam` | modal_organization, trajectory | A family of historically situated concepts in Arabic musical practices organizing melodic identity through pitch relations, hierarchy, characteristic regions, and melodic behavior. |
+| **melisma** | `melisma` | trajectory, language_music | Extended melodic activity associated with a syllable or vocal unit; segmentation into discrete notes may be analytically useful but need not exhaust its identity. |
+| **microtuning** | `microtuning` | computation, representation | Contemporary technical umbrella term for pitch mappings or controls departing from a host system's default tuning assumptions. |
+| **MIDI note** | `midi_note` | representation, computation | A protocol-level note identifier/event convention; not intrinsically identical to a frequency, pitch category, written note, or pitch class. |
+| **mode** | `mode` | modal_organization | A historically mobile analytical term for forms of pitch organization in which hierarchy, melodic behavior, or finality may matter beyond pitch inventory. |
+| **MOS** | `mos` | computation, pitch_resources | In contemporary tuning theory, a scale structure generated so that adjacent step sizes occur in only two sizes across successive generator chains. |
+| **MPE** | `mpe` | computation, representation | A MIDI performance convention assigning per-note expressive control channels, enabling independent continuous pitch and other dimensions for simultaneously sounding note events. |
+| **MTS** | `mts` | computation, representation | MIDI specifications for communicating alternative tuning assignments independently of ordinary note-number defaults. |
+| **MTS-ESP** | `mts_esp` | computation, representation | A contemporary software ecosystem/protocol for sharing tuning information among compatible applications and plug-ins. |
+| **muqam** | `muqam` | modal_organization, institutions_history | A Uyghur term for large modal-repertorial suites and related musical organization; cognate with maqām yet historically and performatively specific. |
+| **mésē** | `mese` | relationship, institutions_history | A central named pitch/function in ancient Greek systema theory; its role cannot be reduced without context to a modern tonic or pitch-class label. |
+| **māye** | `maye` | relationship, modal_organization | A Persian modal nucleus or modal basis used in descriptions of dastgāh organization; terminology and interpretation vary. |
+| **note** | `note` | categorization, representation | A polysemous category that may denote a written symbol, perceived event, performed event, categorized pitch, keyboard key, or protocol event. |
+| **nusaḥ** | `nusach` | modal_organization, language_music, institutions_history | In Jewish liturgical music, a situated prayer-chant tradition involving characteristic modal/motivic materials tied to text, service, occasion, and regional transmission. |
+| **nyāsa** | `nyasa` | trajectory, relationship | A concept of melodic repose or stopping associated with particular pitches in rāga practice/theory. |
+| **octave equivalence** | `octave_equivalence` | relationship, categorization | Treatment of pitches separated by an approximate 2:1 frequency relation as equivalent in some structural respect. |
+| **overtone** | `overtone` | acoustics | A component above a perceived or physical fundamental; numbering conventions differ from harmonic numbering. |
+| **pakad** | `pakad` | trajectory, modal_organization | A pedagogical term in Hindustani practice for a characteristic phrase or phrase-pattern helping establish rāga identity. |
+| **partial** | `partial` | acoustics | A sinusoidal component of a complex sound; a partial may or may not be an integer multiple of a fundamental. |
+| **participant judgment** | `participant_judgment` | knowledge_provenance | Judgment by knowledgeable participants about acceptable, unacceptable, characteristic, or altered realizations; an evidence type distinct from verbal theory. |
+| **pathet** | `pathet` | modal_organization, trajectory | A Javanese modal-organizational concept involving pitch hierarchy, melodic function, register, cadential behavior, and repertoire beyond tuning alone. |
+| **perde** | `perde` | categorization, modal_organization | A pitch-position/category term in Turkish/Ottoman music theory whose identity is embedded in a larger makam system rather than reducible to a bare frequency. |
+| **periodicity** | `periodicity` | acoustics, auditory_perception | Regular or near-regular temporal recurrence in an acoustic signal, one important cue for pitch perception. |
+| **pitch** | `pitch` | auditory_perception | An auditory attribute through which sounds can be experienced as relatively higher or lower and organized in pitch relations. |
+| **pitch bend** | `pitch_bend` | computation, representation | A MIDI control mechanism for continuous deviation from a nominal note mapping, traditionally channel-wide in MIDI 1.0. |
+| **pitch category** | `pitch_category` | categorization | A recurrently recognized pitch identity or region that may tolerate variation in realized frequency and trajectory. |
+| **pitch centre** | `pitch_centre` | relationship | An analyst's deliberately broad term for a locally privileged pitch region or reference relation without presupposing tonic or root function. |
+| **pitch class** | `pitch_class` | representation, categorization | An equivalence class of pitches under a specified relation, conventionally octave equivalence in dominant twentieth-century set-theoretical and computational usage. |
+| **pitch height** | `pitch_height` | auditory_perception | The higher/lower dimension of pitch perception, analytically distinguishable from cyclical or category-like aspects of pitch. |
+| **pitch salience** | `pitch_salience` | auditory_perception | Strength or clarity with which a sound supports a pitch percept; pitch is not equally well defined for all sounds. |
+| **pitch-class set** | `pitch_class_set` | representation, computation | A set-theoretical collection of pitch classes that deliberately discards ordering, register, duration, and often tuning nuance. |
+| **prosody** | `prosody` | language_music | Suprasegmental organization of speech including intonation, stress, timing, and phrasing; a potential source and constraint for sung pitch trajectories. |
+| **pyknón** | `pyknon` | relationship, institutions_history | In ancient Greek theory, the compressed portion of chromatic/enharmonic tetrachordal organization, involving the closer-spaced intervals. |
+| **pélog** | `pelog` | pitch_resources, tuning_practice, material_practice | A Javanese/Balinese tuning and pitch-resource family whose concrete interval patterns vary among ensembles and regions. |
+| **qarār** | `qarar` | relationship, trajectory | A term associated with settlement, repose, or low/register reference in Arabic modal discourse; specific technical usage is context dependent. |
+| **radif** | `radif` | modal_organization, knowledge_provenance | A canonical/repertorial ordering of melodic material in Persian classical music transmitted through teaching and performance. |
+| **reciting tone** | `reciting_tone` | language_music, relationship | A relatively stable pitch or pitch region used for extended textual recitation in some chant practices. |
+| **reference pitch** | `reference_pitch` | tuning_practice, institutions_history | A pitch or physical standard used to coordinate or generate other pitch relations, without necessarily functioning as tonic, root, or melodic centre. |
+| **root** | `root` | relationship | A relational function assigned to chords or harmonic structures in particular theoretical traditions; not synonymous with bass, tonic, drone, or local melodic centre. |
+| **rāga** | `raga` | modal_organization, trajectory | A family of historically situated South Asian concepts organizing melodic possibility through more than pitch inventory alone. |
+| **samvādī** | `samvadi` | relationship, modal_organization | A relationally important svara discussed alongside vādī in particular rāga-theoretical traditions. |
+| **sayr** | `sayr` | trajectory, modal_organization | Melodic course or path discussed in relation to maqām, emphasizing behavior through pitch space rather than pitch inventory alone. |
+| **Scala .scl** | `scala_format` | computation, representation | A widely used text representation for interval collections/tunings; effective for static mappings but not a complete representation of modal behavior, gesture, provenance, or dynamic relational tuning. |
+| **scale** | `scale` | pitch_resources, representation | An ordered representation of pitch categories, often normalized within an octave; frequently an analytical projection rather than a locally objectified musical entity. |
+| **scale catalogue** | `scale_catalogue` | representation, computation | A representational/database approach that stores pitch collections as decontextualized interval sets. |
+| **seyir** | `seyir` | trajectory, modal_organization | Characteristic melodic course in Turkish makam theory/practice, including tendencies of ascent, descent, emphasis, and traversal. |
+| **Shashmaqom** | `shashmaqom` | modal_organization, knowledge_provenance, institutions_history | The 'six maqoms' classical tradition of Central Asian urban centres, combining vocal and instrumental music, melodic/rhythmic idioms, poetry, and oral master-disciple transmission. |
+| **shtayger** | `shtayger` | modal_organization, institutions_history | An Ashkenazi/Yiddish term used for characteristic prayer-modal patterns or ways of melodic conduct; historically overlapping with discourse around nusaḥ. |
+| **siku** | `siku` | material_practice, pitch_resources | Aymara name for Andean panpipes; in many ensemble traditions complementary rows are distributed between players, making melodic pitch organization materially collective. |
+| **sléndro** | `slendro` | pitch_resources, tuning_practice, material_practice | A Javanese and Balinese tuning/pitch-resource concept whose concrete realizations belong to particular instrument and ensemble practices rather than one universal cents template. |
+| **song and Country relationships** | `songline_pitch_context` | language_music, institutions_history, knowledge_provenance | A placeholder analytical node for Indigenous Australian scholarship where song, language, Country, custodianship, and transmission may be inseparable; it explicitly resists extracting a decontextualized 'Aboriginal scale'. |
+| **spectrum** | `spectrum` | acoustics | Distribution of acoustic energy over frequency; spectral structure can affect pitch salience, timbre, fusion, and consonance. |
+| **staff notation** | `staff_notation` | representation, institutions_history | A historically developed notational technology optimized for particular kinds of discrete pitch/rhythm representation and subsequently adapted far beyond its originating practices. |
+| **sung contour** | `sung_contour` | language_music, trajectory | The trajectory of pitch in sung language, potentially shaped by lexical tone, prosody, melodic convention, and performance context. |
+| **svara** | `svara` | categorization, relationship, modal_organization | A historically layered South Asian concept of musically meaningful pitch identity whose senses depend on theoretical and performance context. |
+| **temperament** | `temperament` | tuning_practice, computation | A deliberate mapping or adjustment of intervals, often involving controlled deviations from selected pure ratios to satisfy broader constraints. |
+| **tetrachord** | `tetrachord` | pitch_resources, institutions_history | In ancient Greek theory, a four-note span bounded by a fourth whose internal organization depends on genus and theoretical school; the modern generic use is broader. |
+| **teʿamim** | `teamim` | language_music, representation, institutions_history | Hebrew cantillation/accent signs whose functions combine textual accentuation, syntax, and melodic realization; melodies vary among textual and communal traditions. |
+| **tonic** | `tonic` | relationship, modal_organization | A privileged pitch/function in particular tonal and modal theories, especially those shaped by European harmonic theory. |
+| **tuning** | `tuning` | tuning_practice | A broad family of concepts covering pitch configuration, tuning procedure, and prescriptive tuning norm. |
+| **tuning norm** | `tuning_norm` | tuning_practice, institutions_history | A prescribed, taught, or institutionally stabilized expectation for pitch relationships. |
+| **tuning procedure** | `tuning_procedure` | tuning_practice, material_practice | A process through which performers or makers establish and correct pitch relations, potentially more informative than a fixed numerical scale. |
+| **tónos** | `tonos_greek` | institutions_history, relationship | A historically variable ancient Greek theoretical term, including senses connected with interval and transpositional/key-like organization depending on author and period. |
+| **virtual pitch** | `virtual_pitch` | auditory_perception | A pitch percept inferred from relations among components even when energy is absent at the corresponding fundamental frequency. |
+| **vādī** | `vadi` | relationship, modal_organization | A privileged svara in particular rāga-theoretical traditions; often glossed as dominant but not equivalent to a European harmonic dominant. |
+| **wǔshēng** | `wusheng` | pitch_resources, institutions_history | The 'five sounds/tones', a historical Chinese theoretical grouping associated with gōng, shāng, jué, zhǐ, and yǔ. |
+| **xenharmonic** | `xenharmonic` | computation, institutions_history | Modern umbrella term for musical exploration beyond familiar dominant tuning and harmonic assumptions, especially in experimental and computational practice. |
+| **çeşni** | `cesni` | pitch_resources, modal_organization | A melodic/intervallic flavor or modal fragment concept used in Turkish makam analysis and pedagogy. |
+| **āroha** | `aroha` | trajectory, modal_organization | Ascending organization or characteristic ascent described for a rāga in several South Asian pedagogical/theoretical contexts. |
+| **ēchos** | `echos` | modal_organization, trajectory, institutions_history | A Byzantine modal/chant category whose practical identity involves melodic formulae, register, cadential behavior, and historical theoretical layers. |
+| **śruti** | `sruti` | relationship, institutions_history | A historically layered concept in South Asian music theory concerning pitch distinction and intervallic organization; its senses vary across texts and later interpretations. |

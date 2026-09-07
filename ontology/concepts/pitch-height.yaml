@@ -1,0 +1,18 @@
+id: pitch_height
+labels:
+- text: pitch height
+  language: en
+senses:
+- id: pitch_height.seed
+  orientation: The higher/lower dimension of pitch perception, analytically distinguishable
+    from cyclical or category-like aspects of pitch.
+  domains:
+  - auditory_perception
+  roles:
+  - perceptual_dimension
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: pitch
+  epistemic_status:
+  - analyst_derived

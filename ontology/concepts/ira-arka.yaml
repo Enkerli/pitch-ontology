@@ -1,0 +1,29 @@
+id: ira_arka
+labels:
+- text: ira/arka
+  language: ay
+senses:
+- id: ira_arka.seed
+  orientation: Complementary siku rows/performer roles in Andean panpipe practice,
+    distributing pitch material between players who interlock to realize a composite
+    melody.
+  domains:
+  - material_practice
+  - pitch_resources
+  - trajectory
+  roles:
+  - distributed_pitch_organization
+  review_status: seed
+  cautions:
+  - Spellings and role descriptions vary by region/source; preserve local scope in
+    later senses.
+  relations:
+  - relation: AFFORDS
+    target: interlocking
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_resource
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  sources:
+  - smithsonian-conima

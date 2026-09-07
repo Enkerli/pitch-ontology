@@ -1,0 +1,22 @@
+id: vadi
+labels:
+- text: vādī
+  language: sa
+senses:
+- id: vadi.seed
+  orientation: A privileged svara in particular rāga-theoretical traditions; often
+    glossed as dominant but not equivalent to a European harmonic dominant.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - privileged_pitch_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: raga
+  - relation: POORLY_TRANSLATED_AS
+    target: dominant
+  epistemic_status:
+  - locally_named
+  - historically_documented

@@ -1,0 +1,13 @@
+id: cent-abstracts-tuning-practice
+subject: cent
+relation: ABSTRACTS_FROM
+object: tuning_practice
+aspect: Cents make heterogeneous interval sizes numerically commensurable on a logarithmic
+  axis.
+limit: Numerical commensurability does not imply equivalence of musical function,
+  category, tuning procedure, or cultural meaning.
+evidence:
+- source: ellis-1885
+  type: historical_comparative_musicology
+claim_status: historical
+confidence: high

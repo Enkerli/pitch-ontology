@@ -1,0 +1,20 @@
+id: lexical_tone
+labels:
+- text: lexical tone
+  language: en
+senses:
+- id: lexical_tone.seed
+  orientation: Linguistic use of pitch distinctions to differentiate lexical or grammatical
+    meaning.
+  domains:
+  - language_music
+  roles:
+  - linguistic_pitch_category
+  review_status: seed
+  relations:
+  - relation: CONSTRAINS
+    target: sung_contour
+  - relation: CONTRASTS_WITH
+    target: note
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,19 @@
+id: degree
+labels:
+- text: degree
+  language: en
+senses:
+- id: degree.seed
+  orientation: A position within an ordered pitch collection or tonal/modal system;
+    the term bundles several historically specific theoretical practices.
+  domains:
+  - categorization
+  - relationship
+  roles:
+  - analytic_category
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: scale
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,25 @@
+id: amadinda_tuning
+labels:
+- text: amadinda tuning
+  language: en
+senses:
+- id: amadinda_tuning.seed
+  orientation: A canonical ethnomusicological case in which live observation of Ugandan
+    xylophone tuning corrections foregrounds tuning process over a uniquely specifiable
+    physical scale.
+  domains:
+  - tuning_practice
+  - material_practice
+  - knowledge_provenance
+  roles:
+  - documented_tuning_process
+  review_status: seed
+  relations:
+  - relation: DEMONSTRATED_BY
+    target: tuning_procedure
+  epistemic_status:
+  - demonstrated_in_practice
+  - acoustically_measured
+  - participant_judgment
+  sources:
+  - kubik-african-tone-systems

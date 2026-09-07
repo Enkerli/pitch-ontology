@@ -1,0 +1,24 @@
+id: mese
+labels:
+- text: mésē
+  language: grc
+- text: μέση
+  language: grc
+  script: Greek
+senses:
+- id: mese.seed
+  orientation: A central named pitch/function in ancient Greek systema theory; its
+    role cannot be reduced without context to a modern tonic or pitch-class label.
+  domains:
+  - relationship
+  - institutions_history
+  roles:
+  - historical_pitch_function
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

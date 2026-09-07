@@ -1,0 +1,21 @@
+id: xenharmonic
+labels:
+- text: xenharmonic
+  language: en
+senses:
+- id: xenharmonic.seed
+  orientation: Modern umbrella term for musical exploration beyond familiar dominant
+    tuning and harmonic assumptions, especially in experimental and computational
+    practice.
+  domains:
+  - computation
+  - institutions_history
+  roles:
+  - modern_movement_term
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: microtuning
+  epistemic_status:
+  - historically_documented
+  - computational_abstraction

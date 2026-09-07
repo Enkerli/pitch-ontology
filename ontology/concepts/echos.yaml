@@ -1,0 +1,27 @@
+id: echos
+labels:
+- text: ēchos
+  language: grc
+- text: ἦχος
+  language: grc
+  script: Greek
+senses:
+- id: echos.seed
+  orientation: A Byzantine modal/chant category whose practical identity involves
+    melodic formulae, register, cadential behavior, and historical theoretical layers.
+  domains:
+  - modal_organization
+  - trajectory
+  - institutions_history
+  roles:
+  - liturgical_modal_concept
+  review_status: seed
+  cautions:
+  - Avoid treating ēchos as merely a scale.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: mode
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice

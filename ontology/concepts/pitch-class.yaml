@@ -1,0 +1,25 @@
+id: pitch_class
+labels:
+- text: pitch class
+  language: en
+senses:
+- id: pitch_class.seed
+  orientation: An equivalence class of pitches under a specified relation, conventionally
+    octave equivalence in dominant twentieth-century set-theoretical and computational
+    usage.
+  domains:
+  - representation
+  - categorization
+  roles:
+  - formal_abstraction
+  review_status: seed
+  cautions:
+  - Pitch class is an analytical construct, not an acoustic primitive.
+  relations:
+  - relation: SHAPED_BY
+    target: octave_equivalence
+  - relation: CONTRASTS_WITH
+    target: pitch
+  epistemic_status:
+  - analyst_derived
+  - computational_abstraction

@@ -1,0 +1,15 @@
+id: svara
+labels:
+  - {text: svara, language: sa}
+  - {text: स्वर, language: sa, script: Devanagari}
+senses:
+  - id: svara.south-asian
+    orientation: "A historically layered South Asian concept of musically meaningful pitch identity whose senses depend on theoretical and performance context."
+    domains: [categorization, relationship, modal_organization]
+    roles: [pitch_category, relational_identity]
+    cautions:
+      - "Neither 'note' nor 'scale degree' is an exhaustive translation."
+    relations:
+      - {relation: PARTIALLY_OVERLAPS, target: pitch_category}
+      - {relation: OFTEN_TRANSLATED_AS, target: note}
+    epistemic_status: [locally_named, historically_documented]

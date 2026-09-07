@@ -1,0 +1,25 @@
+id: pitch_class_set
+labels:
+- text: pitch-class set
+  language: en
+senses:
+- id: pitch_class_set.seed
+  orientation: A set-theoretical collection of pitch classes that deliberately discards
+    ordering, register, duration, and often tuning nuance.
+  domains:
+  - representation
+  - computation
+  roles:
+  - formal_abstraction
+  review_status: seed
+  cautions:
+  - Powerful when the discarded information is irrelevant to the question; misleading
+    when it is constitutive.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  - relation: PARTICIPATES_IN
+    target: pitch_class
+  epistemic_status:
+  - analyst_derived
+  - computational_abstraction

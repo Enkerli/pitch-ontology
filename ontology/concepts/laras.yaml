@@ -1,0 +1,23 @@
+id: laras
+labels:
+- text: laras
+  language: jv
+senses:
+- id: laras.seed
+  orientation: A Javanese/Sundanese term with senses including tuning/pitch system
+    and related aesthetic organization; meanings depend on regional theoretical practice.
+  domains:
+  - tuning_practice
+  - pitch_resources
+  roles:
+  - local_tuning_concept
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: slendro
+  - relation: PARTICIPATES_IN
+    target: pelog
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice

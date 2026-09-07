@@ -1,0 +1,31 @@
+id: teamim
+labels:
+- text: teʿamim
+  language: he
+- text: טעמים
+  language: he
+  script: Hebrew
+senses:
+- id: teamim.seed
+  orientation: Hebrew cantillation/accent signs whose functions combine textual accentuation,
+    syntax, and melodic realization; melodies vary among textual and communal traditions.
+  domains:
+  - language_music
+  - representation
+  - institutions_history
+  roles:
+  - text_music_sign_system
+  review_status: seed
+  cautions:
+  - A taʿam is not simply a written musical note.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: cantillation
+  - relation: CONTRASTS_WITH
+    target: note
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - jts-nusach-cantillation

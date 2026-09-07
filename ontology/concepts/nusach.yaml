@@ -1,0 +1,32 @@
+id: nusach
+labels:
+- text: nusaḥ
+  language: he
+- text: נוסח
+  language: he
+  script: Hebrew
+senses:
+- id: nusach.seed
+  orientation: In Jewish liturgical music, a situated prayer-chant tradition involving
+    characteristic modal/motivic materials tied to text, service, occasion, and regional
+    transmission.
+  domains:
+  - modal_organization
+  - language_music
+  - institutions_history
+  roles:
+  - liturgical_melodic_grammar
+  review_status: seed
+  cautions:
+  - Do not reduce nusaḥ to a scale.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: mode
+  - relation: SHAPED_BY
+    target: liturgical_context
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - jts-nusach-cantillation

@@ -1,0 +1,23 @@
+id: sayr
+labels:
+- text: sayr
+  language: ar
+- text: سير
+  language: ar
+  script: Arabic
+senses:
+- id: sayr.seed
+  orientation: Melodic course or path discussed in relation to maqām, emphasizing
+    behavior through pitch space rather than pitch inventory alone.
+  domains:
+  - trajectory
+  - modal_organization
+  roles:
+  - melodic_course
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: maqam
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice

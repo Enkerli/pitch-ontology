@@ -1,0 +1,21 @@
+id: karar
+labels:
+- text: karar
+  language: tr
+senses:
+- id: karar.seed
+  orientation: A settling/final function in Turkish makam discourse.
+  domains:
+  - relationship
+  - trajectory
+  roles:
+  - repose_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: makam
+  - relation: ILLUMINATES_ASPECT_OF
+    target: final
+  epistemic_status:
+  - locally_named
+  - historically_documented

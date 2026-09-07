@@ -1,0 +1,15 @@
+id: spectrum
+labels:
+- text: spectrum
+  language: en
+senses:
+- id: spectrum.seed
+  orientation: Distribution of acoustic energy over frequency; spectral structure
+    can affect pitch salience, timbre, fusion, and consonance.
+  domains:
+  - acoustics
+  roles:
+  - acoustic_representation
+  review_status: seed
+  epistemic_status:
+  - analyst_derived

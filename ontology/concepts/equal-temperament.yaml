@@ -1,0 +1,20 @@
+id: equal_temperament
+labels:
+- text: equal temperament
+  language: en
+senses:
+- id: equal_temperament.seed
+  orientation: A temperament dividing a chosen period into equal logarithmic steps;
+    different equal divisions are possible.
+  domains:
+  - tuning_practice
+  - computation
+  roles:
+  - synthetic_system
+  review_status: seed
+  relations:
+  - relation: IS_A
+    target: temperament
+  epistemic_status:
+  - historically_documented
+  - computational_abstraction

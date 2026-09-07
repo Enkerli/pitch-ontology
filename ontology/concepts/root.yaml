@@ -1,0 +1,24 @@
+id: root
+labels:
+- text: root
+  language: en
+senses:
+- id: root.seed
+  orientation: A relational function assigned to chords or harmonic structures in
+    particular theoretical traditions; not synonymous with bass, tonic, drone, or
+    local melodic centre.
+  domains:
+  - relationship
+  roles:
+  - harmonic_function
+  review_status: seed
+  cautions:
+  - Reserve root for contexts where root-theoretic analysis is warranted.
+  relations:
+  - relation: OFTEN_CONFUSED_WITH
+    target: tonic
+  - relation: OFTEN_CONFUSED_WITH
+    target: bass
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

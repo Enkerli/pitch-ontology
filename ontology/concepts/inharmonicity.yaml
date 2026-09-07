@@ -1,0 +1,18 @@
+id: inharmonicity
+labels:
+- text: inharmonicity
+  language: en
+senses:
+- id: inharmonicity.seed
+  orientation: Departure of spectral components from an ideal harmonic series; common
+    in bells and many struck or stiff-string sounds.
+  domains:
+  - acoustics
+  roles:
+  - acoustic_relation
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: harmonicity
+  epistemic_status:
+  - analyst_derived

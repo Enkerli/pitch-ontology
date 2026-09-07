@@ -1,0 +1,19 @@
+id: reference_pitch
+labels:
+- text: reference pitch
+  language: en
+senses:
+- id: reference_pitch.seed
+  orientation: A pitch or physical standard used to coordinate or generate other pitch
+    relations, without necessarily functioning as tonic, root, or melodic centre.
+  domains:
+  - tuning_practice
+  - institutions_history
+  roles:
+  - analytic_bridge
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: huangzhong
+  epistemic_status:
+  - analyst_derived

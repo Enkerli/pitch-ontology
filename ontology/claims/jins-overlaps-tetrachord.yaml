@@ -1,0 +1,10 @@
+id: jins-overlaps-tetrachord
+subject: jins
+relation: PARTIALLY_OVERLAPS
+object: tetrachord
+aspect: Both can function as substructures for organizing pitch relations within larger
+  modal systems.
+limit: Ancient Greek tetrachord theory and Arabic jins theory differ historically,
+  terminologically, and structurally; the analogy should not become an equivalence.
+claim_status: working
+confidence: moderate

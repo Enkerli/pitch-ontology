@@ -1,0 +1,13 @@
+id: adaptive-tuning-shaped-by-spectrum
+subject: adaptive_tuning
+relation: SHAPED_BY
+object: spectrum
+aspect: Some adaptive tuning systems optimize pitch relationships relative to the
+  spectral properties of the sounding timbres, not only nominal note identities.
+limit: This is a property of specific adaptive-tuning approaches, not a definition
+  of all dynamic tuning.
+evidence:
+- source: sethares-1994
+  type: acoustics_computation
+claim_status: supported
+confidence: high

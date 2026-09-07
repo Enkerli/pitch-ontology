@@ -1,0 +1,22 @@
+id: pitch_centre
+labels:
+- text: pitch centre
+  language: en
+senses:
+- id: pitch_centre.seed
+  orientation: An analyst's deliberately broad term for a locally privileged pitch
+    region or reference relation without presupposing tonic or root function.
+  domains:
+  - relationship
+  roles:
+  - analytic_bridge
+  review_status: seed
+  cautions:
+  - Prefer a locally specific term where one is attested.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: tonic
+  - relation: PARTIALLY_OVERLAPS
+    target: final
+  epistemic_status:
+  - analyst_derived

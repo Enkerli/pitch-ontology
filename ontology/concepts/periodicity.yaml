@@ -1,0 +1,19 @@
+id: periodicity
+labels:
+- text: periodicity
+  language: en
+senses:
+- id: periodicity.seed
+  orientation: Regular or near-regular temporal recurrence in an acoustic signal,
+    one important cue for pitch perception.
+  domains:
+  - acoustics
+  - auditory_perception
+  roles:
+  - acoustic_property
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: spectrum
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,25 @@
+id: shashmaqom
+labels:
+- text: Shashmaqom
+  language: uz
+senses:
+- id: shashmaqom.seed
+  orientation: The 'six maqoms' classical tradition of Central Asian urban centres,
+    combining vocal and instrumental music, melodic/rhythmic idioms, poetry, and oral
+    master-disciple transmission.
+  domains:
+  - modal_organization
+  - knowledge_provenance
+  - institutions_history
+  roles:
+  - repertorial_system
+  review_status: seed
+  relations:
+  - relation: ORGANIZES
+    target: maqom
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - unesco-shashmaqom

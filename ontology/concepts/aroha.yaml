@@ -1,0 +1,23 @@
+id: aroha
+labels:
+- text: āroha
+  language: sa
+- text: आरोह
+  language: sa
+  script: Devanagari
+senses:
+- id: aroha.seed
+  orientation: Ascending organization or characteristic ascent described for a rāga
+    in several South Asian pedagogical/theoretical contexts.
+  domains:
+  - trajectory
+  - modal_organization
+  roles:
+  - directional_description
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: raga
+  epistemic_status:
+  - locally_named
+  - historically_documented

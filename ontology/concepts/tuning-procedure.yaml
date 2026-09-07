@@ -1,0 +1,24 @@
+id: tuning_procedure
+labels:
+- text: tuning procedure
+  language: en
+senses:
+- id: tuning_procedure.seed
+  orientation: A process through which performers or makers establish and correct
+    pitch relations, potentially more informative than a fixed numerical scale.
+  domains:
+  - tuning_practice
+  - material_practice
+  roles:
+  - performed_process
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: fixed_pitch_mapping
+  - relation: ILLUMINATES_ASPECT_OF
+    target: amadinda_tuning
+  epistemic_status:
+  - analyst_derived
+  - demonstrated_in_practice
+  sources:
+  - kubik-african-tone-systems

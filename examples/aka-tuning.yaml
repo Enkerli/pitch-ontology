@@ -1,0 +1,10 @@
+example:
+  id: aka-scale-elicitation
+  purpose: "Show that an analyst's scale model need not be a locally verbalized abstraction."
+  claims:
+    - subject: aka_pitch_organization
+      relation: INFERRED_FROM
+      object: participant_judgment
+      epistemic:
+        methods: [synthetic_resynthesis, musician_judgment]
+      sources: [arom-furniss-1993]

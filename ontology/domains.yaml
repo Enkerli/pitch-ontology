@@ -1,0 +1,16 @@
+version: "0.2"
+domains:
+  - acoustics
+  - auditory_perception
+  - categorization
+  - relationship
+  - trajectory
+  - pitch_resources
+  - modal_organization
+  - tuning_practice
+  - language_music
+  - material_practice
+  - representation
+  - computation
+  - institutions_history
+  - knowledge_provenance

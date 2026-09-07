@@ -1,0 +1,14 @@
+id: hazzat
+labels:
+  - {text: hazzāt, language: ar}
+  - {text: هزات, language: ar, script: Arabic}
+senses:
+  - id: hazzat.coptic
+    orientation: "A Coptic mnemonic notation using marks to cue melodic motion, melismatic extent, transitions, and embellishment without specifying exact pitch, interval, meter, or rhythm."
+    domains: [representation, trajectory, knowledge_provenance]
+    roles: [mnemonic_notation]
+    relations:
+      - {relation: REPRESENTS, target: melodic_motion}
+      - {relation: ILLUMINATES_ASPECT_OF, target: notation}
+    epistemic_status: [locally_named, demonstrated_in_practice, historically_documented]
+    sources: [loc-coptic-hazzat]

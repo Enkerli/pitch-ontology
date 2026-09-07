@@ -1,0 +1,22 @@
+id: interval
+labels:
+- text: interval
+  language: en
+senses:
+- id: interval.seed
+  orientation: A relation between pitches that may be represented acoustically, logarithmically,
+    categorically, melodically, or functionally.
+  domains:
+  - relationship
+  roles:
+  - relational_concept
+  review_status: seed
+  cautions:
+  - A measured distance is not identical to a culturally categorized interval.
+  relations:
+  - relation: MEASURED_BY
+    target: cent
+  - relation: MEASURED_BY
+    target: frequency_ratio
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,22 @@
+id: reciting_tone
+labels:
+- text: reciting tone
+  language: en
+senses:
+- id: reciting_tone.seed
+  orientation: A relatively stable pitch or pitch region used for extended textual
+    recitation in some chant practices.
+  domains:
+  - language_music
+  - relationship
+  roles:
+  - textual_pitch_function
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  - relation: CONTRASTS_WITH
+    target: root
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

@@ -1,0 +1,19 @@
+id: categorical_perception
+labels:
+- text: categorical perception
+  language: en
+senses:
+- id: categorical_perception.seed
+  orientation: Perceptual organization in which continuous stimulus variation is partly
+    structured by learned or task-relevant categories.
+  domains:
+  - auditory_perception
+  - categorization
+  roles:
+  - perceptual_process
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: pitch_category
+  epistemic_status:
+  - analyst_derived

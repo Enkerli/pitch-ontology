@@ -1,0 +1,26 @@
+id: radif
+labels:
+- text: radif
+  language: fa
+- text: ردیف
+  language: fa
+  script: Arabic
+senses:
+- id: radif.seed
+  orientation: A canonical/repertorial ordering of melodic material in Persian classical
+    music transmitted through teaching and performance.
+  domains:
+  - modal_organization
+  - knowledge_provenance
+  roles:
+  - repertorial_framework
+  review_status: seed
+  relations:
+  - relation: ORGANIZES
+    target: gushe
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - during-dastgah

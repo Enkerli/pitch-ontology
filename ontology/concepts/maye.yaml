@@ -1,0 +1,27 @@
+id: maye
+labels:
+- text: māye
+  language: fa
+- text: مایه
+  language: fa
+  script: Arabic
+senses:
+- id: maye.seed
+  orientation: A Persian modal nucleus or modal basis used in descriptions of dastgāh
+    organization; terminology and interpretation vary.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - modal_nucleus
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: dastgah
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  sources:
+  - during-dastgah

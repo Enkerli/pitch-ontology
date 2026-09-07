@@ -1,0 +1,13 @@
+id: amadinda-illuminates-tuning
+subject: amadinda_tuning
+relation: ILLUMINATES_ASPECT_OF
+object: tuning_procedure
+aspect: Observed corrections during tuning can reveal a culturally meaningful pitch
+  organization more directly than a single frozen measurement.
+limit: This does not make static measurements useless; it changes what counts as sufficient
+  evidence for the tuning system.
+evidence:
+- source: kubik-african-tone-systems
+  type: ethnomusicological_analysis
+claim_status: supported
+confidence: high

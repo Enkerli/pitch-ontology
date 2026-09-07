@@ -1,0 +1,24 @@
+id: tonic
+labels:
+- text: tonic
+  language: en
+senses:
+- id: tonic.seed
+  orientation: A privileged pitch/function in particular tonal and modal theories,
+    especially those shaped by European harmonic theory.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - centric_function
+  review_status: seed
+  cautions:
+  - Do not use tonic as a generic name for every kind of pitch centre.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: final
+  - relation: OFTEN_CONFUSED_WITH
+    target: root
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

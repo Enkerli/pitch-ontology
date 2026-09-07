@@ -1,0 +1,22 @@
+id: temperament
+labels:
+- text: temperament
+  language: en
+senses:
+- id: temperament.seed
+  orientation: A deliberate mapping or adjustment of intervals, often involving controlled
+    deviations from selected pure ratios to satisfy broader constraints.
+  domains:
+  - tuning_practice
+  - computation
+  roles:
+  - synthetic_or_hybrid_system
+  review_status: seed
+  cautions:
+  - Temperament is not a generic synonym for any tuning system.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: tuning
+  epistemic_status:
+  - historically_documented
+  - computational_abstraction

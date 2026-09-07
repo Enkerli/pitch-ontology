@@ -1,0 +1,26 @@
+id: songline_pitch_context
+labels:
+- text: song and Country relationships
+  language: en
+senses:
+- id: songline_pitch_context.seed
+  orientation: A placeholder analytical node for Indigenous Australian scholarship
+    where song, language, Country, custodianship, and transmission may be inseparable;
+    it explicitly resists extracting a decontextualized 'Aboriginal scale'.
+  domains:
+  - language_music
+  - institutions_history
+  - knowledge_provenance
+  roles:
+  - context_guardrail
+  review_status: seed
+  cautions:
+  - Not an Indigenous lexical category; replace with locally authorized terms for
+    specific communities and song traditions.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: scale_catalogue
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - cambridge-singing-country

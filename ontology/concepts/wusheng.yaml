@@ -1,0 +1,23 @@
+id: wusheng
+labels:
+- text: wǔshēng
+  language: zh
+- text: 五聲
+  language: zh
+  script: Han
+senses:
+- id: wusheng.seed
+  orientation: The 'five sounds/tones', a historical Chinese theoretical grouping
+    associated with gōng, shāng, jué, zhǐ, and yǔ.
+  domains:
+  - pitch_resources
+  - institutions_history
+  roles:
+  - historical_pitch_resource
+  review_status: seed
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: pitch_practice
+  epistemic_status:
+  - locally_named
+  - historically_documented

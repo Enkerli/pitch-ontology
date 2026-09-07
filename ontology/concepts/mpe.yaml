@@ -1,0 +1,25 @@
+id: mpe
+labels:
+- text: MPE
+  language: en
+- text: MIDI Polyphonic Expression
+  language: en
+senses:
+- id: mpe.seed
+  orientation: A MIDI performance convention assigning per-note expressive control
+    channels, enabling independent continuous pitch and other dimensions for simultaneously
+    sounding note events.
+  domains:
+  - computation
+  - representation
+  roles:
+  - protocol_extension
+  review_status: seed
+  relations:
+  - relation: AFFORDS
+    target: per_note_pitch_control
+  - relation: PARTICIPATES_IN
+    target: midi_note
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction

@@ -1,0 +1,21 @@
+id: melisma
+labels:
+- text: melisma
+  language: en
+senses:
+- id: melisma.seed
+  orientation: Extended melodic activity associated with a syllable or vocal unit;
+    segmentation into discrete notes may be analytically useful but need not exhaust
+    its identity.
+  domains:
+  - trajectory
+  - language_music
+  roles:
+  - vocal_process
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: cantillation
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

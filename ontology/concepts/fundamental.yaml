@@ -1,0 +1,21 @@
+id: fundamental
+labels:
+- text: fundamental
+  language: en
+senses:
+- id: fundamental.seed
+  orientation: Lowest frequency of a harmonic series when physically present; perceived
+    pitch can nevertheless correspond to a missing fundamental.
+  domains:
+  - acoustics
+  - auditory_perception
+  roles:
+  - acoustic_component
+  review_status: seed
+  cautions:
+  - Do not equate the fundamental component with perceived pitch.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: harmonic_series
+  epistemic_status:
+  - analyst_derived

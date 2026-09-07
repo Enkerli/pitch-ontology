@@ -1,0 +1,14 @@
+version: "0.2"
+statuses:
+  - locally_named
+  - locally_verbalized
+  - demonstrated_in_practice
+  - participant_judgment
+  - experimentally_inferred
+  - analyst_derived
+  - historically_documented
+  - reconstructed
+  - acoustically_measured
+  - institutionally_standardized
+  - computational_abstraction
+  - contested

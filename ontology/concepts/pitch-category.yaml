@@ -1,0 +1,21 @@
+id: pitch_category
+labels:
+- text: pitch category
+  language: en
+senses:
+- id: pitch_category.seed
+  orientation: A recurrently recognized pitch identity or region that may tolerate
+    variation in realized frequency and trajectory.
+  domains:
+  - categorization
+  roles:
+  - analytic_bridge
+  review_status: seed
+  cautions:
+  - This is an analyst-friendly bridge category, not a claim that all traditions conceptualize
+    discrete pitch categories identically.
+  relations:
+  - relation: REALIZES
+    target: pitch
+  epistemic_status:
+  - analyst_derived

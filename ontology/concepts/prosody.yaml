@@ -1,0 +1,20 @@
+id: prosody
+labels:
+- text: prosody
+  language: en
+senses:
+- id: prosody.seed
+  orientation: Suprasegmental organization of speech including intonation, stress,
+    timing, and phrasing; a potential source and constraint for sung pitch trajectories.
+  domains:
+  - language_music
+  roles:
+  - speech_organization
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: pitch
+  - relation: ILLUMINATES_ASPECT_OF
+    target: cantillation
+  epistemic_status:
+  - analyst_derived

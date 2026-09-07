@@ -1,0 +1,21 @@
+id: contour
+labels:
+- text: contour
+  language: en
+senses:
+- id: contour.seed
+  orientation: Relational shape of pitch movement without requiring exact interval
+    sizes; potentially meaningful across speech, chant, melody, and mnemonic notation.
+  domains:
+  - trajectory
+  - language_music
+  roles:
+  - trajectory_property
+  review_status: seed
+  relations:
+  - relation: REPRESENTS
+    target: melodic_motion
+  - relation: ILLUMINATES_ASPECT_OF
+    target: hazzat
+  epistemic_status:
+  - analyst_derived

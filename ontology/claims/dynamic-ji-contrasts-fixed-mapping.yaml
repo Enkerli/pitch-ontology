@@ -1,0 +1,10 @@
+id: dynamic-ji-contrasts-fixed-mapping
+subject: dynamic_ji
+relation: CONTRASTS_WITH
+object: fixed_pitch_mapping
+aspect: A nominal pitch identity can be realized at different frequencies as simultaneous
+  musical relations change.
+limit: Different dynamic-JI algorithms and performance practices resolve conflicting
+  tuning constraints differently.
+claim_status: computational
+confidence: high

@@ -1,0 +1,23 @@
+id: pelog
+labels:
+- text: pélog
+  language: jv
+senses:
+- id: pelog.seed
+  orientation: A Javanese/Balinese tuning and pitch-resource family whose concrete
+    interval patterns vary among ensembles and regions.
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - material_practice
+  roles:
+  - local_tuning_concept
+  review_status: seed
+  cautions:
+  - Do not identify pélog with one universal seven-note cents template.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: slendro
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice

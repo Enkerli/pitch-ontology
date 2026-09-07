@@ -1,0 +1,17 @@
+id: maqam
+labels:
+  - {text: maqām, language: ar}
+  - {text: مقام, language: ar, script: Arabic}
+senses:
+  - id: maqam.arab
+    orientation: "A family of historically situated concepts in Arabic musical practices organizing melodic identity through pitch relations, hierarchy, characteristic regions, and melodic behavior."
+    domains: [modal_organization, trajectory]
+    roles: [melodic_organization, relational_system]
+    cautions:
+      - "Do not identify a maqām solely by an octave pitch inventory."
+    relations:
+      - {relation: MAY_COMPRISE, target: jins}
+      - {relation: SHAPED_BY, target: sayr}
+      - {relation: PARTIALLY_OVERLAPS, target: mode}
+      - {relation: POORLY_TRANSLATED_AS, target: scale}
+    epistemic_status: [locally_named, historically_documented, demonstrated_in_practice]

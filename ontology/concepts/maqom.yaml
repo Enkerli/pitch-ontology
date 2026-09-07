@@ -1,0 +1,26 @@
+id: maqom
+labels:
+- text: maqom
+  language: uz
+senses:
+- id: maqom.seed
+  orientation: A Central Asian cognate/modal-repertorial concept with historically
+    connected but locally specific meanings, including traditions of Uzbekistan and
+    Tajikistan.
+  domains:
+  - modal_organization
+  - institutions_history
+  roles:
+  - modal_repertorial_concept
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: maqam
+  - relation: PARTICIPATES_IN
+    target: shashmaqom
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - unesco-shashmaqom

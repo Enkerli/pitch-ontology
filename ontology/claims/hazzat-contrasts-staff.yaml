@@ -1,0 +1,13 @@
+id: hazzat-contrasts-staff
+subject: hazzat
+relation: CONTRASTS_WITH
+object: staff_notation
+aspect: Hazzāt can encode remembered melodic motion and embellishment without specifying
+  exact pitch or rhythm, foregrounding a different ontology of representation.
+limit: Staff notation itself has many historical forms and can also function mnemonically;
+  this contrast concerns representational emphasis, not absolute capability.
+evidence:
+- source: loc-coptic-hazzat
+  type: archival_documentation
+claim_status: supported
+confidence: high

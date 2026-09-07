@@ -1,0 +1,25 @@
+id: qarar
+labels:
+- text: qarār
+  language: ar
+- text: قرار
+  language: ar
+  script: Arabic
+senses:
+- id: qarar.seed
+  orientation: A term associated with settlement, repose, or low/register reference
+    in Arabic modal discourse; specific technical usage is context dependent.
+  domains:
+  - relationship
+  - trajectory
+  roles:
+  - centric_or_repose_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: maqam
+  - relation: ILLUMINATES_ASPECT_OF
+    target: final
+  epistemic_status:
+  - locally_named
+  - historically_documented

@@ -1,0 +1,14 @@
+id: pitch
+labels:
+  - {text: pitch, language: en}
+senses:
+  - id: pitch.perceptual
+    orientation: "An auditory attribute through which sounds can be experienced as relatively higher or lower and organized in pitch relations."
+    domains: [auditory_perception]
+    roles: [perceptual_phenomenon]
+    cautions:
+      - "Do not equate pitch with acoustic frequency."
+    relations:
+      - {relation: SHAPED_BY, target: periodicity}
+      - {relation: PARTICIPATES_IN, target: pitch_category}
+    epistemic_status: [analyst_derived]

@@ -1,0 +1,26 @@
+id: gamaka
+labels:
+- text: gamaka
+  language: sa
+senses:
+- id: gamaka.seed
+  orientation: A family of pitch ornaments/gestural treatments in South Asian musics
+    whose identity can involve characteristic trajectories rather than detachable
+    decorative notes.
+  domains:
+  - trajectory
+  - material_practice
+  roles:
+  - pitch_gesture
+  review_status: seed
+  cautions:
+  - '''Ornament'' can understate cases where the gesture is constitutive of pitch
+    or rāga identity.'
+  relations:
+  - relation: ORNAMENTS
+    target: svara
+  - relation: CONTRASTS_WITH
+    target: note
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice

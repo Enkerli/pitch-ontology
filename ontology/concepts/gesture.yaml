@@ -1,0 +1,19 @@
+id: gesture
+labels:
+- text: gesture
+  language: en
+senses:
+- id: gesture.seed
+  orientation: A temporally extended movement pattern whose identity may integrate
+    pitch, timbre, articulation, dynamics, and bodily action.
+  domains:
+  - trajectory
+  - material_practice
+  roles:
+  - performed_process
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: note
+  epistemic_status:
+  - analyst_derived

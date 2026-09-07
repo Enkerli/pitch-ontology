@@ -1,0 +1,26 @@
+id: tetrachord
+labels:
+- text: tetrachord
+  language: en
+senses:
+- id: tetrachord.seed
+  orientation: In ancient Greek theory, a four-note span bounded by a fourth whose
+    internal organization depends on genus and theoretical school; the modern generic
+    use is broader.
+  domains:
+  - pitch_resources
+  - institutions_history
+  roles:
+  - historical_theoretical_structure
+  review_status: seed
+  cautions:
+  - Do not project the ancient Greek technical object unchanged onto other modal components.
+  relations:
+  - relation: SHAPED_BY
+    target: genos
+  - relation: PARTIALLY_OVERLAPS
+    target: jins
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

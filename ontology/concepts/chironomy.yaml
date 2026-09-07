@@ -1,0 +1,25 @@
+id: chironomy
+labels:
+- text: chironomy
+  language: en
+senses:
+- id: chironomy.seed
+  orientation: Use of hand gestures to cue or teach aspects of melodic or liturgical
+    performance; historically attested in several traditions but specific systems
+    should not be genealogically conflated without evidence.
+  domains:
+  - representation
+  - material_practice
+  roles:
+  - gestural_representation
+  review_status: seed
+  cautions:
+  - Similarity of mnemonic function does not establish historical descent.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: hazzat
+  epistemic_status:
+  - historically_documented
+  - analyst_derived
+  sources:
+  - loc-coptic-hazzat

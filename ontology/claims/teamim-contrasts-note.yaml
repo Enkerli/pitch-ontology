@@ -1,0 +1,13 @@
+id: teamim-contrasts-note
+subject: teamim
+relation: CONTRASTS_WITH
+object: note
+aspect: A cantillation sign can simultaneously participate in textual syntax, accentuation,
+  and melodic realization rather than denote a single pitch event.
+limit: Realization differs across textual and communal traditions, so the ontology
+  should not encode one universal melodic value per sign.
+evidence:
+- source: jts-nusach-cantillation
+  type: institutional_scholarship
+claim_status: supported
+confidence: moderate

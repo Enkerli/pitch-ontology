@@ -1,0 +1,21 @@
+id: mos
+labels:
+- text: MOS
+  language: en
+- text: moment of symmetry
+  language: en
+senses:
+- id: mos.seed
+  orientation: In contemporary tuning theory, a scale structure generated so that
+    adjacent step sizes occur in only two sizes across successive generator chains.
+  domains:
+  - computation
+  - pitch_resources
+  roles:
+  - synthetic_system
+  review_status: seed
+  relations:
+  - relation: GENERATES
+    target: scale
+  epistemic_status:
+  - computational_abstraction

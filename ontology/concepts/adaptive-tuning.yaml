@@ -1,0 +1,23 @@
+id: adaptive_tuning
+labels:
+- text: adaptive tuning
+  language: en
+senses:
+- id: adaptive_tuning.seed
+  orientation: Algorithmic tuning that updates realized pitches in response to musical
+    or acoustical context according to explicit optimization rules.
+  domains:
+  - tuning_practice
+  - computation
+  roles:
+  - synthetic_system
+  review_status: seed
+  relations:
+  - relation: IS_A
+    target: dynamic_tuning
+  - relation: SHAPED_BY
+    target: spectrum
+  epistemic_status:
+  - computational_abstraction
+  sources:
+  - sethares-1994

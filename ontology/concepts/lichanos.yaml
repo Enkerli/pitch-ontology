@@ -1,0 +1,27 @@
+id: lichanos
+labels:
+- text: lichanós
+  language: grc
+- text: λιχανός
+  language: grc
+  script: Greek
+senses:
+- id: lichanos.seed
+  orientation: A movable internal degree of an ancient Greek tetrachord whose placement
+    varies with genus and tuning.
+  domains:
+  - categorization
+  - tuning_practice
+  - institutions_history
+  roles:
+  - movable_pitch_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: tetrachord
+  - relation: SHAPED_BY
+    target: genos
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

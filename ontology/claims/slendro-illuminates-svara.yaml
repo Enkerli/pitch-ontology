@@ -1,0 +1,14 @@
+id: slendro-illuminates-svara
+subject: slendro
+relation: ILLUMINATES_ASPECT_OF
+object: svara
+aspect: A named pitch organization or category need not imply one universal, context-independent
+  frequency realization.
+limit: Sléndro and svara belong to different material, historical, theoretical, and
+  performance systems; this is an explanatory analogy, not a translation or genealogy.
+scope:
+  traditions:
+  - Javanese/Balinese gamelan
+  - South Asian raga practices
+claim_status: working
+confidence: moderate

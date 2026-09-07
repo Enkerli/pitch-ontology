@@ -1,0 +1,27 @@
+id: makam
+labels:
+- text: makam
+  language: tr
+senses:
+- id: makam.seed
+  orientation: A historically situated modal organization in Ottoman/Turkish music
+    involving pitch positions, intervallic resources, hierarchy, and melodic course.
+  domains:
+  - modal_organization
+  - trajectory
+  roles:
+  - melodic_organization
+  review_status: seed
+  cautions:
+  - Do not treat makam as simply the Turkish spelling of a single transregional object.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: maqam
+  - relation: SHAPED_BY
+    target: seyir
+  - relation: PARTICIPATES_IN
+    target: perde
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice

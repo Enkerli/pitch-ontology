@@ -1,0 +1,24 @@
+id: pyknon
+labels:
+- text: pyknón
+  language: grc
+- text: πυκνόν
+  language: grc
+  script: Greek
+senses:
+- id: pyknon.seed
+  orientation: In ancient Greek theory, the compressed portion of chromatic/enharmonic
+    tetrachordal organization, involving the closer-spaced intervals.
+  domains:
+  - relationship
+  - institutions_history
+  roles:
+  - historical_theoretical_concept
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: genos
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

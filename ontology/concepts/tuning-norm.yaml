@@ -1,0 +1,19 @@
+id: tuning_norm
+labels:
+- text: tuning norm
+  language: en
+senses:
+- id: tuning_norm.seed
+  orientation: A prescribed, taught, or institutionally stabilized expectation for
+    pitch relationships.
+  domains:
+  - tuning_practice
+  - institutions_history
+  roles:
+  - normative_system
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: tuning_procedure
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,23 @@
+id: cantillation
+labels:
+- text: cantillation
+  language: en
+senses:
+- id: cantillation.seed
+  orientation: Rule-governed melodic recitation of sacred text in which pitch organization
+    interacts with syntax, accentuation, ritual function, and oral tradition.
+  domains:
+  - language_music
+  - trajectory
+  - institutions_history
+  roles:
+  - text_music_practice
+  review_status: seed
+  relations:
+  - relation: SHAPED_BY
+    target: teamim
+  - relation: ILLUMINATES_ASPECT_OF
+    target: prosody
+  epistemic_status:
+  - historically_documented
+  - demonstrated_in_practice

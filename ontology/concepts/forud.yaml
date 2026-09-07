@@ -1,0 +1,28 @@
+id: forud
+labels:
+- text: forūd
+  language: fa
+- text: فرود
+  language: fa
+  script: Arabic
+senses:
+- id: forud.seed
+  orientation: Characteristic return/concluding behavior in Persian modal practice,
+    bringing performance back toward an initial or governing modal region.
+  domains:
+  - trajectory
+  - modal_organization
+  roles:
+  - return_function
+  review_status: seed
+  relations:
+  - relation: RETURNS_TO
+    target: modal_region
+  - relation: PARTICIPATES_IN
+    target: dastgah
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - during-forud

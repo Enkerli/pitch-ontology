@@ -1,0 +1,20 @@
+id: frequency
+labels:
+- text: frequency
+  language: en
+senses:
+- id: frequency.seed
+  orientation: A physical rate of recurrence, conventionally expressed in hertz; an
+    acoustic descriptor rather than a musical pitch category.
+  domains:
+  - acoustics
+  roles:
+  - acoustic_property
+  review_status: seed
+  cautions:
+  - Do not use frequency as a synonym for pitch or note.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: pitch
+  epistemic_status:
+  - analyst_derived

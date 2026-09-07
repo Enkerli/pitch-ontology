@@ -1,0 +1,23 @@
+id: muqam
+labels:
+- text: muqam
+  language: ug
+senses:
+- id: muqam.seed
+  orientation: A Uyghur term for large modal-repertorial suites and related musical
+    organization; cognate with maqām yet historically and performatively specific.
+  domains:
+  - modal_organization
+  - institutions_history
+  roles:
+  - modal_repertorial_concept
+  review_status: seed
+  cautions:
+  - Do not collapse cognate maqam/maqom/muqam traditions into one invariant system.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: maqam
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice

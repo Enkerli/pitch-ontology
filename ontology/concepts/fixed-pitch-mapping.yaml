@@ -1,0 +1,19 @@
+id: fixed_pitch_mapping
+labels:
+- text: fixed pitch mapping
+  language: en
+senses:
+- id: fixed_pitch_mapping.seed
+  orientation: A computational or instrumental mapping in which symbolic pitch addresses
+    are assigned stable target frequencies independently of immediate musical context.
+  domains:
+  - computation
+  - representation
+  roles:
+  - technical_model
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: dynamic_tuning
+  epistemic_status:
+  - computational_abstraction

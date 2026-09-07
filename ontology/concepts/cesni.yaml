@@ -1,0 +1,24 @@
+id: cesni
+labels:
+- text: çeşni
+  language: tr
+senses:
+- id: cesni.seed
+  orientation: A melodic/intervallic flavor or modal fragment concept used in Turkish
+    makam analysis and pedagogy.
+  domains:
+  - pitch_resources
+  - modal_organization
+  roles:
+  - modal_component
+  review_status: seed
+  cautions:
+  - Similarity with jins is explanatory, not an assertion of equivalence.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: makam
+  - relation: PARTIALLY_OVERLAPS
+    target: jins
+  epistemic_status:
+  - locally_named
+  - historically_documented

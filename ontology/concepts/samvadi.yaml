@@ -1,0 +1,22 @@
+id: samvadi
+labels:
+- text: samvādī
+  language: sa
+senses:
+- id: samvadi.seed
+  orientation: A relationally important svara discussed alongside vādī in particular
+    rāga-theoretical traditions.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - privileged_pitch_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: raga
+  - relation: SHAPED_BY
+    target: vadi
+  epistemic_status:
+  - locally_named
+  - historically_documented

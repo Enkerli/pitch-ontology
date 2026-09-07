@@ -1,0 +1,25 @@
+id: pathet
+labels:
+- text: pathet
+  language: jv
+senses:
+- id: pathet.seed
+  orientation: A Javanese modal-organizational concept involving pitch hierarchy,
+    melodic function, register, cadential behavior, and repertoire beyond tuning alone.
+  domains:
+  - modal_organization
+  - trajectory
+  roles:
+  - modal_organization
+  review_status: seed
+  cautions:
+  - '''Mode'' is an approximation, not an exhaustive translation.'
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: mode
+  - relation: ILLUMINATES_ASPECT_OF
+    target: raga
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice

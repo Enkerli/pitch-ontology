@@ -1,0 +1,19 @@
+id: drone
+labels:
+- text: drone
+  language: en
+senses:
+- id: drone.seed
+  orientation: A sustained or recurrent reference sonority/pitch that can organize
+    interval perception and melodic behavior without functioning as a harmonic root.
+  domains:
+  - relationship
+  - material_practice
+  roles:
+  - reference_practice
+  review_status: seed
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  epistemic_status:
+  - analyst_derived

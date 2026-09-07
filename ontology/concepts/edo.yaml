@@ -1,0 +1,23 @@
+id: edo
+labels:
+- text: EDO
+  language: en
+- text: equal divisions of the octave
+  language: en
+senses:
+- id: edo.seed
+  orientation: A computational/theoretical family dividing the octave into N equal
+    logarithmic steps.
+  domains:
+  - computation
+  - tuning_practice
+  roles:
+  - synthetic_system
+  review_status: seed
+  cautions:
+  - EDO describes a mathematical pitch grid, not a complete musical practice.
+  relations:
+  - relation: IS_A
+    target: equal_temperament
+  epistemic_status:
+  - computational_abstraction

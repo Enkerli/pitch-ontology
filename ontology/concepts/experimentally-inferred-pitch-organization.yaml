@@ -1,0 +1,24 @@
+id: experimentally_inferred_pitch_organization
+labels:
+- text: experimentally inferred pitch organization
+  language: en
+senses:
+- id: experimentally_inferred_pitch_organization.seed
+  orientation: A pitch model reconstructed through controlled experiments and participant
+    responses where an abstract scale may not be verbally objectified.
+  domains:
+  - knowledge_provenance
+  - pitch_resources
+  roles:
+  - analytic_model
+  review_status: seed
+  relations:
+  - relation: INFERRED_FROM
+    target: participant_judgment
+  - relation: CONTRASTS_WITH
+    target: locally_verbalized_scale
+  epistemic_status:
+  - experimentally_inferred
+  - analyst_derived
+  sources:
+  - arom-furniss-1993

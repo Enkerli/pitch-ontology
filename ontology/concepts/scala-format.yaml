@@ -1,0 +1,22 @@
+id: scala_format
+labels:
+- text: Scala .scl
+  language: en
+senses:
+- id: scala_format.seed
+  orientation: A widely used text representation for interval collections/tunings;
+    effective for static mappings but not a complete representation of modal behavior,
+    gesture, provenance, or dynamic relational tuning.
+  domains:
+  - computation
+  - representation
+  roles:
+  - file_format
+  review_status: seed
+  relations:
+  - relation: REPRESENTS
+    target: scale
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  epistemic_status:
+  - computational_abstraction

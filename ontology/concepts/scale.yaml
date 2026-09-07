@@ -1,0 +1,15 @@
+id: scale
+labels:
+  - {text: scale, language: en}
+senses:
+  - id: scale.analytic
+    orientation: "An ordered representation of pitch categories, often normalized within an octave; frequently an analytical projection rather than a locally objectified musical entity."
+    domains: [pitch_resources, representation]
+    roles: [analytic_model]
+    cautions:
+      - "Pitch inventory alone may discard hierarchy, trajectory, register, intonation, gesture, and phrase grammar."
+    relations:
+      - {relation: ABSTRACTS_FROM, target: musical_practice}
+      - {relation: CONTRASTS_WITH, target: tuning_procedure}
+    epistemic_status: [analyst_derived]
+    sources: [arom-furniss-1993, kubik-african-tone-systems]

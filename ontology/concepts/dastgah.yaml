@@ -1,0 +1,14 @@
+id: dastgah
+labels:
+  - {text: dastgāh, language: fa}
+  - {text: دستگاه, language: fa, script: Arabic}
+senses:
+  - id: dastgah.persian
+    orientation: "A Persian modal-repertorial organization involving melodic types and movement among modal regions rather than merely an octave pitch collection."
+    domains: [modal_organization, trajectory]
+    roles: [repertorial_organization, melodic_organization]
+    relations:
+      - {relation: ORGANIZES, target: gushe}
+      - {relation: RETURNS_TO, target: modal_region}
+    epistemic_status: [locally_named, historically_documented, demonstrated_in_practice]
+    sources: [wright-1978]

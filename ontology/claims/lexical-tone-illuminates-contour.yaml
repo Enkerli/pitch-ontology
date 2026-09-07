@@ -1,0 +1,10 @@
+id: lexical-tone-illuminates-contour
+subject: lexical_tone
+relation: ILLUMINATES_ASPECT_OF
+object: contour
+aspect: Pitch relations can carry linguistic function independently of a note-based
+  musical ontology, making contour and relative movement primary analytical objects.
+limit: Tone-language/song relationships vary greatly by language, genre, and performance
+  convention; lexical tone does not mechanically determine melody.
+claim_status: working
+confidence: moderate

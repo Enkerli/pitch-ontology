@@ -1,0 +1,22 @@
+id: just_intonation
+labels:
+- text: just intonation
+  language: en
+senses:
+- id: just_intonation.seed
+  orientation: A family of tuning practices or theories privileging frequency ratios
+    of integers; implementations differ in selected ratios and contextual rules.
+  domains:
+  - tuning_practice
+  - computation
+  roles:
+  - tuning_family
+  review_status: seed
+  cautions:
+  - There is no single complete object called 'the just-intonation scale'.
+  relations:
+  - relation: SHAPED_BY
+    target: frequency_ratio
+  epistemic_status:
+  - historically_documented
+  - computational_abstraction

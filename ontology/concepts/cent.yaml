@@ -1,0 +1,27 @@
+id: cent
+labels:
+- text: cent
+  language: en
+senses:
+- id: cent.seed
+  orientation: A logarithmic interval unit in which an octave spans 1200 equal cents;
+    powerful for comparison but not a neutral description of musical meaning.
+  domains:
+  - representation
+  - relationship
+  roles:
+  - measurement_technology
+  review_status: seed
+  cautions:
+  - Use cents to report measurements or models, not as proof that performers conceptualize
+    interval space this way.
+  relations:
+  - relation: MEASURES
+    target: interval
+  - relation: ABSTRACTS_FROM
+    target: tuning_practice
+  epistemic_status:
+  - historically_documented
+  - analyst_derived
+  sources:
+  - ellis-1885

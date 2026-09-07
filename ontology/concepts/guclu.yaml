@@ -1,0 +1,20 @@
+id: guclu
+labels:
+- text: güçlü
+  language: tr
+senses:
+- id: guclu.seed
+  orientation: A structurally emphasized pitch/function in Turkish makam theory, often
+    important in melodic articulation and modal organization.
+  domains:
+  - relationship
+  - modal_organization
+  roles:
+  - privileged_pitch_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: makam
+  epistemic_status:
+  - locally_named
+  - historically_documented

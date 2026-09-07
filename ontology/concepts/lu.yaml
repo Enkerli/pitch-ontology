@@ -1,0 +1,29 @@
+id: lu
+labels:
+- text: lǜ
+  language: zh
+- text: 律
+  language: zh
+  script: Han
+senses:
+- id: lu.seed
+  orientation: A historically layered Chinese pitch-standard concept associated with
+    calibrated pitch pipes, generated pitch relations, regulation, and broader cosmological/state
+    metrological orders.
+  domains:
+  - tuning_practice
+  - institutions_history
+  - material_practice
+  roles:
+  - historical_pitch_standard
+  review_status: seed
+  cautions:
+  - Do not translate lǜ as simply 'note' or 'scale degree'.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: note
+  - relation: ILLUMINATES_ASPECT_OF
+    target: reference_pitch
+  epistemic_status:
+  - locally_named
+  - historically_documented

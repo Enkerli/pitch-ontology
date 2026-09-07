@@ -1,0 +1,22 @@
+id: antara
+labels:
+- text: antara
+  language: qu
+senses:
+- id: antara.seed
+  orientation: A Quechua-associated name for Andean panpipes; terminology and construction
+    vary regionally.
+  domains:
+  - material_practice
+  - pitch_resources
+  roles:
+  - instrument_practice
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: siku
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  sources:
+  - smithsonian-panpipes

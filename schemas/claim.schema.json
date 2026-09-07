@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pitch Ontology Claim",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "relation",
+    "object",
+    "claim_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_\\-\\.]+$"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "string"
+    },
+    "object": {
+      "type": "string"
+    },
+    "aspect": {
+      "type": "string"
+    },
+    "limit": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "traditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "periods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "repertoires": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "institutions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "claim_status": {
+      "type": "string",
+      "enum": [
+        "working",
+        "supported",
+        "contested",
+        "historical",
+        "computational"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,28 @@
+id: jins
+labels:
+- text: jins
+  language: ar
+- text: جنس
+  language: ar
+  script: Arabic
+senses:
+- id: jins.seed
+  orientation: A locally theorized component or pitch region in Arabic maqām practice,
+    often associated with characteristic intervallic and melodic behavior.
+  domains:
+  - pitch_resources
+  - modal_organization
+  roles:
+  - modal_component
+  review_status: seed
+  cautions:
+  - '''Tetrachord'' can be a useful analogy but should not imply historical or structural
+    identity.'
+  relations:
+  - relation: PARTICIPATES_IN
+    target: maqam
+  - relation: PARTIALLY_OVERLAPS
+    target: tetrachord
+  epistemic_status:
+  - locally_named
+  - historically_documented

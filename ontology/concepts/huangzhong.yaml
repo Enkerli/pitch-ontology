@@ -1,0 +1,26 @@
+id: huangzhong
+labels:
+- text: Huángzhōng
+  language: zh
+- text: 黃鐘
+  language: zh
+  script: Han
+senses:
+- id: huangzhong.seed
+  orientation: The 'Yellow Bell/Pipe', a foundational named pitch standard in historical
+    Chinese lǜ theory from which other pitch relations could be generated.
+  domains:
+  - tuning_practice
+  - institutions_history
+  - material_practice
+  roles:
+  - reference_pitch_standard
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: lu
+  - relation: ILLUMINATES_ASPECT_OF
+    target: reference_pitch
+  epistemic_status:
+  - locally_named
+  - historically_documented

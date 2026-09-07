@@ -1,0 +1,25 @@
+id: genos
+labels:
+- text: genos
+  language: grc
+- text: γένος
+  language: grc
+  script: Greek
+senses:
+- id: genos.seed
+  orientation: 'In ancient Greek music theory, genus: a principle governing the disposition
+    and behavior of internal tones of tetrachords, classically including diatonic,
+    chromatic, and enharmonic genera.'
+  domains:
+  - pitch_resources
+  - institutions_history
+  roles:
+  - historical_theoretical_concept
+  review_status: seed
+  relations:
+  - relation: ORGANIZES
+    target: tetrachord
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

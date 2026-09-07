@@ -1,0 +1,20 @@
+id: final
+labels:
+- text: final
+  language: en
+senses:
+- id: final.seed
+  orientation: A pitch or pitch-function associated with melodic completion in several
+    historical modal theories; not necessarily equivalent to tonic.
+  domains:
+  - relationship
+  - trajectory
+  roles:
+  - centric_function
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: tonic
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

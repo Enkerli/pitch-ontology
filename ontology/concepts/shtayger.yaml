@@ -1,0 +1,23 @@
+id: shtayger
+labels:
+- text: shtayger
+  language: yi
+senses:
+- id: shtayger.seed
+  orientation: An Ashkenazi/Yiddish term used for characteristic prayer-modal patterns
+    or ways of melodic conduct; historically overlapping with discourse around nusaḥ.
+  domains:
+  - modal_organization
+  - institutions_history
+  roles:
+  - liturgical_modal_concept
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: nusach
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - milken-shtayger

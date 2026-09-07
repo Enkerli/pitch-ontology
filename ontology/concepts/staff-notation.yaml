@@ -1,0 +1,25 @@
+id: staff_notation
+labels:
+- text: staff notation
+  language: en
+senses:
+- id: staff_notation.seed
+  orientation: A historically developed notational technology optimized for particular
+    kinds of discrete pitch/rhythm representation and subsequently adapted far beyond
+    its originating practices.
+  domains:
+  - representation
+  - institutions_history
+  roles:
+  - notation_technology
+  review_status: seed
+  cautions:
+  - Transcription choices can make continuous or culturally specific behavior appear
+    as discrete notes.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: performance
+  - relation: CONTRASTS_WITH
+    target: hazzat
+  epistemic_status:
+  - historically_documented

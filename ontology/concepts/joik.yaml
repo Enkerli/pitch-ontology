@@ -1,0 +1,27 @@
+id: joik
+labels:
+- text: joik
+  language: se
+senses:
+- id: joik.seed
+  orientation: A Sámi vocal practice/form with regionally and personally situated
+    traditions; included here to keep pitch ontology connected to vocal identity,
+    contour, memory, and representation rather than scale alone.
+  domains:
+  - trajectory
+  - language_music
+  - knowledge_provenance
+  roles:
+  - vocal_practice
+  review_status: seed
+  cautions:
+  - Do not posit a single pan-Sámi pitch system from the umbrella term.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: gesture
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - unesco-tiren-joik

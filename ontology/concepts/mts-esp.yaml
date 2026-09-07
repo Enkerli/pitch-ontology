@@ -1,0 +1,21 @@
+id: mts_esp
+labels:
+- text: MTS-ESP
+  language: en
+senses:
+- id: mts_esp.seed
+  orientation: A contemporary software ecosystem/protocol for sharing tuning information
+    among compatible applications and plug-ins.
+  domains:
+  - computation
+  - representation
+  roles:
+  - software_tuning_infrastructure
+  review_status: seed
+  relations:
+  - relation: AFFORDS
+    target: microtuning
+  - relation: ILLUMINATES_ASPECT_OF
+    target: dynamic_tuning
+  epistemic_status:
+  - computational_abstraction

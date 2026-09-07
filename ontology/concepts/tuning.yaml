@@ -1,0 +1,22 @@
+id: tuning
+labels:
+- text: tuning
+  language: en
+senses:
+- id: tuning.seed
+  orientation: A broad family of concepts covering pitch configuration, tuning procedure,
+    and prescriptive tuning norm.
+  domains:
+  - tuning_practice
+  roles:
+  - umbrella_concept
+  review_status: seed
+  cautions:
+  - Specify whether tuning is being treated as configuration, action, or norm.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: intonation
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - kubik-african-tone-systems

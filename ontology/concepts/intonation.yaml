@@ -1,0 +1,21 @@
+id: intonation
+labels:
+- text: intonation
+  language: en
+senses:
+- id: intonation.seed
+  orientation: Realized pitch positioning and trajectory relative to locally meaningful
+    expectations in performance.
+  domains:
+  - tuning_practice
+  - trajectory
+  roles:
+  - performance_property
+  review_status: seed
+  cautions:
+  - Intonation may vary by performer, phrase, direction, ensemble, register, and context.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: fixed_pitch_mapping
+  epistemic_status:
+  - analyst_derived

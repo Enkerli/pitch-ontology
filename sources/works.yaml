@@ -1,0 +1,101 @@
+works:
+- id: arom-furniss-1993
+  authors:
+  - Simha Arom
+  - Susanne Fürniss
+  year: 1993
+  title: 'An interactive experimental method for the determination of musical scales
+    in oral cultures: Application to the vocal music of the Aka Pygmies of Central
+    Africa'
+  venue: Contemporary Music Review
+  doi: 10.1080/07494469300640301
+- id: kubik-african-tone-systems
+  authors:
+  - Gerhard Kubik
+  title: African Tone-Systems—A Reassessment
+  venue: Yearbook for Traditional Music
+  note: Important for tuning process, intracultural evidence, and critique of reified
+    scale descriptions.
+- id: wright-1978
+  authors:
+  - Owen Wright
+  year: 1978
+  title: The Modal System of Arab and Persian Music A.D. 1250–1300
+  publisher: Oxford University Press
+- id: loc-coptic-hazzat
+  corporate_author: Library of Congress
+  title: 'Notating Coptic Music: A Brief Historical Survey'
+  collection: Coptic Orthodox Liturgical Chant and Hymnody
+- id: ellis-1885
+  authors:
+  - Alexander J. Ellis
+  year: 1885
+  title: On the Musical Scales of Various Nations
+  venue: Journal of the Society of Arts / contemporary report in Nature 31
+  doi: 10.1038/031488a0
+- id: sethares-1994
+  authors:
+  - William A. Sethares
+  year: 1994
+  title: Adaptive Tunings for Musical Scales
+  venue: Journal of the Acoustical Society of America
+  volume: 96(1)
+  pages: 10–19
+- id: during-dastgah
+  authors:
+  - Jean During
+  year: 1994
+  title: Dastgāh
+  venue: Encyclopaedia Iranica
+  note: Updated 2016; modal organization of gūšas around māya and return via forūd.
+- id: during-forud
+  authors:
+  - Jean During
+  year: 1999
+  title: Forūd (1)
+  venue: Encyclopaedia Iranica
+  note: Concluding/return motif and historical sense of descending melodic direction.
+- id: hagel-2009
+  authors:
+  - Stefan Hagel
+  year: 2009
+  title: 'Ancient Greek Music: A New Technical History'
+  publisher: Cambridge University Press
+  doi: 10.1017/CBO9780511691591
+- id: jts-nusach-cantillation
+  corporate_author: Jewish Theological Seminary
+  title: Nusah and Cantillation
+  note: Describes nusaḥ as prayer-chant mode/motif tradition and teʿamim as accent/syntax/cantillation
+    system.
+- id: milken-shtayger
+  corporate_author: Milken Archive of Jewish Music
+  title: The First S'liḥot
+  note: Discusses Ashkenazi prayer modes, nusaḥ hat’filla, motivic formulae, tone
+    functions, and shtayger.
+- id: unesco-shashmaqom
+  corporate_author: UNESCO
+  year: 2008
+  title: Shashmaqom music
+  note: Representative List of the Intangible Cultural Heritage of Humanity; oral
+    transmission and six-maqom repertorial system.
+- id: unesco-tiren-joik
+  corporate_author: UNESCO
+  year: 2025
+  title: Karl Tirén collection of Sámi joik recordings
+  note: Memory of the World register documentation.
+- id: smithsonian-panpipes
+  corporate_author: Smithsonian Folkways
+  title: 'UNESCO Collection Week 46: Music and Community Lifeways'
+  note: Discusses siku/antara as complementary panpipe pairs and hocketing performance.
+- id: smithsonian-conima
+  corporate_author: Smithsonian Folkways
+  title: 'Traditional Music of Peru: Conima liner notes'
+  note: Describes ira/arca rows distributed between players who interlock pitches.
+- id: cambridge-singing-country
+  authors:
+  - Clint Bracknell
+  - Lou Bennett
+  year: 2024
+  title: Singing Country in the Land Now Known as Australia
+  venue: The Cambridge Companion to Music in Australia
+  publisher: Cambridge University Press

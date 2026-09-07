@@ -1,0 +1,22 @@
+id: participant_judgment
+labels:
+- text: participant judgment
+  language: en
+senses:
+- id: participant_judgment.seed
+  orientation: Judgment by knowledgeable participants about acceptable, unacceptable,
+    characteristic, or altered realizations; an evidence type distinct from verbal
+    theory.
+  domains:
+  - knowledge_provenance
+  roles:
+  - epistemic_method
+  review_status: seed
+  relations:
+  - relation: INFERRED_FROM
+    target: demonstrated_practice
+  epistemic_status:
+  - participant_judgment
+  - analyst_derived
+  sources:
+  - arom-furniss-1993

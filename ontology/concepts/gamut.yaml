@@ -1,0 +1,21 @@
+id: gamut
+labels:
+- text: gamut
+  language: en
+senses:
+- id: gamut.seed
+  orientation: The available or recognized range/set of pitches in a practice or theoretical
+    system; historically the term has specific European meanings as well as broader
+    modern use.
+  domains:
+  - pitch_resources
+  - institutions_history
+  roles:
+  - pitch_resource
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: scale
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

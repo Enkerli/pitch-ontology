@@ -1,0 +1,28 @@
+id: gushe
+labels:
+- text: gūše
+  language: fa
+- text: گوشه
+  language: fa
+  script: Arabic
+senses:
+- id: gushe.seed
+  orientation: A melodic type/piece or repertorial unit within Persian radif/dastgāh
+    organization.
+  domains:
+  - modal_organization
+  - trajectory
+  roles:
+  - repertorial_unit
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: dastgah
+  - relation: PARTICIPATES_IN
+    target: radif
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - during-dastgah

@@ -1,0 +1,22 @@
+id: nyasa
+labels:
+- text: nyāsa
+  language: sa
+senses:
+- id: nyasa.seed
+  orientation: A concept of melodic repose or stopping associated with particular
+    pitches in rāga practice/theory.
+  domains:
+  - trajectory
+  - relationship
+  roles:
+  - repose_function
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: raga
+  - relation: ILLUMINATES_ASPECT_OF
+    target: final
+  epistemic_status:
+  - locally_named
+  - historically_documented

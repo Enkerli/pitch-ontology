@@ -1,0 +1,18 @@
+id: partial
+labels:
+- text: partial
+  language: en
+senses:
+- id: partial.seed
+  orientation: A sinusoidal component of a complex sound; a partial may or may not
+    be an integer multiple of a fundamental.
+  domains:
+  - acoustics
+  roles:
+  - acoustic_component
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: spectrum
+  epistemic_status:
+  - analyst_derived

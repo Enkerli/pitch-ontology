@@ -1,0 +1,20 @@
+id: frequency_ratio
+labels:
+- text: frequency ratio
+  language: en
+senses:
+- id: frequency_ratio.seed
+  orientation: A multiplicative relation between frequencies, especially important
+    in acoustics and just-intonation theories.
+  domains:
+  - acoustics
+  - relationship
+  - computation
+  roles:
+  - measurement
+  review_status: seed
+  relations:
+  - relation: MEASURES
+    target: interval
+  epistemic_status:
+  - analyst_derived

@@ -1,0 +1,25 @@
+id: mode
+labels:
+- text: mode
+  language: en
+senses:
+- id: mode.seed
+  orientation: A historically mobile analytical term for forms of pitch organization
+    in which hierarchy, melodic behavior, or finality may matter beyond pitch inventory.
+  domains:
+  - modal_organization
+  roles:
+  - historically_layered_term
+  review_status: seed
+  cautions:
+  - Do not use MODE as an unmarked universal superclass for all modal practices.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: raga
+  - relation: PARTIALLY_OVERLAPS
+    target: maqam
+  - relation: PARTIALLY_OVERLAPS
+    target: pathet
+  epistemic_status:
+  - historically_documented
+  - analyst_derived

@@ -1,0 +1,21 @@
+id: octave_equivalence
+labels:
+- text: octave equivalence
+  language: en
+senses:
+- id: octave_equivalence.seed
+  orientation: Treatment of pitches separated by an approximate 2:1 frequency relation
+    as equivalent in some structural respect.
+  domains:
+  - relationship
+  - categorization
+  roles:
+  - equivalence_relation
+  review_status: seed
+  cautions:
+  - Do not assume octave equivalence as a universal axiom of pitch organization.
+  relations:
+  - relation: SHAPED_BY
+    target: practice
+  epistemic_status:
+  - analyst_derived

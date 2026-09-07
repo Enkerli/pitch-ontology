@@ -1,0 +1,22 @@
+id: chroma
+labels:
+- text: chroma
+  language: en
+senses:
+- id: chroma.seed
+  orientation: A theoretical/perceptual description of cyclic pitch similarity under
+    octave displacement, especially common in Euro-American pitch psychology.
+  domains:
+  - auditory_perception
+  - categorization
+  roles:
+  - perceptual_model
+  review_status: seed
+  cautions:
+  - Do not assume octave equivalence is equally salient or structurally privileged
+    in every practice.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: octave_equivalence
+  epistemic_status:
+  - analyst_derived

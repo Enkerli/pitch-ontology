@@ -1,0 +1,25 @@
+id: siku
+labels:
+- text: siku
+  language: ay
+senses:
+- id: siku.seed
+  orientation: Aymara name for Andean panpipes; in many ensemble traditions complementary
+    rows are distributed between players, making melodic pitch organization materially
+    collective.
+  domains:
+  - material_practice
+  - pitch_resources
+  roles:
+  - instrument_practice
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: ira_arka
+  - relation: AFFORDS
+    target: interlocking
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  sources:
+  - smithsonian-panpipes

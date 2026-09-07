@@ -1,0 +1,23 @@
+id: perde
+labels:
+- text: perde
+  language: tr
+senses:
+- id: perde.seed
+  orientation: A pitch-position/category term in Turkish/Ottoman music theory whose
+    identity is embedded in a larger makam system rather than reducible to a bare
+    frequency.
+  domains:
+  - categorization
+  - modal_organization
+  roles:
+  - pitch_category
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: makam
+  - relation: ILLUMINATES_ASPECT_OF
+    target: svara
+  epistemic_status:
+  - locally_named
+  - historically_documented

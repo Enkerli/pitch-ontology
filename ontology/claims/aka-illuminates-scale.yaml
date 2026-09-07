@@ -1,0 +1,18 @@
+id: aka-illuminates-scale
+subject: experimentally_inferred_pitch_organization
+relation: ILLUMINATES_ASPECT_OF
+object: scale
+aspect: A defensible analytical scale model can be inferred from participant judgments
+  even when an abstract scale is not ordinarily verbalized as a local category.
+limit: This does not imply that all orally transmitted pitch practices lack explicit
+  theory, nor that Aka musicians lack pitch concepts.
+scope:
+  traditions:
+  - Aka vocal music
+  regions:
+  - Central African Republic
+evidence:
+- source: arom-furniss-1993
+  type: experimental_ethnomusicology
+claim_status: supported
+confidence: high

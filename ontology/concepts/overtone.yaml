@@ -1,0 +1,20 @@
+id: overtone
+labels:
+- text: overtone
+  language: en
+senses:
+- id: overtone.seed
+  orientation: A component above a perceived or physical fundamental; numbering conventions
+    differ from harmonic numbering.
+  domains:
+  - acoustics
+  roles:
+  - acoustic_component
+  review_status: seed
+  cautions:
+  - Overtone and harmonic are not strict synonyms for inharmonic spectra.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: spectrum
+  epistemic_status:
+  - analyst_derived

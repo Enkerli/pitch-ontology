@@ -1,0 +1,25 @@
+id: tonos_greek
+labels:
+- text: tónos
+  language: grc
+- text: τόνος
+  language: grc
+  script: Greek
+senses:
+- id: tonos_greek.seed
+  orientation: A historically variable ancient Greek theoretical term, including senses
+    connected with interval and transpositional/key-like organization depending on
+    author and period.
+  domains:
+  - institutions_history
+  - relationship
+  roles:
+  - historically_layered_term
+  review_status: seed
+  relations:
+  - relation: OFTEN_CONFUSED_WITH
+    target: tone
+  epistemic_status:
+  - historically_documented
+  sources:
+  - hagel-2009

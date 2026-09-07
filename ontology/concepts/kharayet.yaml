@@ -1,0 +1,25 @@
+id: kharayet
+labels:
+- text: kharāyet
+  language: ar
+- text: خرايط
+  language: ar
+  script: Arabic
+senses:
+- id: kharayet.seed
+  orientation: A Coptic-associated Arabic term meaning 'maps', used for hazzāt as
+    mnemonic maps of how to move through a chant melody.
+  domains:
+  - representation
+  - trajectory
+  roles:
+  - mnemonic_metaphor
+  review_status: seed
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: hazzat
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  sources:
+  - loc-coptic-hazzat

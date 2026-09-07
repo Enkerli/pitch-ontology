@@ -1,0 +1,22 @@
+id: pitch_bend
+labels:
+- text: pitch bend
+  language: en
+senses:
+- id: pitch_bend.seed
+  orientation: A MIDI control mechanism for continuous deviation from a nominal note
+    mapping, traditionally channel-wide in MIDI 1.0.
+  domains:
+  - computation
+  - representation
+  roles:
+  - protocol_control
+  review_status: seed
+  relations:
+  - relation: AFFORDS
+    target: continuous_pitch
+  - relation: SHAPED_BY
+    target: midi_note
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction

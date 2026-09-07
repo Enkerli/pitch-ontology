@@ -1,0 +1,22 @@
+id: mts
+labels:
+- text: MTS
+  language: en
+- text: MIDI Tuning Standard
+  language: en
+senses:
+- id: mts.seed
+  orientation: MIDI specifications for communicating alternative tuning assignments
+    independently of ordinary note-number defaults.
+  domains:
+  - computation
+  - representation
+  roles:
+  - protocol_standard
+  review_status: seed
+  relations:
+  - relation: CONTRASTS_WITH
+    target: fixed_pitch_mapping
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction

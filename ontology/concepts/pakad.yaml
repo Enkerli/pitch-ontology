@@ -1,0 +1,23 @@
+id: pakad
+labels:
+- text: pakad
+  language: hi
+- text: पकड़
+  language: hi
+  script: Devanagari
+senses:
+- id: pakad.seed
+  orientation: A pedagogical term in Hindustani practice for a characteristic phrase
+    or phrase-pattern helping establish rāga identity.
+  domains:
+  - trajectory
+  - modal_organization
+  roles:
+  - characteristic_phrase
+  review_status: seed
+  relations:
+  - relation: PARTICIPATES_IN
+    target: raga
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice

@@ -1,0 +1,10 @@
+id: maqam-contrasts-scale
+subject: maqam
+relation: CONTRASTS_WITH
+object: scale
+aspect: Maqām identity is not exhausted by an octave pitch collection; local components,
+  hierarchy, intonation, and melodic course can be constitutive.
+limit: Arabic maqām theory and practice vary regionally and historically; pedagogical
+  models should not be universalized.
+claim_status: working
+confidence: moderate

@@ -1,0 +1,23 @@
+id: scale_catalogue
+labels:
+- text: scale catalogue
+  language: en
+senses:
+- id: scale_catalogue.seed
+  orientation: A representational/database approach that stores pitch collections
+    as decontextualized interval sets.
+  domains:
+  - representation
+  - computation
+  roles:
+  - analytic_technology
+  review_status: seed
+  cautions:
+  - Useful for some questions; inadequate as a universal model of pitch practice.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: songline_pitch_context
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  epistemic_status:
+  - computational_abstraction

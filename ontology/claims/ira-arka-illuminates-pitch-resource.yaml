@@ -1,0 +1,15 @@
+id: ira-arka-illuminates-pitch-resource
+subject: ira_arka
+relation: ILLUMINATES_ASPECT_OF
+object: collective_pitch_resource
+aspect: The effective melodic pitch resource can be materially distributed among multiple
+  performers rather than reside in one instrument or voice.
+limit: Andean panpipe traditions are regionally diverse; this model should be scoped
+  to documented ira/arka practices rather than generalized across the Andes.
+evidence:
+- source: smithsonian-conima
+  type: liner_notes_ethnomusicology
+- source: smithsonian-panpipes
+  type: curatorial_documentation
+claim_status: supported
+confidence: moderate
