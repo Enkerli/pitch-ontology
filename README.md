@@ -10,7 +10,8 @@ The repository is still called *pitch-ontology* because that is where it started
 temporal half was added second, and deliberately not as a mirror of the first: the
 problems are analogous but not identical, and the sharpest rhythm concepts —
 `ensemble_interlocking`, `clave_direction` — name relations between parts, which pitch
-raises far less often.
+raises far less often. What separates pitch from rhythm, and what only appears to, is set
+out in `docs/pitch-and-time.md`; eleven of the seventeen analytical domains belong to both.
 
 It is scaffolding rather than a finished vocabulary — the schema, the relation
 vocabulary and most of the records are provisional, and the point of publishing them
@@ -112,8 +113,8 @@ stress-test its assumptions.
 
 ## v0.2 population status
 
-Current scaffold contains **190 canonical concept records**, **31 claim records** and
-**96 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
+Current scaffold contains **191 canonical concept records**, **32 claim records** and
+**98 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
 checked against the citing work's own reference list.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.

@@ -1,0 +1,24 @@
+id: pitch-time-boundary-is-two-limits
+subject: pitch_time_continuum
+relation: ILLUMINATES_ASPECT_OF
+object: beat
+aspect: >-
+  The boundary between rhythm and pitch is not one threshold but two, and they do not meet.
+  A metric level stops functioning as a beat at a rate well below the one at which repetition
+  begins to be heard as pitch, so between them lies a band that is neither countable nor tonal.
+  Naming that band is more useful than asking where rhythm ends.
+limit: Neither limit is a constant. The lower limit for metre is repertoire-dependent and has
+  been measured against a narrow experimental base; the pitch threshold varies with the signal,
+  the listener and what counts as hearing a pitch. The claim is about the shape of the boundary,
+  not about its coordinates.
+evidence:
+- source: warren-2008-pitch-and-infrapitch
+  type: psychoacoustics
+  note: Treats repetition rate as one variable across both regimes and names the slow side
+    infrapitch.
+- source: polak-2018-lower-limit-for-meter
+  type: acoustic_measurement
+  note: Tests the fast limit of a metric level against West African dance drumming rather than
+    against the usual laboratory base.
+claim_status: working
+confidence: moderate

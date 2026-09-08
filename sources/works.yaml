@@ -2306,3 +2306,60 @@ works:
   note: 'The defining document for MIDI clock resolution. Its pitch counterpart, the note-number
     model, is held separately through the tuning and MPE specifications: one standard fixes the
     units of both parameters.'
+- id: mckinney-moelants-2006-tempo-ambiguity
+  authors:
+  - Martin F. McKinney
+  - Dirk Moelants
+  year: 2006
+  title: 'Ambiguity in Tempo Perception: What Draws Listeners to Different Metrical Levels?'
+  venue: Music Perception
+  volume: '24'
+  issue: '2'
+  pages: 155–166
+  doi: 10.1525/mp.2006.24.2.155
+  url: https://doi.org/10.1525/mp.2006.24.2.155
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - auditory_perception
+  - metric_organization
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1525/mp.2006.24.2.155
+  note: Listeners hearing the same excerpt tap different metrical levels, and which level they
+    choose is predictable from the music rather than arbitrary. A tempo number therefore reports
+    a choice as well as a rate, and the choice is not always the analyst’s.
+- id: warren-2008-pitch-and-infrapitch
+  authors:
+  - Richard M. Warren
+  year: 2008
+  title: 'Perception of acoustic repetition: pitch and infrapitch'
+  collection: 'Auditory Perception: An Analysis and Synthesis'
+  edition: 3rd
+  pages: 64–106
+  publisher: Cambridge University Press
+  isbn: '9780521868709'
+  doi: 10.1017/CBO9780511754777.004
+  url: https://doi.org/10.1017/CBO9780511754777.004
+  kind: book_chapter
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - acoustics
+  - auditory_perception
+  - temporal_organization
+  - pitch_resources
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1017/cbo9780511754777.004
+    note: Crossref carries no author at chapter level; the author is that of the containing monograph,
+      DOI 10.1017/CBO9780511754777.
+  note: Treats repetition rate as one continuous variable and names the region below the pitch
+    threshold "infrapitch" — the same acoustic property, described on both sides of the boundary
+    that separates this ontology’s two halves.

@@ -17,6 +17,8 @@ senses:
   - 'Tempo is not the only thing that changes when music gets faster or slower: in Javanese practice
     a change of irama alters the density of parts against the colotomic cycle, which no single
     rate captures.'
+  - Listeners hearing one excerpt tap different levels, predictably rather than arbitrarily. The
+    ambiguity is a property of the music, not a failure of the listener.
   relations:
   - relation: MEASURES
     target: beat
@@ -24,6 +26,11 @@ senses:
     target: irama
   - relation: ENCODES
     target: bpm
+  - relation: CONTRASTS_WITH
+    target: laya
   epistemic_status:
   - analyst_derived
   - institutionally_standardized
+  sources:
+  - mckinney-moelants-2006-tempo-ambiguity
+  - sutton-1987-variation-composition-java

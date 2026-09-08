@@ -4,16 +4,25 @@ labels:
   language: en
 senses:
 - id: periodicity.seed
-  orientation: Regular or near-regular temporal recurrence in an acoustic signal,
-    one important cue for pitch perception.
+  orientation: Regular or near-regular temporal recurrence in an acoustic signal. One important
+    cue for pitch perception at fast rates, and the property a pulse or a metric level is posited
+    from at slow ones — the same descriptor on both sides of this ontology.
   domains:
   - acoustics
   - auditory_perception
+  - temporal_organization
   roles:
   - acoustic_property
   review_status: seed
   relations:
   - relation: SHAPED_BY
     target: spectrum
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_time_continuum
   epistemic_status:
   - analyst_derived
+  cautions:
+  - Do not treat periodicity as belonging to pitch. What separates the pitch case from the rhythmic
+    case is rate, and the separation is a fact about hearing rather than about the signal.
+  sources:
+  - warren-2008-pitch-and-infrapitch

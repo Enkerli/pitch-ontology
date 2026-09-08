@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: frequency.seed
-  orientation: A physical rate of recurrence, conventionally expressed in hertz; an
-    acoustic descriptor rather than a musical pitch category.
+  orientation: A physical rate of recurrence, conventionally expressed in hertz; an acoustic descriptor
+    rather than a musical pitch category.
   domains:
   - acoustics
   roles:
@@ -13,8 +13,12 @@ senses:
   review_status: seed
   cautions:
   - Do not use frequency as a synonym for pitch or note.
+  - Hertz can express a tempo as readily as a pitch — 120 bpm is 2 Hz — and essentially never
+    does. The unit boundary is conventional, not physical.
   relations:
   - relation: CONTRASTS_WITH
     target: pitch
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_time_continuum
   epistemic_status:
   - analyst_derived

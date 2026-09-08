@@ -1,0 +1,45 @@
+id: pitch_time_continuum
+labels:
+  - {text: pitch–time continuum, language: en}
+  - {text: infrapitch, language: en, role: technical}
+  - {text: repetition rate, language: en, role: acoustic}
+senses:
+  - id: pitch_time_continuum.acoustic
+    orientation: "Acoustic repetition described as one continuous variable rather than two. Slow recurrence is heard as rhythm; speed the same recurrence up past roughly twenty cycles per second and it is heard as pitch. Nothing changes in the signal at the crossing except its rate."
+    domains: [acoustics, auditory_perception, temporal_organization, pitch_resources]
+    roles: [acoustic_property, problem_concept]
+    review_status: seed
+    cautions:
+      - "This is the reason this repository can hold pitch and rhythm at all, and it is not an argument that they are the same thing. Perception treats the two regimes very differently, and so does every musical tradition recorded here."
+      - "The boundary is not sharp and is not one boundary. A metric level stops functioning as a beat well before repetition starts being heard as pitch, so between the two lies a region that is neither — too fast to count, too slow to hear as a tone."
+      - "Where that region falls is not fixed. The lower limit for metre is repertoire-dependent, and the pitch threshold varies with the signal and the listener."
+      - "Do not read the continuum as a claim that a rhythm 'is' a low-frequency pitch. It licenses comparing the two descriptions, not substituting one for the other — the same caution the maximally-even record carries about formal identity."
+      - "The division of this ontology into pitch domains and temporal domains is a convenience inherited from two literatures, two notations and two sets of units. It is not a joint in nature, and the records at the boundary are where that shows."
+    relations:
+      - {relation: ILLUMINATES_ASPECT_OF, target: periodicity}
+      - {relation: ILLUMINATES_ASPECT_OF, target: beat}
+      - {relation: CONTRASTS_WITH, target: frequency}
+      - {relation: CONSTRAINS, target: pulse}
+      - {relation: PARTIALLY_OVERLAPS, target: maximally_even_set}
+    epistemic_status: [acoustically_measured, experimentally_inferred, analyst_derived]
+    sources:
+      - warren-2008-pitch-and-infrapitch
+      - polak-2018-lower-limit-for-meter
+  - id: pitch_time_continuum.institutional
+    orientation: "The separation of pitch from rhythm as it is actually maintained: by two notations, two sets of units, two research literatures, and specifications that fix both parameters in the same document while keeping their vocabularies apart."
+    domains: [representation, institutions_history, knowledge_provenance]
+    roles: [problem_concept, travelling_system]
+    review_status: seed
+    cautions:
+      - "Cents and hertz on one side, milliseconds and beats per minute on the other; nothing prevents describing either in the other's units, and almost nobody does."
+      - "One MIDI specification fixes twelve semitones per octave and twenty-four ticks per quarter note. The pitch grid and the time grid have the same institutional author, and are treated by the literature as unrelated."
+      - "Of the citations in this repository checked against real reference lists, one runs between a pitch record and a rhythm record. The separation is visible in who reads whom."
+    relations:
+      - {relation: INSTITUTIONALIZES, target: staff_notation}
+      - {relation: CONSTRAINS, target: ppqn}
+      - {relation: CONSTRAINS, target: cent}
+      - {relation: SHAPED_BY, target: midi_note}
+    epistemic_status: [institutionally_standardized, analyst_derived, contested]
+    sources:
+      - warren-2008-pitch-and-infrapitch
+      - keil-1987-participatory-discrepancies

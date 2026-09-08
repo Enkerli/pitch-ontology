@@ -58,7 +58,57 @@ The pairing is exact enough to be useful: makam sits beside usûl, maqām beside
 in both traditions the two are taught together. An ontology that held the pitch member of
 each pair and not the temporal one would be describing half of a curriculum.
 
+## What actually separates them
+
+Three different things, usually collapsed into one.
+
+**A difference of rate, which is continuous.** Acoustic repetition is one variable. Slow
+recurrence is heard as rhythm; speed the same recurrence past roughly twenty cycles per
+second and it is heard as pitch. Nothing changes in the signal at the crossing except how
+fast it goes, which is why `periodicity` is a record with a foot in both halves and why
+`pitch_time_continuum` exists at all.
+
+But the boundary is not one threshold. A metric level stops working as a beat well before
+repetition starts sounding like a tone, so between the two lies a band that is neither
+countable nor tonal. Asking where rhythm ends has no answer; asking where each of the two
+limits falls, for which repertoire, does.
+
+**A difference of perceptual regime, which is real.** That the variable is continuous does
+not make the two regimes alike. Pitch supports octave equivalence, simultaneity, and
+categories defined by ratio; metre supports entrainment, anticipation and bodily
+coordination. A tradition organizes each with different apparatus, and this ontology's
+records reflect that: `ensemble_coordination` has no pitch counterpart because the problem
+it names — what a part means only in relation to other parts — is sharper in time.
+
+**A difference of institution, which is arbitrary and load-bearing.** Cents and hertz on one
+side, milliseconds and beats per minute on the other. Nothing prevents describing a tempo in
+hertz — 120 bpm is 2 Hz — and essentially nobody does. Two notations, two literatures, two
+sets of units, maintained by convention rather than by anything in the phenomena. One MIDI
+specification fixes twelve semitones per octave *and* twenty-four ticks per quarter note; the
+literatures that study its consequences for pitch and for time do not cite each other.
+
+The ontology's own domain split follows the third difference, not the first two, and it is
+worth being explicit about that:
+
+| | domains |
+|---|---|
+| pitch side | `pitch_resources`, `modal_organization`, `tuning_practice` |
+| temporal side | `temporal_organization`, `metric_organization`, `ensemble_coordination` |
+| shared | `acoustics`, `auditory_perception`, `categorization`, `relationship`, `trajectory`, `language_music`, `material_practice`, `representation`, `computation`, `institutions_history`, `knowledge_provenance` |
+
+Eleven of seventeen domains are shared. The split is thinner than the repository's name
+suggests, and the records that sit across it — `periodicity`, `frequency`,
+`maximally_even_set`, `pitch_time_continuum`, `participatory_discrepancy` — are where the
+convenience shows as a convenience.
+
 ## Where the seam actually is
+
+Two records carry the whole weight of the analogy, and they fail differently.
+
+`pitch_time_continuum` is a claim about the phenomenon: repetition is one variable, and the
+division into pitch and rhythm is imposed on it by hearing and by convention. Its risk is
+being read as "a rhythm is a slow pitch", which it is not — it licenses comparing the two
+descriptions, not substituting one for the other.
 
 `maximally_even_set` is the formal object that describes a diatonic set and a bell pattern
 with one definition, and it is the concept in this ontology most likely to be misused. The
