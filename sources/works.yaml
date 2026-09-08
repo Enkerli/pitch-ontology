@@ -32,18 +32,18 @@ works:
   domains:
   - tuning_practice
   - knowledge_provenance
-  metadata_gaps:
-  - pages
   note: Important for tuning process, intracultural evidence, and critique of reified scale descriptions.
   year: 1985
   doi: 10.2307/768436
   volume: '17'
   verified:
-    method: crossref
+    method: publisher_record
     date: '2026-09-07'
-    evidence: https://api.crossref.org/works/10.2307/768436
-    note: Crossref and OpenAlex record only the first page (31) of this article, so `pages` stays
-      declared as a gap rather than guessed.
+    evidence: https://www.cambridge.org/core/journals/yearbook-for-traditional-music/article/abs/african-tonesystemsa-reassessment/D951AC7EF191E8B6F41988943EE1628A
+    note: Cambridge University Press, which publishes the Yearbook, gives the range 31–63. Crossref
+      and OpenAlex record only the first page, which is why this was declared a gap; the publisher
+      record closes it.
+  pages: 31–63
 - id: wright-1978
   authors:
   - Owen Wright
@@ -286,10 +286,18 @@ works:
   domains:
   - tuning_practice
   - material_practice
-  metadata_gaps:
-  - year
   note: Community-facing documentation of regional/personal tuning diversity and piece identity
     across tunings.
+  year: 2008–
+  url: https://mbira.org/learn-mbira/how-to-tune-your-mbira/
+  access: open
+  verified:
+    method: publisher_record
+    date: '2026-09-07'
+    evidence: https://mbira.org/learn-mbira/how-to-tune-your-mbira/
+    note: The site footer reads "Copyright © 2008–2026 by MBIRA", so the year is the run of the
+      site rather than a date of publication for this page, which carries none. The companion
+      page on the instrument itself is at https://mbira.org/what-is-mbira/.
 - id: useche-hurtado-demmer-2019
   authors:
   - Jorge E. Useche
@@ -317,11 +325,9 @@ works:
     method: crossref
     date: '2026-09-07'
     evidence: https://api.crossref.org/works/10.1080/09298215.2019.1667399
-    note: >-
-      The version of record is the 2019 Journal of New Music Research article, not the
-      2018 arXiv preprint the earlier record and its id pointed at; the preprint is kept
-      as the free copy. Its reference list deposits no DOIs, so it contributes no
-      citation edges.
+    note: The version of record is the 2019 Journal of New Music Research article, not the 2018
+      arXiv preprint the earlier record and its id pointed at; the preprint is kept as the free
+      copy. Its reference list deposits no DOIs, so it contributes no citation edges.
 - id: dell-elmedlaoui-2008
   authors:
   - François Dell
@@ -367,8 +373,16 @@ works:
   domains:
   - material_practice
   - knowledge_provenance
-  metadata_gaps:
-  - year
+  url: https://www.metmuseum.org/art/collection/search?q=shofar&department=18
+  verified:
+    method: publisher_record
+    date: '2026-09-07'
+    evidence: https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=18&q=shofar
+    note: The museum's collection API returns six shofar records in the Musical Instruments department
+      (object ids 500994, 500995, 502076, 502916, 503949, 505748), five accessioned in 1889 with
+      the Crosby Brown Collection and one in 1953. The catalogue records themselves carry no date,
+      so `year` is closed as inapplicable rather than left as an open task; the objects are dated
+      18th–20th century.
 - id: mimo
   corporate_author: Musical Instrument Museums Online / Europeana
   title: MIMO musical instrument collections aggregator
@@ -379,8 +393,19 @@ works:
   domains:
   - material_practice
   - knowledge_provenance
-  metadata_gaps:
-  - year
+  year: 2009–
+  access: open
+  verified:
+    method: publisher_record
+    date: '2026-09-07'
+    evidence: https://pro.europeana.eu/project/mimo
+    note: MIMO began as a European Commission eContentplus project running September 2009 to August
+      2011; the database went live at the end of that period and has been added to since, so the
+      year is the run rather than a publication date. The aggregator itself was intermittently
+      unreachable when this was checked — the top-level address answers with a redirect but the
+      catalogue path times out — so the Europeana project page is recorded as a second point of
+      entry.
+  mirror_url: https://pro.europeana.eu/project/mimo
 - id: horniman-collections
   corporate_author: Horniman Museum and Gardens
   title: Musical Instruments collection database
@@ -390,8 +415,14 @@ works:
   domains:
   - material_practice
   - knowledge_provenance
-  metadata_gaps:
-  - year
+  url: https://www.horniman.ac.uk/explore-the-collections/musical-instrument-collection/
+  verified:
+    method: publisher_record
+    date: '2026-09-07'
+    evidence: https://www.horniman.ac.uk/explore-the-collections/musical-instrument-collection/
+    note: The museum states over 9,500 sound-producing objects and that the collections database
+      "is also still under construction". The online catalogue carries no publication or revision
+      date, so `year` is closed as inapplicable rather than left as an open task.
 - id: tzanetakis-2007-computational-ethnomusicology
   authors:
   - George Tzanetakis
@@ -412,12 +443,15 @@ works:
   domains:
   - computation
   - knowledge_provenance
-  metadata_gaps:
-  - doi
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
     evidence: https://webhome.csc.uvic.ca/~gtzan/output/comp_ethno_jims2007.pdf
+    note: 'The Journal of Interdisciplinary Music Studies deposits no DOIs: it is absent from
+      Crossref under its ISSN and is not an OpenAlex source. The `doi` gap is therefore closed
+      as non-existent rather than unfound, and the author''s copy is the retrievable version.
+      Five works in this bibliography cite this article, matched on author, year, venue, volume
+      and first page.'
   note: Defines computational ethnomusicology as tools built to assist ethnomusicological research;
     the reference point for the field's naming.
 - id: jnmr-2013-computational-ethnomusicology
@@ -621,9 +655,8 @@ works:
     method: openalex
     date: '2026-09-07'
     evidence: https://api.openalex.org/works/https://doi.org/10.48550/arxiv.2503.11956
-    note: >-
-      Authors and the arXiv DOI read from OpenAlex. arXiv deposits no reference list to
-      Crossref, so this preprint contributes no citation edges in either direction.
+    note: Authors and the arXiv DOI read from OpenAlex. arXiv deposits no reference list to Crossref,
+      so this preprint contributes no citation edges in either direction.
 - id: tismir-2023-carnatic-vocal-pitch
   title: Repertoire-Specific Vocal Pitch Data Generation for Improved Melodic Analysis of Carnatic
     Music
@@ -697,14 +730,16 @@ works:
   - computation
   - modal_organization
   - knowledge_provenance
-  metadata_gaps:
-  - year
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
     evidence: https://compmusic.upf.edu/
+    note: The project site states funding by the European Research Council from 2011 to 2017,
+      coordinated by Xavier Serra at the Music Technology Group, Universitat Pompeu Fabra. The
+      corpora and code outlive the funded period.
   note: Culture-specific music information research across Hindustani, Carnatic, Turkish-makam,
     Arab-Andalusian and Beijing opera repertoires; publications, code and corpora released openly.
+  year: 2011–2017
 - id: milne-2008-tuning-continua
   authors:
   - Andrew Milne
@@ -767,7 +802,7 @@ works:
 - id: midi-tuning-standard
   corporate_author: MIDI Association
   title: MIDI Tuning (Updated Specification)
-  url: https://www.midi.org/specifications/midi1-specifications/midi-1-addenda/midi-tuning-updated
+  url: https://midi.org/midi-tuning-updated-specification
   kind: technical_specification
   provider: industry_body
   access: registration_required
@@ -779,9 +814,14 @@ works:
   metadata_gaps:
   - year
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
-    evidence: https://www.midi.org/specifications/midi1-specifications/midi-1-addenda/midi-tuning-updated
+    evidence: https://midi.org/midi-tuning-updated-specification
+    note: The URL previously held here returns 404; this is the current location. The MIDI Association
+      page names the constituent documents — MIDI Tuning Bank/Dump Extensions (CA-020) and MIDI
+      Tuning Scale/Octave Extensions (CA-021/RP-020) — but states no adoption date for either
+      the original standard or this update, so `year` stays declared as a gap rather than guessed.
+      Retrieving the specification PDF requires a free account.
   note: Lets microtunings be shared between instruments and switched during performance, on top
     of a note-number model that presumes twelve per octave.
 - id: midi-mpe-spec
@@ -818,14 +858,15 @@ works:
   - representation
   - computation
   - tuning_practice
-  metadata_gaps:
-  - year
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
     evidence: https://www.huygens-fokker.org/scala/scl_format.html
+    note: 'The page carries no version number or revision date, only the notice "© Manuel Op de
+      Coul, 2001–2026". The year is that run: this is a maintained page, not a dated release.'
   note: 'A de facto interchange format: a scale is a description line, a count, and a list of
     degrees — a specific and consequential idea of what a scale is.'
+  year: 2001–
 - id: mimo-hornbostel-sachs-2011
   corporate_author: MIMO Consortium
   year: 2011
@@ -848,7 +889,7 @@ works:
     cataloguing, and therefore for how instruments become findable.
 - id: knight-hornbostel-sachs-2015
   authors:
-  - Roderic Knight
+  - Roderic C. Knight
   year: 2015
   title: 'The Knight Revision of Hornbostel-Sachs: a new look at musical instrument classification'
   url: https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf
@@ -859,12 +900,14 @@ works:
   domains:
   - material_practice
   - categorization
-  metadata_gaps:
-  - title_completion
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
     evidence: https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf
+    note: 'The title page reads "The KNIGHT REVISION of HORNBOSTEL-SACHS: a new look at musical
+      instrument classification, by Roderic C. Knight, Professor of Ethnomusicology, Oberlin College
+      Conservatory of Music, © 2015, Rev. 2017", so the title is complete as recorded. The file
+      served at this URL is the 2017 revision of the 2015 text; the year kept here is the original.'
   note: An independent revision of the same 1914 scheme; the divergence between revisions is itself
     evidence about classification, not a defect.
 - id: cimcim-resources
@@ -880,12 +923,13 @@ works:
   - material_practice
   - knowledge_provenance
   - institutions_history
-  metadata_gaps:
-  - year
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
     evidence: https://icom-music.mini.icom.museum/resources/
+    note: 'The page is undated and carries no copyright year: it is a maintained index of CIMCIM
+      resources — the collections directory, sigla, technical drawings register, classification
+      and brasswind thesaurus — rather than a dated publication. `year` is closed as inapplicable.'
   note: Directory of instrument collections, collection sigla, technical drawings register and
     the published classification — the infrastructure layer beneath individual museum records.
 - id: unesco-ich-convention-2003
@@ -919,18 +963,23 @@ works:
   domains:
   - institutions_history
   - tuning_practice
-  metadata_gaps:
-  - authors
-  - year
   verified:
-    method: web_search_index
+    method: web_archive
     date: '2026-09-07'
-    evidence: https://www.qdl.qa/en/microtones-piano-and-muhammad-al-qubanshi-%E2%80%93-first-congress-arabic-music-and-early-recordings-iraq
+    evidence: http://web.archive.org/web/20260801220430/https://www.qdl.qa/en/microtones-piano-and-muhammad-al-qubanshi-%E2%80%93-first-congress-arabic-music-and-early-recordings-iraq
+    note: qdl.qa now serves a bot-verification interstitial, so the record was read from the Internet
+      Archive's snapshot of 1 August 2026. The visible byline is Rolf Killius, ethnomusicologist,
+      dated 13 June 2017; the page's dcterms.creator field names someone else, which is a CMS
+      artefact rather than a second author.
   note: Library-held recordings and commentary on the 1932 congress debates about tempering Arab
     music to keyboard instruments.
+  authors:
+  - Rolf Killius
+  year: 2017
 - id: beyond-1932-project
   corporate_author: King's College London
-  title: 'Beyond 1932: the Cairo Congress of Arab Music'
+  title: 'Beyond 1932: Rethinking Musical Modernity in the Middle East and North Africa (1932
+    MUSCON)'
   url: https://1932muscon.kcl.ac.uk/
   kind: project
   provider: project
@@ -939,13 +988,17 @@ works:
   domains:
   - institutions_history
   - modal_organization
-  metadata_gaps:
-  - year
-  - title_completion
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
-    evidence: https://1932muscon.kcl.ac.uk/
+    evidence: https://www.kcl.ac.uk/research/beyond-1932-rethinking-musical-modernity-in-the-middle-east-and-north-africa-1932-muscon
+    note: King's College London gives the full title, a January 2023 to December 2027 run, and
+      Martin Stokes as principal investigator. The project site cites award reference EP/X022749/1
+      under the UKRI guarantee for an ERC grant; KCL and the project site name different UKRI
+      councils, so neither is asserted here.
+  year: 2023–2027
+  note: Reconsiders the 1932 Cairo Congress of Arab Music and its sonic legacies, including the
+    congress recordings and the debates about tempering Arab music to keyboard instruments.
 - id: furniss-2006-aka-polyphony
   authors:
   - Susanne Fürniss
@@ -1036,15 +1089,14 @@ works:
   - material_practice
   - tuning_practice
   - knowledge_provenance
-  metadata_gaps:
-  - doi
   verified:
     method: publisher_record
     date: '2026-09-07'
     evidence: https://journals.openedition.org/ethnomusicologie/2686
     note: Author, year, volume and pagination read from the OpenEdition article page (issue 30,
-      "Perspectives — quel devenir pour l'ethnomusicologie ?", online 2019). Neither Crossref
-      nor OpenAlex indexes this article, so no DOI was resolved.
+      "Perspectives — quel devenir pour l'ethnomusicologie ?", online 2019). Cahiers d'ethnomusicologie
+      deposits no DOIs — Crossref holds no journal record under any of its ISSNs and it is not
+      an OpenAlex source — so the `doi` gap is closed as non-existent rather than unfound.
   note: Personalised modifications made to escape the fixed tuning and chromatic constraints of
     a mass-produced instrument.
 - id: contrechamps-afrique-centrale
@@ -1130,11 +1182,12 @@ works:
   domains:
   - knowledge_provenance
   - auditory_perception
-  metadata_gaps:
-  - year
   verified:
-    method: web_search_index
+    method: publisher_record
     date: '2026-09-07'
-    evidence: https://doaj.org/toc/1559-5749
+    evidence: https://doaj.org/api/search/journals/issn%3A1559-5749
+    note: DOAJ records the journal's open-access start as 2006, and Crossref's earliest deposits
+      for ISSN 1559-5749 are also 2006. The year is the run of the journal, not a single document.
   note: 'Venue-level entry: open-access, observation-based musicology, including a special issue
     on open science in musicology.'
+  year: 2006–

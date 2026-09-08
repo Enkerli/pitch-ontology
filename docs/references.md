@@ -42,21 +42,20 @@ missing field is preferred to a guessed one**. When a field is known to be missi
 unconfirmed, name it in `metadata_gaps` so it becomes a task rather than a silence:
 
 ```yaml
-- id: kubik-african-tone-systems
-  authors: [Gerhard Kubik]
-  year: 1985
-  title: African Tone-Systems—A Reassessment
-  venue: Yearbook for Traditional Music
-  volume: '17'
-  doi: 10.2307/768436
-  metadata_gaps: [pages]
+- id: midi-tuning-standard
+  corporate_author: MIDI Association
+  title: MIDI Tuning (Updated Specification)
+  url: https://midi.org/midi-tuning-updated-specification
+  access: registration_required
+  metadata_gaps: [year]
   verified:
-    method: crossref
+    method: publisher_record
     date: '2026-09-07'
-    evidence: https://api.crossref.org/works/10.2307/768436
+    evidence: https://midi.org/midi-tuning-updated-specification
     note: >-
-      Crossref and OpenAlex record only the first page (31) of this article, so
-      `pages` stays declared as a gap rather than guessed.
+      The MIDI Association page names the constituent documents — CA-020 and
+      CA-021/RP-020 — but states no adoption date for either the original standard
+      or this update, so `year` stays declared as a gap rather than guessed.
 ```
 
 ### How the current records were verified, and how far that goes
@@ -66,7 +65,9 @@ Records carry the method that established them, and the methods are not equal:
 | `verified.method` | what it means |
 |---|---|
 | `crossref` | the record was resolved at `api.crossref.org/works/<doi>` and its fields read from the publisher's own deposit |
-| `publisher_record` | the fields were read from the publisher's article or journal page, for documents Crossref and OpenAlex do not index |
+| `openalex` | resolved at `api.openalex.org`, for documents Crossref does not carry (arXiv deposits, HAL) |
+| `publisher_record` | the fields were read from the publisher's, museum's or project's own page or API, for documents no index covers |
+| `web_archive` | the publisher's page is no longer reachable, so the fields were read from an Internet Archive snapshot, whose date is given |
 | `web_search_index` | the title, and usually the DOI, were read from a URL returned by a web search — good evidence the document exists at that identifier, weak evidence about authorship, year, volume and pages |
 
 A `crossref` pass on 2026-09-07 upgraded every work that resolves to a DOI, and filled
@@ -75,13 +76,28 @@ Where an API disagreed with the record, the API won and the disagreement is stat
 `verified.note` — `merakeb-2024` was dated 2025, and `lhomme-2004-experimenter-ethnomusicologie`
 was dated 2006 from OpenEdition's online date rather than the issue's own 2004.
 
+A second pass then took the declared gaps one at a time, against whatever body actually
+stands behind each document: Cambridge University Press for the pagination of a *Yearbook
+for Traditional Music* article that Crossref truncates to a first page, the Met's
+collection API, DOAJ, the UK funder's project page, the site's own copyright line.
+
+**A gap can close two ways, and the difference matters.** Some were filled with a value.
+Others were closed because the field does not exist for that document — the *Journal of
+Interdisciplinary Music Studies* deposits no DOIs at all, so `tzanetakis-2007` is not
+waiting on one; the Horniman's online catalogue and the CIMCIM resources index carry no
+publication date, so `year` is inapplicable rather than unknown. Closing those as
+non-existent, with the reason in `verified.note`, keeps the queue a list of real work
+instead of a list of questions with no answers. Where a document is a maintained resource
+rather than a dated publication, `year` records its run — `2008–` for the MBIRA site,
+`2001–` for the Scala format page, `2011–2017` for CompMusic.
+
 What is *still* uncertain is named rather than smoothed over. `ellis-1885` carries a DOI
 that resolves to the contemporary report in *Nature*, not to Ellis's own paper in the
-*Journal of the Society of Arts*; `kubik-african-tone-systems` keeps `pages` in
-`metadata_gaps` because Crossref and OpenAlex both record only its first page. Records
-with no identifier at all — museum pages, liner notes, encyclopaedia entries, most of the
-French-language material on OpenEdition — were checked against the publisher's page where
-one exists and are otherwise unchanged.
+*Journal of the Society of Arts*. `midi-tuning-standard` keeps `year`, because the MIDI
+Association publishes the specification with no adoption date on it — the one remaining
+declared gap in the bibliography. `qdl-cairo-congress-microtones` was read from an
+Internet Archive snapshot, because the Qatar Digital Library now serves a bot-verification
+interstitial that this repository does not try to get around.
 
 To re-check a record yourself:
 
