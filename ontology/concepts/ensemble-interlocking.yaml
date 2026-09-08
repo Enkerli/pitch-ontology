@@ -1,0 +1,44 @@
+id: ensemble_interlocking
+labels:
+- text: interlocking
+  language: en
+- text: hocket
+  language: en
+  role: analytic
+- text: imbrication
+  language: fr
+  role: analytic
+senses:
+- id: ensemble_interlocking.relational
+  orientation: 'An organization in which no single part states the pattern: each is incomplete
+    alone and the pattern exists in the composite, so a part''s identity is its position relative
+    to the others.'
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  - material_practice
+  roles:
+  - organizing_principle
+  review_status: seed
+  cautions:
+  - The strongest case against treating a rhythm as a property of a sequence. Here the object
+    of analysis is a relation, and any single-stream representation has already lost it.
+  - Resultant patterns audible in the composite may be nobody's part, and may still be what listeners
+    name.
+  - This is why extracting one part — a tresillo, a bell pattern — and analysing its internal
+    structure answers a question nobody in the ensemble is asking.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: rhythm
+  - relation: INTERLOCKS_WITH
+    target: timeline
+  - relation: ILLUMINATES_ASPECT_OF
+    target: interlocking
+  - relation: CONTESTED_BY
+    target: euclidean_rhythm
+  epistemic_status:
+  - analyst_derived
+  - demonstrated_in_practice
+  - experimentally_inferred
+  sources:
+  - arom-1991-african-polyphony-polyrhythm

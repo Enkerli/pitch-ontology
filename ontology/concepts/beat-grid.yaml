@@ -1,0 +1,48 @@
+id: beat_grid
+labels:
+- text: beat grid
+  language: en
+- text: grid
+  language: en
+- text: timeline
+  language: en
+  role: daw_ui
+senses:
+- id: beat_grid.infrastructure
+  orientation: The lattice of equal divisions a sequencer or DAW draws behind the arrangement,
+    against which events are placed, snapped and displayed. It is the working surface of most
+    music made since the 1980s.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  - representation
+  roles:
+  - analytic_technology
+  - travelling_system
+  review_status: seed
+  cautions:
+  - Not a neutral display. It decides what is easy — placing an event on a division — and what
+    requires effort, which is the definition of an infrastructure with a theory in it.
+  - It is isochronous by construction. A non-isochronous metre cannot be drawn on it without redefining
+    the grid, so the software encodes one metric theory as the condition of use.
+  - Its resolution is finite, so 'exactly on the beat' means 'within one tick'. See ppqn.
+  - The default is 4/4 at a fixed tempo, and defaults are the strongest normative force in this
+    ontology's material practice domain.
+  relations:
+  - relation: MEASURES
+    target: onset
+  - relation: CONSTRAINS
+    target: quantization
+  - relation: ENCODES
+    target: metre
+  - relation: CONTESTED_BY
+    target: participatory_discrepancy
+  - relation: DISPLACES
+    target: microtiming
+  epistemic_status:
+  - computational_abstraction
+  - institutionally_standardized
+  sources:
+  - danielsen-2010-musical-rhythm-digital-reproduction
+  - butler-2017-conceptualizing-rhythm-edm

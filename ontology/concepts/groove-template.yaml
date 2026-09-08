@@ -1,0 +1,47 @@
+id: groove_template
+labels:
+- text: groove template
+  language: en
+- text: groove pool
+  language: en
+  role: product
+- text: groove quantize
+  language: en
+  role: operation
+senses:
+- id: groove_template.extraction
+  orientation: A stored profile of timing (and often velocity) offsets, extracted from one performance
+    or shipped as a preset, applied to quantize other material toward the same feel.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  roles:
+  - analytic_technology
+  - representation
+  review_status: seed
+  cautions:
+  - An operationalization of groove as a vector of offsets — one of that word's five senses, made
+    concrete and thereby made to look like the definition.
+  - Presets named after drum machines and records circulate a specific performance as a general
+    resource, which is the electronic-music version of a scale catalogue.
+  - Extracting a template from an ensemble recording flattens what interlocking parts were doing
+    to each other into a single stream of offsets.
+  relations:
+  - relation: ENCODES
+    target: microtiming
+  - relation: ABSTRACTS_FROM
+    target: groove
+  - relation: IS_A
+    target: scale_catalogue
+    scope:
+      note: 'by analogy: a stored inventory of extracted profiles, the temporal counterpart of
+        a stored inventory of interval sets'
+  - relation: CONSTRAINS
+    target: quantization
+  epistemic_status:
+  - computational_abstraction
+  - institutionally_standardized
+  sources:
+  - danielsen-2010-musical-rhythm-digital-reproduction
+  - camara-danielsen-2018-groove

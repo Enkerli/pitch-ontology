@@ -1,0 +1,35 @@
+id: euclidean-rhythm-loses-clave-direction
+subject: euclidean_rhythm
+relation: CONTRASTS_WITH
+object: clave_direction
+aspect: >-
+  A Euclidean rhythm is a cyclic onset string, and cyclic strings are invariant under
+  rotation. Clave direction is not — 3-2 and 2-3 are the same string rotated, and are not
+  interchangeable in performance, because the orientation is fixed by the other parts, the
+  song and the dance. Whatever the algorithm explains about the shape of the pattern, it
+  cannot express the difference that decides whether a performance is correct.
+limit: Not an argument that the formal result is wrong. Maximal evenness does characterize
+  these strings, and the coincidence across traditions is real and wants explaining. The
+  claim is about what the representation can carry, not about whether the mathematics holds.
+scope:
+  traditions: [Cuban and Afro-Cuban practice]
+  repertoires: [son, rumba, and the derived Latin-jazz repertoires]
+evidence:
+- source: toussaint-2019-geometry-of-musical-rhythm
+  type: computational_analysis
+  note: States the onset-string representation and the maximal-evenness result on which
+    the identification of named patterns with E(k,n) rests.
+- source: toussaint-2010-computational-geometric-aspects
+  type: computational_analysis
+  note: Makes the pitch–rhythm analogy explicit, and with it the reliance on a rotation-
+    invariant circular representation for both.
+- source: arom-1991-african-polyphony-polyrhythm
+  type: experimental_ethnomusicology
+  note: The contrasting method — patterns established by resynthesis judged by the
+    musicians, where a part's identity is its position relative to the others.
+claim_status: working
+confidence: moderate
+notes: The general form of this objection is not specific to clave. Any representation
+  that discards a pattern's relation to the other parts will also discard the judgements
+  that relation licenses. Recorded on clave because that is where the judgement has a
+  name musicians use.

@@ -1,0 +1,34 @@
+id: syncopation
+labels:
+- text: syncopation
+  language: en
+senses:
+- id: syncopation.analytic
+  orientation: An event placed where the assumed metre predicts a weak position, described as
+    displacement or contradiction of that metre.
+  domains:
+  - metric_organization
+  - temporal_organization
+  roles:
+  - analytic_model
+  - problem_concept
+  review_status: seed
+  cautions:
+  - Entirely parasitic on a metric norm. Calling a pattern syncopated says the analyst's metre
+    was elsewhere, which may say more about the analyst than the music.
+  - Where a part is positioned against other parts rather than against a grid, syncopation may
+    not name anything present.
+  - In much writing about African, Afro-Caribbean and Afro-diasporic music, syncopation has done
+    the work of marking the music as deviating from a European norm.
+  relations:
+  - relation: SHAPED_BY
+    target: metre
+  - relation: POORLY_TRANSLATED_AS
+    target: clave
+  - relation: CONTRASTS_WITH
+    target: interlocking
+  epistemic_status:
+  - analyst_derived
+  - contested
+  sources:
+  - arom-1991-african-polyphony-polyrhythm

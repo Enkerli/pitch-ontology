@@ -571,3 +571,211 @@ edges:
       anything.
     established_by: curatorial
     confidence: high
+
+  # ---- rhythm, and the seam between rhythm and pitch ----
+  #
+  # Added 2026-09-08 with the temporal concepts. Same method throughout: the citing
+  # work's deposited Crossref reference list, entry key recorded.
+
+  - from: toussaint-2010-computational-geometric-aspects
+    to: clough-douthett-1991-maximally-even-sets
+    type: CITES
+    basis: >-
+      Entry bib038, DOI 10.2307/843811, asserted by Crossref. This is the load-bearing
+      citation for the whole Euclidean-rhythm programme: the formal result was derived
+      for pitch-class sets and is applied here to rhythms.
+    reference_key: '10.1016/j.comgeo.2007.01.003_bib038 (DOI 10.2307/843811)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: toussaint-2010-computational-geometric-aspects
+    to: arom-1991-african-polyphony-polyrhythm
+    type: CITES
+    basis: >-
+      Entry bib010, series-title "African Polyphony and Polyrhythm", Arom, 1991. Matched
+      on title, author and year; the entry carries no DOI.
+    reference_key: '10.1016/j.comgeo.2007.01.003_bib010'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: toussaint-2010-computational-geometric-aspects
+    to: clayton-2000-time-in-indian-music
+    type: CITES
+    basis: 'Entry bib036, series-title "Time in Indian Music", Clayton, 2000.'
+    reference_key: '10.1016/j.comgeo.2007.01.003_bib036'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-london-2014-timing-meter-mande
+    to: clayton-2000-time-in-indian-music
+    type: CITES
+    basis: Entry ref14, DOI 10.1093/oso/9780198166863.001.0001, asserted by Crossref.
+    reference_key: 'ref14'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-london-2014-timing-meter-mande
+    to: polak-2010-rhythmic-feel-as-meter
+    type: CITES
+    basis: >-
+      Entry ref50, "Polak, Rainer. 2010. 'Rhythmic Feel as Meter. Non-Isochronous Beat
+      Subdivision in Jembe Music from Mali.' Music Theory Online".
+    reference_key: 'ref50'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-london-jacoby-2016-metrical-subdivision
+    to: arom-1991-african-polyphony-polyrhythm
+    type: CITES
+    basis: >-
+      Entry B2, DOI 10.1017/CBO9780511518317, asserted by Crossref — the entry that
+      supplied the identifier now recorded on the Arom record.
+    reference_key: 'B2 (DOI 10.1017/CBO9780511518317)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-london-jacoby-2016-metrical-subdivision
+    to: clayton-2000-time-in-indian-music
+    type: CITES
+    basis: 'Entry B11, "Time in Indian Music: Rhythm, Metre, and Form in North Indian Rag
+      Performance", Clayton.'
+    reference_key: 'B11'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-london-jacoby-2016-metrical-subdivision
+    to: polak-2010-rhythmic-feel-as-meter
+    type: CITES
+    basis: Entry B73, "Rhythmic feel as meter. non-isochronous beat subdivision in jembe
+      music from Mali", Polak.
+    reference_key: 'B73'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jacoby-mcdermott-2017-integer-ratio-priors
+    to: polak-2010-rhythmic-feel-as-meter
+    type: CITES
+    basis: >-
+      Entry bib46, DOI 10.30535/mto.16.4.4, asserted by Crossref. Experimental psychology
+      citing ethnomusicological measurement — the direction this bibliography most wants
+      to see and least often finds.
+    reference_key: '10.1016/j.cub.2016.12.031_bib46 (DOI 10.30535/mto.16.4.4)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jacoby-2024-rhythm-priors-15-countries
+    to: jacoby-mcdermott-2017-integer-ratio-priors
+    type: CITES
+    basis: Entry CR26, DOI 10.1016/j.cub.2016.12.031, asserted by Crossref.
+    reference_key: '1800_CR26 (DOI 10.1016/j.cub.2016.12.031)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jacoby-2024-rhythm-priors-15-countries
+    to: jacoby-2019-pitch-perception-singing
+    type: CITES
+    basis: >-
+      Entry CR28, DOI 10.1016/j.cub.2019.08.020, asserted by Crossref. A rhythm paper
+      citing its own authors' pitch paper: the only verified citation in this file that
+      crosses between the two halves of the ontology, and it crosses inside one research
+      group rather than between literatures.
+    reference_key: '1800_CR28 (DOI 10.1016/j.cub.2019.08.020)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: jacoby-2024-rhythm-priors-15-countries
+    to: savage-2022-corpus-studies
+    type: CITES
+    basis: Entry CR17, DOI 10.1093/oxfordhb/9780190945442.013.34, asserted by Crossref.
+    reference_key: '1800_CR17'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: polak-2010-rhythmic-feel-as-meter
+    to: kubik-1999-africa-and-the-blues
+    type: CITES
+    basis: >-
+      Entry ref44, "Kubik, Gerhard. 1999. Africa and the Blues. Jackson: University of
+      Mississippi Press." A study of Malian metre citing the Africanist account of blues
+      tonality — the two clusters in this bibliography touch here, and nowhere else.
+    reference_key: 'ref44'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: butler-2017-conceptualizing-rhythm-edm
+    to: danielsen-2010-musical-rhythm-digital-reproduction
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Both take sequenced and edited music as the object rather than as a degraded case of
+      played music, and both treat the grid as an artefact with a date.
+    established_by: curatorial
+    confidence: high
+
+  - from: toussaint-2019-geometry-of-musical-rhythm
+    to: toussaint-2010-computational-geometric-aspects
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      The book develops the programme the article states. Kept curatorial: the book's
+      reference list is not deposited to Crossref, so nothing here is read from it.
+    established_by: curatorial
+    confidence: high
+
+  - from: osborn-2014-kid-algebra
+    to: toussaint-2019-geometry-of-musical-rhythm
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Applies the Euclidean and maximally-even apparatus to a repertoire it was not
+      derived from. A specimen of how the framework travels once available; the article's
+      reference list is not deposited, so this is a reading rather than a citation.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: keil-1987-participatory-discrepancies
+    to: arom-1991-african-polyphony-polyrhythm
+    type: CONTRASTS_WITH
+    basis: >-
+      Two answers to what an ensemble's non-coincidence means, arrived at independently and
+      almost simultaneously: for Keil the discrepancies are the substance, for Arom they are
+      what a resynthesis must control in order to expose structure the musicians will confirm.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: camara-danielsen-2018-groove
+    to: keil-1987-participatory-discrepancies
+    type: REASSESSES
+    basis: >-
+      Surveys what became of the participatory-discrepancy claim once microtiming could be
+      measured at scale, without resolving groove into the measurement.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: polak-london-jacoby-2016-metrical-subdivision
+    to: jacoby-2019-pitch-perception-singing
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      A shared author works on non-isochronous metric subdivision and on the cultural
+      contingency of octave equivalence. The same question — which regularities are
+      properties of hearing and which of a tradition — is being asked in time and in pitch
+      by overlapping people, and the two literatures barely cite each other otherwise.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: clough-douthett-1991-maximally-even-sets
+    to: scala-scl-format
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Diatonic set theory and a tuning interchange format both treat a scale as a selection
+      from an equal division, arrived at from opposite ends — a formal result and a file
+      format — and neither cites the other's world.
+    established_by: curatorial
+    confidence: low
+
+  - from: butler-2017-conceptualizing-rhythm-edm
+    to: midi-mpe-spec
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Metric ambiguity in loop-based music and per-note expressive control are the same
+      argument about defaults in different parameters — what the protocol and the sequencer
+      make easy is what the repertoire comes to sound like.
+    established_by: curatorial
+    confidence: low

@@ -1,0 +1,37 @@
+id: theka
+labels:
+- text: ṭhekā
+  language: hi
+- text: theka
+  language: en
+  role: transliteration
+senses:
+- id: theka.pattern
+  orientation: The conventional drum-syllable pattern that identifies a tāl in performance — how
+    the cycle is normally made audible.
+  domains:
+  - metric_organization
+  - material_practice
+  - representation
+  roles:
+  - locally_named_category
+  - realization
+  review_status: seed
+  cautions:
+  - Identity of the tāl rests substantially on the theka, not on the count alone. This is why
+    cycle length is a poor identifier.
+  - Made of spoken syllables (bols) that are simultaneously a notation, a pedagogy and a set of
+    stroke instructions — not reducible to durations.
+  relations:
+  - relation: REALIZES
+    target: tala
+  - relation: ENCODES
+    target: tala
+  - relation: VERBALIZED_AS
+    target: tala
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - demonstrated_in_practice
+  sources:
+  - clayton-2000-time-in-indian-music

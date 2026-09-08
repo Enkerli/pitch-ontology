@@ -1,0 +1,46 @@
+id: tala
+labels:
+- text: tāla
+  language: sa
+- text: tāl
+  language: hi
+- text: tala
+  language: en
+  role: transliteration
+senses:
+- id: tala.cyclic
+  orientation: A named, cyclic temporal framework in Indian art musics, with an internal division
+    into sections and a marked point of return; realized through hand gestures, drum syllables,
+    and a characteristic drum pattern.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - ensemble_coordination
+  roles:
+  - locally_named_category
+  - organizing_framework
+  review_status: seed
+  cautions:
+  - 'Not a time signature and not a bar length. A tāl of sixteen mātrās is not 4/4 four times:
+    the cycle has an internal shape, a point of return, and a conventional drum realization.'
+  - The gestural realization is part of it, not an aid to it.
+  - Cycle length alone identifies almost nothing; two tāls of the same length differ in division
+    and in theka.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: RETURNS_TO
+    target: sam
+  - relation: REALIZES
+    target: theka
+  - relation: ORGANIZES
+    target: laya
+  - relation: ILLUMINATES_ASPECT_OF
+    target: timeline
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - clayton-2000-time-in-indian-music

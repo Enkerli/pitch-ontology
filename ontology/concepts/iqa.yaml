@@ -1,0 +1,38 @@
+id: iqa
+labels:
+- text: īqāʿ
+  language: ar
+- text: iqa
+  language: en
+  role: transliteration
+- text: wazn
+  language: ar
+  role: related
+senses:
+- id: iqa.arab
+  orientation: 'A named rhythmic mode in Arab practice: an ordered cycle of struck and unstruck
+    positions distinguished by stroke type, realized with variation rather than repeated identically.'
+  domains:
+  - metric_organization
+  - temporal_organization
+  - institutions_history
+  roles:
+  - locally_named_category
+  - organizing_framework
+  review_status: seed
+  cautions:
+  - The written skeleton is a teaching form. Performance elaborates it, and the elaboration is
+    not deviation.
+  - Stands to maqām as usûl stands to makam; treating either pair as 'scale plus metre' loses
+    that both members are named, taught and judged categories.
+  relations:
+  - relation: PARTIALLY_OVERLAPS
+    target: usul
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: COEXISTS_WITH
+    target: maqam
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - historically_documented

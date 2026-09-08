@@ -1,0 +1,28 @@
+id: subdivision
+labels:
+- text: subdivision
+  language: en
+senses:
+- id: subdivision.analytic
+  orientation: The division of a beat into smaller units, conventionally into two or three equal
+    parts.
+  domains:
+  - metric_organization
+  - temporal_organization
+  roles:
+  - analytic_model
+  review_status: seed
+  cautions:
+  - Equality is the assumption that measurement most often breaks. Stable unequal subdivision
+    is documented and entrained to.
+  - '''Duple or triple'' is a property of a notation before it is a property of a repertoire.'
+  relations:
+  - relation: PARTICIPATES_IN
+    target: beat
+  - relation: CONTESTED_BY
+    target: non_isochronous_metre
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - polak-2010-rhythmic-feel-as-meter
+  - polak-london-jacoby-2016-metrical-subdivision

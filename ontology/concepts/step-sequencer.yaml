@@ -1,0 +1,48 @@
+id: step_sequencer
+labels:
+- text: step sequencer
+  language: en
+- text: step grid
+  language: en
+  role: ui
+- text: 16 steps
+  language: en
+  role: vernacular
+senses:
+- id: step_sequencer.instrument
+  orientation: An interface presenting a cycle as a fixed row of equal steps, each switched on
+    or off — the interface that made the binary onset string a way of composing rather than only
+    a way of analysing.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  - representation
+  roles:
+  - analytic_technology
+  - material_object
+  review_status: seed
+  cautions:
+  - Sixteen steps is a hardware convention that became a compositional default and then a genre
+    trait. Cycles of nine or twelve are not merely uncommon on it, they are awkward to enter.
+  - 'Its representation is precisely the one the Euclidean-rhythm literature analyses. The convergence
+    is real and worth noting: the algorithm and the interface agree about what a rhythm is because
+    they inherit the same abstraction.'
+  - On/off per step means stroke type must be handled by assigning separate rows, so timbral distinctions
+    that individuate strokes in a named cycle become separate parts.
+  relations:
+  - relation: ENCODES
+    target: rhythm
+  - relation: AFFORDS
+    target: loop
+  - relation: CONSTRAINS
+    target: beat_grid
+  - relation: PARTIALLY_OVERLAPS
+    target: euclidean_rhythm
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction
+  - demonstrated_in_practice
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm
+  - danielsen-2010-musical-rhythm-digital-reproduction

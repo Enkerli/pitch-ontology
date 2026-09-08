@@ -1,0 +1,40 @@
+id: usul
+labels:
+- text: usûl
+  language: tr
+- text: usul
+  language: en
+  role: transliteration
+senses:
+- id: usul.turkish
+  orientation: A named rhythmic cycle in Ottoman and Turkish practice, defined by an ordered sequence
+    of strokes of differing weight and by a length that is frequently not divisible into equal
+    beats.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - institutions_history
+  roles:
+  - locally_named_category
+  - organizing_framework
+  review_status: seed
+  cautions:
+  - Cycles of nine, ten, or twenty-eight are ordinary. Writing them as additive time signatures
+    reads them through a metric theory built for divisive cases.
+  - Named strokes carry weight and identity; the sequence is the usûl, not a count.
+  - Directly parallel to makam on the pitch side, and the two are taught as a pair — the ontology
+    should not hold one and not the other.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: ILLUMINATES_ASPECT_OF
+    target: tala
+  - relation: PARTIALLY_OVERLAPS
+    target: iqa
+  - relation: COEXISTS_WITH
+    target: makam
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - historically_documented
+  - institutionally_standardized

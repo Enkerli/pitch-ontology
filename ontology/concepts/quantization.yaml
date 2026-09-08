@@ -1,0 +1,42 @@
+id: quantization
+labels:
+- text: quantization
+  language: en
+- text: quantise
+  language: en
+  role: variant
+- text: snap to grid
+  language: en
+  role: ui
+senses:
+- id: quantization.operation
+  orientation: Moving recorded events onto the nearest grid position, usually with a strength
+    parameter controlling how far they travel.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  roles:
+  - analytic_technology
+  - operation
+  review_status: seed
+  cautions:
+  - The operation that makes the grid normative rather than merely available. What it removes
+    is exactly what microtiming research measures.
+  - 'Strength below 100% is not a compromise between two neutral options: it presupposes the grid
+    as the target and the performance as the error term.'
+  - Quantizing at a given resolution silently asserts that resolution is the metre.
+  relations:
+  - relation: CONSTRAINS
+    target: microtiming
+  - relation: DISPLACES
+    target: participatory_discrepancy
+  - relation: SHAPED_BY
+    target: beat_grid
+  - relation: CONTRASTS_WITH
+    target: humanize
+  epistemic_status:
+  - computational_abstraction
+  - institutionally_standardized
+  sources:
+  - danielsen-2010-musical-rhythm-digital-reproduction

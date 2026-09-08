@@ -1,0 +1,34 @@
+id: irama
+labels:
+- text: irama
+  language: jv
+senses:
+- id: irama.javanese
+  orientation: In Javanese gamelan, a level defining the ratio between the pulse of the balungan
+    and the density of elaborating parts; changing irama changes how many notes the elaborating
+    instruments play per structural beat, not merely how fast.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - ensemble_coordination
+  roles:
+  - locally_named_category
+  - organizing_framework
+  review_status: seed
+  cautions:
+  - Not tempo. Two performances at the same beat rate can be in different irama, and the difference
+    is what the elaborating parts are doing.
+  - A worked case of a tradition treating rate and density as one variable — see laya.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: tempo
+  - relation: ILLUMINATES_ASPECT_OF
+    target: laya
+  - relation: ORGANIZES
+    target: gongan
+  - relation: COEXISTS_WITH
+    target: pathet
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - demonstrated_in_practice

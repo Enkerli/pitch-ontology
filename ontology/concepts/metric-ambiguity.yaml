@@ -1,0 +1,37 @@
+id: metric_ambiguity
+labels:
+- text: metric ambiguity
+  language: en
+- text: metrical dissonance
+  language: en
+  role: related
+senses:
+- id: metric_ambiguity.resource
+  orientation: A passage supporting more than one placement of the beat or downbeat, treated as
+    a resource rather than a defect — deliberately exploited in electronic dance music, where
+    a loop can be entered at several points.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - computation
+  roles:
+  - analytic_model
+  - compositional_resource
+  review_status: seed
+  cautions:
+  - Ambiguity relative to what a listener does, not a property of the file. The same loop is unambiguous
+    to someone who knows where it starts.
+  - In a repertoire built from loops, 'where the pattern begins' may have no answer, which is
+    a fact about the music, not a gap in the analysis.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: downbeat
+  - relation: AFFORDS
+    target: loop
+  - relation: ILLUMINATES_ASPECT_OF
+    target: clave_direction
+  epistemic_status:
+  - analyst_derived
+  - demonstrated_in_practice
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

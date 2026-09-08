@@ -1,0 +1,17 @@
+id: tala-contrasts-metre
+subject: tala
+relation: CONTRASTS_WITH
+object: metre
+aspect: A tāl is identified by an internal division, a point of return, a gestural
+  realization and a conventional drum pattern. Cycle length alone distinguishes almost
+  nothing, so rendering a tāl as a time signature of that length preserves the count and
+  discards the identity.
+limit: Both organize time cyclically and both can be counted, so the translation is not
+  arbitrary — it is lossy, which is a different complaint and a harder one to notice.
+scope:
+  traditions: [Hindustani and Carnatic art musics]
+evidence:
+- source: clayton-2000-time-in-indian-music
+  type: ethnomusicology
+claim_status: supported
+confidence: high

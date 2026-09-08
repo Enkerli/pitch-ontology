@@ -14,3 +14,11 @@ domains:
   - computation
   - institutions_history
   - knowledge_provenance
+# Temporal organization, added when the ontology extended past pitch. Deliberately
+# parallel to the pitch domains rather than a mirror of them: temporal_organization
+# sits where pitch_resources does, metric_organization where modal_organization does,
+# and ensemble_coordination has no pitch counterpart because the problem it names —
+# what a part means only in relation to other parts — is sharper in rhythm.
+  - temporal_organization
+  - metric_organization
+  - ensemble_coordination

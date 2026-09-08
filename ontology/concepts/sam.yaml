@@ -1,0 +1,39 @@
+id: sam
+labels:
+- text: sam
+  language: hi
+- text: sama
+  language: en
+  role: transliteration
+senses:
+- id: sam.return
+  orientation: 'The first mātrā of a tāl cycle: the point of arrival that performers converge
+    on and that gives improvisation its target.'
+  domains:
+  - metric_organization
+  - trajectory
+  - ensemble_coordination
+  roles:
+  - locally_named_category
+  - point_of_return
+  review_status: seed
+  cautions:
+  - 'The rhythm-side counterpart of a pitch centre, and it behaves like one: it is defined by
+    approach and arrival, not by being first in a list.'
+  - Translating sam as 'downbeat' imports the idea that it is where a bar begins. It is where
+    a phrase lands.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: tala
+  - relation: ILLUMINATES_ASPECT_OF
+    target: pitch_centre
+  - relation: POORLY_TRANSLATED_AS
+    target: downbeat
+  - relation: APPROACHES
+    target: tala
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - demonstrated_in_practice
+  sources:
+  - clayton-2000-time-in-indian-music

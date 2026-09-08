@@ -1,0 +1,40 @@
+id: integer_ratio_prior
+labels:
+- text: integer ratio prior
+  language: en
+- text: rhythmic prior
+  language: en
+  role: descriptive
+senses:
+- id: integer_ratio_prior.experimental
+  orientation: A bias, revealed by iterated reproduction, toward reproducing intervals at simple
+    integer ratios; the specific ratios favoured differ between participant groups.
+  domains:
+  - temporal_organization
+  - auditory_perception
+  - categorization
+  roles:
+  - experimental_construct
+  - measured_phenomenon
+  review_status: seed
+  cautions:
+  - The finding is that priors exist and that they vary. Reporting only the first half turns a
+    cross-cultural result into a universal.
+  - 'Method matters here: this asks participants to reproduce, rather than asking a corpus what
+    was recorded — the counterweight to corpus-derived universals in this bibliography.'
+  - The pitch counterpart by the same group reaches a comparably mixed result, and the two should
+    be read together.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: subdivision
+  - relation: CONTRASTS_WITH
+    target: music_corpus
+  - relation: MEASURED_BY
+    target: participant_judgment
+  epistemic_status:
+  - experimentally_inferred
+  - participant_judgment
+  - contested
+  sources:
+  - jacoby-mcdermott-2017-integer-ratio-priors
+  - jacoby-2024-rhythm-priors-15-countries

@@ -1,0 +1,31 @@
+id: laya
+labels:
+- text: laya
+  language: hi
+senses:
+- id: laya.tempo_density
+  orientation: In Indian art musics, tempo together with the density of events against the cycle
+    — a single concept where dominant theory uses two.
+  domains:
+  - metric_organization
+  - temporal_organization
+  roles:
+  - locally_named_category
+  review_status: seed
+  cautions:
+  - Translating laya as 'tempo' drops the density relation, which is the part that does analytical
+    work.
+  - 'Compare irama in Javanese practice: a different tradition arriving at a similarly fused concept
+    is evidence that the tempo/density split is the odd one.'
+  relations:
+  - relation: PARTICIPATES_IN
+    target: tala
+  - relation: CONTRASTS_WITH
+    target: tempo
+  - relation: ILLUMINATES_ASPECT_OF
+    target: irama
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  sources:
+  - clayton-2000-time-in-indian-music

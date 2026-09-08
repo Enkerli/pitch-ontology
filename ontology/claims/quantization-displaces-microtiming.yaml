@@ -1,0 +1,21 @@
+id: quantization-displaces-microtiming
+subject: quantization
+relation: DISPLACES
+object: microtiming
+aspect: Snapping events to a grid removes exactly the systematic timing relations that
+  measurement identifies as structural, and the software then offers randomization as the
+  remedy — which restores deviation without restoring system.
+limit: A description of what the operation does, not a judgement of music made with it.
+  Grid-quantized music is not deficient; it is differently organized, and its own timing
+  practices are worth records of their own.
+evidence:
+- source: danielsen-2010-musical-rhythm-digital-reproduction
+  type: media_history
+- source: keil-1987-participatory-discrepancies
+  type: theoretical_claim
+  note: The prior claim that the discrepancies are where the music is.
+- source: polak-london-2014-timing-meter-mande
+  type: acoustic_measurement
+  note: Establishes that the deviations in question are systematic rather than random.
+claim_status: supported
+confidence: high

@@ -1,0 +1,46 @@
+id: microtiming
+labels:
+- text: microtiming
+  language: en
+- text: expressive timing
+  language: en
+  role: often_confused
+- text: feel
+  language: en
+  role: vernacular
+senses:
+- id: microtiming.measured
+  orientation: Systematic departures of measured onsets from the positions a metric model predicts,
+    small enough to be heard as placement rather than as different durations.
+  domains:
+  - temporal_organization
+  - acoustics
+  - ensemble_coordination
+  roles:
+  - measured_phenomenon
+  - analytic_technology
+  review_status: seed
+  cautions:
+  - '''Departure'' presupposes the model. Where the model is wrong — an even grid imposed on a
+    non-isochronous metre — the measured deviation is an artefact of the analysis, not a property
+    of the playing.'
+  - Distinguish deviation that is stable and reproduced from deviation that is not. The first
+    is structure.
+  - Being measurable does not make it the thing that matters; being unmeasured does not make it
+    absent.
+  relations:
+  - relation: MEASURES
+    target: onset
+  - relation: CONTRASTS_WITH
+    target: quantization
+  - relation: ILLUMINATES_ASPECT_OF
+    target: groove
+  - relation: DEMONSTRATED_BY
+    target: participatory_discrepancy
+  epistemic_status:
+  - acoustically_measured
+  - computational_abstraction
+  sources:
+  - polak-london-2014-timing-meter-mande
+  - danielsen-2010-musical-rhythm-digital-reproduction
+  - camara-danielsen-2018-groove

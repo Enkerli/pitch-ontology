@@ -1,0 +1,35 @@
+id: tresillo
+labels:
+- text: tresillo
+  language: es
+senses:
+- id: tresillo.excerpt
+  orientation: A three-onset figure spanning eight pulses, widely named in discussion of Afro-Caribbean
+    and Afro-diasporic music, and frequently identified as the first half of a son clave.
+  domains:
+  - temporal_organization
+  - knowledge_provenance
+  roles:
+  - analytic_model
+  - travelling_system
+  review_status: seed
+  cautions:
+  - Whether it is a freestanding unit or an excerpt depends on the repertoire, and treating it
+    as freestanding is the commonest way the clave's relational meaning is lost.
+  - It is the favourite example of the Euclidean-rhythm literature — E(3,8) — because it is the
+    case where the algorithm's output is least controversial. Generalizing from it is generalizing
+    from the easy case.
+  - A pattern extracted from its ensemble no longer supports the judgement 'out of clave', which
+    is the judgement the pattern existed to license.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: clave
+  - relation: ABSTRACTS_FROM
+    target: clave
+  - relation: CONTESTED_BY
+    target: euclidean_rhythm
+  epistemic_status:
+  - analyst_derived
+  - contested
+  sources:
+  - toussaint-2019-geometry-of-musical-rhythm

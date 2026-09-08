@@ -19,6 +19,8 @@ relations:
   - {id: DEPARTS_FROM, kind: behavioral}
   - {id: TRAVERSES, kind: behavioral}
   - {id: ORNAMENTS, kind: behavioral}
+  - {id: INTERLOCKS_WITH, kind: structural}
+  - {id: ORIENTS_TO, kind: behavioral}
   - {id: PARTIALLY_OVERLAPS, kind: comparative}
   - {id: CONTRASTS_WITH, kind: comparative}
   - {id: ILLUMINATES_ASPECT_OF, kind: comparative}

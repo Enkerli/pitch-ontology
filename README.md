@@ -2,9 +2,15 @@
 
 **v0.2 scaffold** · [Browse the records →](https://enkerli.github.io/pitch-ontology/)
 
-**Preliminary work towards** a situated, relational ontology and glossary for pitch:
-how people and technologies perceive, categorize, organize, tune, perform, represent
-and theorize it, with no tradition as the unmarked default.
+**Preliminary work towards** a situated, relational ontology and glossary for pitch
+**and rhythm**: how people and technologies perceive, categorize, organize, tune, time,
+perform, represent and theorize them, with no tradition as the unmarked default.
+
+The repository is still called *pitch-ontology* because that is where it started. The
+temporal half was added second, and deliberately not as a mirror of the first: the
+problems are analogous but not identical, and the sharpest rhythm concepts —
+`ensemble_interlocking`, `clave_direction` — name relations between parts, which pitch
+raises far less often.
 
 It is scaffolding rather than a finished vocabulary — the schema, the relation
 vocabulary and most of the records are provisional, and the point of publishing them
@@ -50,6 +56,7 @@ must be described rather than normalized away.
 - `glossary/index.md` — generated alphabetical view (do not edit by hand)
 - `web/` — static frontend (hand-written HTML/CSS/JS, no build step)
 - `docs/citing-work.md` — generated: recent literature citing this bibliography
+- `docs/pitch-and-time.md` — how the temporal half relates to the pitch half
 - `tools/validate.py` — lightweight validator
 - `tools/build_site.py` — generates `site/` and `glossary/index.md` from the YAML
 - `tools/citing_works.py` — asks OpenAlex who has cited these works since
@@ -93,7 +100,8 @@ render of this README instead and the site never appears.
 2. Seed 75–100 consequential concepts across acoustics, perception, performance,
    language, tuning, historical theory, liturgy, instrument practice, and computation.
 3. Build 4–6 concept journeys: *What is a note?*, *What is a scale?*,
-   *Where is the centre?*, *How can tuning move?*, and *How does speech interact with pitch?*
+   *Where is the centre?*, *How can tuning move?*, *How does speech interact with pitch?*,
+   and *Where is the one?*
 4. Add cross-explanations rather than one-way translations.
 5. Make every substantial historical/ethnographic claim traceable to sources.
 
@@ -104,8 +112,8 @@ stress-test its assumptions.
 
 ## v0.2 population status
 
-Current scaffold contains **147 canonical concept records**, **24 claim records** and
-**63 bibliographic records** joined by **58 typed edges**, nineteen of which are citations
+Current scaffold contains **189 canonical concept records**, **31 claim records** and
+**79 bibliographic records** joined by **79 typed edges**, thirty-two of which are citations
 checked against the citing work's own reference list.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
@@ -132,8 +140,8 @@ methodological extensions, shared corpora, institutional frameworks, and the
 **Most of these are not citation edges.** They are curatorial readings, and they say what
 this repository takes to be connected rather than who acknowledged whom. The `CITES` type
 is reserved for edges read out of the citing work's deposited reference list, and the
-validator refuses it on any other basis: there are nineteen, each naming the reference entry
-it came from.
+validator refuses it on any other basis: there are thirty-two, each naming the reference
+entry it came from.
 
 Every record that resolves to a DOI has been checked against Crossref, which filled the
 author, year and pagination gaps the first pass had to leave open and corrected three

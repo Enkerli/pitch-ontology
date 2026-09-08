@@ -1,0 +1,38 @@
+id: gongan
+labels:
+- text: gongan
+  language: jv
+- text: colotomic structure
+  language: en
+  role: analytic
+senses:
+- id: gongan.cycle
+  orientation: A Javanese cycle delimited by the stroke of the largest gong, subdivided by other
+    punctuating instruments — the cycle is defined by which instrument marks which position, not
+    by a count.
+  domains:
+  - metric_organization
+  - ensemble_coordination
+  - material_practice
+  roles:
+  - locally_named_category
+  - organizing_framework
+  review_status: seed
+  cautions:
+  - 'Structure is carried by instrumental identity: the position is defined by what marks it.
+    A durational transcription loses the definition.'
+  - The gong stroke ends and begins the cycle at once. Asking whether it is the last or first
+    beat is a question the notation creates.
+  relations:
+  - relation: ORGANIZES
+    target: ensemble_interlocking
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: RETURNS_TO
+    target: gong
+  - relation: ILLUMINATES_ASPECT_OF
+    target: timeline
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  - historically_documented

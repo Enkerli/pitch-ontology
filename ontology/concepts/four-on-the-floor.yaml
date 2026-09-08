@@ -1,0 +1,40 @@
+id: four_on_the_floor
+labels:
+- text: four-on-the-floor
+  language: en
+- text: 4/4 kick
+  language: en
+  role: vernacular
+senses:
+- id: four_on_the_floor.pattern
+  orientation: A kick drum on every beat of a four-beat cycle — the pattern that makes metric
+    position unambiguous, and the reason much dance music can be beat-matched at all.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  roles:
+  - organizing_pattern
+  - travelling_system
+  review_status: seed
+  cautions:
+  - 'Does the orientation work that a timeline or a clave does, by the opposite means: it removes
+    asymmetry instead of supplying it. Both make an ensemble locatable; only one survives rotation.'
+  - Its function is partly technical — it gives a mixing engineer and a DJ a reference — which
+    makes it an artefact of a performance practice built around two turntables.
+  - 'Naming it a metre is a category error it invites: it is a part, and it states the metre so
+    plainly that the two become hard to separate.'
+  relations:
+  - relation: CONTRASTS_WITH
+    target: timeline
+  - relation: CONTRASTS_WITH
+    target: clave
+  - relation: REALIZES
+    target: downbeat
+  - relation: DISPLACES
+    target: metric_ambiguity
+  epistemic_status:
+  - demonstrated_in_practice
+  - institutionally_standardized
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

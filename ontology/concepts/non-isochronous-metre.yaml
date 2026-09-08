@@ -1,0 +1,43 @@
+id: non_isochronous_metre
+labels:
+- text: non-isochronous metre
+  language: en
+- text: non-isochronous beat subdivision
+  language: en
+  role: descriptive
+senses:
+- id: non_isochronous_metre.measured
+  orientation: A metric organization whose subdivisions are systematically unequal and stable
+    — the unequal durations are the metre, not deviations from an even one.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - auditory_perception
+  roles:
+  - measured_phenomenon
+  - contested_concept
+  review_status: seed
+  cautions:
+  - 'Not swing, not rubato, not expressive timing: those terms all presuppose an even underlying
+    grid that this is departing from, which is the premise in question.'
+  - Established for particular repertoires by measurement of many performances. Do not generalize
+    to 'non-Western rhythm'.
+  - That entrainment is as precise here as on isochronous subdivision removes the usual psychological
+    defence of the even grid, but does not by itself establish how performers conceptualize it.
+  relations:
+  - relation: CONTESTED_BY
+    target: metre
+  - relation: MEASURED_BY
+    target: microtiming
+  - relation: DEMONSTRATED_BY
+    target: entrainment
+  - relation: ILLUMINATES_ASPECT_OF
+    target: subdivision
+  epistemic_status:
+  - acoustically_measured
+  - experimentally_inferred
+  - demonstrated_in_practice
+  sources:
+  - polak-2010-rhythmic-feel-as-meter
+  - polak-london-2014-timing-meter-mande
+  - polak-london-jacoby-2016-metrical-subdivision

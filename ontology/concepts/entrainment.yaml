@@ -1,0 +1,34 @@
+id: entrainment
+labels:
+- text: entrainment
+  language: en
+senses:
+- id: entrainment.coordination
+  orientation: The process by which a person's periodic behaviour locks to a periodic signal or
+    to other people — the mechanism usually invoked to explain why a beat can be shared at all.
+  domains:
+  - ensemble_coordination
+  - auditory_perception
+  - temporal_organization
+  roles:
+  - mechanism
+  - experimental_construct
+  review_status: seed
+  cautions:
+  - Frequently used to argue that isochrony is fundamental. Entrainment to non-isochronous subdivision
+    is as precise and stable, which removes that argument.
+  - 'A capacity, not a norm: that people can entrain says nothing about whether a given practice
+    is organized around doing so.'
+  relations:
+  - relation: AFFORDS
+    target: beat
+  - relation: SHAPED_BY
+    target: non_isochronous_metre
+  - relation: PARTICIPATES_IN
+    target: ensemble_interlocking
+  epistemic_status:
+  - experimentally_inferred
+  - acoustically_measured
+  sources:
+  - polak-london-jacoby-2016-metrical-subdivision
+  - jacoby-mcdermott-2017-integer-ratio-priors

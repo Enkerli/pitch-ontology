@@ -1390,3 +1390,453 @@ works:
   note: Measures sung pitch in early blues recordings and reports stable regions that do not sit
     on twelve-tone equal-tempered degrees. Measurement of what singers did, against which the
     taught scale can be compared.
+- id: toussaint-2019-geometry-of-musical-rhythm
+  authors:
+  - Godfried T. Toussaint
+  year: 2019
+  title: 'The Geometry of Musical Rhythm: What Makes a “Good” Rhythm Good?'
+  edition: 2nd
+  publisher: Chapman and Hall/CRC
+  doi: 10.1201/9781351247771
+  url: https://doi.org/10.1201/9781351247771
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - computation
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1201/9781351247771
+    note: Second edition; the first appeared in 2013 (DOI 10.1201/b13751).
+  note: The book behind the Euclidean-rhythm literature. Treats named patterns from many traditions
+    as onset strings and compares them by geometric and combinatorial properties, which is what
+    makes the comparison possible and what it discards.
+- id: toussaint-2010-computational-geometric-aspects
+  authors:
+  - Godfried Toussaint
+  year: 2010
+  title: Computational geometric aspects of rhythm, melody, and voice-leading
+  venue: Computational Geometry
+  volume: '43'
+  issue: '1'
+  pages: 2–22
+  doi: 10.1016/j.comgeo.2007.01.003
+  url: https://doi.org/10.1016/j.comgeo.2007.01.003
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - temporal_organization
+  - pitch_resources
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1016/j.comgeo.2007.01.003
+  note: 'States the pitch–rhythm analogy directly: the same geometric apparatus is applied to
+    scales and to rhythms because both are being represented as points on a circle. The bridge
+    this repository needs, and the assumption it wants to examine.'
+- id: clough-douthett-1991-maximally-even-sets
+  authors:
+  - John Clough
+  - Jack Douthett
+  year: 1991
+  title: Maximally Even Sets
+  venue: Journal of Music Theory
+  volume: '35'
+  issue: 1/2
+  pages: 93–173
+  doi: 10.2307/843811
+  url: https://doi.org/10.2307/843811
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - pitch_resources
+  - temporal_organization
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/843811
+    note: Crossref records the first page only; the article runs to 173 in JMT 35(1/2).
+  note: The formal result underneath both Euclidean rhythms and diatonic set theory. A maximally
+    even set is defined without reference to pitch or time, which is exactly why it travels between
+    them so easily.
+- id: osborn-2014-kid-algebra
+  authors:
+  - Brad Osborn
+  year: 2014
+  title: 'Kid Algebra: Radiohead''s Euclidean and Maximally Even Rhythms'
+  venue: Perspectives of New Music
+  volume: '52'
+  issue: '1'
+  pages: 81–105
+  doi: 10.7757/persnewmusi.52.1.0081
+  url: https://doi.org/10.7757/persnewmusi.52.1.0081
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.7757/persnewmusi.52.1.0081
+    note: Crossref records the first page only.
+  note: An instance of the Euclidean apparatus applied to a repertoire it was not derived from.
+    Useful as a specimen of how the framework travels once it is available.
+- id: polak-2010-rhythmic-feel-as-meter
+  authors:
+  - Rainer Polak
+  year: 2010
+  title: 'Rhythmic Feel as Meter: Non-Isochronous Beat Subdivision in Jembe Music from Mali'
+  venue: Music Theory Online
+  volume: '16'
+  issue: '4'
+  doi: 10.30535/mto.16.4.4
+  url: https://mtosmt.org/issues/mto.10.16.4/mto.10.16.4.polak.html
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - metric_organization
+  - temporal_organization
+  - material_practice
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.30535/mto.16.4.4
+  note: 'Beat subdivisions in Bamako jembe music are systematically unequal and stable. Not expressive
+    deviation from an even grid: the unequal subdivision is the metre.'
+- id: polak-london-2014-timing-meter-mande
+  authors:
+  - Rainer Polak
+  - Justin London
+  year: 2014
+  title: Timing and Meter in Mande Drumming from Mali
+  venue: Music Theory Online
+  volume: '20'
+  issue: '1'
+  doi: 10.30535/mto.20.1.1
+  url: https://mtosmt.org/issues/mto.14.20.1/mto.14.20.1.polak-london.html
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - metric_organization
+  - temporal_organization
+  - ensemble_coordination
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.30535/mto.20.1.1
+  note: Measured timing across many performances, against the assumption that metric well-formedness
+    requires isochronous subdivision.
+- id: polak-london-jacoby-2016-metrical-subdivision
+  authors:
+  - Rainer Polak
+  - Justin London
+  - Nori Jacoby
+  year: 2016
+  title: 'Both Isochronous and Non-Isochronous Metrical Subdivision Afford Precise and Stable
+    Ensemble Entrainment: A Corpus Study of Malian Jembe Drumming'
+  venue: Frontiers in Neuroscience
+  volume: '10'
+  doi: 10.3389/fnins.2016.00285
+  url: https://doi.org/10.3389/fnins.2016.00285
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY 4.0
+  language: en
+  domains:
+  - metric_organization
+  - ensemble_coordination
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.3389/fnins.2016.00285
+  note: Entrainment is as precise on non-isochronous subdivision as on isochronous. Removes the
+    psychological argument for treating the even grid as the default.
+- id: polak-2018-lower-limit-for-meter
+  authors:
+  - Rainer Polak
+  year: 2018
+  title: The lower limit for meter in dance drumming from West Africa
+  venue: Empirical Musicology Review
+  volume: '12'
+  issue: 3-4
+  pages: 205–226
+  doi: 10.18061/emr.v12i3-4.4951
+  url: https://doi.org/10.18061/emr.v12i3-4.4951
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY-NC 4.0
+  language: en
+  domains:
+  - metric_organization
+  - auditory_perception
+  - material_practice
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.18061/emr.v12i3-4.4951
+  note: How fast a metric level can go before it stops being one — a limit usually stated from
+    a narrow experimental base and here tested against dance drumming.
+- id: keil-1987-participatory-discrepancies
+  authors:
+  - Charles Keil
+  year: 1987
+  title: Participatory Discrepancies and the Power of Music
+  venue: Cultural Anthropology
+  volume: '2'
+  issue: '3'
+  pages: 275–283
+  doi: 10.1525/can.1987.2.3.02a00010
+  url: https://doi.org/10.1525/can.1987.2.3.02a00010
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1525/can.1987.2.3.02a00010
+  note: Argues that the small timing and tuning discrepancies between players are where musical
+    power lives — that is, that the thing notation treats as error is the thing itself. The direct
+    ancestor of every argument in this repository about grids.
+- id: jacoby-mcdermott-2017-integer-ratio-priors
+  authors:
+  - Nori Jacoby
+  - Josh H. McDermott
+  year: 2017
+  title: Integer Ratio Priors on Musical Rhythm Revealed Cross-culturally by Iterated Reproduction
+  venue: Current Biology
+  volume: '27'
+  issue: '3'
+  pages: 359–370
+  doi: 10.1016/j.cub.2016.12.031
+  url: https://doi.org/10.1016/j.cub.2016.12.031
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: en
+  domains:
+  - temporal_organization
+  - auditory_perception
+  - categorization
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1016/j.cub.2016.12.031
+  note: Iterated reproduction reveals priors on integer ratios that differ between US and Tsimane’
+    participants. The rhythm counterpart of the same authors’ later work on pitch, and a method
+    that asks participants rather than corpora.
+- id: jacoby-2024-rhythm-priors-15-countries
+  authors:
+  - Nori Jacoby
+  - Rainer Polak
+  - Jessica A. Grahn
+  - Daniel J. Cameron
+  - Kyung Myun Lee
+  - Ricardo Godoy
+  - Eduardo A. Undurraga
+  - Tomás Huanca
+  - Timon Thalwitzer
+  - Noumouké Doumbia
+  - Daniel Goldberg
+  - Elizabeth H. Margulis
+  - Patrick C. M. Wong
+  - Luis Jure
+  - Martín Rocamora
+  - Shinya Fujii
+  - Patrick E. Savage
+  - Jun Ajimi
+  - Rei Konno
+  - Sho Oishi
+  - Kelly Jakubowski
+  - Andre Holzapfel
+  - Esra Mungan
+  - Ece Kaya
+  - Preeti Rao
+  - Mattur A. Rohit
+  - Suvarna Alladi
+  - Bronwyn Tarr
+  - Manuel Anglada-Tort
+  - Peter M. C. Harrison
+  - Malinda J. McPherson
+  - Sophie Dolan
+  - Alex Durango
+  - Josh H. McDermott
+  year: 2024
+  title: Commonality and variation in mental representations of music revealed by a cross-cultural
+    comparison of rhythm priors in 15 countries
+  venue: Nature Human Behaviour
+  volume: '8'
+  issue: '5'
+  pages: 846–877
+  doi: 10.1038/s41562-023-01800-9
+  url: https://doi.org/10.1038/s41562-023-01800-9
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY 4.0
+  language: en
+  domains:
+  - temporal_organization
+  - auditory_perception
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1038/s41562-023-01800-9
+  note: Thirty-nine participant groups across fifteen countries. Surfaced by tools/citing_works.py
+    as a candidate before it was read; the largest participant-based counterweight to corpus-derived
+    rhythm universals in this bibliography.
+- id: clayton-2000-time-in-indian-music
+  authors:
+  - Martin Clayton
+  year: 2000
+  title: 'Time in Indian Music: Rhythm, Metre, and Form in North Indian Rāg Performance'
+  publisher: Oxford University Press
+  isbn: '9780198166863'
+  doi: 10.1093/oso/9780198166863.001.0001
+  url: https://doi.org/10.1093/oso/9780198166863.001.0001
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - temporal_organization
+  - modal_organization
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/oso/9780198166863.001.0001
+    note: Crossref dates the Oxford Scholarship Online edition 2001; the first printing is 2000,
+      per OpenLibrary and the ISBN recorded here.
+  note: Tāl as a cyclic framework with a point of return, not a bar-length or a time signature.
+    The clearest single argument that the metre of one tradition is not the metre of another.
+- id: danielsen-2010-musical-rhythm-digital-reproduction
+  authors:
+  - Anne Danielsen (ed.)
+  year: 2010
+  title: Musical Rhythm in the Age of Digital Reproduction
+  publisher: Ashgate
+  doi: 10.4324/9781315596983
+  url: https://doi.org/10.4324/9781315596983
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.4324/9781315596983
+    note: The DOI is the Routledge reissue, dated 2016; the volume was first published by Ashgate
+      in 2010, per OpenLibrary.
+  note: On what sequencers, quantization and editing do to rhythm — the volume that treats the
+    grid as a historical artefact with a date rather than as neutral infrastructure.
+- id: camara-danielsen-2018-groove
+  authors:
+  - Guilherme Schmidt Câmara
+  - Anne Danielsen
+  year: 2018
+  title: Groove
+  collection: The Oxford Handbook of Critical Concepts in Music Theory
+  pages: 270–294
+  publisher: Oxford University Press
+  doi: 10.1093/oxfordhb/9780190454746.013.17
+  url: https://doi.org/10.1093/oxfordhb/9780190454746.013.17
+  kind: book_chapter
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - ensemble_coordination
+  - categorization
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/oxfordhb/9780190454746.013.17
+  note: Traces groove across incompatible uses — a repertoire, a quality, a felt property, a measurable
+    microtiming profile — without resolving them into one.
+- id: butler-2017-conceptualizing-rhythm-edm
+  authors:
+  - Mark J. Butler
+  year: 2017
+  title: Conceptualizing Rhythm and Meter in Electronic Dance Music
+  collection: Electronica, Dance and Club Music
+  pages: 21–63
+  publisher: Routledge
+  doi: 10.4324/9781315094588-3
+  url: https://doi.org/10.4324/9781315094588-3
+  kind: book_chapter
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - metric_organization
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.4324/9781315094588-3
+    note: Reprints material from Butler, Unlocking the Groove (Indiana University Press, 2006),
+      which has no DOI.
+  note: Metric ambiguity as a compositional resource in electronic dance music, where the same
+    loop is heard against more than one downbeat. Also the entry point to that repertoire’s own
+    vocabulary.
+- id: arom-1991-african-polyphony-polyrhythm
+  authors:
+  - Simha Arom
+  year: 1991
+  title: 'African Polyphony and Polyrhythm: Musical Structure and Methodology'
+  publisher: Cambridge University Press
+  isbn: '9780521241601'
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - temporal_organization
+  - ensemble_coordination
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1017/CBO9780511518317
+    note: The DOI was found in the reference list of Polak, London & Jacoby (2016) during the
+      citation pass, after Crossref and OpenAlex title searches had failed to surface it — a reminder
+      that reference lists are themselves a discovery layer. Cambridge University Press, 1991,
+      with a preface by György Ligeti; translation of Polyphonies et polyrythmies instrumentales
+      d’Afrique centrale (SELAF/MSH, 1985).
+  note: 'The source of rhythmic oddity and of the resynthesis method: patterns are separated,
+    recomposed and played back to the musicians, so that structure is confirmed by them rather
+    than asserted about them.'
+  doi: 10.1017/CBO9780511518317
+  url: https://doi.org/10.1017/CBO9780511518317

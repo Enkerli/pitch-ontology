@@ -1,0 +1,23 @@
+id: non-isochronous-metre-contests-metre
+subject: non_isochronous_metre
+relation: CONTESTED_BY
+object: metre
+aspect: Beat subdivisions in Bamako jembe music are systematically unequal, stable across
+  performances and performers, and entrained to as precisely as isochronous subdivisions
+  are. Isochrony is therefore a property of some metres rather than a condition of metre.
+limit: Established for specific West African dance-drumming repertoires by measurement of
+  substantial corpora. It does not license 'non-Western rhythm is non-isochronous', which
+  would repeat the error in the opposite direction.
+scope:
+  traditions: [jembe music of Bamako and the Mande region]
+  regions: [Mali]
+evidence:
+- source: polak-2010-rhythmic-feel-as-meter
+  type: ethnomusicology
+- source: polak-london-2014-timing-meter-mande
+  type: acoustic_measurement
+- source: polak-london-jacoby-2016-metrical-subdivision
+  type: corpus_analysis
+  note: Removes the entrainment-based defence of isochrony specifically.
+claim_status: supported
+confidence: high

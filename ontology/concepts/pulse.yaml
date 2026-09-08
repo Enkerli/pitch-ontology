@@ -1,0 +1,36 @@
+id: pulse
+labels:
+- text: pulse
+  language: en
+- text: tatum
+  language: en
+  role: computational
+senses:
+- id: pulse.analytic
+  orientation: The fastest regular level posited in an analysis, against which other durations
+    are counted; in computational work, the smallest grid unit into which onsets are quantized.
+  domains:
+  - temporal_organization
+  - computation
+  - representation
+  roles:
+  - analytic_model
+  - analytic_technology
+  review_status: seed
+  cautions:
+  - A posited level, not necessarily a sounded one. Nothing need articulate it.
+  - 'Choosing the pulse fixes what can be represented: an onset that falls between two pulses
+    is either an error or unrepresentable, and the choice decides which.'
+  - In non-isochronous metres a single pulse rate may not exist at all.
+  relations:
+  - relation: MEASURES
+    target: onset
+  - relation: PARTICIPATES_IN
+    target: metre
+  - relation: CONSTRAINS
+    target: quantization
+  epistemic_status:
+  - analyst_derived
+  - computational_abstraction
+  sources:
+  - toussaint-2019-geometry-of-musical-rhythm

@@ -1,0 +1,55 @@
+id: clave
+labels:
+- text: clave
+  language: es
+- text: clave pattern
+  language: en
+  role: descriptive
+- text: son clave
+  language: en
+  role: variant
+- text: rumba clave
+  language: en
+  role: variant
+senses:
+- id: clave.cuban
+  orientation: 'A five-stroke asymmetric pattern in Cuban and Afro-Cuban practice that orients
+    an entire ensemble: parts are composed, learned and judged in relation to it, and a performance
+    can be ''out of clave'' — a competence judgement musicians make and name.'
+  domains:
+  - temporal_organization
+  - ensemble_coordination
+  - material_practice
+  roles:
+  - locally_named_category
+  - organizing_pattern
+  review_status: seed
+  cautions:
+  - Not a rhythm one part plays while others play others. It is the reference by which the others
+    are correct or incorrect, which is a different kind of object from a durational pattern.
+  - 'It has a direction. 3-2 and 2-3 are the same onset string rotated, and are not interchangeable:
+    the orientation is fixed by the other parts, the song, and the dance.'
+  - Writing it as a five-onset string over sixteen positions preserves everything a Euclidean
+    analysis needs and discards everything that makes it clave.
+  - Extracting a half of it and treating that half as a unit is an analyst's operation. See the
+    caution on tresillo.
+  relations:
+  - relation: ORGANIZES
+    target: ensemble_interlocking
+  - relation: ORIENTS_TO
+    target: clave_direction
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: POORLY_TRANSLATED_AS
+    target: syncopation
+  - relation: CONTESTED_BY
+    target: euclidean_rhythm
+  - relation: INTERLOCKS_WITH
+    target: timeline
+  epistemic_status:
+  - locally_named
+  - locally_verbalized
+  - demonstrated_in_practice
+  - participant_judgment
+  sources:
+  - toussaint-2019-geometry-of-musical-rhythm

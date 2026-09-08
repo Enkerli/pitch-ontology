@@ -1,0 +1,48 @@
+id: maximally_even_set
+labels:
+- text: maximally even set
+  language: en
+- text: well-formed set
+  language: en
+  role: related
+senses:
+- id: maximally_even_set.formal
+  orientation: A selection of k positions from n equally spaced positions around a circle, spread
+    as evenly as the arithmetic allows. Defined without reference to pitch or time, which is why
+    the same result describes the diatonic set and a bell pattern.
+  domains:
+  - pitch_resources
+  - temporal_organization
+  - computation
+  roles:
+  - formal_object
+  - analytic_technology
+  review_status: seed
+  cautions:
+  - The bridge concept of this ontology, and the place to be most careful. Formal identity between
+    a scale and a rhythm is a fact about the representation — points on a circle — not a discovery
+    about music.
+  - Both applications require the circle to be divided into equal steps first. Twelve equal pitch
+    divisions and sixteen equal pulses are each historical achievements, not givens, and this
+    ontology holds records for how contested each is.
+  - A shared formal property is a reason to compare, not a claim of common origin, common function,
+    or common perception.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: pitch_class_set
+  - relation: ABSTRACTS_FROM
+    target: rhythm
+  - relation: ILLUMINATES_ASPECT_OF
+    target: scale
+  - relation: ILLUMINATES_ASPECT_OF
+    target: timeline
+  - relation: PARTIALLY_OVERLAPS
+    target: rhythmic_oddity
+  - relation: GENERATES
+    target: euclidean_rhythm
+  epistemic_status:
+  - computational_abstraction
+  - analyst_derived
+  sources:
+  - clough-douthett-1991-maximally-even-sets
+  - toussaint-2010-computational-geometric-aspects

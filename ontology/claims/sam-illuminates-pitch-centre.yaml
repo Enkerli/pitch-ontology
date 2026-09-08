@@ -1,0 +1,17 @@
+id: sam-illuminates-pitch-centre
+subject: sam
+relation: ILLUMINATES_ASPECT_OF
+object: pitch_centre
+aspect: Sam is defined by approach and arrival rather than by position in a list, and it
+  organizes a cycle by being the thing improvisation aims at. That is the same shape as a
+  pitch centre established by return rather than by being first in a scale — a cross-domain
+  parallel that holds at the level of how the category is individuated, not by analogy of
+  substance.
+limit: Not an identity and not a genealogy. The point is that both traditions individuate a
+  centre by behaviour toward it, which is a warning about defining either by ordinal
+  position — as 'downbeat' and 'tonic' respectively both do.
+evidence:
+- source: clayton-2000-time-in-indian-music
+  type: ethnomusicology
+claim_status: working
+confidence: moderate

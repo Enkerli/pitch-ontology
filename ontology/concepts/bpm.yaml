@@ -1,0 +1,42 @@
+id: bpm
+labels:
+- text: BPM
+  language: en
+- text: beats per minute
+  language: en
+  role: expansion
+- text: tempo
+  language: en
+  role: often_confused
+senses:
+- id: bpm.unit
+  orientation: A tempo expressed as beats per minute, and in electronic music also a genre marker,
+    a mixing constraint and a metadata field.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  - institutions_history
+  roles:
+  - analytic_technology
+  - travelling_system
+  review_status: seed
+  cautions:
+  - Requires a beat to count, and inherits every ambiguity about which level that is. A track
+    can be 85 or 170 with equal justification.
+  - Its use as a genre boundary and a catalogue field gives a measurement institutional force
+    that its definition does not support.
+  - Assumes a constant rate, which is a property of sequenced music before it is a property of
+    played music.
+  relations:
+  - relation: MEASURES
+    target: beat
+  - relation: ENCODES
+    target: tempo
+  - relation: CONSTRAINS
+    target: beat_grid
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

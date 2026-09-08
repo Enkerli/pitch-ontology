@@ -1,0 +1,44 @@
+id: loop
+labels:
+- text: loop
+  language: en
+- text: bar
+  language: en
+  role: often_confused
+- text: pattern
+  language: en
+  role: vernacular
+senses:
+- id: loop.unit
+  orientation: A bounded span of material repeated as the unit of construction; in much electronic
+    music the primary compositional object, prior to any notion of a piece.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  - metric_organization
+  roles:
+  - material_object
+  - compositional_resource
+  review_status: seed
+  cautions:
+  - A loop has no first beat until something outside it supplies one, which is where metric ambiguity
+    comes from.
+  - The cycle here is a file boundary. That it coincides with a metric cycle is a convention of
+    the tools, not a necessity — and where it does not coincide, phasing results.
+  - 'Compare gongan and tāl: cycles whose boundary is marked by an instrument or an arrival rather
+    than by a repeat point.'
+  relations:
+  - relation: AFFORDS
+    target: metric_ambiguity
+  - relation: CONTRASTS_WITH
+    target: gongan
+  - relation: PARTICIPATES_IN
+    target: step_sequencer
+  - relation: ILLUMINATES_ASPECT_OF
+    target: tala
+  epistemic_status:
+  - institutionally_standardized
+  - demonstrated_in_practice
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

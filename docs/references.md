@@ -155,7 +155,7 @@ A citation pass was run on 2026-09-07:
 4. Entries with no DOI were matched on author, year, venue, volume and first page, and the
    entry key is recorded on the edge in `reference_key` so the match can be re-checked.
 
-That yields nineteen `CITES` edges, written alongside the curatorial edges rather than
+That yields thirty-two `CITES` edges, written alongside the curatorial edges rather than
 replacing them. Three of them fall on pairs that already carried a curatorial edge: the two
 kinds answer different questions, and it is worth being able to see where a reading and an
 acknowledgement coincide.
@@ -167,8 +167,8 @@ cites **none** of the works held here, while McBride cites five of them. Subject
 citation overlap are not the same measurement, which is the whole reason this file keeps
 curatorial edges and citation edges apart.
 
-Nineteen is thin, and thin for a structural reason worth stating. Only 31 of 63 records
-carry a DOI (three of those are arXiv DOIs, which deposit no reference list). Of the rest, most are museum catalogue records, technical specifications, UNESCO
+Thirty-two is still thin, and thin for a structural reason worth stating. Only 47 of 79
+records carry a DOI (three of those are arXiv DOIs, which deposit no reference list). Of the rest, most are museum catalogue records, technical specifications, UNESCO
 inscriptions, liner notes and web documentation — documents that cite nothing in a machine-
 readable way and that scholarly reference lists cite as URLs when they cite them at all. The
 francophone material is a second gap: OpenEdition deposits reference lists for some journals
@@ -179,6 +179,22 @@ the bibliography keeps taking non-article documents seriously, which it should.
 Rejected matches were left out rather than downgraded to curatorial edges: a reference to
 Helmholtz *translated by* Ellis is not a citation of Ellis's own comparative paper, and a
 citation of Sethares's 2005 book is not a citation of his 1994 article.
+
+### What the citation pass turned up that a search had not
+
+Reference lists are a discovery layer, not only a verification one. Arom's *African
+Polyphony and Polyrhythm* had been entered with an ISBN and no identifier, because
+Crossref and OpenAlex title searches did not surface it; its DOI was then found inside the
+reference list of Polak, London & Jacoby (2016), and the record is now retrievable. That is
+worth stating as method: when a title search fails, read the bibliography of something that
+certainly cites it.
+
+The pass also measured a gap the ontology suspected. Of thirty-two verified citations,
+exactly one crosses between the pitch records and the rhythm records — and it crosses
+inside a single research group, Jacoby and colleagues citing their own earlier work. Two
+literatures asking the same question about which regularities belong to hearing and which
+to a tradition, and they do not read each other. The `BRIDGES_FIELD_TO` edges around that
+seam are curatorial precisely because there is nothing to verify.
 
 ## Two queues the validator reports
 

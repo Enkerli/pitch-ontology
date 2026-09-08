@@ -1,0 +1,40 @@
+id: groove
+labels:
+- text: groove
+  language: en
+senses:
+- id: groove.polysemous
+  orientation: A term used for a repertoire item, a quality of performance, a felt pull toward
+    movement, and a measurable microtiming profile — uses that are related historically but not
+    reducible to one another.
+  domains:
+  - temporal_organization
+  - ensemble_coordination
+  - categorization
+  roles:
+  - problem_concept
+  - vernacular_category
+  review_status: seed
+  cautions:
+  - Its vernacular sense is a judgement, not a description, and it is made by listeners and players
+    who do not owe an analyst a definition.
+  - Attempts to locate groove in a microtiming measurement have not converged, and the failure
+    may be about the question.
+  - In production practice 'a groove' is also a file — a template of timing offsets — which is
+    a fifth sense and the one most likely to be operationalized by accident.
+  relations:
+  - relation: OFTEN_CONFUSED_WITH
+    target: rhythm
+  - relation: SHAPED_BY
+    target: microtiming
+  - relation: ILLUMINATES_ASPECT_OF
+    target: entrainment
+  - relation: ENCODES
+    target: groove_template
+  epistemic_status:
+  - locally_verbalized
+  - analyst_derived
+  - contested
+  sources:
+  - camara-danielsen-2018-groove
+  - keil-1987-participatory-discrepancies

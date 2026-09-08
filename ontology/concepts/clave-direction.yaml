@@ -1,0 +1,38 @@
+id: clave_direction
+labels:
+- text: clave direction
+  language: en
+- text: 3-2
+  language: en
+  role: notation
+- text: 2-3
+  language: en
+  role: notation
+senses:
+- id: clave_direction.orientation
+  orientation: Which half of the clave falls first relative to the song and the other parts —
+    a property with no counterpart in the onset string, since rotation leaves the string unchanged.
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  roles:
+  - locally_named_category
+  - relational_property
+  review_status: seed
+  cautions:
+  - The clearest single case in this ontology of a property that a rotation-invariant representation
+    cannot hold. If your model treats a rhythm as a cyclic string up to rotation, this is exactly
+    what you have discarded.
+  - The 3-2 / 2-3 labels are themselves a mid-twentieth-century notational convenience; musicians
+    orient without them.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: clave
+  - relation: CONTESTED_BY
+    target: euclidean_rhythm
+  - relation: ORIENTS_TO
+    target: ensemble_interlocking
+  epistemic_status:
+  - locally_verbalized
+  - demonstrated_in_practice
+  - participant_judgment

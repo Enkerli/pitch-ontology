@@ -1,0 +1,40 @@
+id: participatory_discrepancy
+labels:
+- text: participatory discrepancy
+  language: en
+- text: PD
+  language: en
+  role: abbreviation
+senses:
+- id: participatory_discrepancy.keil
+  orientation: Keil's claim that the small, systematic ways players fail to coincide — in timing
+    and in tuning — are where music's power to involve people lies, so that what a score treats
+    as imprecision is the substance.
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  - knowledge_provenance
+  roles:
+  - theoretical_claim
+  - contested_concept
+  review_status: seed
+  cautions:
+  - A claim about value, not only about measurement, and it has been contested on both counts.
+    Recorded here because it names the position that every later grid argument is arguing with.
+  - Note the pitch clause. Keil's argument covers tuning discrepancy too, which makes it one of
+    the few sources in this bibliography that treats pitch and time as one problem.
+  relations:
+  - relation: CONTRASTS_WITH
+    target: quantization
+  - relation: ILLUMINATES_ASPECT_OF
+    target: microtiming
+  - relation: ILLUMINATES_ASPECT_OF
+    target: intonation
+  - relation: CONTESTED_BY
+    target: beat_grid
+  epistemic_status:
+  - analyst_derived
+  - contested
+  - demonstrated_in_practice
+  sources:
+  - keil-1987-participatory-discrepancies

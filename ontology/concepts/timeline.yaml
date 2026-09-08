@@ -1,0 +1,46 @@
+id: timeline
+labels:
+- text: timeline
+  language: en
+- text: bell pattern
+  language: en
+  role: descriptive
+- text: standard pattern
+  language: en
+  role: analytic
+senses:
+- id: timeline.analyst_term
+  orientation: An analyst's term, introduced in African music scholarship, for a short asymmetric
+    pattern — often struck on a bell — that repeats without variation and against which the other
+    parts of an ensemble are placed.
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  - material_practice
+  roles:
+  - analytic_model
+  - organizing_pattern
+  review_status: seed
+  cautions:
+  - An etic term for an emic function. Practitioners name the pattern, the instrument, or the
+    piece; 'timeline' is what scholarship calls the role.
+  - 'Its job is orientation, not metre: it tells parts where they are relative to each other.
+    Reading it as a bar line inverts what it does.'
+  - '''Standard pattern'' is worse — it names one twelve-pulse instance as the standard for a
+    continent.'
+  relations:
+  - relation: ORGANIZES
+    target: ensemble_interlocking
+  - relation: CONTRASTS_WITH
+    target: metre
+  - relation: INTERLOCKS_WITH
+    target: clave
+  - relation: CONTESTED_BY
+    target: euclidean_rhythm
+  epistemic_status:
+  - analyst_derived
+  - demonstrated_in_practice
+  - historically_documented
+  sources:
+  - arom-1991-african-polyphony-polyrhythm
+  - kubik-african-tone-systems

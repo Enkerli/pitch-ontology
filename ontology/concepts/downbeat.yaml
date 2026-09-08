@@ -1,0 +1,36 @@
+id: downbeat
+labels:
+- text: downbeat
+  language: en
+- text: the one
+  language: en
+  role: vernacular
+senses:
+- id: downbeat.analytic
+  orientation: The position taken to begin a metric cycle, and the anchor almost every notation
+    and sequencer requires before anything can be written down.
+  domains:
+  - metric_organization
+  - representation
+  roles:
+  - analytic_model
+  review_status: seed
+  cautions:
+  - Required by the technology before it is established by the music. A sequencer cannot hold
+    a loop without one.
+  - Not equivalent to sam, which is a point of arrival, nor to a gong stroke, which ends and begins
+    at once.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: metre
+  - relation: POORLY_TRANSLATED_AS
+    target: sam
+  - relation: CONTESTED_BY
+    target: metric_ambiguity
+  - relation: CONSTRAINS
+    target: beat_grid
+  epistemic_status:
+  - analyst_derived
+  - institutionally_standardized
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

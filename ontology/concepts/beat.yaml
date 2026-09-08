@@ -1,0 +1,42 @@
+id: beat
+labels:
+- text: beat
+  language: en
+- text: tactus
+  language: en
+  role: technical
+senses:
+- id: beat.analytic
+  orientation: The metric level a listener or player is taken to move with — the one that gets
+    tapped, counted, or danced. Its rate and its very existence are properties of an encounter
+    between music and a body, not of a signal.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - auditory_perception
+  roles:
+  - analytic_model
+  - perceptual_category
+  review_status: seed
+  cautions:
+  - Which level counts as the beat can differ between listeners hearing the same performance,
+    and between a dancer and a notator.
+  - In electronic dance music the beat may be ambiguous by design, with a loop supporting more
+    than one placement of the downbeat.
+  - There is a lower limit below which a level stops functioning as a beat, but the limit is repertoire-dependent
+    and usually stated from a narrow experimental base.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: metre
+  - relation: MAY_COMPRISE
+    target: subdivision
+  - relation: CONTRASTS_WITH
+    target: pulse
+  - relation: ILLUMINATES_ASPECT_OF
+    target: entrainment
+  epistemic_status:
+  - analyst_derived
+  - experimentally_inferred
+  sources:
+  - polak-2018-lower-limit-for-meter
+  - butler-2017-conceptualizing-rhythm-edm

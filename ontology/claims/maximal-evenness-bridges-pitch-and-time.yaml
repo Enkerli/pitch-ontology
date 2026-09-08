@@ -1,0 +1,27 @@
+id: maximal-evenness-bridges-pitch-and-time
+subject: maximally_even_set
+relation: ILLUMINATES_ASPECT_OF
+object: timeline
+aspect: The same formal object describes the diatonic set and a struck asymmetric cycle,
+  because both have been represented as k points selected from n equal divisions of a
+  circle. The parallel is genuine and is worth having — it is the reason a single ontology
+  can hold pitch and time at all.
+limit: The identity is in the representation, not in the music. Both applications require
+  the circle to be divided equally first, and equal division of the octave and equal
+  division of a cycle are each historical achievements this repository holds contested
+  records for. A shared formal property is a reason to compare, not evidence of common
+  origin, common function, or common perception — and the same caution applies in the
+  pitch direction, where maximal evenness has been used to naturalize the diatonic set.
+evidence:
+- source: clough-douthett-1991-maximally-even-sets
+  type: formal_theory
+- source: toussaint-2010-computational-geometric-aspects
+  type: computational_analysis
+  note: Applies one geometric apparatus to scales and rhythms together, which is the move
+    this claim both records and qualifies.
+- source: arom-1991-african-polyphony-polyrhythm
+  type: experimental_ethnomusicology
+  note: Rhythmic oddity is a formally adjacent property arrived at from participant
+    judgement rather than from the circle representation.
+claim_status: working
+confidence: moderate

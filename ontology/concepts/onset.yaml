@@ -1,0 +1,36 @@
+id: onset
+labels:
+- text: onset
+  language: en
+- text: attack
+  language: en
+  role: descriptive
+senses:
+- id: onset.measured
+  orientation: The time point at which an event is taken to begin — the primitive of almost all
+    computational rhythm analysis.
+  domains:
+  - temporal_organization
+  - acoustics
+  - computation
+  roles:
+  - analytic_technology
+  - measured_phenomenon
+  review_status: seed
+  cautions:
+  - A sound does not have one instant of beginning; the onset is a decision about which part of
+    an envelope counts, and the decision differs by instrument and by detector.
+  - Perceptual attack time can differ substantially from any acoustic onset, and the difference
+    is not noise — it is what makes an ensemble sound together while measuring apart.
+  relations:
+  - relation: PARTICIPATES_IN
+    target: rhythm
+  - relation: MEASURED_BY
+    target: microtiming
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  epistemic_status:
+  - acoustically_measured
+  - computational_abstraction
+  sources:
+  - keil-1987-participatory-discrepancies

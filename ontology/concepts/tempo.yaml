@@ -1,0 +1,29 @@
+id: tempo
+labels:
+- text: tempo
+  language: en
+senses:
+- id: tempo.analytic
+  orientation: The rate of a chosen metric level, conventionally reported as beats per minute.
+  domains:
+  - temporal_organization
+  - representation
+  roles:
+  - analytic_model
+  review_status: seed
+  cautions:
+  - A tempo number is meaningless without saying which level it counts, and that choice is often
+    unstated.
+  - 'Tempo is not the only thing that changes when music gets faster or slower: in Javanese practice
+    a change of irama alters the density of parts against the colotomic cycle, which no single
+    rate captures.'
+  relations:
+  - relation: MEASURES
+    target: beat
+  - relation: CONTRASTS_WITH
+    target: irama
+  - relation: ENCODES
+    target: bpm
+  epistemic_status:
+  - analyst_derived
+  - institutionally_standardized

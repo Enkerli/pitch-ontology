@@ -1,0 +1,44 @@
+id: humanize
+labels:
+- text: humanize
+  language: en
+- text: humanise
+  language: en
+  role: variant
+- text: randomize
+  language: en
+  role: related
+senses:
+- id: humanize.function
+  orientation: A function that displaces quantized events by small random amounts, offered as
+    a remedy for material that sounds mechanical.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  roles:
+  - analytic_technology
+  - operation
+  review_status: seed
+  cautions:
+  - The most revealing object in this part of the ontology. It defines human playing as random
+    deviation from a grid — a theory of musicianship implemented as a menu item.
+  - Measured human timing is systematic, reproducible and stylistically specific. Randomness is
+    the one thing it is not.
+  - That the remedy for the grid is offered by the same software that imposed it is worth recording
+    as a fact about the tools, not the music.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: microtiming
+  - relation: CONTRASTS_WITH
+    target: quantization
+  - relation: CONTESTED_BY
+    target: participatory_discrepancy
+  - relation: SHAPED_BY
+    target: beat_grid
+  epistemic_status:
+  - computational_abstraction
+  - contested
+  sources:
+  - danielsen-2010-musical-rhythm-digital-reproduction
+  - keil-1987-participatory-discrepancies

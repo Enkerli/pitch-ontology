@@ -1,0 +1,37 @@
+id: rhythmic_oddity
+labels:
+- text: rhythmic oddity
+  language: en
+- text: imparité rythmique
+  language: fr
+senses:
+- id: rhythmic_oddity.arom
+  orientation: 'A property Arom identifies in Central African patterns: a cycle of even total
+    length that cannot be divided into two equal halves at any onset, so that the pattern resists
+    bisection.'
+  domains:
+  - temporal_organization
+  - ensemble_coordination
+  roles:
+  - analytic_model
+  - measured_phenomenon
+  review_status: seed
+  cautions:
+  - A formal property, established by resynthesis judged by the musicians rather than asserted
+    from transcription.
+  - Formally close to the maximal-evenness family, and the resemblance is a live question rather
+    than an identity — the same string can satisfy both descriptions for different reasons.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: timeline
+  - relation: PARTIALLY_OVERLAPS
+    target: maximally_even_set
+  - relation: INFERRED_FROM
+    target: participant_judgment
+  epistemic_status:
+  - analyst_derived
+  - experimentally_inferred
+  - participant_judgment
+  sources:
+  - arom-1991-african-polyphony-polyrhythm
+  - arom-furniss-1993

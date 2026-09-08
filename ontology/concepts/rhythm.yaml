@@ -1,0 +1,34 @@
+id: rhythm
+labels:
+- text: rhythm
+  language: en
+senses:
+- id: rhythm.problem
+  orientation: A polysemous category that may denote a durational pattern, a notated figure, an
+    onset string, a felt quality, a named repertoire item, or the temporal organization of a whole
+    performance.
+  domains:
+  - temporal_organization
+  - categorization
+  roles:
+  - problem_concept
+  review_status: seed
+  cautions:
+  - Do not assume music is universally segmented into discrete durations any more than into discrete
+    notes.
+  - The computational sense — a binary onset string over a fixed cycle — is the narrowest of these
+    and the one most likely to be smuggled in as if it were the general case.
+  - Distinguish a rhythm you can write from a rhythm someone names. Many named patterns are named
+    for their role, not their durations.
+  relations:
+  - relation: OFTEN_CONFUSED_WITH
+    target: metre
+  - relation: OFTEN_CONFUSED_WITH
+    target: groove
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - toussaint-2019-geometry-of-musical-rhythm
+  - camara-danielsen-2018-groove

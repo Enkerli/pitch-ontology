@@ -1,0 +1,47 @@
+id: ppqn
+labels:
+- text: PPQN
+  language: en
+- text: pulses per quarter note
+  language: en
+  role: expansion
+- text: ticks
+  language: en
+  role: vernacular
+- text: PPQ
+  language: en
+  role: variant
+senses:
+- id: ppqn.resolution
+  orientation: The number of clock ticks a sequencer counts per quarter note — the actual resolution
+    of musical time inside the machine, from 24 for MIDI clock to 960 and beyond in software.
+  domains:
+  - temporal_organization
+  - computation
+  - material_practice
+  - representation
+  roles:
+  - analytic_technology
+  - technical_standard
+  review_status: seed
+  cautions:
+  - Fixes the smallest representable time difference, and therefore what counts as simultaneous.
+    A grid is not continuous, and its granularity has a number.
+  - 'Quarter-note-relative by name: the unit assumes the note-value system of staff notation,
+    inside a protocol that otherwise abandoned it.'
+  - The pitch counterpart is the semitone-plus-bend structure of MIDI note numbering. Both encode
+    one tradition's units as the addressing scheme everything else must pass through.
+  relations:
+  - relation: MEASURES
+    target: beat_grid
+  - relation: CONSTRAINS
+    target: quantization
+  - relation: ILLUMINATES_ASPECT_OF
+    target: midi_note
+  - relation: ENCODES
+    target: pulse
+  epistemic_status:
+  - institutionally_standardized
+  - computational_abstraction
+  sources:
+  - butler-2017-conceptualizing-rhythm-edm

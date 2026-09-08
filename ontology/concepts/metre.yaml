@@ -1,0 +1,61 @@
+id: metre
+labels:
+- text: metre
+  language: en
+- text: meter
+  language: en
+  role: us_spelling
+- text: time signature
+  language: en
+  role: often_confused
+senses:
+- id: metre.travelling
+  orientation: A hierarchy of periodic levels — pulse, beat, and a cycle of beats — projected
+    onto music and used to say where events fall. In its dominant form it assumes the levels are
+    isochronous and nest in small integer ratios, and it arrived attached to a notation that can
+    only write that case.
+  domains:
+  - metric_organization
+  - temporal_organization
+  - representation
+  roles:
+  - travelling_system
+  - analytic_model
+  - problem_concept
+  review_status: seed
+  cautions:
+  - This is the rhythm side's unmarked default, and it does the damage that 'mode' does on the
+    pitch side. Tāl is not a metre, uṣūl is not a time signature, a timeline is not a bar. Each
+    is translated into metre on first contact and loses what distinguishes it.
+  - 'Isochrony is an assumption, not a finding: Malian jembe metres have systematically unequal
+    subdivisions that musicians hold stable and entrain to precisely.'
+  - A time signature is a notational device for a metre, not the metre itself. Do not treat 12/8
+    as a description of a repertoire.
+  - Metre in this sense presupposes a listener locating events against a grid. Where a part's
+    position is defined against other parts instead, the grid may be an artefact of the analysis.
+  - Beware the move from 'I can notate this in a metre' to 'this is in that metre'. The first
+    is always available.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  - relation: ORGANIZES
+    target: beat
+  - relation: CONTRASTS_WITH
+    target: tala
+  - relation: CONTRASTS_WITH
+    target: timeline
+  - relation: OFTEN_CONFUSED_WITH
+    target: rhythm
+  - relation: CONSTRAINS
+    target: syncopation
+  - relation: CONTESTED_BY
+    target: non_isochronous_metre
+  epistemic_status:
+  - analyst_derived
+  - institutionally_standardized
+  - contested
+  sources:
+  - polak-2010-rhythmic-feel-as-meter
+  - polak-london-2014-timing-meter-mande
+  - clayton-2000-time-in-indian-music
+  - butler-2017-conceptualizing-rhythm-edm

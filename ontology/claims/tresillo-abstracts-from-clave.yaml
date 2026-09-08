@@ -1,0 +1,17 @@
+id: tresillo-abstracts-from-clave
+subject: tresillo
+relation: ABSTRACTS_FROM
+object: clave
+aspect: Treated as a freestanding three-onset figure, tresillo is an excerpt from a pattern
+  whose meaning is relational. Detached from the clave and the ensemble, it no longer
+  supports the competence judgement — being in or out of clave — that the pattern exists
+  to license.
+limit: Tresillo-shaped figures do occur independently across many repertoires, and in some
+  of them the figure is the unit. The claim is against treating the excerpt as the general
+  case, not against its ever standing alone.
+evidence:
+- source: toussaint-2019-geometry-of-musical-rhythm
+  type: computational_analysis
+  note: E(3,8) is the literature's most-cited success, and its least controversial case.
+claim_status: working
+confidence: moderate
