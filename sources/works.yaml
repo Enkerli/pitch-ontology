@@ -1191,3 +1191,94 @@ works:
   note: 'Venue-level entry: open-access, observation-based musicology, including a special issue
     on open science in musicology.'
   year: 2006–
+- id: mcbride-passmore-tlusty-2023
+  authors:
+  - John M. McBride
+  - Sam Passmore
+  - Tsvi Tlusty
+  year: 2023
+  title: Convergent evolution in a large cross-cultural database of musical scales
+  venue: PLOS ONE
+  volume: '18'
+  issue: '12'
+  pages: e0284851
+  doi: 10.1371/journal.pone.0284851
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0284851
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY 4.0
+  language: en
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - computation
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1371/journal.pone.0284851
+  note: 'Assembles scale data from field measurements, instrument measurements and theoretical
+    descriptions, and asks which regularities survive the mixing. Useful here for the opposite
+    reason to its own argument: the paper has to decide what counts as one scale, drawn from sources
+    this repository holds separately as measurement, notation and reconstruction.'
+- id: papaioannou-2026-cross-cultural-similarity
+  authors:
+  - Charilaos Papaioannou
+  - Emmanouil Benetos
+  - Alexandros Potamianos
+  year: 2026
+  title: 'Cross-Cultural Music Similarity: Bridging Human Perception, Signal Processing, and Foundation
+    Models'
+  venue: Transactions of the International Society for Music Information Retrieval
+  volume: '9'
+  issue: '1'
+  pages: 347–368
+  doi: 10.5334/tismir.341
+  url: https://transactions.ismir.net/articles/10.5334/tismir.341
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY 4.0
+  language: en
+  domains:
+  - computation
+  - auditory_perception
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.5334/tismir.341
+  note: Successor to the Panteli review, extended to foundation models. Similarity is the operation
+    that decides which differences between musics a system can register at all, so the measure
+    carries the same commitments as a scale description does.
+- id: savage-2022-corpus-studies
+  authors:
+  - Patrick E. Savage
+  year: 2022
+  title: An Overview of Cross-Cultural Music Corpus Studies
+  collection: The Oxford Handbook of Music and Corpus Studies
+  publisher: Oxford University Press
+  doi: 10.1093/oxfordhb/9780190945442.013.34
+  url: https://doi.org/10.1093/oxfordhb/9780190945442.013.34
+  mirror_url: https://osf.io/preprints/socarxiv/nxtbg_v1
+  kind: book_chapter
+  provider: academic
+  access: green_oa
+  licence: CC BY 4.0
+  language: en
+  domains:
+  - knowledge_provenance
+  - computation
+  - pitch_resources
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/oxfordhb/9780190945442.013.34
+    note: The version of record is paywalled, but the author has deposited the chapter on SocArXiv
+      under CC BY 4.0, confirmed through the OSF API (api.osf.io/v2/preprints/nxtbg). OpenAlex
+      reports this work as closed, which is why the earlier candidate list called it that; the
+      deposit is the reason the record says green_oa.
+  note: A review of the corpus-study literature, and an argument that confining corpora to Western
+    music limits what can be claimed about music at all — the objection this repository is built
+    around, made from inside the computational literature.

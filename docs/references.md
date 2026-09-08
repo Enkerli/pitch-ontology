@@ -155,13 +155,20 @@ A citation pass was run on 2026-09-07:
 4. Entries with no DOI were matched on author, year, venue, volume and first page, and the
    entry key is recorded on the edge in `reference_key` so the match can be re-checked.
 
-That yields eleven `CITES` edges, written alongside the curatorial edges rather than
-replacing them. Three of the eleven fall on pairs that already carried a curatorial edge:
-the two kinds answer different questions, and it is worth being able to see where a reading
-and an acknowledgement coincide.
+That yields eighteen `CITES` edges, written alongside the curatorial edges rather than
+replacing them. Three of them fall on pairs that already carried a curatorial edge: the two
+kinds answer different questions, and it is worth being able to see where a reading and an
+acknowledgement coincide.
 
-Eleven is thin, and thin for a structural reason worth stating. Only 24 of 56 records carry
-a DOI (three of those are arXiv DOIs, which deposit no reference list). Of the rest, most are museum catalogue records, technical specifications, UNESCO
+Seven of the eighteen arrived with three works added in September 2026 from the candidate
+list in `citing-work.md` — McBride, Passmore & Tlusty, Papaioannou et al., and Savage. The
+Savage chapter is the instructive one: it is a review of exactly this literature and it
+cites **none** of the works held here, while McBride cites five of them. Subject overlap and
+citation overlap are not the same measurement, which is the whole reason this file keeps
+curatorial edges and citation edges apart.
+
+Eighteen is thin, and thin for a structural reason worth stating. Only 27 of 59 records
+carry a DOI (three of those are arXiv DOIs, which deposit no reference list). Of the rest, most are museum catalogue records, technical specifications, UNESCO
 inscriptions, liner notes and web documentation — documents that cite nothing in a machine-
 readable way and that scholarly reference lists cite as URLs when they cite them at all. The
 francophone material is a second gap: OpenEdition deposits reference lists for some journals

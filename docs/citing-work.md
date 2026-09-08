@@ -5,64 +5,76 @@ bibliography.** Nothing here has been read, and appearing on it is not an
 argument for inclusion — `docs/references.md` sets the bar: a work belongs in
 `sources/works.yaml` when a concept or claim actually leans on it.
 
-Works published since 2022 that cite at least 2 of the 24 DOI-bearing records in `sources/works.yaml`, ranked by how many they cite at once. Works already held here are excluded.
+Works published since 2022 that cite at least 2 of the 27 DOI-bearing records in `sources/works.yaml`, ranked by how many they cite at once. Works already held here are excluded.
 
 Citing several of our records at once is the signal being ranked on: it marks a
 paper working across the same seam — measurement, perception, and computational
 description of pitch — rather than one citing a single record in passing.
 
-## Reviews and surveys
-
-Flagged by OpenAlex work type or by title. A review is the cheapest way into
-a literature this bibliography only samples.
-
-- **An Overview of Cross-Cultural Music Corpus Studies**  
-  Patrick E. Savage  
-  2022 · Oxford University Press eBooks · closed · [10.1093/oxfordhb/9780190945442.013.34](https://doi.org/10.1093/oxfordhb/9780190945442.013.34)  
-  cites: `ellis-1885`, `panteli-2018-world-music-corpora`, `plos-2017-outliers-world-music`
-
-## Everything else
-
-- **Convergent evolution in a large cross-cultural database of musical scales**  
-  J. Michael McBride; Sam Passmore; Tsvi Tlusty  
-  2023 · PLoS ONE · open · [10.1371/journal.pone.0284851](https://doi.org/10.1371/journal.pone.0284851)  
-  cites: `arom-furniss-1993`, `ellis-1885`, `jacoby-2019-pitch-perception-singing`, `kubik-african-tone-systems`
 - **Comparative musicology: The science of the world’s music**  
   Patrick E. Savage  
   2022 · open · 12 versions · [10.31234/osf.io/b36fm](https://doi.org/10.31234/osf.io/b36fm)  
-  cites: `ellis-1885`, `jacoby-2019-pitch-perception-singing`, `jnmr-2013-computational-ethnomusicology`, `panteli-2018-world-music-corpora`
+  cites: `ellis-1885`, `jacoby-2019-pitch-perception-singing`, `jnmr-2013-computational-ethnomusicology`, `mcbride-passmore-tlusty-2023`, `panteli-2018-world-music-corpora`, `savage-2022-corpus-studies`
 - **History**  
   Patrick E Savage  
   2026 · closed · [10.1093/9780191872303.003.0003](https://doi.org/10.1093/9780191872303.003.0003)  
-  cites: `ellis-1885`, `jacoby-2019-pitch-perception-singing`, `jnmr-2013-computational-ethnomusicology`, `panteli-2018-world-music-corpora`
+  cites: `ellis-1885`, `jacoby-2019-pitch-perception-singing`, `jnmr-2013-computational-ethnomusicology`, `mcbride-passmore-tlusty-2023`, `panteli-2018-world-music-corpora`
 - **Computer-assisted Analysis of Field Recordings: A Case Study of Georgian Funeral Songs**  
   Sebastian Rosenzweig; Frank Scherbaum; Meinard Müller  
   2022 · Journal on Computing and Cultural Heritage · open · [10.1145/3551645](https://doi.org/10.1145/3551645)  
   cites: `gedik-bozkurt-2010-pitch-histograms`, `jnmr-2013-computational-ethnomusicology`, `panteli-2018-world-music-corpora`
+- **The Expanded Natural History of Song Discography, A Global Corpus of Vocal Music**  
+  Mila Bertolo; Martynas Snarskis; Thanos Kyritsis et al.  
+  2025 · Open Mind · open · [10.1162/opmi.a.4](https://doi.org/10.1162/opmi.a.4)  
+  cites: `plos-2017-outliers-world-music`, `saraga-datasets`, `savage-2022-corpus-studies`
 - **Examining transposed makams in Turkish music through machine learning: classification of Rengidil-Neveser and Ruhnevaz-Buselik pieces**  
   M. Kemal Karaosmanoğlu; Esra Berkman; Mehmet İlker Berkman  
   2022 · Journal of New Music Research · closed · [10.1080/09298215.2023.2240756](https://doi.org/10.1080/09298215.2023.2240756)  
   cites: `bozkurt-2009-weighing-models`, `bozkurt-2014-makam-review`, `gedik-bozkurt-2010-pitch-histograms`
+- **Commonality and variation in mental representations of music revealed by a cross-cultural comparison of rhythm priors in 15 countries**  
+  Nori Jacoby; Rainer Polak; Jessica A. Grahn et al.  
+  2024 · Nature Human Behaviour · open · [10.1038/s41562-023-01800-9](https://doi.org/10.1038/s41562-023-01800-9)  
+  cites: `jacoby-2019-pitch-perception-singing`, `savage-2022-corpus-studies`
 - **Participant and Musical Diversity in Music Psychology Research**  
   Kelly Jakubowski; Nashra Ahmad; Jamés O. Armitage et al.  
   2025 · Music & Science · open · 2 versions · [10.1177/20592043251317180](https://doi.org/10.1177/20592043251317180)  
   cites: `jacoby-2019-pitch-perception-singing`, `saraga-datasets`
+- **Timbral effects on consonance disentangle psychoacoustic mechanisms and suggest perceptual origins for musical scales**  
+  Raja Marjieh; Peter M. C. Harrison; Harin Lee et al.  
+  2024 · Nature Communications · open · [10.1038/s41467-024-45812-z](https://doi.org/10.1038/s41467-024-45812-z)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
+- **The (Co)Evolution of Language and Music Under Human Self-Domestication**  
+  Antonio Benítez‐Burraco; Aleksey Nikolsky  
+  2023 · Human Nature · open · 2 versions · [10.1007/s12110-023-09447-1](https://doi.org/10.1007/s12110-023-09447-1)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
 - **Psychoacoustic Foundations of Major-Minor Tonality**  
   Richard Parncutt  
   2024 · The MIT Press eBooks · open · [10.7551/mitpress/15050.001.0001](https://doi.org/10.7551/mitpress/15050.001.0001)  
   cites: `ellis-1885`, `jacoby-2019-pitch-perception-singing`
+- **Vocal imprecision as a universal constraint on the structure of musical scales**  
+  Elizabeth Phillips; Steven Brown  
+  2022 · Scientific Reports · open · 2 versions · [10.1038/s41598-022-24035-6](https://doi.org/10.1038/s41598-022-24035-6)  
+  cites: `ellis-1885`, `mcbride-passmore-tlusty-2023`
 - **Svara-forms and coarticulation in Carnatic music: an investigation using deep clustering**  
   Thomas Nuttall; Xavier Serra; Lara Pearson  
   2024 · open · [10.1145/3660570.3660580](https://doi.org/10.1145/3660570.3660580)  
   cites: `saraga-datasets`, `tismir-2023-carnatic-vocal-pitch`
-- **The Expanded Natural History of Song Discography, A Global Corpus of Vocal Music**  
-  Mila Bertolo; Martynas Snarskis; Thanos Kyritsis et al.  
-  2025 · Open Mind · open · [10.1162/opmi.a.4](https://doi.org/10.1162/opmi.a.4)  
-  cites: `plos-2017-outliers-world-music`, `saraga-datasets`
-- **Cross‑Cultural Music Similarity: Bridging Human Perception, Signal Processing, and Foundation Models**  
-  Charilaos Papaioannou; Emmanouil Benetos; Alexandros Potamianos  
-  2026 · Transactions of the International Society for Music Information Retrieval · open · [10.5334/tismir.341](https://doi.org/10.5334/tismir.341)  
-  cites: `jnmr-2013-computational-ethnomusicology`, `panteli-2018-world-music-corpora`
+- **Musical scales optimize pitch spacing: a global analysis of traditional vocal music**  
+  Steven Brown; Elizabeth Phillips; Khalil Husein et al.  
+  2025 · Humanities and Social Sciences Communications · open · 2 versions · [10.1057/s41599-025-04881-1](https://doi.org/10.1057/s41599-025-04881-1)  
+  cites: `ellis-1885`, `mcbride-passmore-tlusty-2023`
+- **Simple frequency ratios naturally make precisely perceived melodies**  
+  Laurent Demany; Catherine Semal; Daniel Pressnitzer  
+  2025 · Current Biology · closed · [10.1016/j.cub.2025.02.030](https://doi.org/10.1016/j.cub.2025.02.030)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
+- **The role of musical pitch in long‐distance defensive signaling**  
+  Piotr Podlipniak  
+  2025 · Annals of the New York Academy of Sciences · open · [10.1111/nyas.70000](https://doi.org/10.1111/nyas.70000)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
+- **The Neural Reality of Pitch Chroma in Early Infancy**  
+  Giulia Gennari; Ghislaine Dehaene‐Lambertz  
+  2025 · Developmental Science · open · [10.1111/desc.70037](https://doi.org/10.1111/desc.70037)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
 - **A Quantitative Model of Tension and Resolution in Turkish Makam Music Using an Entropy‑Based Approach**  
   Şule Yıldız; N. Oya Levendoğlu; Cenk Güray  
   2026 · Transactions of the International Society for Music Information Retrieval · open · [10.5334/tismir.353](https://doi.org/10.5334/tismir.353)  
@@ -71,6 +83,14 @@ a literature this bibliography only samples.
   Şakir Akgün  
   2026 · Conservatorium / Konservatoryum · open · [10.26650/cons2026-1773375](https://doi.org/10.26650/cons2026-1773375)  
   cites: `bozkurt-2009-weighing-models`, `gedik-bozkurt-2010-pitch-histograms`
+- **Universals**  
+  Patrick E Savage  
+  2026 · closed · [10.1093/9780191872303.003.0004](https://doi.org/10.1093/9780191872303.003.0004)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
+- **Quantifying the evolution of harmony and novelty in western classical music**  
+  Alfredo González-Espinoza; Joshua B. Plotkin  
+  2026 · PLoS ONE · open · [10.1371/journal.pone.0356548](https://doi.org/10.1371/journal.pone.0356548)  
+  cites: `jacoby-2019-pitch-perception-singing`, `mcbride-passmore-tlusty-2023`
 - **Disentangling Overlapping Sources: Improving Vocal and Violin Source Separation in Carnatic Music**  
   Adithi Shankar; Serafin Schweinitz; Genís Plaja-Roglans et al.  
   2025 · open · [10.1109/icasspw65056.2025.11011027](https://doi.org/10.1109/icasspw65056.2025.11011027)  
@@ -78,4 +98,4 @@ a literature this bibliography only samples.
 
 ---
 
-14 candidates matched; 13 listed here, plus 1 flagged as reviews. Regenerate with `python tools/citing_works.py --since 2022 --min-seeds 2`.
+21 candidates matched; 21 listed here. Regenerate with `python tools/citing_works.py --since 2022 --min-seeds 2`.

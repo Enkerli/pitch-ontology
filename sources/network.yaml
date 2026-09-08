@@ -433,3 +433,75 @@ edges:
     reference_key: 'key20230626102645_B47'
     established_by: verified_reference_list
     confidence: high
+
+  # Added 2026-09-08 with the three works below, by the same method: the citing
+  # work's deposited Crossref reference list, entry key recorded.
+
+  - from: mcbride-passmore-tlusty-2023
+    to: arom-furniss-1993
+    type: CITES
+    basis: >-
+      Entry ref142, DOI 10.1080/07494469300640301, asserted by Crossref.
+    reference_key: 'pone.0284851.ref142 (DOI 10.1080/07494469300640301)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: mcbride-passmore-tlusty-2023
+    to: kubik-african-tone-systems
+    type: CITES
+    basis: Entry ref055, DOI 10.2307/768436, asserted by Crossref.
+    reference_key: 'pone.0284851.ref055 (DOI 10.2307/768436)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: mcbride-passmore-tlusty-2023
+    to: ellis-1885
+    type: CITES
+    basis: >-
+      Entry ref037, "On the Musical Scales of Various Nations", A. J. Ellis, 1885,
+      Journal of the Society of Arts. The reference is to Ellis's own paper, which
+      is what this record holds — not to the report in Nature that the record's DOI
+      resolves to. Matched on title, author, year and venue.
+    reference_key: 'pone.0284851.ref037'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: mcbride-passmore-tlusty-2023
+    to: jacoby-2019-pitch-perception-singing
+    type: CITES
+    basis: >-
+      Entry ref016, "Universal and Non-Universal Features of Musical Pitch Perception
+      Revealed by Singing", N. Jacoby, 2019, Current Biology.
+    reference_key: 'pone.0284851.ref016'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: mcbride-passmore-tlusty-2023
+    to: weisser-falceto-2013
+    type: CITES
+    basis: >-
+      Entry ref074, "Investigating Qanat in Amhara Secular Music: An Acoustic and
+      Historical Study", S. Weisser, volume 28, first page 299 — matching Annales
+      d'Éthiopie 28: 299–322. The reference transliterates qəñət differently, which
+      is why title matching alone would have missed it.
+    reference_key: 'pone.0284851.ref074'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: papaioannou-2026-cross-cultural-similarity
+    to: jnmr-2013-computational-ethnomusicology
+    type: CITES
+    basis: Entry r18, DOI 10.1080/09298215.2013.818038, asserted by Crossref.
+    reference_key: 'key20260721081631_r18 (DOI 10.1080/09298215.2013.818038)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: papaioannou-2026-cross-cultural-similarity
+    to: panteli-2018-world-music-corpora
+    type: CITES
+    basis: >-
+      Entry r53, DOI 10.1080/09298215.2017.1418896, asserted by Crossref. The 2026
+      review names the 2018 review as its predecessor.
+    reference_key: 'key20260721081631_r53 (DOI 10.1080/09298215.2017.1418896)'
+    established_by: verified_reference_list
+    confidence: high
