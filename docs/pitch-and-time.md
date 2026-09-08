@@ -68,6 +68,13 @@ cycle are each historical achievements with contested records here.
 
 The verified citation network measures how little the two literatures talk. Of the
 citations checked against real reference lists, exactly one runs between a pitch record and
-a rhythm record, and it runs inside a single research group citing itself. The
-`BRIDGES_FIELD_TO` edges across that seam are curatorial because there is nothing to
-verify — which is the finding, not a gap in the method.
+a rhythm record, and it runs inside a single research group citing itself — Jacoby and
+colleagues citing their own earlier work. The `BRIDGES_FIELD_TO` edges across that seam are
+curatorial because there is nothing to verify, which is the finding rather than a gap in
+the method.
+
+A second seam does better. The groove and music-production literature reaches West African
+metre research twice by real citation — Jacoby & McDermott and Câmara et al. both cite
+Polak — so the experimental, production-side and ethnomusicological accounts of unequal
+timing are at least partly one conversation. That is the shape the pitch–time seam does not
+yet have.

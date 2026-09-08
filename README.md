@@ -113,7 +113,7 @@ stress-test its assumptions.
 ## v0.2 population status
 
 Current scaffold contains **190 canonical concept records**, **31 claim records** and
-**88 bibliographic records** joined by **90 typed edges**, thirty-three of which are citations
+**96 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
 checked against the citing work's own reference list.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
@@ -140,7 +140,7 @@ methodological extensions, shared corpora, institutional frameworks, and the
 **Most of these are not citation edges.** They are curatorial readings, and they say what
 this repository takes to be connected rather than who acknowledged whom. The `CITES` type
 is reserved for edges read out of the citing work's deposited reference list, and the
-validator refuses it on any other basis: there are thirty-three, each naming the reference
+validator refuses it on any other basis: there are thirty-nine, each naming the reference
 entry it came from.
 
 Every record that resolves to a DOI has been checked against Crossref, which filled the

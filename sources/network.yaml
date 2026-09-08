@@ -891,3 +891,106 @@ edges:
       can say what "out of clave" means. Neither cites the other.
     established_by: curatorial
     confidence: moderate
+
+  # ---- the groove and production literature ----
+
+  - from: danielsen-2015-instructed-timing-snare
+    to: iyer-2002-embodied-mind-microtiming
+    type: CITES
+    basis: Entry c37, DOI 10.1525/mp.2002.19.3.387, asserted by the publisher.
+    reference_key: '2023073104135104400_c37 (DOI 10.1525/mp.2002.19.3.387)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: camara-2020-timing-is-everything
+    to: danielsen-2015-instructed-timing-snare
+    type: CITES
+    basis: Entry ref19, DOI 10.1121/1.4930950, asserted by Crossref.
+    reference_key: 'ref19 (DOI 10.1121/1.4930950)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: camara-2020-timing-is-everything
+    to: iyer-2002-embodied-mind-microtiming
+    type: CITES
+    basis: Entry ref39, DOI 10.1525/mp.2002.19.3.387, asserted by Crossref.
+    reference_key: 'ref39 (DOI 10.1525/mp.2002.19.3.387)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: camara-2020-timing-is-everything
+    to: keil-1987-participatory-discrepancies
+    type: CITES
+    basis: Entry ref41, DOI 10.1525/can.1987.2.3.02a00010, asserted by Crossref.
+    reference_key: 'ref41 (DOI 10.1525/can.1987.2.3.02a00010)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: camara-2020-timing-is-everything
+    to: frane-2017-swing-drum-breaks
+    type: CITES
+    basis: Entry ref24, DOI 10.1525/mp.2017.34.3.291, asserted by Crossref.
+    reference_key: 'ref24 (DOI 10.1525/mp.2017.34.3.291)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: camara-2020-timing-is-everything
+    to: polak-2010-rhythmic-feel-as-meter
+    type: CITES
+    basis: >-
+      Entry ref56, DOI 10.30535/mto.16.4.4, asserted by Crossref. The second verified
+      citation running from the groove and production literature to West African metre
+      research, after Jacoby & McDermott — a seam that is not merely curatorial here.
+    reference_key: 'ref56 (DOI 10.30535/mto.16.4.4)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: iyer-2002-embodied-mind-microtiming
+    to: keil-1987-participatory-discrepancies
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Takes up the participatory-discrepancy claim and supplies it a mechanism — bodies
+      doing things at the rates bodies do them — rather than leaving it a claim about
+      value. The deposited reference list carries Keil & Feld's Music Grooves rather than
+      the 1987 article, so this is a reading of the two, not a citation of one by the other.
+    established_by: curatorial
+    confidence: high
+
+  - from: duignan-2010-abstraction-music-production
+    to: bell-2018-dawn-of-the-daw
+    type: HISTORICAL_PRECURSOR_OF
+    basis: >-
+      Producers interviewed about the abstractions their software imposes, eight years
+      before the studio-as-instrument history that explains where those abstractions came
+      from.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: brovig-hanssen-danielsen-2016-digital-signatures
+    to: danielsen-2010-musical-rhythm-digital-reproduction
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      A shared author and one continuing argument: the traces of digital editing are
+      expressive material, not concealed technique.
+    established_by: curatorial
+    confidence: high
+
+  - from: frane-2017-swing-drum-breaks
+    to: polak-2010-rhythmic-feel-as-meter
+    type: BRIDGES_FIELD_TO
+    basis: >-
+      Swing ratios measured in the sampled breakbeat canon, and unequal subdivision measured
+      in Bamako jembe music. The same measurement of the same kind of departure from an even
+      grid, in two literatures that reach each other only through Câmara's reference list.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: bsi-midi-1-0-specification
+    to: midi-tuning-standard
+    type: SAME_TECHNICAL_LINEAGE_AS
+    basis: >-
+      One specification family fixes the units of both parameters: twelve semitones per
+      octave in the note-number model, twenty-four clock ticks per quarter note. The pitch
+      grid and the time grid have the same institutional author.
+    established_by: curatorial
+    confidence: high

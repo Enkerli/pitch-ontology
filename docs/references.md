@@ -155,7 +155,7 @@ A citation pass was run on 2026-09-07:
 4. Entries with no DOI were matched on author, year, venue, volume and first page, and the
    entry key is recorded on the edge in `reference_key` so the match can be re-checked.
 
-That yields thirty-three `CITES` edges, written alongside the curatorial edges rather than
+That yields thirty-nine `CITES` edges, written alongside the curatorial edges rather than
 replacing them. Three of them fall on pairs that already carried a curatorial edge: the two
 kinds answer different questions, and it is worth being able to see where a reading and an
 acknowledgement coincide.

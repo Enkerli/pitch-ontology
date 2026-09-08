@@ -41,6 +41,9 @@ senses:
   - acoustically_measured
   - computational_abstraction
   sources:
+  - iyer-2002-embodied-mind-microtiming
+  - danielsen-2015-instructed-timing-snare
+  - camara-2020-timing-is-everything
   - polak-london-2014-timing-meter-mande
   - danielsen-2010-musical-rhythm-digital-reproduction
   - camara-danielsen-2018-groove

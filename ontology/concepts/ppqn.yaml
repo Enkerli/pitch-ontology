@@ -44,4 +44,5 @@ senses:
   - institutionally_standardized
   - computational_abstraction
   sources:
+  - bsi-midi-1-0-specification
   - butler-2017-conceptualizing-rhythm-edm
