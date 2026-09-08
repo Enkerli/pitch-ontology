@@ -1,0 +1,29 @@
+id: blues_scale
+labels:
+  - {text: blues scale, language: en}
+  - {text: hexatonic blues scale, language: en, role: pedagogical}
+  - {text: minor pentatonic with flat five, language: en, role: descriptive}
+senses:
+  - id: blues_scale.pedagogical
+    orientation: "A six-note collection — minor pentatonic with an added flattened fifth — taught in method books, jazz curricula, guitar instruction and software scale menus as the pitch resource of blues; a twentieth-century teaching abstraction that circulates far more widely than the repertoire it claims to describe."
+    domains: [pitch_resources, representation, institutions_history]
+    roles: [travelling_system, pedagogical_model, analytic_model]
+    review_status: seed
+    cautions:
+      - "Not attested as a category in the practice it names. It is a downstream description, and the musicians it describes did not work from it."
+      - "It is stated on a twelve-tone equal-tempered grid, so it cannot represent the variable pitch regions that measurement finds in blues singing. Its central object is the one thing it cannot notate."
+      - "Reading it back onto early blues recordings imports the grid as an assumption. The scale is evidence about pedagogy, not about the recordings."
+      - "Its reach is a fact about publishing, instrument design and software defaults — a scale menu in a DAW is an institution — not evidence about musical practice."
+      - "Contrast the ontology's other travelling systems: this one is unusual in having no theorists, no treatise, and no community of practitioners who name it as theirs."
+    relations:
+      - {relation: ABSTRACTS_FROM, target: musical_practice}
+      - {relation: CONTESTED_BY, target: blue_note}
+      - {relation: IS_A, target: scale}
+      - {relation: INSTITUTIONALIZES, target: pitch_class_set}
+      - {relation: CONTRASTS_WITH, target: tuning_procedure}
+      - {relation: POORLY_TRANSLATED_AS, target: collective_pitch_resource}
+    epistemic_status: [analyst_derived, institutionally_standardized, contested]
+    sources:
+      - weisethaunet-2001-blue-note
+      - cutting-2019-microtonal-blue-notes
+      - kubik-1999-africa-and-the-blues

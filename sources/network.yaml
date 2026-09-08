@@ -505,3 +505,69 @@ edges:
     reference_key: 'key20260721081631_r53 (DOI 10.1080/09298215.2017.1418896)'
     established_by: verified_reference_list
     confidence: high
+
+  # ---- the blues cluster ----
+  #
+  # Four documents describing the same recordings and disagreeing about what is in
+  # them. The disagreement is the reason they are here together.
+
+  - from: cutting-2019-microtonal-blue-notes
+    to: empirical-musicology-review
+    type: PUBLISHED_IN
+    basis: 'Empirical Musicology Review 13(1–2): 84–99, under CC BY-NC.'
+    established_by: stated_in_source
+    confidence: high
+
+  - from: weisethaunet-2001-blue-note
+    to: kubik-1999-africa-and-the-blues
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Both refuse the premise that blues pitches are European degrees lowered — Kubik
+      by deriving them from African tonal systems, Weisethaunet by treating the
+      lowered-degree description as an artefact of who was writing. They arrive from
+      opposite directions: a genealogy, and a critique of description.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: cutting-2019-microtonal-blue-notes
+    to: weisethaunet-2001-blue-note
+    type: PROVIDES_DATA_FOR
+    basis: >-
+      Measured pitch regions in early blues recordings are the kind of evidence
+      Weisethaunet's argument implies but does not itself supply. A curatorial
+      reading: the article's reference list is not deposited to Crossref, so no
+      citation is asserted here.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: temperley-ren-duan-2017-blue-notes-rock
+    to: weisethaunet-2001-blue-note
+    type: CITES
+    basis: >-
+      Entry ref42, DOI 10.1017/S0261143001001337, asserted by Crossref: "Weisethaunet,
+      Hans. 2001. 'Is There Such a Thing as the "Blue Note"?' Popular Music 20(1):
+      99–116."
+    reference_key: 'ref42 (DOI 10.1017/S0261143001001337)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: temperley-ren-duan-2017-blue-notes-rock
+    to: cutting-2019-microtonal-blue-notes
+    type: CONTRASTS_WITH
+    basis: >-
+      Two computational descriptions of overlapping repertoire reaching incompatible
+      conclusions: an alternation between two discrete pitches, against stable regions
+      off the equal-tempered grid. Neither cites the other — Cutting is later, and
+      Music Theory Online was not in Cutting's field of view.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: mcbride-passmore-tlusty-2023
+    to: savage-2022-corpus-studies
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Both argue from assembled cross-cultural collections, and both have to decide
+      that heterogeneous descriptions are commensurable before they can compare
+      anything.
+    established_by: curatorial
+    confidence: high

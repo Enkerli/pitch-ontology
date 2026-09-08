@@ -1,0 +1,42 @@
+id: blue_note
+labels:
+  - {text: blue note, language: en}
+  - {text: blues third, language: en, role: partial}
+  - {text: neutral third, language: en, role: often_confused}
+senses:
+  - id: blue_note.measured
+    orientation: "A region of sung or bent pitch, characteristically around the third and seventh and sometimes the fifth of a referential collection, that is realized variably and is not well described by a fixed degree of a twelve-tone equal-tempered grid."
+    domains: [pitch_resources, acoustics, categorization]
+    roles: [contested_concept, measured_phenomenon]
+    review_status: seed
+    cautions:
+      - "Not a lowered version of a European degree unless the analysis has independently established that a European degree is the reference — which is the point at issue, not a premise."
+      - "'Blue note' names an analyst's object. Blues performers and listeners have their own vocabulary for what is being done, and it is not this term."
+      - "A stable measured region is not the same thing as a category performers orient to; measurement establishes the first, not the second."
+      - "Descriptions differ on whether this is one inflected region or an alternation between two discrete pitches; the recordings are the same, the analytical commitments are not."
+    relations:
+      - {relation: CONTESTED_BY, target: blues_scale}
+      - {relation: POORLY_TRANSLATED_AS, target: pitch_class}
+      - {relation: OFTEN_CONFUSED_WITH, target: intonation}
+      - {relation: MEASURED_BY, target: cent}
+      - {relation: ILLUMINATES_ASPECT_OF, target: pitch_category}
+    epistemic_status: [analyst_derived, acoustically_measured, contested]
+    sources:
+      - weisethaunet-2001-blue-note
+      - cutting-2019-microtonal-blue-notes
+      - temperley-ren-duan-2017-blue-notes-rock
+      - kubik-1999-africa-and-the-blues
+  - id: blue_note.africanist
+    orientation: "On an Africanist account, the pitches so labelled belong to tonal systems built on partials over a bourdon and on pentatonic frameworks carried from West and Central Africa, in which they are ordinary rather than inflected."
+    domains: [pitch_resources, institutions_history, knowledge_provenance]
+    roles: [historical_account]
+    review_status: seed
+    cautions:
+      - "A claim about derivation, and derivation is contested. Recording it here is not endorsement of a single genealogy."
+      - "If this account holds, the word 'blue' in 'blue note' is doing no descriptive work at all: nothing is being coloured or bent away from a norm."
+    relations:
+      - {relation: HISTORICALLY_INFLUENCES, target: blues_scale}
+      - {relation: CONTRASTS_WITH, target: equal_temperament}
+    epistemic_status: [historically_documented, reconstructed, contested]
+    sources:
+      - kubik-1999-africa-and-the-blues

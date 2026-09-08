@@ -1,0 +1,22 @@
+id: corpus-contrasts-participant-judgment
+subject: music_corpus
+relation: CONTRASTS_WITH
+object: participant_judgment
+aspect: A corpus can establish that a regularity holds across many recordings; it cannot
+  establish that any performer or listener orients to it. Participant judgment establishes
+  the second and scales badly, which is why the two methods rarely check each other.
+limit: Not an argument that corpus findings are unreliable, nor that participant judgment
+  is authoritative — performers can be wrong about what they do, and are not obliged to
+  have a theory of it.
+evidence:
+- source: savage-2022-corpus-studies
+  type: methodological_review
+- source: mcbride-passmore-tlusty-2023
+  type: corpus_analysis
+  note: Pools field measurements, instrument measurements and theoretical descriptions,
+    which requires treating three kinds of evidence as commensurable.
+- source: arom-furniss-1993
+  type: experimental_ethnomusicology
+  note: The contrasting method — resynthesis judged by the musicians themselves.
+claim_status: working
+confidence: moderate

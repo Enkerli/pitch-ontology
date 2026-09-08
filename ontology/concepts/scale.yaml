@@ -12,4 +12,4 @@ senses:
       - {relation: ABSTRACTS_FROM, target: musical_practice}
       - {relation: CONTRASTS_WITH, target: tuning_procedure}
     epistemic_status: [analyst_derived]
-    sources: [arom-furniss-1993, kubik-african-tone-systems]
+    sources: [arom-furniss-1993, kubik-african-tone-systems, mcbride-passmore-tlusty-2023]

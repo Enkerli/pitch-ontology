@@ -1282,3 +1282,111 @@ works:
   note: A review of the corpus-study literature, and an argument that confining corpora to Western
     music limits what can be claimed about music at all — the objection this repository is built
     around, made from inside the computational literature.
+- id: kubik-1999-africa-and-the-blues
+  authors:
+  - Gerhard Kubik
+  year: 1999
+  title: Africa and the Blues
+  publisher: University Press of Mississippi
+  isbn: '9781578061464'
+  doi: 10.2307/j.ctt2tvgcn
+  url: https://doi.org/10.2307/j.ctt2tvgcn
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - institutions_history
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/j.ctt2tvgcn
+    note: The DOI is the JSTOR ebook, deposited 2008; the book is Jackson, 1999, as stated in
+      the title of the 2001 review at 10.2979/ral.2001.32.2.195 and by OpenLibrary. The year kept
+      here is the first edition.
+  note: Derives blues tonality from West and Central African tonal systems — partials over a bourdon,
+    pentatonic frameworks — rather than from a European scale with degrees lowered. On that account
+    the pitches called blue notes are not deviations from anything.
+- id: weisethaunet-2001-blue-note
+  authors:
+  - Hans Weisethaunet
+  year: 2001
+  title: Is there such a thing as the 'blue note'?
+  venue: Popular Music
+  volume: '20'
+  issue: '1'
+  pages: 99–116
+  doi: 10.1017/S0261143001001337
+  url: https://doi.org/10.1017/S0261143001001337
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - pitch_resources
+  - categorization
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1017/s0261143001001337
+  note: Asks whether the object exists. Argues the blue note is a construct of writers describing
+    blues through European theory, and that what performers do is better described as pitch inflection
+    and timbral practice than as a lowered degree.
+- id: temperley-ren-duan-2017-blue-notes-rock
+  authors:
+  - David Temperley
+  - Iris Ren
+  - Zhiyao Duan
+  year: 2017
+  title: Mediant Mixture and “Blue Notes” in Rock
+  venue: Music Theory Online
+  volume: '23'
+  issue: '1'
+  doi: 10.30535/mto.23.1.7
+  url: https://mtosmt.org/issues/mto.17.23.1/mto.17.23.1.temperley.html
+  kind: journal_article
+  provider: academic
+  access: open
+  language: en
+  domains:
+  - pitch_resources
+  - modal_organization
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.30535/mto.23.1.7
+  note: A corpus and pitch-tracking account that treats the third as alternating between major
+    and minor rather than as a single inflected region — a competing description of the same recordings,
+    useful here because it disagrees.
+- id: cutting-2019-microtonal-blue-notes
+  authors:
+  - Court B. Cutting
+  year: 2019
+  title: Microtonal Analysis of "Blue Notes" and the Blues Scale
+  venue: Empirical Musicology Review
+  volume: '13'
+  issue: 1-2
+  pages: 84–99
+  doi: 10.18061/emr.v13i1-2.6316
+  url: https://doi.org/10.18061/emr.v13i1-2.6316
+  kind: journal_article
+  provider: academic
+  access: open
+  licence: CC BY-NC 4.0
+  language: en
+  domains:
+  - acoustics
+  - pitch_resources
+  - computation
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.18061/emr.v13i1-2.6316
+  note: Measures sung pitch in early blues recordings and reports stable regions that do not sit
+    on twelve-tone equal-tempered degrees. Measurement of what singers did, against which the
+    taught scale can be compared.

@@ -1,0 +1,28 @@
+id: blues-scale-contrasts-blue-note
+subject: blues_scale
+relation: CONTRASTS_WITH
+object: blue_note
+aspect: The taught collection places the pitches at issue on twelve-tone equal-tempered
+  degrees, which is what measurement of early blues singing does not find; the scale
+  cannot notate the variability that is the phenomenon it was devised to describe.
+limit: A claim about the scale as a description of recorded blues practice, not about
+  its usefulness as a teaching device, and not about later repertoires made by musicians
+  who did learn it — for those it is a real resource, and reading it back is not an error.
+scope:
+  repertoires: [early recorded blues, jazz pedagogy, rock]
+  periods: ['1920s–1940s recordings; mid-twentieth-century pedagogy onward']
+evidence:
+- source: cutting-2019-microtonal-blue-notes
+  type: acoustic_measurement
+  note: Measured sung regions that do not sit on equal-tempered degrees.
+- source: weisethaunet-2001-blue-note
+  type: critical_historiography
+  note: Argues the object is an artefact of describing blues through European theory.
+- source: temperley-ren-duan-2017-blue-notes-rock
+  type: corpus_analysis
+  note: Dissenting; describes an alternation between two discrete pitches rather than
+    one inflected region, which would weaken this claim for the rock repertoire.
+claim_status: contested
+confidence: moderate
+notes: Kept as contested rather than supported because a competent corpus study of
+  overlapping repertoire reaches a different description from the same recordings.
