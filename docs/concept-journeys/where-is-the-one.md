@@ -27,6 +27,10 @@ in that place.
   unlike a timeline it survives rotation, because there is nothing asymmetric left to
   rotate.
 
+- **An aksak cycle** has no even unit to be located against at all. Its units stand in a
+  2:3 ratio, and Brăiloiu's argument in 1951 was that this is a system rather than a limp —
+  the earliest refusal in this bibliography of the idea that unequal beats are deviations.
+
 Now notice what the list is doing. Each of these is a way of making an ensemble locatable
 in time, and only some of them are properties of a sequence. Clave direction, the gong
 stroke and the timeline are relations — between parts, between a part and a dance, between

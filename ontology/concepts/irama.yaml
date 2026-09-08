@@ -32,3 +32,6 @@ senses:
   - locally_named
   - locally_verbalized
   - demonstrated_in_practice
+  sources:
+  - sutton-1987-variation-composition-java
+  - hughes-1988-deep-structure-javanese

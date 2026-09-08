@@ -779,3 +779,115 @@ edges:
       make easy is what the repertoire comes to sound like.
     established_by: curatorial
     confidence: low
+
+  # ---- aksak, and the sources behind the named cycles ----
+
+  - from: toussaint-2010-computational-geometric-aspects
+    to: arom-2004-aksak-principes-typologie
+    type: CITES
+    basis: >-
+      Entry bib011, DOI 10.2307/40240517, asserted by Crossref. This entry is how the
+      article entered this bibliography at all: it was read out of Toussaint's reference
+      list rather than found by search.
+    reference_key: '10.1016/j.comgeo.2007.01.003_bib011 (DOI 10.2307/40240517)'
+    established_by: verified_reference_list
+    confidence: high
+
+  - from: arom-2004-aksak-principes-typologie
+    to: cahiers-ethnomusicologie
+    type: PUBLISHED_IN
+    basis: >-
+      Cahiers de musiques traditionnelles 17 (2004), the run that was renamed Cahiers
+      d'ethnomusicologie in 2007.
+    established_by: stated_in_source
+    confidence: high
+
+  - from: cler-1994-theorie-aksak
+    to: brailoiu-1951-rythme-aksak
+    type: REASSESSES
+    basis: >-
+      Titled as a theory of the aksak forty-three years after Brăiloiu named it, and
+      argues from Turkish field material against treating the category as additive
+      arithmetic. The reference list is not deposited to Crossref, so this is a reading
+      of the two documents rather than a citation.
+    established_by: curatorial
+    confidence: high
+
+  - from: arom-2004-aksak-principes-typologie
+    to: brailoiu-1951-rythme-aksak
+    type: EXTENDS_METHOD_OF
+    basis: >-
+      Rebuilds Brăiloiu's family as a formal typology, on the commitments Arom developed
+      for Central African material — categories that a musician could confirm.
+    established_by: curatorial
+    confidence: high
+
+  - from: arom-2004-aksak-principes-typologie
+    to: arom-1991-african-polyphony-polyrhythm
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Same author carrying one method between two regions. Rhythmic oddity and the aksak
+      typology are both properties defined so that participant judgement can bear on them.
+    established_by: curatorial
+    confidence: high
+
+  - from: brailoiu-1951-rythme-aksak
+    to: ellis-1885
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Two comparative surveys built on measurement across a wide range of traditions, one
+      of scales and one of metres, each arguing that what looked irregular from a European
+      vantage is systematic. The temporal counterpart of the historical spine at the top of
+      this file.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: cler-1994-theorie-aksak
+    to: polak-2010-rhythmic-feel-as-meter
+    type: HISTORICAL_PRECURSOR_OF
+    basis: >-
+      Both argue that stable unequal units are the metre rather than a distortion of an
+      even one, sixteen years and one continent apart, and by different means — field
+      analysis against Brăiloiu's arithmetic, and measurement of large performance corpora.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: feldman-1996-music-of-the-ottoman-court
+    to: plenckers-2021-arab-music
+    type: CONTRASTS_WITH
+    basis: >-
+      Ottoman usûl treated historically through a written repertoire, Arab awzān treated
+      through demonstration on accompanying recordings. Two ways of establishing what a
+      named cycle is, and the pair that this ontology holds beside makam and maqām.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: hughes-1988-deep-structure-javanese
+    to: sutton-1987-variation-composition-java
+    type: SAME_RESEARCH_PROGRAMME_AS
+    basis: >-
+      Adjacent attempts to say what is fixed and what varies in a gendhing, and therefore
+      what the balungan is — the Javanese form of the question this repository holds for
+      pitch as the note problem.
+    established_by: curatorial
+    confidence: moderate
+
+  - from: grove-colotomic-structure
+    to: hughes-1988-deep-structure-javanese
+    type: CONTRASTS_WITH
+    basis: >-
+      A reference-work definition of the etic term against a study that treats the gongan
+      as a structure with rules. Held together because the concept record is about the
+      distance between them.
+    established_by: curatorial
+    confidence: low
+
+  - from: washburne-1997-clave-of-jazz
+    to: toussaint-2019-geometry-of-musical-rhythm
+    type: CONTRASTS_WITH
+    basis: >-
+      Clave as a principle parts are judged against, versus clave as a string with good
+      combinatorial properties. Both are about the same five strokes, and only one of them
+      can say what "out of clave" means. Neither cites the other.
+    established_by: curatorial
+    confidence: moderate

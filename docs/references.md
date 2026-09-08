@@ -155,7 +155,7 @@ A citation pass was run on 2026-09-07:
 4. Entries with no DOI were matched on author, year, venue, volume and first page, and the
    entry key is recorded on the edge in `reference_key` so the match can be re-checked.
 
-That yields thirty-two `CITES` edges, written alongside the curatorial edges rather than
+That yields thirty-three `CITES` edges, written alongside the curatorial edges rather than
 replacing them. Three of them fall on pairs that already carried a curatorial edge: the two
 kinds answer different questions, and it is worth being able to see where a reading and an
 acknowledgement coincide.
@@ -167,8 +167,11 @@ cites **none** of the works held here, while McBride cites five of them. Subject
 citation overlap are not the same measurement, which is the whole reason this file keeps
 curatorial edges and citation edges apart.
 
-Thirty-two is still thin, and thin for a structural reason worth stating. Only 47 of 79
-records carry a DOI (three of those are arXiv DOIs, which deposit no reference list). Of the rest, most are museum catalogue records, technical specifications, UNESCO
+Thirty-three is still thin, and thin for a structural reason worth stating. Only 56 of 88
+records carry a DOI, and carrying one is not enough: a DOI minted by JSTOR for a back
+issue, or by a publisher for a monograph, generally comes with no deposited reference list
+at all. Of the eight sources added for aksak and for the named cycles of Ottoman, Arab and
+Javanese practice, every one resolves cleanly and not one deposits a bibliography. Of the rest, most are museum catalogue records, technical specifications, UNESCO
 inscriptions, liner notes and web documentation — documents that cite nothing in a machine-
 readable way and that scholarly reference lists cite as URLs when they cite them at all. The
 francophone material is a second gap: OpenEdition deposits reference lists for some journals
@@ -188,6 +191,11 @@ Crossref and OpenAlex title searches did not surface it; its DOI was then found 
 reference list of Polak, London & Jacoby (2016), and the record is now retrievable. That is
 worth stating as method: when a title search fails, read the bibliography of something that
 certainly cites it.
+
+It happened twice. Arom's *L'aksak : principes et typologie* — the article the aksak
+records rest on — was likewise found inside Toussaint's reference list, not by search. Both
+recoveries are francophone work in venues this bibliography already held, and in both cases
+the document was invisible to the query and visible to a citing author.
 
 The pass also measured a gap the ontology suspected. Of thirty-two verified citations,
 exactly one crosses between the pitch records and the rhythm records — and it crosses

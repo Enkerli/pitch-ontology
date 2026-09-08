@@ -1840,3 +1840,255 @@ works:
     than asserted about them.'
   doi: 10.1017/CBO9780511518317
   url: https://doi.org/10.1017/CBO9780511518317
+- id: brailoiu-1951-rythme-aksak
+  authors:
+  - Constantin Brăiloiu
+  year: 1951
+  title: Le rythme aksak
+  venue: Revue de musicologie
+  volume: '33'
+  issue: 99/100
+  pages: 71–108
+  doi: 10.2307/926002
+  url: https://doi.org/10.2307/926002
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: fr
+  domains:
+  - temporal_organization
+  - metric_organization
+  - knowledge_provenance
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/926002
+    note: Crossref records the first page only (71); the closing page recorded here is the commonly
+      cited one and is not confirmed against the issue, so `pages` stays declared as a gap.
+  note: The founding text. Names a family of metres built from unequal units in a 2:3 ratio and
+    argues they are a system rather than an irregularity — the earliest sustained refusal, in
+    this bibliography, of the idea that unequal beats are deviations.
+- id: cler-1994-theorie-aksak
+  authors:
+  - Jérôme Cler
+  year: 1994
+  title: Pour une théorie de l'aksak
+  venue: Revue de musicologie
+  volume: '80'
+  issue: '2'
+  pages: 181–210
+  doi: 10.2307/947054
+  url: https://doi.org/10.2307/947054
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: fr
+  domains:
+  - temporal_organization
+  - metric_organization
+  - knowledge_provenance
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/947054
+    note: Crossref records the first page only (181); the closing page is not confirmed here.
+  note: Reassesses Brăiloiu forty years on, from Turkish field material. Argues against treating
+    aksak as additive arithmetic and for a category grounded in how players and dancers organize
+    the unequal units.
+- id: arom-2004-aksak-principes-typologie
+  authors:
+  - Simha Arom
+  year: 2004
+  title: 'L''aksak : principes et typologie'
+  venue: Cahiers de musiques traditionnelles
+  volume: '17'
+  pages: 11–48
+  doi: 10.2307/40240517
+  url: https://doi.org/10.2307/40240517
+  mirror_url: https://journals.openedition.org/ethnomusicologie/477
+  kind: journal_article
+  provider: academic
+  access: green_oa
+  language: fr
+  domains:
+  - temporal_organization
+  - metric_organization
+  - ensemble_coordination
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/40240517
+    note: Crossref records the first page only (11). Surfaced from the reference list of Toussaint
+      (2010), which cites it — see the CITES edge. Published in the run of Cahiers de musiques
+      traditionnelles that this bibliography already holds as a venue-level record, whose back
+      issues are on OpenEdition.
+  note: 'A formal typology of aksak built on the same commitments as the Central African work:
+    the categories are defined by properties a musician could confirm, not by the arithmetic that
+    happens to describe them.'
+- id: feldman-1996-music-of-the-ottoman-court
+  authors:
+  - Walter Feldman
+  year: 1996
+  title: 'Music of the Ottoman Court: Makam, Composition and the Early Ottoman Instrumental Repertoire'
+  publisher: Brill
+  isbn: '9789004531260'
+  doi: 10.1163/9789004531260
+  url: https://doi.org/10.1163/9789004531260
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - modal_organization
+  - institutions_history
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1163/9789004531260
+    note: The DOI is the Brill reissue, dated 2024; the book was first published by VWB, Berlin,
+      in 1996, and the year kept here is the first edition.
+  note: Makam and usûl treated together as the two axes of Ottoman composition, with the historical
+    repertoire that shows how usûl cycles were used rather than only how they were tabulated.
+- id: plenckers-2021-arab-music
+  authors:
+  - Leo Plenckers
+  year: 2021
+  title: 'Arab Music: A Survey of Its History and Its Modern Practice'
+  publisher: Archaeopress
+  isbn: '9781789699326'
+  doi: 10.32028/9781789699326
+  url: https://doi.org/10.32028/9781789699326
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - modal_organization
+  - institutions_history
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.32028/9781789699326
+  note: Surveys the maqāmāt and the awzān side by side, and ships a recording of each — the awzān
+    are demonstrated rather than only tabulated, which is the distinction this ontology draws
+    between a written skeleton and what is played.
+- id: sutton-1987-variation-composition-java
+  authors:
+  - R. Anderson Sutton
+  year: 1987
+  title: Variation and Composition in Java
+  venue: Yearbook for Traditional Music
+  volume: '19'
+  pages: 65–95
+  doi: 10.2307/767878
+  url: https://doi.org/10.2307/767878
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - ensemble_coordination
+  - material_practice
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/767878
+    note: Crossref records the first page only (65).
+  note: What varies and what is fixed across performances of a gendhing, including how the elaborating
+    parts change density as irama changes — the relation that makes irama something other than
+    tempo.
+- id: hughes-1988-deep-structure-javanese
+  authors:
+  - David W. Hughes
+  year: 1988
+  title: 'Deep Structure and Surface Structure in Javanese Music: A Grammar of Gendhing Lampah'
+  venue: Ethnomusicology
+  volume: '32'
+  issue: '1'
+  pages: 23–74
+  doi: 10.2307/852225
+  url: https://doi.org/10.2307/852225
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - ensemble_coordination
+  - representation
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/852225
+    note: Crossref records the first page only (23).
+  note: Treats the gongan as a structure with rules rather than a container of a given length,
+    and asks what the balungan is in relation to what is played — a Javanese case of the note
+    problem this ontology holds for pitch.
+- id: grove-colotomic-structure
+  corporate_author: Grove Music Online
+  year: 2001
+  title: Colotomic structure
+  venue: Grove Music Online
+  doi: 10.1093/gmo/9781561592630.article.06155
+  url: https://doi.org/10.1093/gmo/9781561592630.article.06155
+  kind: reference_entry
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - metric_organization
+  - representation
+  - knowledge_provenance
+  metadata_gaps:
+  - authors
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/gmo/9781561592630.article.06155
+    note: Crossref carries no author for this entry.
+  note: 'The reference-work definition of the etic term, held here because the term is the object
+    of study: colotomy is what scholarship calls what the punctuating instruments do, and the
+    concept record needs the canonical statement of it.'
+- id: washburne-1997-clave-of-jazz
+  authors:
+  - Christopher Washburne
+  year: 1997
+  title: 'The Clave of Jazz: A Caribbean Contribution to the Rhythmic Foundation of an African-American
+    Music'
+  venue: Black Music Research Journal
+  volume: '17'
+  issue: '1'
+  pages: 59–80
+  doi: 10.2307/779360
+  url: https://doi.org/10.2307/779360
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - ensemble_coordination
+  - temporal_organization
+  - institutions_history
+  metadata_gaps:
+  - pages
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.2307/779360
+    note: Crossref records the first page only (59); the closing page is not confirmed here.
+  note: Treats clave as an organizing principle that parts are composed and judged against, including
+    the orientation that decides whether a performance is in or out of it — the property a rotation-invariant
+    representation cannot hold.

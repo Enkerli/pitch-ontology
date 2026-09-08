@@ -33,8 +33,13 @@ senses:
     target: iqa
   - relation: COEXISTS_WITH
     target: makam
+  - relation: PARTIALLY_OVERLAPS
+    target: aksak
   epistemic_status:
   - locally_named
   - locally_verbalized
   - historically_documented
   - institutionally_standardized
+  sources:
+  - feldman-1996-music-of-the-ottoman-court
+  - arom-2004-aksak-principes-typologie

@@ -1,0 +1,46 @@
+id: aksak
+labels:
+  - {text: aksak, language: tr}
+  - {text: aksak, language: fr, role: scholarly_term}
+  - {text: 'limping rhythm', language: en, role: gloss}
+  - {text: additive metre, language: en, role: often_confused}
+senses:
+  - id: aksak.brailoiu
+    orientation: "A family of metres built from unequal units standing in a 2:3 ratio, described by Brăiloiu across a Balkan, Anatolian and wider Eurasian range and argued by him to be a system in its own right rather than an irregularity in an assumed even one."
+    domains: [metric_organization, temporal_organization, knowledge_provenance]
+    roles: [analytic_model, locally_named_category]
+    review_status: seed
+    cautions:
+      - "Turkish word, scholarly category. Musicians in the repertoires it covers name their own cycles; aksak is the comparative term that gathered them, and the gathering is an analytic act with a date and an author."
+      - "The gloss 'limping' encodes the error the concept was introduced to correct: it names the metre by its departure from an even one. Keep the label, note what it assumes."
+      - "Not the same as 'additive metre'. Additive analysis derives the cycle by summing small units; Brăiloiu's claim is about a ratio between two unit lengths, and Cler argues the arithmetic is the wrong level of description in the first place."
+      - "The 2:3 ratio is a limit case of unequal subdivision, not the general one. Measured Malian subdivisions are unequal in ratios that are neither 2:3 nor stable across a whole repertoire."
+      - "A wide comparative range is an invitation to treat the family as one object. Whether the Balkan, Anatolian and Central Asian cases are the same thing is a question the category tends to close."
+    relations:
+      - {relation: IS_A, target: non_isochronous_metre}
+      - {relation: CONTRASTS_WITH, target: metre}
+      - {relation: PARTIALLY_OVERLAPS, target: usul}
+      - {relation: ILLUMINATES_ASPECT_OF, target: subdivision}
+      - {relation: OFTEN_CONFUSED_WITH, target: syncopation}
+      - {relation: CONTESTED_BY, target: euclidean_rhythm}
+    epistemic_status: [analyst_derived, historically_documented, demonstrated_in_practice, contested]
+    sources:
+      - brailoiu-1951-rythme-aksak
+      - cler-1994-theorie-aksak
+      - arom-2004-aksak-principes-typologie
+  - id: aksak.typology
+    orientation: "As reworked by Arom, a formal typology of the possible aksak cycles, built so that its categories correspond to distinctions a musician could confirm rather than to the arithmetic that happens to enumerate them."
+    domains: [metric_organization, temporal_organization, computation]
+    roles: [analytic_model, formal_object]
+    review_status: seed
+    cautions:
+      - "A typology enumerates what is possible; it does not establish which possibilities are used, by whom, or under what name."
+      - "Formally adjacent to maximal evenness, and cited by that literature. The adjacency is a reason to compare the two, not evidence that the practices are related — the same caution the maximally-even record carries."
+    relations:
+      - {relation: PARTIALLY_OVERLAPS, target: maximally_even_set}
+      - {relation: PARTIALLY_OVERLAPS, target: rhythmic_oddity}
+      - {relation: INFERRED_FROM, target: participant_judgment}
+    epistemic_status: [analyst_derived, experimentally_inferred]
+    sources:
+      - arom-2004-aksak-principes-typologie
+      - cler-1994-theorie-aksak
