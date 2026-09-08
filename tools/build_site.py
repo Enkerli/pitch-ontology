@@ -465,7 +465,11 @@ def write_glossary(payload: dict) -> None:
         "Do not edit by hand. **Seed** entries are provisional and should be refined",
         "against specialist sources.",
         "",
-        f"{len(rows)} concepts, generated {payload['generated']}.",
+        # Deliberately no build timestamp. This file is committed, and CI checks it
+        # by rebuilding and diffing: a date would make that check fail whenever the
+        # run happened on a later day than the commit, which says nothing about
+        # whether the records changed. Git already records when it was regenerated.
+        f"{len(rows)} concepts.",
         "",
         "| Term | ID | Domains | Orientation |",
         "|---|---|---|---|",
