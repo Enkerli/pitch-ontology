@@ -1,9 +1,14 @@
 # Pitch Ontology
 
-**v0.2 scaffold** · [Browse the ontology →](https://enkerli.github.io/pitch-ontology/)
+**v0.2 scaffold** · [Browse the records →](https://enkerli.github.io/pitch-ontology/)
 
-A situated, relational ontology and glossary for pitch: how humans and technologies
-perceive, categorize, organize, tune, perform, represent, and theorize pitch.
+**Preliminary work towards** a situated, relational ontology and glossary for pitch:
+how people and technologies perceive, categorize, organize, tune, perform, represent
+and theorize it, with no tradition as the unmarked default.
+
+It is scaffolding rather than a finished vocabulary — the schema, the relation
+vocabulary and most of the records are provisional, and the point of publishing them
+is to have them argued with.
 
 This is **not** a catalogue of “the scales of the world.” It treats scale, note, mode,
 root, cent, MIDI note, rāga, maqām, makam, svara, sléndro, hazzāt, dynamic tuning,
@@ -44,8 +49,10 @@ must be described rather than normalized away.
 - `docs/scope-and-focus.md` — why pitch is not equally central everywhere
 - `glossary/index.md` — generated alphabetical view (do not edit by hand)
 - `web/` — static frontend (hand-written HTML/CSS/JS, no build step)
+- `docs/citing-work.md` — generated: recent literature citing this bibliography
 - `tools/validate.py` — lightweight validator
 - `tools/build_site.py` — generates `site/` and `glossary/index.md` from the YAML
+- `tools/citing_works.py` — asks OpenAlex who has cited these works since
 
 ## Browsing and building
 
@@ -136,3 +143,16 @@ What remains uncertain is still declared in `metadata_gaps` rather than guessed.
 
 Validation reports two queues as warnings rather than errors: works with no retrievable
 identifier, and works no concept or claim leans on yet — the reading list.
+
+`tools/citing_works.py` looks the other way down the citation graph. Where
+`sources/network.yaml` records edges between works already held here, this asks OpenAlex
+which recent papers cite them, and ranks candidates by how many of these records they
+cite at once — a paper reaching across several is engaging with the seam this repository
+cares about, where one citation may be in passing. Reviews and surveys are flagged
+separately. It writes `docs/citing-work.md`, which is a candidate list and nothing more:
+being on it is not an argument for inclusion. The tool needs network access and is not
+run by CI.
+
+```sh
+python tools/citing_works.py --since 2022 --min-seeds 2
+```

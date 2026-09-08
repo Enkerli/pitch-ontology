@@ -12,7 +12,10 @@ jobs:
       - run: python tools/validate.py
       # The site build is also a smoke test of every derived view.
       - run: python tools/build_site.py
-      - name: glossary/index.md is up to date
+      # No path filter: any tracked file the build rewrites should be committed.
+      # site/ is gitignored, so a diff here means a generated-and-committed view
+      # is behind the records it derives from.
+      - name: generated views are up to date
         run: |
-          git diff --exit-code -- glossary/index.md \
-            || { echo "::error::glossary/index.md is stale; run tools/build_site.py and commit."; exit 1; }
+          git diff --exit-code \
+            || { echo "::error::a generated file is stale; run tools/build_site.py and commit the result."; exit 1; }

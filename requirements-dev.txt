@@ -1,2 +1,4 @@
 PyYAML>=6
 jsonschema>=4
+# tools/citing_works.py only; validate.py and build_site.py do not need it
+requests>=2

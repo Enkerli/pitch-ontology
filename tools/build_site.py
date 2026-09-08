@@ -449,7 +449,7 @@ def build_payload() -> dict:
             for d in load_markdown_dir("docs")
             if d["slug"] in {
                 "principles", "claim-rigor", "source-hubs", "review-queue",
-                "references", "scope-and-focus",
+                "references", "scope-and-focus", "citing-work",
             }
         ],
     }

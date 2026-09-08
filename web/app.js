@@ -957,16 +957,24 @@ function renderAbout() {
     el(
       "section",
       { class: "prose" },
-      el("h1", {}, "About this ontology"),
+      el("h1", {}, "About this project"),
       el(
         "p",
         {},
-        "A situated, relational ontology and glossary for pitch: how humans and " +
-          "technologies perceive, categorize, organize, tune, perform, represent and " +
-          "theorize it. It treats scale, note, mode, root, cent, MIDI note, rāga, maqām, " +
+        "Preliminary work towards a situated, relational ontology and glossary for " +
+          "pitch: how people and technologies perceive, categorize, organize, tune, " +
+          "perform, represent and theorize it, with no tradition as the unmarked " +
+          "default. It treats scale, note, mode, root, cent, MIDI note, rāga, maqām, " +
           "makam, svara, sléndro, hazzāt and dynamic tuning as historically and " +
           "practically situated objects whose overlaps are described rather than " +
           "normalized away."
+      ),
+      el(
+        "p",
+        {},
+        "It is scaffolding, not a finished vocabulary. Most records are marked " +
+          "seed: structurally useful, not specialist-verified. Read what follows as " +
+          "a set of claims put up to be argued with."
       ),
       el(
         "p",
