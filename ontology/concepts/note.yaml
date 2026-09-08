@@ -1,15 +1,26 @@
 id: note
 labels:
-  - {text: note, language: en}
+- text: note
+  language: en
 senses:
-  - id: note.problem
-    orientation: "A polysemous category that may denote a written symbol, perceived event, performed event, categorized pitch, keyboard key, or protocol event."
-    domains: [categorization, representation]
-    roles: [problem_concept]
-    cautions:
-      - "Do not assume that melody is universally segmented into discrete note objects."
-      - "Distinguish notated, performed, perceived, and computational senses."
-    relations:
-      - {relation: OFTEN_CONFUSED_WITH, target: pitch}
-      - {relation: OFTEN_CONFUSED_WITH, target: midi_note}
-    epistemic_status: [analyst_derived]
+- id: note.problem
+  orientation: A polysemous category that may denote a written symbol, perceived event, performed
+    event, categorized pitch, keyboard key, or protocol event.
+  domains:
+  - categorization
+  - representation
+  roles:
+  - problem_concept
+  cautions:
+  - Do not assume that melody is universally segmented into discrete note objects.
+  - Distinguish notated, performed, perceived, and computational senses.
+  relations:
+  - relation: OFTEN_CONFUSED_WITH
+    target: pitch
+  - relation: OFTEN_CONFUSED_WITH
+    target: midi_note
+  epistemic_status:
+  - analyst_derived
+  sources:
+  - kubik-african-tone-systems
+  - arom-furniss-1993

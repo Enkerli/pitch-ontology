@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: intonation.seed
-  orientation: Realized pitch positioning and trajectory relative to locally meaningful
-    expectations in performance.
+  orientation: Realized pitch positioning and trajectory relative to locally meaningful expectations
+    in performance.
   domains:
   - tuning_practice
   - trajectory
@@ -19,3 +19,6 @@ senses:
     target: fixed_pitch_mapping
   epistemic_status:
   - analyst_derived
+  sources:
+  - weisser-falceto-2013
+  - keil-1987-participatory-discrepancies

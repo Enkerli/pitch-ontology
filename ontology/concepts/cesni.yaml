@@ -4,8 +4,8 @@ labels:
   language: tr
 senses:
 - id: cesni.seed
-  orientation: A melodic/intervallic flavor or modal fragment concept used in Turkish
-    makam analysis and pedagogy.
+  orientation: A melodic/intervallic flavor or modal fragment concept used in Turkish makam analysis
+    and pedagogy.
   domains:
   - pitch_resources
   - modal_organization
@@ -22,3 +22,6 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - bozkurt-2014-makam-review
+  - bozkurt-2009-weighing-models

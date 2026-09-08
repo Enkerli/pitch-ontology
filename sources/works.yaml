@@ -1614,6 +1614,7 @@ works:
   domains:
   - ensemble_coordination
   - temporal_organization
+  - tuning_practice
   - knowledge_provenance
   verified:
     method: crossref
@@ -1996,6 +1997,7 @@ works:
   language: en
   domains:
   - metric_organization
+  - pitch_resources
   - ensemble_coordination
   - material_practice
   metadata_gaps:
@@ -2025,6 +2027,7 @@ works:
   language: en
   domains:
   - metric_organization
+  - modal_organization
   - ensemble_coordination
   - representation
   metadata_gaps:
@@ -2363,3 +2366,158 @@ works:
   note: Treats repetition rate as one continuous variable and names the region below the pitch
     threshold "infrapitch" — the same acoustic property, described on both sides of the boundary
     that separates this ontology’s two halves.
+- id: parncutt-2024-psychoacoustic-foundations
+  authors:
+  - Richard Parncutt
+  year: 2024
+  title: Psychoacoustic Foundations of Major-Minor Tonality
+  publisher: The MIT Press
+  doi: 10.7551/mitpress/15050.001.0001
+  url: https://doi.org/10.7551/mitpress/15050.001.0001
+  kind: book
+  provider: academic
+  access: open
+  licence: CC BY-NC-ND 4.0
+  language: en
+  domains:
+  - auditory_perception
+  - acoustics
+  - pitch_resources
+  - knowledge_provenance
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.7551/mitpress/15050.001.0001
+  note: Book-length treatment of virtual pitch, salience, harmonicity and spectral pitch, used
+    to argue for psychoacoustic foundations of one tradition’s tonality. Held for the psychoacoustics;
+    the tonality argument is exactly the kind of claim this repository asks to see scoped, and
+    the book is open access so a reader can check it.
+- id: powers-widdess-2001-melodic-elaboration
+  authors:
+  - Harold S. Powers
+  - Richard Widdess
+  year: 2001
+  title: 'India, Theory and practice of classical music: Melodic elaboration'
+  venue: Grove Music Online
+  doi: 10.1093/omo/9781561592630.013.90000382458
+  url: https://doi.org/10.1093/omo/9781561592630.013.90000382458
+  kind: reference_entry
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - modal_organization
+  - trajectory
+  - pitch_resources
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/omo/9781561592630.013.90000382458
+  note: 'The reference statement of rāga as melodic practice rather than pitch inventory: characteristic
+    phrases, ascent and descent forms, resting tones, and the functions this ontology holds as
+    vādī, nyāsa, pakaḍ, ārohaṇa and avarohaṇa.'
+- id: gulati-2014-tonic-identification-indian
+  authors:
+  - Sankalp Gulati
+  - Ashwin Bellur
+  - Justin Salamon
+  - Ranjani H. G.
+  - Vignesh Ishwar
+  - Hema A. Murthy
+  - Xavier Serra
+  year: 2014
+  title: 'Automatic Tonic Identification in Indian Art Music: Approaches and Evaluation'
+  venue: Journal of New Music Research
+  volume: '43'
+  issue: '1'
+  pages: 53–71
+  doi: 10.1080/09298215.2013.875042
+  url: https://doi.org/10.1080/09298215.2013.875042
+  kind: journal_article
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - computation
+  - modal_organization
+  - relationship
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1080/09298215.2013.875042
+  note: 'Estimating the tonic of a performance computationally, which requires deciding what the
+    tonic is: the drone’s pitch, the singer’s reference, or the note the melody resolves to. The
+    definitional problem surfaces because the task forces it.'
+- id: perlman-2004-unplayed-melodies
+  authors:
+  - Marc Perlman
+  year: 2004
+  title: 'Unplayed Melodies: Javanese Gamelan and the Genesis of Music Theory'
+  publisher: University of California Press
+  doi: 10.1525/9780520930490
+  url: https://doi.org/10.1525/9780520930490
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - modal_organization
+  - knowledge_provenance
+  - material_practice
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1525/9780520930490
+    note: Crossref dates the UC Press digital edition 2005; the book was published in 2004.
+  note: How Javanese musicians came to talk about an implicit melody nobody plays, and what it
+    means for an ontology that a theoretical object can be produced by the act of theorizing in
+    the presence of outsiders.
+- id: ladd-kirby-2020-tone-melody-matching
+  authors:
+  - D. Robert Ladd
+  - James Kirby
+  year: 2020
+  title: Tone–Melody Matching in Tone-Language Singing
+  collection: The Oxford Handbook of Language Prosody
+  pages: 675–688
+  publisher: Oxford University Press
+  doi: 10.1093/oxfordhb/9780198832232.013.47
+  url: https://doi.org/10.1093/oxfordhb/9780198832232.013.47
+  kind: book_chapter
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - language_music
+  - trajectory
+  - auditory_perception
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1093/oxfordhb/9780198832232.013.47
+  note: How closely sung melody tracks lexical tone, and how much that varies by language and
+    genre. The question of whether linguistic pitch and musical pitch are the same resource, asked
+    where they demonstrably compete.
+- id: falkenhausen-1994-suspended-music
+  authors:
+  - Lothar von Falkenhausen
+  year: 1994
+  title: 'Suspended Music: Chime-Bells in the Culture of Bronze Age China'
+  publisher: University of California Press
+  doi: 10.1525/9780520911079
+  url: https://doi.org/10.1525/9780520911079
+  kind: book
+  provider: academic
+  access: closed
+  language: en
+  domains:
+  - material_practice
+  - tuning_practice
+  - institutions_history
+  verified:
+    method: crossref
+    date: '2026-09-08'
+    evidence: https://api.crossref.org/works/10.1525/9780520911079
+  note: Bell sets whose measured pitches are the material evidence for early Chinese pitch standards.
+    An instrument as the surviving record of a tuning system, which is a different kind of evidence
+    from a treatise about one.

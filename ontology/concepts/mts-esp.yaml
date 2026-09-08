@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: mts_esp.seed
-  orientation: A contemporary software ecosystem/protocol for sharing tuning information
-    among compatible applications and plug-ins.
+  orientation: A contemporary software ecosystem/protocol for sharing tuning information among
+    compatible applications and plug-ins.
   domains:
   - computation
   - representation
@@ -19,3 +19,5 @@ senses:
     target: dynamic_tuning
   epistemic_status:
   - computational_abstraction
+  sources:
+  - midi-tuning-standard

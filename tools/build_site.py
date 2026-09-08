@@ -296,6 +296,42 @@ def build_bibliography(concepts: list[dict], claims: list[dict]) -> tuple[dict, 
             if sid in out and claim["id"] not in out[sid]["cited_by_claims"]:
                 out[sid]["cited_by_claims"].append(claim["id"])
 
+    # Which half of the ontology a work belongs to, computed two ways.
+    #
+    # `declared` reads the work's own domains. `used` reads the concepts that
+    # actually lean on it, which can disagree — a work can cover both dimensions
+    # without its domain list saying so, and the disagreement is worth seeing.
+    # A work is `spans: both` when either signal crosses, because the interesting
+    # set is the union: documents that treat pitch and time as one problem, at a
+    # point where almost no literature does.
+    PITCH_DOMAINS = {"pitch_resources", "modal_organization", "tuning_practice"}
+    TIME_DOMAINS = {"temporal_organization", "metric_organization",
+                    "ensemble_coordination"}
+
+    concept_domains = {
+        c["id"]: {d for sense in c["senses"] for d in sense.get("domains", [])}
+        for c in concepts
+    }
+    for work in out.values():
+        own = set(work.get("domains", []))
+        declared = {
+            "pitch" if own & PITCH_DOMAINS else "",
+            "time" if own & TIME_DOMAINS else "",
+        } - {""}
+        used = set()
+        for cid in work["cited_by_concepts"]:
+            doms = concept_domains.get(cid, set())
+            if doms & PITCH_DOMAINS:
+                used.add("pitch")
+            if doms & TIME_DOMAINS:
+                used.add("time")
+        sides = declared | used
+        work["spans"] = (
+            "both" if len(sides) > 1 else (sides.pop() if sides else "neither")
+        )
+        work["spans_declared"] = sorted(declared)
+        work["spans_used"] = sorted(used)
+
     edges = []
     for edge in network:
         resolved = {

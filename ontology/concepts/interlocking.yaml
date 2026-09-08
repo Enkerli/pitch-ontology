@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: interlocking.seed
-  orientation: Distribution of complementary musical events among performers or parts
-    such that the composite pattern is not contained in any one stream.
+  orientation: Distribution of complementary musical events among performers or parts such that
+    the composite pattern is not contained in any one stream.
   domains:
   - trajectory
   - material_practice
@@ -13,10 +13,13 @@ senses:
   - performance_organization
   review_status: seed
   cautions:
-  - The analytical term covers multiple locally distinct practices and should not
-    erase their own concepts.
+  - The analytical term covers multiple locally distinct practices and should not erase their
+    own concepts.
   relations:
   - relation: ILLUMINATES_ASPECT_OF
     target: ira_arka
   epistemic_status:
   - analyst_derived
+  sources:
+  - arom-1991-african-polyphony-polyrhythm
+  - furniss-2006-aka-polyphony

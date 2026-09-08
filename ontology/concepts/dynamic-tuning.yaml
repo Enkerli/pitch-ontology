@@ -1,12 +1,22 @@
 id: dynamic_tuning
 labels:
-  - {text: dynamic tuning, language: en}
+- text: dynamic tuning
+  language: en
 senses:
-  - id: dynamic_tuning.computational
-    orientation: "A tuning process in which realized pitch may change as musical context changes."
-    domains: [tuning_practice, computation]
-    roles: [tuning_procedure]
-    relations:
-      - {relation: CONTRASTS_WITH, target: fixed_pitch_mapping}
-      - {relation: ILLUMINATES_ASPECT_OF, target: relational_intonation}
-    epistemic_status: [computational_abstraction, demonstrated_in_practice]
+- id: dynamic_tuning.computational
+  orientation: A tuning process in which realized pitch may change as musical context changes.
+  domains:
+  - tuning_practice
+  - computation
+  roles:
+  - tuning_procedure
+  relations:
+  - relation: CONTRASTS_WITH
+    target: fixed_pitch_mapping
+  - relation: ILLUMINATES_ASPECT_OF
+    target: relational_intonation
+  epistemic_status:
+  - computational_abstraction
+  - demonstrated_in_practice
+  sources:
+  - sethares-1994

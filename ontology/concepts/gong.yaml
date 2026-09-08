@@ -7,9 +7,8 @@ labels:
   script: Han
 senses:
 - id: gong.seed
-  orientation: A Chinese scale-degree/modal-function name whose historical and theoretical
-    senses vary; one of the five conventional degree names gōng, shāng, jué, zhǐ,
-    yǔ.
+  orientation: A Chinese scale-degree/modal-function name whose historical and theoretical senses
+    vary; one of the five conventional degree names gōng, shāng, jué, zhǐ, yǔ.
   domains:
   - categorization
   - modal_organization
@@ -24,3 +23,6 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - hughes-1988-deep-structure-javanese
+  - grove-colotomic-structure

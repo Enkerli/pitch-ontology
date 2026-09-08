@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: harmonicity.seed
-  orientation: Degree to which spectral components approximate integer-multiple relations;
-    relevant to pitch strength, fusion, and timbral organization.
+  orientation: Degree to which spectral components approximate integer-multiple relations; relevant
+    to pitch strength, fusion, and timbral organization.
   domains:
   - acoustics
   - auditory_perception
@@ -14,3 +14,6 @@ senses:
   review_status: seed
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations
+  - sethares-1994

@@ -4,8 +4,8 @@ labels:
   language: ug
 senses:
 - id: muqam.seed
-  orientation: A Uyghur term for large modal-repertorial suites and related musical
-    organization; cognate with maqām yet historically and performatively specific.
+  orientation: A Uyghur term for large modal-repertorial suites and related musical organization;
+    cognate with maqām yet historically and performatively specific.
   domains:
   - modal_organization
   - institutions_history
@@ -21,3 +21,5 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - unesco-shashmaqom

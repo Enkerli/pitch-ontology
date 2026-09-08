@@ -7,8 +7,8 @@ labels:
   script: Arabic
 senses:
 - id: qarar.seed
-  orientation: A term associated with settlement, repose, or low/register reference
-    in Arabic modal discourse; specific technical usage is context dependent.
+  orientation: A term associated with settlement, repose, or low/register reference in Arabic
+    modal discourse; specific technical usage is context dependent.
   domains:
   - relationship
   - trajectory
@@ -23,3 +23,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - plenckers-2021-arab-music

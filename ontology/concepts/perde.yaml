@@ -4,9 +4,8 @@ labels:
   language: tr
 senses:
 - id: perde.seed
-  orientation: A pitch-position/category term in Turkish/Ottoman music theory whose
-    identity is embedded in a larger makam system rather than reducible to a bare
-    frequency.
+  orientation: A pitch-position/category term in Turkish/Ottoman music theory whose identity is
+    embedded in a larger makam system rather than reducible to a bare frequency.
   domains:
   - categorization
   - modal_organization
@@ -21,3 +20,6 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - bozkurt-2009-weighing-models
+  - bozkurt-2014-makam-review

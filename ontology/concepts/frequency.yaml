@@ -22,3 +22,5 @@ senses:
     target: pitch_time_continuum
   epistemic_status:
   - analyst_derived
+  sources:
+  - warren-2008-pitch-and-infrapitch

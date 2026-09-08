@@ -4,8 +4,8 @@ labels:
   language: jv
 senses:
 - id: laras.seed
-  orientation: A Javanese/Sundanese term with senses including tuning/pitch system
-    and related aesthetic organization; meanings depend on regional theoretical practice.
+  orientation: A Javanese/Sundanese term with senses including tuning/pitch system and related
+    aesthetic organization; meanings depend on regional theoretical practice.
   domains:
   - tuning_practice
   - pitch_resources
@@ -21,3 +21,5 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - perlman-2004-unplayed-melodies

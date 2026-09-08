@@ -4,8 +4,8 @@ labels:
   language: tr
 senses:
 - id: seyir.seed
-  orientation: Characteristic melodic course in Turkish makam theory/practice, including
-    tendencies of ascent, descent, emphasis, and traversal.
+  orientation: Characteristic melodic course in Turkish makam theory/practice, including tendencies
+    of ascent, descent, emphasis, and traversal.
   domains:
   - trajectory
   - modal_organization
@@ -21,3 +21,5 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - bozkurt-2014-makam-review

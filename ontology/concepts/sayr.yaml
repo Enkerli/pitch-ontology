@@ -7,8 +7,8 @@ labels:
   script: Arabic
 senses:
 - id: sayr.seed
-  orientation: Melodic course or path discussed in relation to maqām, emphasizing
-    behavior through pitch space rather than pitch inventory alone.
+  orientation: Melodic course or path discussed in relation to maqām, emphasizing behavior through
+    pitch space rather than pitch inventory alone.
   domains:
   - trajectory
   - modal_organization
@@ -21,3 +21,6 @@ senses:
   epistemic_status:
   - locally_named
   - demonstrated_in_practice
+  sources:
+  - plenckers-2021-arab-music
+  - wright-1978

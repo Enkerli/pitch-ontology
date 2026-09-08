@@ -82,7 +82,8 @@ The site is a single static page over one generated `data.json`. It offers:
   confidence, rather than bare edges.
 - **Journeys** — the questions that traverse the graph.
 - **Sources** — the bibliography, filtered by access level, provider type, kind and
-  language, with a *Where fields meet* panel for the edges that connect literatures
+  language, with a *Where pitch and time meet* panel for the works that treat both
+  dimensions, and a *Where fields meet* panel for the edges that connect literatures
   which rarely cite each other. Each work shows how retrievable it is, what is missing
   from its record, which concepts and claims lean on it, and its place in the network.
 - **About** — methodological documents.
@@ -114,8 +115,9 @@ stress-test its assumptions.
 ## v0.2 population status
 
 Current scaffold contains **191 canonical concept records**, **32 claim records** and
-**98 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
-checked against the citing work's own reference list.
+**104 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
+checked against the citing work's own reference list. Every concept record now leans on at
+least one source; eleven works treat pitch and time together, and the Sources view marks them.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
 

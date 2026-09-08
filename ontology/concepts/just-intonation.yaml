@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: just_intonation.seed
-  orientation: A family of tuning practices or theories privileging frequency ratios
-    of integers; implementations differ in selected ratios and contextual rules.
+  orientation: A family of tuning practices or theories privileging frequency ratios of integers;
+    implementations differ in selected ratios and contextual rules.
   domains:
   - tuning_practice
   - computation
@@ -20,3 +20,6 @@ senses:
   epistemic_status:
   - historically_documented
   - computational_abstraction
+  sources:
+  - sethares-1994
+  - milne-2008-tuning-continua

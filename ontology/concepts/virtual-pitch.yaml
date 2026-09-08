@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: virtual_pitch.seed
-  orientation: A pitch percept inferred from relations among components even when
-    energy is absent at the corresponding fundamental frequency.
+  orientation: A pitch percept inferred from relations among components even when energy is absent
+    at the corresponding fundamental frequency.
   domains:
   - auditory_perception
   roles:
@@ -16,3 +16,5 @@ senses:
     target: pitch
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations

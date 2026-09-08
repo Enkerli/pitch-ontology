@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: gesture.seed
-  orientation: A temporally extended movement pattern whose identity may integrate
-    pitch, timbre, articulation, dynamics, and bodily action.
+  orientation: A temporally extended movement pattern whose identity may integrate pitch, timbre,
+    articulation, dynamics, and bodily action.
   domains:
   - trajectory
   - material_practice
@@ -17,3 +17,5 @@ senses:
     target: note
   epistemic_status:
   - analyst_derived
+  sources:
+  - furniss-2006-aka-polyphony

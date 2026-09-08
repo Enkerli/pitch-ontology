@@ -4,8 +4,8 @@ labels:
   language: jv
 senses:
 - id: pathet.seed
-  orientation: A Javanese modal-organizational concept involving pitch hierarchy,
-    melodic function, register, cadential behavior, and repertoire beyond tuning alone.
+  orientation: A Javanese modal-organizational concept involving pitch hierarchy, melodic function,
+    register, cadential behavior, and repertoire beyond tuning alone.
   domains:
   - modal_organization
   - trajectory
@@ -23,3 +23,6 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - perlman-2004-unplayed-melodies
+  - hughes-1988-deep-structure-javanese

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: collective_pitch_resource.seed
-  orientation: An analytic bridge for situations where the usable melodic pitch set
-    is materially distributed across multiple performers or instruments.
+  orientation: An analytic bridge for situations where the usable melodic pitch set is materially
+    distributed across multiple performers or instruments.
   domains:
   - pitch_resources
   - material_practice
@@ -17,3 +17,6 @@ senses:
     target: ira_arka
   epistemic_status:
   - analyst_derived
+  sources:
+  - arom-furniss-1993
+  - kubik-african-tone-systems

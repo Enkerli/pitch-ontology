@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: prosody.seed
-  orientation: Suprasegmental organization of speech including intonation, stress,
-    timing, and phrasing; a potential source and constraint for sung pitch trajectories.
+  orientation: Suprasegmental organization of speech including intonation, stress, timing, and
+    phrasing; a potential source and constraint for sung pitch trajectories.
   domains:
   - language_music
   roles:
@@ -18,3 +18,5 @@ senses:
     target: cantillation
   epistemic_status:
   - analyst_derived
+  sources:
+  - ladd-kirby-2020-tone-melody-matching

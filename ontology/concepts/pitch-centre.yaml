@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: pitch_centre.seed
-  orientation: An analyst's deliberately broad term for a locally privileged pitch
-    region or reference relation without presupposing tonic or root function.
+  orientation: An analyst's deliberately broad term for a locally privileged pitch region or reference
+    relation without presupposing tonic or root function.
   domains:
   - relationship
   roles:
@@ -20,3 +20,6 @@ senses:
     target: final
   epistemic_status:
   - analyst_derived
+  sources:
+  - gulati-2014-tonic-identification-indian
+  - powers-widdess-2001-melodic-elaboration

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: partial.seed
-  orientation: A sinusoidal component of a complex sound; a partial may or may not
-    be an integer multiple of a fundamental.
+  orientation: A sinusoidal component of a complex sound; a partial may or may not be an integer
+    multiple of a fundamental.
   domains:
   - acoustics
   roles:
@@ -16,3 +16,6 @@ senses:
     target: spectrum
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations
+  - sethares-1994

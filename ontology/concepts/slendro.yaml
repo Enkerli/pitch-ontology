@@ -1,13 +1,26 @@
 id: slendro
 labels:
-  - {text: sléndro, language: jv}
+- text: sléndro
+  language: jv
 senses:
-  - id: slendro.gamelan
-    orientation: "A Javanese and Balinese tuning/pitch-resource concept whose concrete realizations belong to particular instrument and ensemble practices rather than one universal cents template."
-    domains: [pitch_resources, tuning_practice, material_practice]
-    roles: [tuning_practice, pitch_resource]
-    cautions:
-      - "A measured or encoded tuning is an instance or model, not sléndro itself."
-    relations:
-      - {relation: ILLUMINATES_ASPECT_OF, target: contextual_intonation}
-    epistemic_status: [locally_named, demonstrated_in_practice]
+- id: slendro.gamelan
+  orientation: A Javanese and Balinese tuning/pitch-resource concept whose concrete realizations
+    belong to particular instrument and ensemble practices rather than one universal cents template.
+  domains:
+  - pitch_resources
+  - tuning_practice
+  - material_practice
+  roles:
+  - tuning_practice
+  - pitch_resource
+  cautions:
+  - A measured or encoded tuning is an instance or model, not sléndro itself.
+  relations:
+  - relation: ILLUMINATES_ASPECT_OF
+    target: contextual_intonation
+  epistemic_status:
+  - locally_named
+  - demonstrated_in_practice
+  sources:
+  - perlman-2004-unplayed-melodies
+  - sutton-1987-variation-composition-java

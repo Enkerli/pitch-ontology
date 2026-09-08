@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: final.seed
-  orientation: A pitch or pitch-function associated with melodic completion in several
-    historical modal theories; not necessarily equivalent to tonic.
+  orientation: A pitch or pitch-function associated with melodic completion in several historical
+    modal theories; not necessarily equivalent to tonic.
   domains:
   - relationship
   - trajectory
@@ -18,3 +18,5 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - hagel-2009

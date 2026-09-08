@@ -4,8 +4,8 @@ labels:
   language: jv
 senses:
 - id: pelog.seed
-  orientation: A Javanese/Balinese tuning and pitch-resource family whose concrete
-    interval patterns vary among ensembles and regions.
+  orientation: A Javanese/Balinese tuning and pitch-resource family whose concrete interval patterns
+    vary among ensembles and regions.
   domains:
   - pitch_resources
   - tuning_practice
@@ -21,3 +21,6 @@ senses:
   epistemic_status:
   - locally_named
   - demonstrated_in_practice
+  sources:
+  - perlman-2004-unplayed-melodies
+  - sutton-1987-variation-composition-java

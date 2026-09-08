@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: microtuning.seed
-  orientation: Contemporary technical umbrella term for pitch mappings or controls
-    departing from a host system's default tuning assumptions.
+  orientation: Contemporary technical umbrella term for pitch mappings or controls departing from
+    a host system's default tuning assumptions.
   domains:
   - computation
   - representation
@@ -13,10 +13,13 @@ senses:
   - technical_umbrella
   review_status: seed
   cautions:
-  - The term is relative to a technological default and should not be projected backward
-    as a universal cultural category.
+  - The term is relative to a technological default and should not be projected backward as a
+    universal cultural category.
   relations:
   - relation: PARTIALLY_OVERLAPS
     target: xenharmonic
   epistemic_status:
   - computational_abstraction
+  sources:
+  - midi-tuning-standard
+  - scala-scl-format

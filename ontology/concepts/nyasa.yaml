@@ -4,8 +4,8 @@ labels:
   language: sa
 senses:
 - id: nyasa.seed
-  orientation: A concept of melodic repose or stopping associated with particular
-    pitches in rāga practice/theory.
+  orientation: A concept of melodic repose or stopping associated with particular pitches in rāga
+    practice/theory.
   domains:
   - trajectory
   - relationship
@@ -20,3 +20,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - powers-widdess-2001-melodic-elaboration

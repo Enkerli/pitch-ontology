@@ -6,8 +6,8 @@ labels:
   language: en
 senses:
 - id: edo.seed
-  orientation: A computational/theoretical family dividing the octave into N equal
-    logarithmic steps.
+  orientation: A computational/theoretical family dividing the octave into N equal logarithmic
+    steps.
   domains:
   - computation
   - tuning_practice
@@ -21,3 +21,6 @@ senses:
     target: equal_temperament
   epistemic_status:
   - computational_abstraction
+  sources:
+  - milne-2008-tuning-continua
+  - scala-scl-format

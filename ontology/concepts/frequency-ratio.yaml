@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: frequency_ratio.seed
-  orientation: A multiplicative relation between frequencies, especially important
-    in acoustics and just-intonation theories.
+  orientation: A multiplicative relation between frequencies, especially important in acoustics
+    and just-intonation theories.
   domains:
   - acoustics
   - relationship
@@ -18,3 +18,6 @@ senses:
     target: interval
   epistemic_status:
   - analyst_derived
+  sources:
+  - sethares-1994
+  - clough-douthett-1991-maximally-even-sets

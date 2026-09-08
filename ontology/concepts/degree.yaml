@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: degree.seed
-  orientation: A position within an ordered pitch collection or tonal/modal system;
-    the term bundles several historically specific theoretical practices.
+  orientation: A position within an ordered pitch collection or tonal/modal system; the term bundles
+    several historically specific theoretical practices.
   domains:
   - categorization
   - relationship
@@ -17,3 +17,5 @@ senses:
     target: scale
   epistemic_status:
   - analyst_derived
+  sources:
+  - clough-douthett-1991-maximally-even-sets

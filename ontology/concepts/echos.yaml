@@ -7,8 +7,8 @@ labels:
   script: Greek
 senses:
 - id: echos.seed
-  orientation: A Byzantine modal/chant category whose practical identity involves
-    melodic formulae, register, cadential behavior, and historical theoretical layers.
+  orientation: A Byzantine modal/chant category whose practical identity involves melodic formulae,
+    register, cadential behavior, and historical theoretical layers.
   domains:
   - modal_organization
   - trajectory
@@ -25,3 +25,5 @@ senses:
   - locally_named
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - hagel-2009

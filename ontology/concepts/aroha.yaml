@@ -7,8 +7,8 @@ labels:
   script: Devanagari
 senses:
 - id: aroha.seed
-  orientation: Ascending organization or characteristic ascent described for a rāga
-    in several South Asian pedagogical/theoretical contexts.
+  orientation: Ascending organization or characteristic ascent described for a rāga in several
+    South Asian pedagogical/theoretical contexts.
   domains:
   - trajectory
   - modal_organization
@@ -21,3 +21,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - powers-widdess-2001-melodic-elaboration

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: tonic.seed
-  orientation: A privileged pitch/function in particular tonal and modal theories,
-    especially those shaped by European harmonic theory.
+  orientation: A privileged pitch/function in particular tonal and modal theories, especially
+    those shaped by European harmonic theory.
   domains:
   - relationship
   - modal_organization
@@ -22,3 +22,5 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - gulati-2014-tonic-identification-indian

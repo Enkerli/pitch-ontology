@@ -4,8 +4,8 @@ labels:
   language: su
 senses:
 - id: embat.seed
-  orientation: A Sundanese/Javanese-associated concept used in discussing the characteristic
-    intervallic character or tuning nuance of a particular gamelan/ensemble.
+  orientation: A Sundanese/Javanese-associated concept used in discussing the characteristic intervallic
+    character or tuning nuance of a particular gamelan/ensemble.
   domains:
   - tuning_practice
   - material_practice
@@ -13,8 +13,8 @@ senses:
   - ensemble_tuning_identity
   review_status: seed
   cautions:
-  - Treat ensemble-specific realization as constitutive rather than as error from
-    a universal template.
+  - Treat ensemble-specific realization as constitutive rather than as error from a universal
+    template.
   relations:
   - relation: ILLUMINATES_ASPECT_OF
     target: tuning_procedure
@@ -23,3 +23,5 @@ senses:
   epistemic_status:
   - locally_named
   - demonstrated_in_practice
+  sources:
+  - perlman-2004-unplayed-melodies

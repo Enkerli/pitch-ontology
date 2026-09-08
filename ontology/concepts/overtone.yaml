@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: overtone.seed
-  orientation: A component above a perceived or physical fundamental; numbering conventions
-    differ from harmonic numbering.
+  orientation: A component above a perceived or physical fundamental; numbering conventions differ
+    from harmonic numbering.
   domains:
   - acoustics
   roles:
@@ -18,3 +18,5 @@ senses:
     target: spectrum
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations

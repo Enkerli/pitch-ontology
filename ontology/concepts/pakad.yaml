@@ -7,8 +7,8 @@ labels:
   script: Devanagari
 senses:
 - id: pakad.seed
-  orientation: A pedagogical term in Hindustani practice for a characteristic phrase
-    or phrase-pattern helping establish rāga identity.
+  orientation: A pedagogical term in Hindustani practice for a characteristic phrase or phrase-pattern
+    helping establish rāga identity.
   domains:
   - trajectory
   - modal_organization
@@ -21,3 +21,5 @@ senses:
   epistemic_status:
   - locally_named
   - demonstrated_in_practice
+  sources:
+  - powers-widdess-2001-melodic-elaboration

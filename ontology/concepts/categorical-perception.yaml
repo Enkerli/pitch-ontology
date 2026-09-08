@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: categorical_perception.seed
-  orientation: Perceptual organization in which continuous stimulus variation is partly
-    structured by learned or task-relevant categories.
+  orientation: Perceptual organization in which continuous stimulus variation is partly structured
+    by learned or task-relevant categories.
   domains:
   - auditory_perception
   - categorization
@@ -17,3 +17,6 @@ senses:
     target: pitch_category
   epistemic_status:
   - analyst_derived
+  sources:
+  - jacoby-2019-pitch-perception-singing
+  - parncutt-2024-psychoacoustic-foundations

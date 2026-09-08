@@ -4,9 +4,8 @@ labels:
   language: en
 senses:
 - id: melisma.seed
-  orientation: Extended melodic activity associated with a syllable or vocal unit;
-    segmentation into discrete notes may be analytically useful but need not exhaust
-    its identity.
+  orientation: Extended melodic activity associated with a syllable or vocal unit; segmentation
+    into discrete notes may be analytically useful but need not exhaust its identity.
   domains:
   - trajectory
   - language_music
@@ -19,3 +18,6 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - loc-coptic-hazzat
+  - jts-nusach-cantillation

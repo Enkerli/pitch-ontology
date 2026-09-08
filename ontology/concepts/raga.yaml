@@ -1,17 +1,34 @@
 id: raga
 labels:
-  - {text: rāga, language: sa}
-  - {text: राग, language: sa, script: Devanagari}
+- text: rāga
+  language: sa
+- text: राग
+  language: sa
+  script: Devanagari
 senses:
-  - id: raga.south-asian
-    orientation: "A family of historically situated South Asian concepts organizing melodic possibility through more than pitch inventory alone."
-    domains: [modal_organization, trajectory]
-    roles: [melodic_organization, performance_practice]
-    cautions:
-      - "Do not reduce rāga to scale."
-      - "Specific attributes vary among historical periods and musical traditions."
-    relations:
-      - {relation: POORLY_TRANSLATED_AS, target: scale}
-      - {relation: PARTIALLY_OVERLAPS, target: mode}
-      - {relation: ILLUMINATES_ASPECT_OF, target: makam}
-    epistemic_status: [locally_named, historically_documented, demonstrated_in_practice]
+- id: raga.south-asian
+  orientation: A family of historically situated South Asian concepts organizing melodic possibility
+    through more than pitch inventory alone.
+  domains:
+  - modal_organization
+  - trajectory
+  roles:
+  - melodic_organization
+  - performance_practice
+  cautions:
+  - Do not reduce rāga to scale.
+  - Specific attributes vary among historical periods and musical traditions.
+  relations:
+  - relation: POORLY_TRANSLATED_AS
+    target: scale
+  - relation: PARTIALLY_OVERLAPS
+    target: mode
+  - relation: ILLUMINATES_ASPECT_OF
+    target: makam
+  epistemic_status:
+  - locally_named
+  - historically_documented
+  - demonstrated_in_practice
+  sources:
+  - powers-widdess-2001-melodic-elaboration
+  - tismir-2023-carnatic-vocal-pitch

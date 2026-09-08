@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: dynamic_ji.seed
-  orientation: Context-sensitive just intonation in which a nominal pitch identity
-    may be realized differently as harmonic or contrapuntal relations change.
+  orientation: Context-sensitive just intonation in which a nominal pitch identity may be realized
+    differently as harmonic or contrapuntal relations change.
   domains:
   - tuning_practice
   - computation
@@ -20,3 +20,5 @@ senses:
   epistemic_status:
   - computational_abstraction
   - demonstrated_in_practice
+  sources:
+  - sethares-1994

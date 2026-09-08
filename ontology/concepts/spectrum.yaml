@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: spectrum.seed
-  orientation: Distribution of acoustic energy over frequency; spectral structure
-    can affect pitch salience, timbre, fusion, and consonance.
+  orientation: Distribution of acoustic energy over frequency; spectral structure can affect pitch
+    salience, timbre, fusion, and consonance.
   domains:
   - acoustics
   roles:
@@ -13,3 +13,6 @@ senses:
   review_status: seed
   epistemic_status:
   - analyst_derived
+  sources:
+  - sethares-1994
+  - parncutt-2024-psychoacoustic-foundations

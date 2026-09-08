@@ -4,8 +4,8 @@ labels:
   language: sa
 senses:
 - id: vadi.seed
-  orientation: A privileged svara in particular rāga-theoretical traditions; often
-    glossed as dominant but not equivalent to a European harmonic dominant.
+  orientation: A privileged svara in particular rāga-theoretical traditions; often glossed as
+    dominant but not equivalent to a European harmonic dominant.
   domains:
   - relationship
   - modal_organization
@@ -20,3 +20,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - powers-widdess-2001-melodic-elaboration

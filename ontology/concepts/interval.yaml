@@ -20,3 +20,6 @@ senses:
     target: frequency_ratio
   epistemic_status:
   - analyst_derived
+  sources:
+  - ellis-1885
+  - clough-douthett-1991-maximally-even-sets

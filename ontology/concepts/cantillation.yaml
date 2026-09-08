@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: cantillation.seed
-  orientation: Rule-governed melodic recitation of sacred text in which pitch organization
-    interacts with syntax, accentuation, ritual function, and oral tradition.
+  orientation: Rule-governed melodic recitation of sacred text in which pitch organization interacts
+    with syntax, accentuation, ritual function, and oral tradition.
   domains:
   - language_music
   - trajectory
@@ -21,3 +21,6 @@ senses:
   epistemic_status:
   - historically_documented
   - demonstrated_in_practice
+  sources:
+  - jts-nusach-cantillation
+  - loc-coptic-hazzat

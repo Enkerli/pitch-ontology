@@ -7,8 +7,8 @@ labels:
   script: Han
 senses:
 - id: huangzhong.seed
-  orientation: The 'Yellow Bell/Pipe', a foundational named pitch standard in historical
-    Chinese lǜ theory from which other pitch relations could be generated.
+  orientation: The 'Yellow Bell/Pipe', a foundational named pitch standard in historical Chinese
+    lǜ theory from which other pitch relations could be generated.
   domains:
   - tuning_practice
   - institutions_history
@@ -24,3 +24,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - falkenhausen-1994-suspended-music

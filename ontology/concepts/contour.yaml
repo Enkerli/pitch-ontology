@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: contour.seed
-  orientation: Relational shape of pitch movement without requiring exact interval
-    sizes; potentially meaningful across speech, chant, melody, and mnemonic notation.
+  orientation: Relational shape of pitch movement without requiring exact interval sizes; potentially
+    meaningful across speech, chant, melody, and mnemonic notation.
   domains:
   - trajectory
   - language_music
@@ -19,3 +19,5 @@ senses:
     target: hazzat
   epistemic_status:
   - analyst_derived
+  sources:
+  - ladd-kirby-2020-tone-melody-matching

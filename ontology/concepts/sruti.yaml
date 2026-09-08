@@ -7,9 +7,8 @@ labels:
   script: Devanagari
 senses:
 - id: sruti.seed
-  orientation: A historically layered concept in South Asian music theory concerning
-    pitch distinction and intervallic organization; its senses vary across texts and
-    later interpretations.
+  orientation: A historically layered concept in South Asian music theory concerning pitch distinction
+    and intervallic organization; its senses vary across texts and later interpretations.
   domains:
   - relationship
   - institutions_history
@@ -17,11 +16,12 @@ senses:
   - historical_theoretical_concept
   review_status: seed
   cautions:
-  - Do not equate the classical count of śrutis with a timeless set of 22 fixed equal
-    microtones.
+  - Do not equate the classical count of śrutis with a timeless set of 22 fixed equal microtones.
   relations:
   - relation: OFTEN_CONFUSED_WITH
     target: microtone
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - powers-widdess-2001-melodic-elaboration

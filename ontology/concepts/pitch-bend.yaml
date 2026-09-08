@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: pitch_bend.seed
-  orientation: A MIDI control mechanism for continuous deviation from a nominal note
-    mapping, traditionally channel-wide in MIDI 1.0.
+  orientation: A MIDI control mechanism for continuous deviation from a nominal note mapping,
+    traditionally channel-wide in MIDI 1.0.
   domains:
   - computation
   - representation
@@ -20,3 +20,6 @@ senses:
   epistemic_status:
   - institutionally_standardized
   - computational_abstraction
+  sources:
+  - midi-mpe-spec
+  - bsi-midi-1-0-specification

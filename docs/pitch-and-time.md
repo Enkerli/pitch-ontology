@@ -101,6 +101,37 @@ suggests, and the records that sit across it — `periodicity`, `frequency`,
 `maximally_even_set`, `pitch_time_continuum`, `participatory_discrepancy` — are where the
 convenience shows as a convenience.
 
+## The documents that cross
+
+Eleven of the bibliography's works treat both dimensions. The Sources view lists them
+under *Where pitch and time meet*, computed two ways, because the two signals disagree
+usefully: a work's own `domains`, and which concepts actually lean on it. A study written
+as rhythm research can end up cited by pitch records, or the reverse, and either crossing
+counts.
+
+They cross for four different reasons, and the reasons are worth separating.
+
+**Because one formalism covers both.** Clough & Douthett define maximal evenness without
+reference to pitch or time; Toussaint applies one geometric apparatus to scales and
+rhythms. These are the crossings most likely to be over-read — see the caution on
+`maximally_even_set`.
+
+**Because the phenomenon is continuous.** Warren describes acoustic repetition across the
+pitch threshold and below it; Polak's lower limit for metre approaches the same boundary
+from the slow side. These crossings are about the thing, not the description.
+
+**Because one tradition teaches both together.** Feldman on makam and usûl, Plenckers on
+maqāmāt and awzān, Clayton on tāl inside rāg performance, Sutton and Hughes on pathet and
+irama in one gendhing. Here the crossing is not an insight of the analyst — it is how the
+material was always organized, and the split is imported by the reader.
+
+**Because someone argued they were one problem.** Keil's participatory discrepancies cover
+timing *and* tuning in a single claim. This is the rarest kind, and the oldest.
+
+The fourth category having one member is the finding. Formal analogy, shared acoustics and
+non-Western pedagogy all bring pitch and time together routinely; a stated argument that
+they are one problem is nearly absent.
+
 ## Where the seam actually is
 
 Two records carry the whole weight of the analogy, and they fail differently.

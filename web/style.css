@@ -361,3 +361,11 @@ ul.rels li { padding: .35rem 0; }
   line-height: 1.5;
 }
 .prose pre code { background: none; padding: 0; }
+
+/* Works that treat pitch and time as one problem. Marked rather than filtered:
+   there are few enough that a badge does more than a facet would. */
+.tag.spans {
+  background: #2f2a3d;
+  color: #efe9ff;
+  border-color: #4a4160;
+}

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: mode.seed
-  orientation: A historically mobile analytical term for forms of pitch organization
-    in which hierarchy, melodic behavior, or finality may matter beyond pitch inventory.
+  orientation: A historically mobile analytical term for forms of pitch organization in which
+    hierarchy, melodic behavior, or finality may matter beyond pitch inventory.
   domains:
   - modal_organization
   roles:
@@ -23,3 +23,6 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - powers-widdess-2001-melodic-elaboration
+  - wright-1978

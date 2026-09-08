@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: sung_contour.seed
-  orientation: The trajectory of pitch in sung language, potentially shaped by lexical
-    tone, prosody, melodic convention, and performance context.
+  orientation: The trajectory of pitch in sung language, potentially shaped by lexical tone, prosody,
+    melodic convention, and performance context.
   domains:
   - language_music
   - trajectory
@@ -19,3 +19,6 @@ senses:
     target: contour
   epistemic_status:
   - analyst_derived
+  sources:
+  - ladd-kirby-2020-tone-melody-matching
+  - dell-elmedlaoui-2008

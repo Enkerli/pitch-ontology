@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: pitch_salience.seed
-  orientation: Strength or clarity with which a sound supports a pitch percept; pitch
-    is not equally well defined for all sounds.
+  orientation: Strength or clarity with which a sound supports a pitch percept; pitch is not equally
+    well defined for all sounds.
   domains:
   - auditory_perception
   roles:
@@ -16,3 +16,5 @@ senses:
     target: harmonicity
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: fixed_pitch_mapping.seed
-  orientation: A computational or instrumental mapping in which symbolic pitch addresses
-    are assigned stable target frequencies independently of immediate musical context.
+  orientation: A computational or instrumental mapping in which symbolic pitch addresses are assigned
+    stable target frequencies independently of immediate musical context.
   domains:
   - computation
   - representation
@@ -17,3 +17,6 @@ senses:
     target: dynamic_tuning
   epistemic_status:
   - computational_abstraction
+  sources:
+  - midi-tuning-standard
+  - bsi-midi-1-0-specification

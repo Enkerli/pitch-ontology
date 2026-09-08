@@ -4,8 +4,8 @@ labels:
   language: sa
 senses:
 - id: samvadi.seed
-  orientation: A relationally important svara discussed alongside vādī in particular
-    rāga-theoretical traditions.
+  orientation: A relationally important svara discussed alongside vādī in particular rāga-theoretical
+    traditions.
   domains:
   - relationship
   - modal_organization
@@ -20,3 +20,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - powers-widdess-2001-melodic-elaboration

@@ -7,9 +7,9 @@ labels:
   script: Han
 senses:
 - id: lu.seed
-  orientation: A historically layered Chinese pitch-standard concept associated with
-    calibrated pitch pipes, generated pitch relations, regulation, and broader cosmological/state
-    metrological orders.
+  orientation: A historically layered Chinese pitch-standard concept associated with calibrated
+    pitch pipes, generated pitch relations, regulation, and broader cosmological/state metrological
+    orders.
   domains:
   - tuning_practice
   - institutions_history
@@ -27,3 +27,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - falkenhausen-1994-suspended-music

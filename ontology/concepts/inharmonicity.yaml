@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: inharmonicity.seed
-  orientation: Departure of spectral components from an ideal harmonic series; common
-    in bells and many struck or stiff-string sounds.
+  orientation: Departure of spectral components from an ideal harmonic series; common in bells
+    and many struck or stiff-string sounds.
   domains:
   - acoustics
   roles:
@@ -16,3 +16,6 @@ senses:
     target: harmonicity
   epistemic_status:
   - analyst_derived
+  sources:
+  - sethares-1994
+  - parncutt-2024-psychoacoustic-foundations

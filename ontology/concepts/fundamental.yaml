@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: fundamental.seed
-  orientation: Lowest frequency of a harmonic series when physically present; perceived
-    pitch can nevertheless correspond to a missing fundamental.
+  orientation: Lowest frequency of a harmonic series when physically present; perceived pitch
+    can nevertheless correspond to a missing fundamental.
   domains:
   - acoustics
   - auditory_perception
@@ -19,3 +19,5 @@ senses:
     target: harmonic_series
   epistemic_status:
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations

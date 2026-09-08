@@ -638,6 +638,18 @@ function sourceTags(w) {
     w.access
       ? el("span", { class: "tag access " + w.access }, humanize(w.access))
       : el("span", { class: "tag access unknown" }, "access unknown"),
+    w.spans === "both"
+      ? el(
+          "span",
+          {
+            class: "tag spans",
+            title:
+              "Treats pitch and time together — by its own domains, by the concepts " +
+              "that lean on it, or both",
+          },
+          "pitch + time"
+        )
+      : null,
     (w.domains || []).map((d) => el("span", { class: "tag domain" }, humanize(d))),
     (w.metadata_gaps || []).length
       ? el("span", { class: "tag gap" }, `gaps: ${w.metadata_gaps.join(", ")}`)
@@ -764,6 +776,7 @@ function renderSources() {
         " for how these were verified and how far that goes."
       )
     ),
+    spansPanel(),
     bridgesPanel(),
     el("div", { class: "split" }, sidebar, sourceResults(matched, works))
   );
@@ -814,6 +827,66 @@ function sourceResults(matched, works) {
 
 /* Where literatures that rarely cite each other meet. These are the most
  * speculative edges in the network, and the ones worth arguing with. */
+/* Documents that treat pitch and time as one problem.
+ *
+ * Computed twice over, because the two signals disagree usefully: `spans_declared`
+ * reads the work's own domains, `spans_used` reads which concepts actually lean on
+ * it. A work can be written as a rhythm study and end up cited by pitch records, or
+ * the reverse. Either crossing puts it here. */
+function spansPanel() {
+  const both = Object.values(DATA.works)
+    .filter((w) => w.spans === "both")
+    .sort((a, b) => (a.year || 0) - (b.year || 0));
+  if (!both.length) return null;
+  const total = Object.keys(DATA.works).length;
+  return el(
+    "section",
+    { class: "panel bridges" },
+    el("h2", {}, "Where pitch and time meet"),
+    el(
+      "p",
+      {},
+      `${both.length} of ${total} works treat both dimensions — by their own domains, ` +
+        "by the concepts that lean on them, or both. The rest of the bibliography " +
+        "divides cleanly, which is the point: two literatures asking comparable " +
+        "questions, and this is the whole overlap. See ",
+      el("a", { href: "#/doc/pitch-and-time" }, "Pitch and time in one ontology"),
+      "."
+    ),
+    el(
+      "ul",
+      { class: "plain" },
+      both.map((w) =>
+        el(
+          "li",
+          { class: "bridge" },
+          el("a", {
+            href: `#/source/${w.id}`,
+            class: "entry-title",
+            html: w.citation || w.title,
+          }),
+          el(
+            "div",
+            { class: "tag-row" },
+            el(
+              "span",
+              { class: "tag" },
+              w.spans_declared.length > 1 ? "both by domain" : "single-domain record"
+            ),
+            el(
+              "span",
+              { class: "tag" },
+              w.spans_used.length > 1
+                ? "leaned on from both halves"
+                : "leaned on from one half"
+            )
+          )
+        )
+      )
+    )
+  );
+}
+
 function bridgesPanel() {
   const bridges = DATA.network.filter(
     (e) => e.type === "BRIDGES_FIELD_TO" || e.type === "CHALLENGES_ASSUMPTION_OF"

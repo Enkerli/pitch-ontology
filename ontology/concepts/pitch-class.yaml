@@ -4,9 +4,8 @@ labels:
   language: en
 senses:
 - id: pitch_class.seed
-  orientation: An equivalence class of pitches under a specified relation, conventionally
-    octave equivalence in dominant twentieth-century set-theoretical and computational
-    usage.
+  orientation: An equivalence class of pitches under a specified relation, conventionally octave
+    equivalence in dominant twentieth-century set-theoretical and computational usage.
   domains:
   - representation
   - categorization
@@ -23,3 +22,5 @@ senses:
   epistemic_status:
   - analyst_derived
   - computational_abstraction
+  sources:
+  - clough-douthett-1991-maximally-even-sets

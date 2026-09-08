@@ -4,9 +4,8 @@ labels:
   language: en
 senses:
 - id: root.seed
-  orientation: A relational function assigned to chords or harmonic structures in
-    particular theoretical traditions; not synonymous with bass, tonic, drone, or
-    local melodic centre.
+  orientation: A relational function assigned to chords or harmonic structures in particular theoretical
+    traditions; not synonymous with bass, tonic, drone, or local melodic centre.
   domains:
   - relationship
   roles:
@@ -22,3 +21,5 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - parncutt-2024-psychoacoustic-foundations

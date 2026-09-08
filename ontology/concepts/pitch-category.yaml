@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: pitch_category.seed
-  orientation: A recurrently recognized pitch identity or region that may tolerate
-    variation in realized frequency and trajectory.
+  orientation: A recurrently recognized pitch identity or region that may tolerate variation in
+    realized frequency and trajectory.
   domains:
   - categorization
   roles:
@@ -19,3 +19,6 @@ senses:
     target: pitch
   epistemic_status:
   - analyst_derived
+  sources:
+  - jacoby-2019-pitch-perception-singing
+  - kubik-african-tone-systems

@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: temperament.seed
-  orientation: A deliberate mapping or adjustment of intervals, often involving controlled
-    deviations from selected pure ratios to satisfy broader constraints.
+  orientation: A deliberate mapping or adjustment of intervals, often involving controlled deviations
+    from selected pure ratios to satisfy broader constraints.
   domains:
   - tuning_practice
   - computation
@@ -20,3 +20,6 @@ senses:
   epistemic_status:
   - historically_documented
   - computational_abstraction
+  sources:
+  - milne-2008-tuning-continua
+  - ellis-1885

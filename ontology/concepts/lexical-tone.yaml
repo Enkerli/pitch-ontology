@@ -4,8 +4,7 @@ labels:
   language: en
 senses:
 - id: lexical_tone.seed
-  orientation: Linguistic use of pitch distinctions to differentiate lexical or grammatical
-    meaning.
+  orientation: Linguistic use of pitch distinctions to differentiate lexical or grammatical meaning.
   domains:
   - language_music
   roles:
@@ -18,3 +17,5 @@ senses:
     target: note
   epistemic_status:
   - analyst_derived
+  sources:
+  - ladd-kirby-2020-tone-melody-matching

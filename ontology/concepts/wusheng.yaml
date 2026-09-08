@@ -7,8 +7,8 @@ labels:
   script: Han
 senses:
 - id: wusheng.seed
-  orientation: The 'five sounds/tones', a historical Chinese theoretical grouping
-    associated with gōng, shāng, jué, zhǐ, and yǔ.
+  orientation: The 'five sounds/tones', a historical Chinese theoretical grouping associated with
+    gōng, shāng, jué, zhǐ, and yǔ.
   domains:
   - pitch_resources
   - institutions_history
@@ -21,3 +21,5 @@ senses:
   epistemic_status:
   - locally_named
   - historically_documented
+  sources:
+  - falkenhausen-1994-suspended-music

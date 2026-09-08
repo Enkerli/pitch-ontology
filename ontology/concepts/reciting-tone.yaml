@@ -4,8 +4,8 @@ labels:
   language: en
 senses:
 - id: reciting_tone.seed
-  orientation: A relatively stable pitch or pitch region used for extended textual
-    recitation in some chant practices.
+  orientation: A relatively stable pitch or pitch region used for extended textual recitation
+    in some chant practices.
   domains:
   - language_music
   - relationship
@@ -20,3 +20,6 @@ senses:
   epistemic_status:
   - historically_documented
   - analyst_derived
+  sources:
+  - jts-nusach-cantillation
+  - loc-coptic-hazzat
