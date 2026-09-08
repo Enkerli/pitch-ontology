@@ -1,26 +1,54 @@
 id: music_corpus
 labels:
-  - {text: music corpus, language: en}
-  - {text: cross-cultural corpus, language: en, role: qualified}
+- text: music corpus
+  language: en
+- text: cross-cultural corpus
+  language: en
+  role: qualified
 senses:
-  - id: music_corpus.seed
-    orientation: "A bounded, machine-tractable collection of musical items assembled to support comparison across repertoires; its boundary decides what can be compared at all, and is set by what has been recorded, transcribed, digitized and licensed rather than by what has been performed."
-    domains: [computation, representation, knowledge_provenance]
-    roles: [analytic_technology, knowledge_infrastructure]
-    review_status: seed
-    cautions:
-      - "Coverage follows collection history — colonial recording expeditions, commercial catalogues, institutional archives — so absence in a corpus is evidence about archives, not about music."
-      - "Assembling one requires deciding that heterogeneous descriptions are commensurable: a field measurement, a published transcription and a theoretical treatise are not the same kind of evidence, and pooling them makes them look like it."
-      - "Distinguish the corpus from the operations run over it. A similarity measure, a histogram or a clustering carries its own commitments about what counts as a difference."
-      - "A finding that holds across a corpus is a finding about the corpus first. Whether it holds of music depends on how the boundary was drawn."
-    relations:
-      - {relation: ABSTRACTS_FROM, target: musical_practice}
-      - {relation: IS_A, target: scale_catalogue, scope: {note: "when the items collected are pitch collections"}}
-      - {relation: CONSTRAINS, target: participant_judgment}
-      - {relation: CONTRASTS_WITH, target: experimentally_inferred_pitch_organization}
-    epistemic_status: [computational_abstraction, corpus_inferred, analyst_derived]
-    sources:
-      - savage-2022-corpus-studies
-      - mcbride-passmore-tlusty-2023
-      - papaioannou-2026-cross-cultural-similarity
-      - panteli-2018-world-music-corpora
+- id: music_corpus.seed
+  orientation: A bounded, machine-tractable collection of musical items assembled to support comparison
+    across repertoires; its boundary decides what can be compared at all, and is set by what has
+    been recorded, transcribed, digitized and licensed rather than by what has been performed.
+  domains:
+  - computation
+  - representation
+  - knowledge_provenance
+  roles:
+  - analytic_technology
+  - knowledge_infrastructure
+  review_status: seed
+  cautions:
+  - Coverage follows collection history — colonial recording expeditions, commercial catalogues,
+    institutional archives — so absence in a corpus is evidence about archives, not about music.
+  - 'Assembling one requires deciding that heterogeneous descriptions are commensurable: a field
+    measurement, a published transcription and a theoretical treatise are not the same kind of
+    evidence, and pooling them makes them look like it.'
+  - Distinguish the corpus from the operations run over it. A similarity measure, a histogram
+    or a clustering carries its own commitments about what counts as a difference.
+  - A finding that holds across a corpus is a finding about the corpus first. Whether it holds
+    of music depends on how the boundary was drawn.
+  relations:
+  - relation: ABSTRACTS_FROM
+    target: musical_practice
+  - relation: IS_A
+    target: scale_catalogue
+    scope:
+      note: when the items collected are pitch collections
+  - relation: CONSTRAINS
+    target: participant_judgment
+  - relation: CONTRASTS_WITH
+    target: experimentally_inferred_pitch_organization
+  epistemic_status:
+  - computational_abstraction
+  - corpus_inferred
+  - analyst_derived
+  sources:
+  - savage-2022-corpus-studies
+  - mcbride-passmore-tlusty-2023
+  - papaioannou-2026-cross-cultural-similarity
+  - panteli-2018-world-music-corpora
+  - plos-2017-outliers-world-music
+  - jnmr-2013-computational-ethnomusicology
+  - saraga-datasets
+  - compmusic-project

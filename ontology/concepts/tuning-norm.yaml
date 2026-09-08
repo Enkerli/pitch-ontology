@@ -4,8 +4,7 @@ labels:
   language: en
 senses:
 - id: tuning_norm.seed
-  orientation: A prescribed, taught, or institutionally stabilized expectation for
-    pitch relationships.
+  orientation: A prescribed, taught, or institutionally stabilized expectation for pitch relationships.
   domains:
   - tuning_practice
   - institutions_history
@@ -19,3 +18,4 @@ senses:
   - analyst_derived
   sources:
   - kubik-african-tone-systems
+  - cahiers-accordeon-diatonique

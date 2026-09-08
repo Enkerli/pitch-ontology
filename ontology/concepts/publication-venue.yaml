@@ -1,0 +1,54 @@
+id: publication_venue
+labels:
+- text: publication venue
+  language: en
+- text: journal
+  language: en
+  role: instance
+- text: series
+  language: en
+  role: instance
+senses:
+- id: publication_venue.infrastructure
+  orientation: 'A journal or series considered as a filter rather than a container: its language,
+    scope, review norms, access regime and indexing decide which practices get described in the
+    literature at all, and in which vocabulary.'
+  domains:
+  - knowledge_provenance
+  - institutions_history
+  - representation
+  roles:
+  - knowledge_infrastructure
+  - source_type
+  review_status: seed
+  cautions:
+  - Absence from the literature is routinely read as absence in the world. A venue's scope is
+    one of the mechanisms producing that absence, and it is not visible in any individual article.
+  - Language is the sharpest filter in this bibliography. A francophone venue and an anglophone
+    one covering the same repertoire will be read by different people, cited by different people,
+    and indexed differently — two of this bibliography's sources were findable only through a
+    citing author's reference list, and both were francophone.
+  - Indexing decides discoverability, and indexing is not coverage. A journal absent from Crossref
+    deposits no DOIs and no reference list, so its articles cannot enter a citation network however
+    consequential they are.
+  - Open access changes who can check a claim, which is an epistemic property and not only an
+    economic one. This repository records access as observed rather than as promised for that
+    reason.
+  - A venue-level record is not a citation. It says a body of work exists and where; it supports
+    no claim about any particular article in it.
+  relations:
+  - relation: CONSTRAINS
+    target: music_corpus
+  - relation: CONTRASTS_WITH
+    target: museum_collection_record
+  - relation: PARTICIPATES_IN
+    target: organological_catalogue
+  - relation: CONTRASTS_WITH
+    target: heritage_inscription
+  epistemic_status:
+  - institutionally_standardized
+  - analyst_derived
+  sources:
+  - cahiers-ethnomusicologie
+  - transposition-journal
+  - empirical-musicology-review

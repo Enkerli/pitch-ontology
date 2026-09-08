@@ -1,0 +1,28 @@
+id: heritage_inscription
+labels:
+  - {text: heritage inscription, language: en}
+  - {text: intangible cultural heritage, language: en, role: instrument_term}
+  - {text: ICH, language: en, role: abbreviation}
+  - {text: safeguarding, language: en, role: instrument_term}
+senses:
+  - id: heritage_inscription.instrument
+    orientation: "The listing of a practice by an intergovernmental body as heritage to be safeguarded. The listing is an act with effects: it fixes a name, a bounded territory, a set of bearers and a description, and it produces a document that later research cites as though it recorded rather than constituted them."
+    domains: [institutions_history, knowledge_provenance, material_practice]
+    roles: [knowledge_infrastructure, evidence_type]
+    review_status: seed
+    cautions:
+      - "An inscription is evidence that a state party nominated a practice and that a committee accepted the nomination. It is not evidence about how the practice is organized, who counts as a bearer, or what its practitioners call it."
+      - "The unit of inscription is political. A practice spanning a border may be inscribed once jointly, twice separately, or not at all, and the resulting record shapes how the literature partitions it afterwards."
+      - "Nomination files are written to be accepted. They tend toward bounded, named, transmissible objects, which is precisely the shape this ontology is careful about elsewhere — a nominated practice arrives pre-reified."
+      - "Safeguarding is a stated purpose and a real one. Recording the caution is not an argument against the instrument, and inscriptions have supported practitioners materially."
+      - "Distinguish the convention, the nomination file, the inscription record and the practice. This ontology holds the first three; only fieldwork holds the fourth."
+    relations:
+      - {relation: REPRESENTS, target: collective_pitch_resource}
+      - {relation: CONTRASTS_WITH, target: musical_practice}
+      - {relation: INSTITUTIONALIZES, target: tuning_norm}
+      - {relation: PARTICIPATES_IN, target: museum_collection_record}
+    epistemic_status: [institutionally_standardized, historically_documented, contested]
+    sources:
+      - unesco-ich-convention-2003
+      - unesco-shashmaqom
+      - unesco-tiren-joik

@@ -326,8 +326,13 @@ def build_bibliography(concepts: list[dict], claims: list[dict]) -> tuple[dict, 
             if doms & TIME_DOMAINS:
                 used.add("time")
         sides = declared | used
+        # "other" rather than "neither": a work lands here when neither its domains
+        # nor its users name a pitch-resource or temporal-organization domain — which
+        # is true of the language-and-music records, the representation and protocol
+        # records, and the knowledge-infrastructure records. Those are a third family,
+        # not a residue.
         work["spans"] = (
-            "both" if len(sides) > 1 else (sides.pop() if sides else "neither")
+            "both" if len(sides) > 1 else (sides.pop() if sides else "other")
         )
         work["spans_declared"] = sorted(declared)
         work["spans_used"] = sorted(used)

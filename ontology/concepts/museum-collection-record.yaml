@@ -4,9 +4,8 @@ labels:
   language: en
 senses:
 - id: museum_collection_record.seed
-  orientation: A provenance-bearing record about a particular collected object; useful
-    as organological evidence but not automatically evidence for community concepts
-    or normative performance.
+  orientation: A provenance-bearing record about a particular collected object; useful as organological
+    evidence but not automatically evidence for community concepts or normative performance.
   domains:
   - knowledge_provenance
   roles:
@@ -22,3 +21,5 @@ senses:
   sources:
   - horniman-collections
   - cimcim-resources
+  - met-shofar
+  - mimo

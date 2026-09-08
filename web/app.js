@@ -847,9 +847,11 @@ function spansPanel() {
       "p",
       {},
       `${both.length} of ${total} works treat both dimensions — by their own domains, ` +
-        "by the concepts that lean on them, or both. The rest of the bibliography " +
-        "divides cleanly, which is the point: two literatures asking comparable " +
-        "questions, and this is the whole overlap. See ",
+        "by the concepts that lean on them, or both. Most of the rest divide cleanly " +
+        "into one half or the other, and a third group sits outside both because it is " +
+        "about representation, language or knowledge infrastructure rather than about " +
+        "pitch or time as such. Two literatures asking comparable questions, and this " +
+        "is the whole overlap between them. See ",
       el("a", { href: "#/doc/pitch-and-time" }, "Pitch and time in one ontology"),
       "."
     ),

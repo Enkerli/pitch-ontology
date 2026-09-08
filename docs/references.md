@@ -212,7 +212,12 @@ Neither is an error. Both are work.
   it, but a reader of this repository cannot get to it.
 - **Not cited by any concept or claim** — a work in the bibliography that no record
   leans on yet. This is the reading list: literature gathered because it looked
-  consequential, not yet attached to anything.
+  consequential, not yet attached to anything. It is currently empty. Emptying it required
+  writing the concepts that the infrastructure records are *about* — `publication_venue`
+  and `heritage_inscription` — rather than attaching a journal or a UNESCO convention to
+  whatever concept it happened to sit near. A venue-level record supports no claim about any
+  article in it, and a heritage inscription is evidence that a nomination was accepted, not
+  evidence about the practice named.
 
 A source is attached to a concept only when the document is *about* that concept — a
 specification for the format it defines, a study of the phenomenon it names. Topical

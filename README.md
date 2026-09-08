@@ -114,10 +114,11 @@ stress-test its assumptions.
 
 ## v0.2 population status
 
-Current scaffold contains **191 canonical concept records**, **32 claim records** and
+Current scaffold contains **193 canonical concept records**, **32 claim records** and
 **104 bibliographic records** joined by **101 typed edges**, thirty-nine of which are citations
-checked against the citing work's own reference list. Every concept record now leans on at
-least one source; eleven works treat pitch and time together, and the Sources view marks them.
+checked against the citing work's own reference list. Every concept record leans on at least
+one source and every source is leaned on by at least one record; eleven works treat pitch and
+time together, and the Sources view marks them.
 Most newly populated records are marked `review_status: seed`: structurally useful,
 but not a claim of final specialist verification. See `docs/review-queue.md`.
 
@@ -153,7 +154,11 @@ What remains uncertain is still declared in `metadata_gaps` rather than guessed.
 `docs/references.md` explains the method and what it does not establish.
 
 Validation reports two queues as warnings rather than errors: works with no retrievable
-identifier, and works no concept or claim leans on yet — the reading list.
+identifier, and works no concept or claim leans on yet — the reading list. The second queue
+is currently empty, which is a statement about attachment discipline rather than about
+completeness: a work earns its place by supporting a record, and the records that support
+nothing else were written for the infrastructure that holds them, `museum_collection_record`,
+`organological_catalogue`, `publication_venue`, `heritage_inscription` and `music_corpus`.
 
 `tools/citing_works.py` looks the other way down the citation graph. Where
 `sources/network.yaml` records edges between works already held here, this asks OpenAlex
